@@ -1,0 +1,20 @@
+# ==============================
+# File for listing service actions that are required when this package is installed
+#==============================
+#  Line Format: <add/delete>:<servicename>:[runlevel]
+#==============================
+#Bootup services
+add:zfs:boot
+add:devd:boot
+add:devfs:boot
+add:routing:boot
+
+# Yep need dbus still
+add:dbus:default
+
+# Enable mdns
+add:avahi-daemon:default
+add:avahi-dnsconfd:default
+
+#Ensure the hald service is never enabled at boot (major security vulnerability)
+delete:hald:default

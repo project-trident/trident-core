@@ -1,0 +1,50 @@
+#!/sbin/openrc-run
+
+name="trident_init"
+description="System validation service for Project Trident"
+depend()
+{
+	before pcdm
+	after modules
+}
+
+start()
+{
+	# Make sure dbus machine-id file exists
+	if [ ! -L /etc/runlevels/default/dbus ] ; then
+	  # QT needs a valid dbus machine-id file even if dbus is not used/started
+	  if [ ! -e "/var/lib/dbus/machine-id" ] ; then
+            /usr/local/bin/dbus-uuidgen --ensure
+	  fi
+        fi
+
+	# Verify that an xorg.conf exists, and generate one as needed
+	if [ ! -e /etc/X11/xorg.conf ] ; then
+	  #Use the "auto" flag to automatically detect/set the proper driver
+	  /usr/local/share/trident/scripts/generate-xorg-conf.sh auto
+	fi
+
+	# Check for extra kernel modules to load for video
+	driver=`cat /etc/X11/xorg.conf 2>/dev/null | grep -q "Driver"`
+        # - Intel drivers
+	echo "${driver}" | grep -q -e "modesetting" -e "intel"
+	if [ $? -eq 0 ] ; then
+	      kldload -nq /boot/modules/i915kms.ko
+	fi
+        # - Virtualbox drivers
+	echo "${driver}" | grep -q "vboxvideo"
+        if [ $? -eq 0 ] ; then
+              kldload -nq vboxguest
+        fi
+        # - NVIDIA drivers
+	echo "${driver}" | grep -q "nvidia"
+	if [ $? -eq 0 ] ; then
+	  if [ -f "/boot/modules/nvidia-modeset.ko" ] ; then
+	      kldload -nq nvidia-modeset
+          fi
+	  kldload -nq nvidia
+        fi
+
+	#Since this is a one-shot service, just mark it as started now
+	mark_service_started ${name}
+}

@@ -1,0 +1,30 @@
+#!/bin/sh
+# Copyright (c) 2015 Kris Moore (iXsystems / PC-BSD)
+# License: BSD
+
+#Turn off the special config options for the firewall and socat
+sysrc -f /etc/rc.conf -x firewall_script
+sysrc -f /etc/rc.conf -x firewall_coscripts
+sysrc -f /etc/rc.conf -x socat_flags
+
+# If reverting from TOR mode, lets do some cleanup
+if [ -e "/etc/resolv.conf.preTor" ]; then
+  mv /etc/resolv.conf.preTor /etc/resolv.conf
+
+  # Stop TOR / SOCAT services
+  service tor stop
+  service socat stop
+
+  # Cleanup rc.conf
+  sysrc -f /etc/rc.conf -x tor_enable
+  sysrc -f /etc/rc.conf -x socat_enable
+  sysrc -f /etc/rc.conf -x socat_flags
+fi
+
+# If reverting from TOR mode, put back the dhclient config
+if [ -e "/etc/dhclient.conf.preTor" ]; then
+  mv /etc/dhclient.conf.preTor /etc/dhclient.conf
+fi
+
+# Start IPFW now
+service ipfw restart

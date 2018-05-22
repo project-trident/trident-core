@@ -1,0 +1,11 @@
+# Project Trident Branding
+loader_brand="trident"
+loader_logo="trident"
+loader_menu_title="Project Trident"
+loader_color="YES"
+
+# Enable Synaptics for touchpads		
+hw.psm.synaptics_support="1"		
+		
+# Enable Elantech touchpad support		
+hw.psm.elantech_support="1"

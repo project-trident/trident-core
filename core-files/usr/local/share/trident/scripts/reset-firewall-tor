@@ -1,0 +1,56 @@
+#!/bin/sh
+# Script to setup IPFW to for TOR forwarding
+# Copyright (c) 2015 Kris Moore (iXsystems / PC-BSD)
+# License: BSD
+
+rules="/usr/local/etc/trident/ipfw.tor.rules"
+torrc="/usr/local/etc/trident/torrc"
+
+if [ ! -e "$rules" ] ; then
+  echo "ERROR: Could not find firewall rules for TOR!!"
+  exit 1
+fi
+
+# Init the TOR database and such
+if [ -d /var/db/tor ]; then
+  rm -r /var/db/tor
+fi
+if [ -d /var/run/tor ]; then
+  rm -r /var/run/tor
+fi
+mkdir -p /var/db/tor/data /var/run/tor
+touch /var/log/tor
+chown -R _tor:_tor /var/db/tor /var/log/tor /var/run/tor
+chmod -R 700 /var/db/tor
+
+# Prevent sequential IP ids
+sysctl net.inet.ip.random_id=1
+if [ 1 -ne `sysctl -n net.inet.ip.random_id`] ; then
+  sysctl net.inet.ip.random_id=1
+  sysrc -q -f /etc/sysctl.conf net.inet.ip.random_id=1
+fi
+
+#Setup the config flacs for the respective services
+sysrc -f /etc/rc.conf firewall_script="${rules}"
+sysrc -f /etc/rc.conf firewall_coscripts="tor socat"
+sysrc -f /etc/rc.conf socat_flags="UDP4-RECVFROM:53,fork UDP4-SENDTO:localhost:9530"
+
+# Now setup DNS resolving
+if [ ! -e "/etc/resolv.conf.preTor" ] ; then
+  touch /etc/resolv.conf
+  cp /etc/resolv.conf /etc/resolv.conf.preTor
+fi
+echo "nameserver 127.0.0.1" > /etc/resolv.conf
+
+# Massage the dhclient.conf
+if [ -e "/etc/dhclient.conf" ] ; then
+  if [ ! -e "/etc/dhclient.conf.preTor" ] ; then
+    cp /etc/dhclient.conf /etc/dhclient.conf.preTor
+  fi
+  cat /etc/dhclient.conf | grep -v "supersede domain-name-servers" > /etc/dhclient.conf.new
+  mv /etc/dhclient.conf.new /etc/dhclient.conf
+fi
+echo "supersede domain-name-servers 127.0.0.1;" >> /etc/dhclient.conf
+
+# Now lets restart the firewall
+service ipfw restart
