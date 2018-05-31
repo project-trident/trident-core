@@ -1,0 +1,3 @@
+#!/bin/sh
+#Simple redirect to check if tor mode is activated or not
+enable-tor-mode -c
