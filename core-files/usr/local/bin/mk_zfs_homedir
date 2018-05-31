@@ -1,0 +1,64 @@
+#!/bin/sh
+########
+# Simple script to create a user's home directory as a ZFS dataset with user ownership of it
+########
+if [ ! -x /sbin/zpool ] || [ ! -x /sbin/zfs ] ; then
+  #Could not find ZFS utilities - cannot run script
+  exit 1
+fi
+
+findZpool(){
+  #This sets the "_zpool" variable, and verifies the input "zpool" variable
+  if [ -n "${zpool}" ] ; then
+    #Got an input zpool - see if this one is valid
+    if [ 0 -eq `zpool list | grep -q -E "^${zpool} "` ] ; then
+      #Good pool name - go ahead and use it
+      _zpool="${zpool}"
+      return
+    fi
+  fi
+  _zpool=`zfs list | grep -E '.* ${homedir}$' | cut -d / -f 1`
+  if [ -z "${_zpool}" ] ; then
+    #Could not find parent dataset, just grab the first zpool instead (in case a UFS root filesystem?)
+    _zpool=`zpool list -H | grep ONLINE | cut -w -f 1`
+  fi
+}
+
+#Check inputs
+user=$1
+homedir=$2
+zpool=$3
+if [ -z "${homedir}" ] ; then
+  homedir="/usr/home"
+fi
+if [ -z "${user}" ] ; then
+  echo "Usage: $0 <username> [<homedir>=/usr/home [zpool=autodetect]] "
+  exit 1
+elif [ -d "${homedir}/${user}"] ; then
+  #Dir already exists
+  echo "Home dir already exists: ${homedir}/${user}"
+  exit 2
+fi
+
+#Now verify/find the current zpool
+findZpool
+if [ -z "${_zpool}" ] ; then
+  # Could not find a valid zpool to create the dataset on
+  exit 1
+fi
+
+#Create the dataset
+zfs create
+ -o "mountpoint=${userdir}/${user}"
+ -o setuid=off
+ -o compression=on
+ -o atime=off
+ -o canmount=on
+ "${_zpool}/${userdir}/${user}"
+
+# Setup ownership of the dataset
+# Allow the user to create/destroy child datasets and snapshots on their home dir
+zfs allow "${user}" mount,create,destroy,rollback,snapshot "${_zpool}/${userdir}/${user}"
+
+#Done
+return 0
