@@ -1,6 +1,6 @@
 # TrueOS Desktop Sudoers setup
 # Changes to this file will be lost!
-# Make any overrides at the bottom of /usr/local/etc/sudoers
+# Make any overrides at the *bottom* of /usr/local/etc/sudoers
 #  (Below the sudoers.d parsing on ~ line 105)
 ## =====================
 #Allow wheel group to execute any command (with password)

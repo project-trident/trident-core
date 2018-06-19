@@ -24,26 +24,33 @@ start()
 	  /usr/local/share/trident/scripts/generate-xorg-conf.sh auto
 	fi
 
-	# Check for extra kernel modules to load for video
+	# Check for extra kernel modules to load for video driver support
 	driver=`cat /etc/X11/xorg.conf 2>/dev/null | grep -q "Driver"`
-        # - Intel drivers
-	echo "${driver}" | grep -q -e "modesetting" -e "intel"
-	if [ $? -eq 0 ] ; then
-	      kldload -nq /boot/modules/i915kms.ko
-	fi
-        # - Virtualbox drivers
-	echo "${driver}" | grep -q "vboxvideo"
-        if [ $? -eq 0 ] ; then
-              kldload -nq vboxguest
-        fi
-        # - NVIDIA drivers
-	echo "${driver}" | grep -q "nvidia"
-	if [ $? -eq 0 ] ; then
-	  if [ -f "/boot/modules/nvidia-modeset.ko" ] ; then
-	      kldload -nq nvidia-modeset
-          fi
-	  kldload -nq nvidia
-        fi
+	case ${driver} in
+		modesetting)
+			kld_load="/boot/modules/i915kms.ko"
+			;;
+		intel)
+			kld_load="/boot/kernel/i915kms.ko"
+			;;
+		vboxvideo)
+			kld_load="vboxguest"
+			;;
+		nvidia)
+			if [ -f "/boot/modules/nvidia-modeset.ko" ] ; then
+				kld_load="nvidia-modeset nvidia"
+			else
+				kld_load="nvidia"
+			fi
+			;;
+		amdgpu)
+			kld_load="amdgpu"
+	esac
+	#Now load any modules
+	for _kmod in ${kld_load}
+	do
+		kldload -nq ${_kmod}
+	done
 
 	#Since this is a one-shot service, just mark it as started now
 	mark_service_started ${name}

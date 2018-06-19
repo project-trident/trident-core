@@ -91,7 +91,7 @@ if [ $? -ne 0 ] ; then
 fi
 
 # Create the pkg-plist file
-make
+make stage
 make makeplist | grep -v "check/what/makeplist/gives/you" > pkg-plist
 make clean
 
