@@ -91,7 +91,9 @@ if [ $? -ne 0 ] ; then
 fi
 
 # Create the pkg-plist file
+make
 make makeplist | grep -v "check/what/makeplist/gives/you" > pkg-plist
+make clean
 
 # Update port cat Makefile
 tcat=$(echo $port | cut -d '/' -f 1)
