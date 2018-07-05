@@ -21,10 +21,8 @@ RUN_DEPENDS=	${LOCALBASE}/sbin/PCDMd:x11/pcdm \
 		foomatic-db>=0:print/foomatic-db \
 		fluxbox-tenr-styles-pack>=0:x11-themes/fluxbox-tenr-styles-pack \
 		xorg-minimal>=0:x11/xorg-minimal \
-		xorg-drivers>=0:x11-drivers/xorg-drivers \
 		cuse4bsd-kmod>=0:multimedia/cuse4bsd-kmod \
 		webcamd>=0:multimedia/webcamd \
-		git:devel/git \
 		/boot/modules/drm.ko:graphics/drm-next-kmod \
 		xdg-user-dirs>=0:devel/xdg-user-dirs \
 		trident-icons>=0:trident/trident-icons \
