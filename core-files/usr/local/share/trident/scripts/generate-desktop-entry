@@ -20,9 +20,11 @@ if [ -z $1 ] ; then
 fi
 
 dev=${1}
+cdir=`dirname "$0"`
 type=`fstyp /dev/${dev}`
 if [ ${?} != 0 ]; then
-return 1;
+  ${cdir}/remove-desktop-entry ${dev}
+  return 1;
 fi
 
 if [ "${type}" == "msdosfs" ] ; then
