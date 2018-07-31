@@ -9,3 +9,6 @@ hw.psm.synaptics_support="1"
 		
 # Enable Elantech touchpad support		
 hw.psm.elantech_support="1"
+
+#Ensure that the VT switching for NVIDIA graphics chips work
+hw.vga.textmode="1"
