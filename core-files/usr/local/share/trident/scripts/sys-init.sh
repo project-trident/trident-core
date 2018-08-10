@@ -76,3 +76,5 @@ else
   # Desktop system
 
 fi
+#Now ensure the system services are all setup properly
+/usr/local/share/trident/scripts/validate-services.sh /usr/local/etc/trident/required-services /usr/local/etc/trident/recommended-services
