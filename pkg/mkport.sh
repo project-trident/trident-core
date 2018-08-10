@@ -60,7 +60,7 @@ if [ ! -d "$distdir" ] ; then
 fi
 
 # Get the GIT tag
-ghtag=`git log -n 1 . | grep '^commit ' | awk '{print $2}'`
+ghtag=`git log -n 1 | grep '^commit ' | awk '{print $2}'`
 
 # Get the version
 if [ -e "version" ] ; then
