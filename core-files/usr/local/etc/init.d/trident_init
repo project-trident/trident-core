@@ -18,6 +18,12 @@ start()
 	  fi
         fi
 
+	# Ensure that the icon cache for the "hicolor" theme does not exist
+	# That cache file will break the auto-detection of new icons per the XDG spec
+	if [ -e "/usr/local/share/icons/hicolor/icon-theme.cache" ] ; then
+	  rm "/usr/local/share/icons/hicolor/icon-theme.cache"
+	fi
+
 	# Verify that an xorg.conf exists, and generate one as needed
 	if [ ! -e /etc/X11/xorg.conf ] ; then
 	  #Use the "auto" flag to automatically detect/set the proper driver
