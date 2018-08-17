@@ -12,7 +12,7 @@
 IMAGE_DIR=./ #location of all/most image files for this theme ("./" = current directory)
 
 #### Images (relative to IMAGE_DIR) ####
-BACKGROUND_IMAGE=/usr/local/share/wallpapers/trident/default.png  	# will stretch to fill the screen
+BACKGROUND_IMAGE=/usr/local/share/wallpapers/trident/Trident-wallpaper-corner-lightgrey.png  	# will stretch to fill the screen
   BACKGROUND_DISABLE=FALSE		# Flag to disable using a background image
 
 HEADER_IMAGE=banner.png 	# Image to be displayed as a window header
@@ -44,20 +44,20 @@ VKEYBOARD_IMAGE=/usr/local/share/icons/le-trident-dark/devices/scalable/input-ke
   VKEYBOARD_DISABLE=TRUE
 
 # TOOLBAR SETTINGS
-TOOLBAR_LOCATION=left 	# [bottom | top | left | right]
+TOOLBAR_LOCATION=top 	# [bottom | top | left | right]
 #TOOLBAR_IMAGE_SIZE=28x28     # Set the default size for all images in the toolbar
-TOOLBAR_STYLE=textundericon 	 	# [icononly | textonly | textbesideicon | textundericon]
+TOOLBAR_STYLE=textbesideicon 	 	# [icononly | textonly | textbesideicon | textundericon]
 
 # ADD WINDOW ITEMS ON A GRID LAYOUT [row,column]
 # Note: [0,0]=upper left corner, grid automatically expands to fit all items 
 HEADER_LOCATION=[0,0]
 LOGIN_LOCATION=[1,1]
-DESKTOP_LOCATION=[3,1]
+DESKTOP_LOCATION=[2,1]
 
 #Add optional spacers to help format the display
 # FORMAT: "ADDSPACER=<orientation>::[row,column]" 	#<orientation> = [horizontal | vertical]
 ADDSPACER=vertical::[0,1]
-ADDSPACER=vertical::[2,1]
+ADDSPACER=vertical::[3,1]
 ADDSPACER=horizontal::[2,0]
 ADDSPACER=horizontal::[2,2]
   
