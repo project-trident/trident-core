@@ -26,6 +26,8 @@ start()
 	#Ensure that the PCDM config file exists, or put the default one in place
 	if [ ! -e "/usr/local/etc/pcdm.conf" ] ; then
 	  cp "/usr/local/etc/pcdm.conf.trident" "/usr/local/etc/pcdm.conf"
+	  #It can contain sensitive info - only allow root to read it
+	  chmod 700 "/usr/local/etc/pcdm.conf"
 	fi
 	# Verify that an xorg.conf exists, and generate one as needed
 	if [ ! -e /etc/X11/xorg.conf ] ; then
