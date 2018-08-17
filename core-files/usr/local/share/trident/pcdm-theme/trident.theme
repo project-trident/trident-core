@@ -1,0 +1,131 @@
+########################################
+#      DEFAULT THEME FILE FOR PCDM     #
+########################################
+# **** NOTE: Any option that is not set here will use the default PCDM setting *****
+
+
+##########################
+##    BASIC SETTINGS    ##
+##########################
+
+## Base directory for images (if absolute path not explicitly declared) ##
+IMAGE_DIR=./ #location of all/most image files for this theme ("./" = current directory)
+
+#### Images (relative to IMAGE_DIR) ####
+BACKGROUND_IMAGE=/usr/local/share/wallpapers/trident/default.png  	# will stretch to fill the screen
+  BACKGROUND_DISABLE=FALSE		# Flag to disable using a background image
+
+HEADER_IMAGE=banner.png 	# Image to be displayed as a window header
+  HEADER_IMAGE_SIZE=500x292		# Size for the image (in pixels)
+  HEADER_DISABLE=TRUE			# Flag to remove the header image entirely
+  
+USER_IMAGE=/usr/local/share/icons/le-trident-dark/apps/scalable/login-photo.svg
+ # USER_IMAGE_SIZE=30x30  		  # Size for the image (in pixels)
+  
+PASSWORD_IMAGE=/usr/local/share/icons/le-trident-dark/actions/scalable/lock.svg
+# PASSWORD_IMAGE_SIZE=30x30		  # Size for the image (in pixels)
+  
+LOGIN_IMAGE=/usr/local/share/icons/le-trident-dark/actions/scalable/system-run.svg	# Image contained in the login button
+ANONLOGIN_IMAGE=/usr/local/share/icons/le-trident-dark/apps/scalable/login.svg #Image contained in the login button when stealth mode enabled
+#  LOGIN_IMAGE_SIZE=35x35		  # Size for the image (in pixels)
+
+DESKTOP_IMAGE=default-desktop.png	# Default Image for the DE selection if none found
+  DESKTOP_ORIENTATION=horizontal			# [horizontal | vertical | simple]
+#  DESKTOP_IMAGE_SIZE=30x30		  	# Size for the image (in pixels)
+  #Additional DESKTOP settings if not set to "simple"
+  NEXTDE_IMAGE=/usr/local/share/icons/le-trident-dark/actions/scalable/arrow-right.svg	# Next DE selection (right/down)
+  PREVIOUSDE_IMAGE=/usr/local/share/icons/le-trident-dark/actions/scalable/arrow-left.svg	# Previous DE selection (left/up)
+  
+# --Images that will scale according to the toolbar size--
+SYSTEM_IMAGE=/usr/local/share/icons/le-trident-dark/apps/scalable/preferences-other.svg  	# Image for the System box (shutdown/reboot options)
+LOCALE_IMAGE=/usr/local/share/icons/le-trident-dark/apps/scalable/preferences-desktop-locale.svg  	# Image for language selection
+KEYBOARD_IMAGE=/usr/local/share/icons/le-trident-dark/apps/scalable/preferences-desktop-keyboard.svg  	# Image for keyboard layout selection
+VKEYBOARD_IMAGE=/usr/local/share/icons/le-trident-dark/devices/scalable/input-keyboard.svg		# Image for the virtual keyboard item
+  VKEYBOARD_DISABLE=TRUE
+
+# TOOLBAR SETTINGS
+TOOLBAR_LOCATION=left 	# [bottom | top | left | right]
+#TOOLBAR_IMAGE_SIZE=28x28     # Set the default size for all images in the toolbar
+TOOLBAR_STYLE=textundericon 	 	# [icononly | textonly | textbesideicon | textundericon]
+
+# ADD WINDOW ITEMS ON A GRID LAYOUT [row,column]
+# Note: [0,0]=upper left corner, grid automatically expands to fit all items 
+HEADER_LOCATION=[0,0]
+LOGIN_LOCATION=[1,1]
+DESKTOP_LOCATION=[3,1]
+
+#Add optional spacers to help format the display
+# FORMAT: "ADDSPACER=<orientation>::[row,column]" 	#<orientation> = [horizontal | vertical]
+ADDSPACER=vertical::[0,1]
+ADDSPACER=vertical::[2,1]
+ADDSPACER=horizontal::[2,0]
+ADDSPACER=horizontal::[2,2]
+  
+#####################
+# ADVANCED SETTINGS #
+#####################
+#This allows you to manually set the Qt Style Sheet for the application
+# Reference Material: http://doc.qt.nokia.com/4.7/stylesheet-reference.html
+# --- Main Widgets to Customize ---
+# Toolbar: QToolBar
+# All buttons: QToolButton
+# Login Widget User List: QComboBox & QListWidget
+# Login Widget Password Entry: QLineEdit
+# Login Widget Background/Frame: QGroupBox
+# Login Widget Caps Lock Indicator: CapsLockIndicator
+# Desktop Environment Icon Display: QGraphicsView
+# Desktop Environment Selector Buttons: QPushButton
+# Header Image: QLabel
+# ----------
+# NOTE: Use point sizes (pt) for fonts so that they scale properly according to screen size!!
+# ----------
+APP_STYLESHEET_START
+QToolBar{ background-color: rgba(0,0,0,100); color: white; }
+QWindow{ background-color: rgba(0,0,0,100); color: white; }
+QWidget{
+	font-size: 12pt;
+	font-family: Caladea;
+}
+CapsLockIndicator { color: white; }
+QListWidget{
+	font-size: 14pt;
+	color: white;
+	background: rgba(0,0,0,100); color: white; }
+	border: 1px solid grey;
+	border-radius: 5px;
+}
+QComboBox{
+        color: white;
+        background: rgba(0,0,0,100);
+}
+QComboBox QAbstractItemView{
+        color: white;
+        background: rgba(0,0,0,100);
+}
+QToolButton{ background-color: transparent; border: none; color: white; }
+QToolButton:hover{ background-color: transparent; border: 1px solid #1a59c3; border-radius: 5px; }
+QGroupBox{
+        background-color: rgba(0,0,0,100);
+        border: 1px solid rgba(0,0,0,100);
+        border-radius: 5px;
+        padding: 15px;
+}
+QGroupBox::title{
+        background-color: rgba(0,0,0,100);
+        border: 1px solid transparent;
+        border-radius: 5px;
+        subcontrol-position: top center;
+        color: white;
+}
+QGraphicsView{
+        background: rgba(0,0,0,100);
+        color: white;
+        border: 1px solid transparent;
+        border-radius: 5px;
+}
+QPushButton{ background-color: transparent; border: none; }
+QPushButton:hover{ background-color: transparent; border: 1px solid #1a59c3; border-radius: 5px; }
+QMessageBox{}
+
+
+APP_STYLESHEET_STOP
