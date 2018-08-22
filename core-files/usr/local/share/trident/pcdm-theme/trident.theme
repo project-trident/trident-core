@@ -30,7 +30,7 @@ ANONLOGIN_IMAGE=/usr/local/share/icons/le-trident-dark/apps/scalable/login.svg #
 #  LOGIN_IMAGE_SIZE=35x35		  # Size for the image (in pixels)
 
 DESKTOP_IMAGE=default-desktop.png	# Default Image for the DE selection if none found
-  DESKTOP_ORIENTATION=horizontal			# [horizontal | vertical | simple]
+  DESKTOP_ORIENTATION=simple			# [horizontal | vertical | simple]
 #  DESKTOP_IMAGE_SIZE=30x30		  	# Size for the image (in pixels)
   #Additional DESKTOP settings if not set to "simple"
   NEXTDE_IMAGE=/usr/local/share/icons/le-trident-dark/actions/scalable/arrow-right.svg	# Next DE selection (right/down)
