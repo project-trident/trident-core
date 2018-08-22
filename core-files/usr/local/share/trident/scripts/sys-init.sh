@@ -77,5 +77,10 @@ else
   # Desktop system
 
 fi
+
+if [ ! -e "/usr/local/etc/sudoers" ] && [ -e "/usr/local/etc/sudoers.dist" ] ; then
+  #Need to copy over the default sudoers file so "sudo" can be used
+  cp "/usr/local/etc/sudoers.dist" "/usr/local/etc/sudoers"
+fi
 #Now ensure the system services are all setup properly
 /usr/local/share/trident/scripts/validate-services.sh /usr/local/etc/trident/required-services /usr/local/etc/trident/recommended-services
