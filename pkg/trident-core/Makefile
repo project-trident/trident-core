@@ -27,7 +27,8 @@ RUN_DEPENDS=	${LOCALBASE}/sbin/PCDMd:x11/pcdm \
 		xdg-user-dirs>=0:devel/xdg-user-dirs \
 		trident-icons>=0:trident/trident-icons \
 		cursor-chameleon-pearl>=0:x11-themes/cursor-chameleon-pearl \
-		xdpyinfo>=0:x11/xdpyinfo
+		xdpyinfo>=0:x11/xdpyinfo \
+		sysadm>=0:sysutils/sysadm
 
 USE_GITHUB=	yes
 GH_ACCOUNT=	project-trident
