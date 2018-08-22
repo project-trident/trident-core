@@ -30,12 +30,13 @@ setupZFSArc(){
 }
 
 setupPowerd(){
-  if [ `rc-update | grep -q powerd` -eq 0 ] ; then
+  rc-update | grep -q powerd
+  if [ $? -eq 0 ] ; then
     #one of the powerd[++] service is already setup
     return
   fi
   p_service="powerd"
-  if [ -e /usr/local/etc/init.d/powerd++ ] ; then
+  if [ -e "/usr/local/etc/init.d/powerd++" ] ; then
     #The alternative powerd++ service is installed - use that instead
     p_service="powerd++"
   fi
@@ -45,7 +46,7 @@ setupPowerd(){
 
 #figure out if this is a laptop or not (has a battery)
 numBat=`apm | grep "Number of batteries:" | cut -d : -f 2`
-if [ `apm -a`-gt 3 ] ; then
+if [ $numBat -lt 1 ] ; then
   #invalid apm battery status = no batteries
   type="desktop"
 else
