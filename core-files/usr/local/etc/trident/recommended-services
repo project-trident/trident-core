@@ -9,4 +9,6 @@ add:moused:default
 add:sndiod:default
 add:pcdm:default
 add:webcamd:default
+add:sysadm:default
+add:ntpd:default
 delete:cupsd-browsed:default
