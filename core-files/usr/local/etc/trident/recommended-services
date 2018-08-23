@@ -12,4 +12,5 @@ add:webcamd:default
 add:sysadm:default
 add:ntpd:default
 add:ntpdate:default
+add:microcode_update:default
 delete:cupsd-browsed:default
