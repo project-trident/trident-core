@@ -5,7 +5,7 @@
 setupZFSArc(){
   # Tune ZFS ARC 
   ###############################################
-  grep -q "vfs.zfs.arc_max" /boot/loader.conf
+  grep -q "vfs.zfs.arc_max=" /boot/loader.conf
   if [ $? -eq 0 ] ; then
     return 0 #Do not overwrite current ARC settings
   fi
@@ -82,5 +82,9 @@ if [ ! -e "/usr/local/etc/sudoers" ] && [ -e "/usr/local/etc/sudoers.dist" ] ; t
   #Need to copy over the default sudoers file so "sudo" can be used
   cp "/usr/local/etc/sudoers.dist" "/usr/local/etc/sudoers"
 fi
+#TrueOS 18.06-18.08 Bug Bypass (8/23/18 - Ken Moore)
+# - replace "DHCP" with "SYNCDHCP" in the default-installed /etc/rc.conf
+sed -i '' 's|"DHCP|"SYNCDHCP|g' /etc/rc.conf
+
 #Now ensure the system services are all setup properly
 /usr/local/share/trident/scripts/validate-services.sh /usr/local/etc/trident/required-services /usr/local/etc/trident/recommended-services
