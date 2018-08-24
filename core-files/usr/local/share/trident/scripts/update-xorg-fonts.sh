@@ -4,16 +4,19 @@
 
 _conf="/usr/local/etc/X11/xorg.conf.d/trident-xorg-files.conf"
 
-_tmp="Section \"File\"
-  ModulePath    \"/usr/local/lib/modules\"
+_tmp="Section \"Files\"
   ModulePath    \"/usr/local/lib/xorg/modules\""
 
 #Now probe for installed fonts and add them to the list
-for _font in `find /usr/local/share/fonts | grep fonts.dir`
+for _fontdir in `ls /usr/local/share/fonts`
 do
-  _fontdir=`dirname ${_font}`
-  _tmp="${_tmp}
+  _fontdir="/usr/local/share/fonts/${_fontdir}"
+  ls "${_fontdir}" | grep -qE ".ttf"
+  if [ $? -eq 0 ] ; then
+    #Got a good font directory
+    _tmp="${_tmp}
   FontPath     \"${_fontdir}\""
+  fi
 done
 #Now close off the section
 _tmp="${_tmp}
