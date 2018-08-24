@@ -41,7 +41,6 @@ setupPowerd(){
     p_service="powerd++"
   fi
   rc-update add ${p_service}
-  service -N ${p_service} start
 }
 
 #figure out if this is a laptop or not (has a battery)
