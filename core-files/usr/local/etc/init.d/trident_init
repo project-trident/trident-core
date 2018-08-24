@@ -34,6 +34,8 @@ start()
 	  #Use the "auto" flag to automatically detect/set the proper driver
 	  /usr/local/share/trident/scripts/generate-xorg-conf.sh auto
 	fi
+	#Automatically probe/update the available fonts for Xorg
+	/usr/local/share/trident/scripts/update-xorg-fonts.sh
 
 	# Check for extra kernel modules to load for video driver support
 	driver=`cat /etc/X11/xorg.conf | grep "Driver" | cut -d \" -f 2`

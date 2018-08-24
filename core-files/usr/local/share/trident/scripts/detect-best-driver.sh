@@ -4,7 +4,7 @@
 ##############
 
 # First detect if the boottype is "UEFI" or not (legacy)
-boottype=`sysctl -nq machdep.bootmethod`
+efi=`sysctl -nq machdep.bootmethod`
 # Detect the vendor/device info for the graphics card
 vendor=`pciconf -lv vgapci0 | grep vendor | cut -d \' -f 2`
 device=`pciconf -lv vgapci0 | grep device | cut -d \' -f 2`

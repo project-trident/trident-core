@@ -77,10 +77,16 @@ else
 
 fi
 
+#Verify that config files are setup
+# - sudoers
 if [ ! -e "/usr/local/etc/sudoers" ] && [ -e "/usr/local/etc/sudoers.dist" ] ; then
-  #Need to copy over the default sudoers file so "sudo" can be used
   cp "/usr/local/etc/sudoers.dist" "/usr/local/etc/sudoers"
 fi
+# - cupsd.conf
+if [ ! -e "/usr/local/etc/cups/cupsd.conf" ] && [ -e "/usr/local/etc/cups/cupsd.conf.dist" ] ; then
+  cp "/usr/local/etc/cups/cupsd.conf.sample" "/usr/local/etc/cups/cupsd.conf"
+fi
+
 #TrueOS 18.06-18.08 Bug Bypass (8/23/18 - Ken Moore)
 # - replace "DHCP" with "SYNCDHCP" in the default-installed /etc/rc.conf
 sed -i '' 's|"DHCP|"SYNCDHCP|g' /etc/rc.conf
