@@ -28,7 +28,8 @@ RUN_DEPENDS=	${LOCALBASE}/sbin/PCDMd:x11/pcdm \
 		trident-icons>=0:trident/trident-icons \
 		cursor-chameleon-pearl>=0:x11-themes/cursor-chameleon-pearl \
 		xdpyinfo>=0:x11/xdpyinfo \
-		sysadm>=0:sysutils/sysadm
+		sysadm>=0:sysutils/sysadm \
+		alsa-sndio>=0:audio/alsa-sndio
 
 USE_GITHUB=	yes
 GH_ACCOUNT=	project-trident
