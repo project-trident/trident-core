@@ -22,7 +22,7 @@ load-module module-augment-properties
 load-module module-switch-on-port-available
 
 ### Load PA->SNDIO module
-load-module module-sndio device=snd@thor/0
+load-module module-sndio device=snd/0
 
 ### Automatically load driver modules depending on the hardware available
 .ifexists module-detect.so
