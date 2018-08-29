@@ -40,12 +40,12 @@ setupPowerd(){
     #The alternative powerd++ service is installed - use that instead
     p_service="powerd++"
   fi
-  rc-update add ${p_service}
+  rc-update add ${p_service} default
 }
 
 #figure out if this is a laptop or not (has a battery)
 numBat=`apm | grep "Number of batteries:" | cut -d : -f 2`
-if [ $numBat -lt 1 ] ; then
+if [ $? -ne 0 ] || [ $numBat -lt 1 ] ; then
   #invalid apm battery status = no batteries
   type="desktop"
 else
