@@ -1,4 +1,10 @@
 [devfsrules_common=7]
+# ---------------------------------
+# WARNING: File is automatically modified
+#  Changes will be overwritten on next update
+#  Send changes in to Project Trident instead:
+#  https://github.com/project-trident/trident-core
+# ---------------------------------
 
 # cd*/acd* drives need user read access for
 # DVD video playback and audio CD playback
