@@ -43,6 +43,29 @@ setupPowerd(){
   rc-update add ${p_service} default
 }
 
+setupWlan(){
+  # Check for any new wifi devices to setup
+  for wnic in `sysctl -b net.wlan.devices 2>/dev/null`
+  do
+    #See if this device is already configured
+    grep -q "wlans_${wnic}" /etc/rc.conf
+    if [ $? -ne 0 ] ; then
+      # New wifi device - determine the next number for it
+      grep -qE "^wlans_" /etc/rc.conf
+      if [ $? -eq 0 ] ; then
+        WLANCOUNT=`cat /etc/rc.conf | grep -E "^wlans_" | wc -l | awk '{print $1}'`
+      else
+        WLANCOUNT="0"
+      fi
+      WLAN="wlan${WLANCOUNT}"
+      # Save the wlan interface
+      echo "wlans_${wnic}=\"${WLAN}\"" >> /etc/rc.conf
+      echo "ifconfig_${WLAN}=\"WPA DHCP\"" >> /etc/rc.conf
+      echo "ifconfig_${WLAN}_ipv6=\"inet6 accept_rtadv\"" >> /etc/rc.conf
+    fi
+  done
+}
+
 #figure out if this is a laptop or not (has a battery)
 numBat=`apm | grep "Number of batteries:" | cut -d : -f 2`
 if [ $? -ne 0 ] || [ $numBat -lt 1 ] ; then
@@ -76,6 +99,9 @@ else
   # Desktop system
 
 fi
+
+#setup the wireless devices
+setupWlan
 
 #Verify that config files are setup
 # - sudoers
