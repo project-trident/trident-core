@@ -45,7 +45,7 @@ setupPowerd(){
 
 setupWlan(){
   # Check for any new wifi devices to setup
-  for wnic in `sysctl -b net.wlan.devices 2>/dev/null`
+  for wnic in `sysctl -n net.wlan.devices 2>/dev/null`
   do
     #See if this device is already configured
     grep -q "wlans_${wnic}" /etc/rc.conf
