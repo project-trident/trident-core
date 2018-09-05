@@ -8,6 +8,13 @@ depend()
 	after modules
 }
 
+start_pre(){
+  if [ -e "/usr/local/etc/trident/.firstboot" ] ; then
+    /usr/local/share/trident/scripts/sys-init.sh
+    rm "/usr/local/etc/trident/.firstboot"
+  fi
+}
+
 start()
 {
 	# Make sure dbus machine-id file exists

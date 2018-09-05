@@ -60,7 +60,7 @@ setupWlan(){
       WLAN="wlan${WLANCOUNT}"
       # Save the wlan interface
       echo "wlans_${wnic}=\"${WLAN}\"" >> /etc/rc.conf
-      echo "ifconfig_${WLAN}=\"WPA DHCP\"" >> /etc/rc.conf
+      echo "ifconfig_${WLAN}=\"WPA SYNCDHCP\"" >> /etc/rc.conf
       echo "ifconfig_${WLAN}_ipv6=\"inet6 accept_rtadv\"" >> /etc/rc.conf
     fi
   done
@@ -91,16 +91,18 @@ fi
 #Check/set the ZFS arc size
 setupZFSArc
 
+#Turn on power management service (if one is not already setup)
+setupPowerd
+
 if [ "${type}" = "laptop" ] ; then
-  #Turn on power management service (if one is not already setup)
-  setupPowerd
-  
+  # Laptop system
+  # TO-DO  
 else
   # Desktop system
-
+  # TO-DO
 fi
 
-#setup the wireless devices
+#setup the wireless devices (if any)
 setupWlan
 
 #Verify that config files are setup
@@ -109,7 +111,7 @@ if [ ! -e "/usr/local/etc/sudoers" ] && [ -e "/usr/local/etc/sudoers.dist" ] ; t
   cp "/usr/local/etc/sudoers.dist" "/usr/local/etc/sudoers"
 fi
 # - cupsd.conf
-if [ ! -e "/usr/local/etc/cups/cupsd.conf" ] && [ -e "/usr/local/etc/cups/cupsd.conf.dist" ] ; then
+if [ ! -e "/usr/local/etc/cups/cupsd.conf" ] && [ -e "/usr/local/etc/cups/cupsd.conf.sample" ] ; then
   cp "/usr/local/etc/cups/cupsd.conf.sample" "/usr/local/etc/cups/cupsd.conf"
 fi
 
