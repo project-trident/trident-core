@@ -18,13 +18,8 @@ fi
 # ---- SYSTEM OVERLAY FILES - KEEP THESE TO A MINIMUM!! ----
 #Make sure the devfs.rules file is always overwritten with the Trident version 
 # (a base package also overwrites this file regularly - we need more things enabled though)
-if [ ! -e /etc/devfs.rules.trident ] ; then
-  echo "[WARNING] Could not find devfs.rules.trident file!
-  echo "  PREFIX: ${PREFIX}"
-  echo "  Inputs: $@ "
-else
-  cp /etc/devfs.rules.trident /etc/devfs.rules
-fi
+
+
 #Overwrite the Linux printer test page with one
 #  from the original CUPS 1.3 release from Apple (generic test images)
 #cp ${PREFIX}/share/cups/data/default-testpage.orig.pdf ${PREFIX}/share/cups/data/default-testpage.pdf
