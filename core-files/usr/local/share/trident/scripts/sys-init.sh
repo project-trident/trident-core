@@ -114,6 +114,12 @@ fi
 if [ ! -e "/usr/local/etc/cups/cupsd.conf" ] && [ -e "/usr/local/etc/cups/cupsd.conf.sample" ] ; then
   cp "/usr/local/etc/cups/cupsd.conf.sample" "/usr/local/etc/cups/cupsd.conf"
 fi
+# - pulseaudio default.pa
+if [ ! -e "/usr/local/etc/pulse/default.pa" ] && [ -e "/usr/local/etc/pulse/default.pa.trident" ] ; then
+  cp "/usr/local/etc/pulse/default.pa.trident" "/usr/local/etc/pulse/default.pa"
+fi
+
+
 
 #TrueOS 18.06-18.08 Bug Bypass (8/23/18 - Ken Moore)
 # - replace "DHCP" with "SYNCDHCP" in the default-installed /etc/rc.conf
