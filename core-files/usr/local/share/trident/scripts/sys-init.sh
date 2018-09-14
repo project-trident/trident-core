@@ -66,6 +66,22 @@ setupWlan(){
   done
 }
 
+setupLan(){
+  for nic in `ifconfig -l`
+  do
+    #Ignore loopback devices
+    echo ${nic} | grep -qE "lo[0-9]"
+    if [ 0 -eq $? ] ; then continue; fi
+    #See if this device is already configured
+    sysrc -ci "ifconfig_${nic}"
+    if [ $? -ne 0 ] ; then
+      # New ethernet device
+      sysrc "ifconfig_${nic}=SYNCDHCP"
+      sysrc "ifconfig_${nic}_ipv6=inet6 accept_rtadv"
+    fi
+  done
+}
+
 #figure out if this is a laptop or not
 if devinfo | grep -q acpi_acad0 ; then
   type="laptop"
@@ -100,7 +116,8 @@ else
   # TO-DO
 fi
 
-#setup the wireless devices (if any)
+#setup the networking interfaces
+setupLan
 setupWlan
 
 #Verify that config files are setup

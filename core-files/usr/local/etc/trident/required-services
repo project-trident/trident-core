@@ -4,3 +4,5 @@
 #  Line Format: <add/delete>:<servicename>:[runlevel]
 #==============================
 add:trident_init:default
+add:cleartmp:boot
+add:cleanvar:boot

@@ -12,7 +12,6 @@
 # For changes, please submit a PR on the github
 #  repository: https://github.com/project-trident/trident-core
 # -------------------------------------
-.fail
 
 ### Automatically augment property information from .desktop files
 ### stored in /usr/local/share/application
