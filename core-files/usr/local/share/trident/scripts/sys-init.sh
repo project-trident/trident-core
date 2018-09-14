@@ -17,12 +17,10 @@ setupZFSArc(){
   # Set some default zArc sizes based upon RAM of system
   if [ $sysMem -lt 1024 ] ; then
     zArc="128"
-  elif [ $sysMem -lt 2048 ] ; then
-    zArc="256"
   elif [ $sysMem -lt 4096 ] ; then
-    zArc="512"
+    zArc="256"
   else
-    zArc="1024"
+    zArc="512"
   fi
 
   echo "# Tune ZFS Arc Size - Change to adjust memory used for disk cache" >> /boot/loader.conf
@@ -131,7 +129,7 @@ if [ ! -e "/usr/local/etc/cups/cupsd.conf" ] && [ -e "/usr/local/etc/cups/cupsd.
 fi
 # - pulseaudio default.pa
 if [ ! -e "/usr/local/etc/pulse/default.pa" ] && [ -e "/usr/local/etc/pulse/default.pa.trident" ] ; then
-  cp "/usr/local/etc/pulse/default.pa.trident" "/usr/local/etc/pulse/default.pa"
+  ln -s "/usr/local/etc/pulse/default.pa" "/usr/local/etc/pulse/default.pa.trident"
 fi
 
 
