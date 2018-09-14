@@ -66,13 +66,11 @@ setupWlan(){
   done
 }
 
-#figure out if this is a laptop or not (has a battery)
-numBat=`apm | grep "Number of batteries:" | cut -d : -f 2`
-if [ $? -ne 0 ] || [ $numBat -lt 1 ] ; then
-  #invalid apm battery status = no batteries
-  type="desktop"
-else
+#figure out if this is a laptop or not
+if devinfo | grep -q acpi_acad0 ; then
   type="laptop"
+else
+  type="desktop"
 fi
 
 ################################################
