@@ -129,7 +129,7 @@ if [ ! -e "/usr/local/etc/cups/cupsd.conf" ] && [ -e "/usr/local/etc/cups/cupsd.
 fi
 # - pulseaudio default.pa
 if [ ! -e "/usr/local/etc/pulse/default.pa" ] && [ -e "/usr/local/etc/pulse/default.pa.trident" ] ; then
-  ln -s "/usr/local/etc/pulse/default.pa" "/usr/local/etc/pulse/default.pa.trident"
+  ln -s "/usr/local/etc/pulse/default.pa.trident" "/usr/local/etc/pulse/default.pa"
 fi
 
 
