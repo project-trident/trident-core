@@ -4,9 +4,9 @@
 Core Packages and system overlay files
 
 ## File heirarchy
-The "core-files" directory contains a 1:1 mapping of all the files that the "trident-core" package will install. The "core-files" directory gets mapped directly onto the root filesystem ("/").
+* The "core-files" directory contains a 1:1 mapping of all the files that the "trident-core" package will install. The "core-files" directory gets mapped directly onto the root filesystem ("/").
    * Example: "core-files/boot/loader.conf.local" becomes "/boot/loader.conf.local" when installed
-The "pkg" directory contains the FreeBSD port template and script for creating the port for the current git revision.
+* The "pkg" directory contains the FreeBSD port template and script for creating the port for the current git revision.
 
 ## Important files
 **NOTE:** All of the configuration files listed below will be automatically replaced with newer versions when installing updates. If you want your local-system changes to persist, please place modifications into the designated file as appropriate.
