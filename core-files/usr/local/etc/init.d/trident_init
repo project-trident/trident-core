@@ -37,10 +37,10 @@ start()
 	  chmod 700 "/usr/local/etc/pcdm.conf"
 	fi
 	# Verify that an xorg.conf exists, and generate one as needed
-	if [ ! -e /etc/X11/xorg.conf ] ; then
-	  #Use the "auto" flag to automatically detect/set the proper driver
-	  /usr/local/share/trident/scripts/generate-xorg-conf.sh auto
-	fi
+	#if [ ! -e /usr/local/etc/X11/xorg.conf ] ; then
+	  #Use the "auto" flag to automatically detect/set the proper driver for each GPU
+	  /usr/local/share/trident/scripts/generate-xorg-conf.sh "auto" "/usr/local/etc/X11/xorg.conf"
+	#fi
 	#Automatically probe/update the available fonts for Xorg
 	/usr/local/share/trident/scripts/update-xorg-fonts.sh
 

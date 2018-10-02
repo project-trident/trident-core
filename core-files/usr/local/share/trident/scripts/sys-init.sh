@@ -81,7 +81,8 @@ setupLan(){
 }
 
 #figure out if this is a laptop or not
-if devinfo | grep -q acpi_acad0 ; then
+devinfo | grep -q acpi_acad0
+if [ $? -eq 0 ] ; then
   type="laptop"
 else
   type="desktop"
@@ -137,6 +138,7 @@ fi
 #TrueOS 18.06-18.08 Bug Bypass (8/23/18 - Ken Moore)
 # - replace "DHCP" with "SYNCDHCP" in the default-installed /etc/rc.conf
 sed -i '' 's|"DHCP|"SYNCDHCP|g' /etc/rc.conf
+sed -i '' 's| DHCP"| SYNCDHCP"|g' /etc/rc.conf
 
 #Now ensure the system services are all setup properly
 /usr/local/share/trident/scripts/validate-services.sh /usr/local/etc/trident/required-services /usr/local/etc/trident/recommended-services
