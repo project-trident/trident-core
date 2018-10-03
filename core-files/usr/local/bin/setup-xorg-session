@@ -1,0 +1,37 @@
+#!/bin/sh
+#=====================
+# Script to run any automatic setup scripts for xorg
+# Created/used by Project Trident
+#=====================
+# This command should be run at the beginning of ~/.xprofile
+# and will probe/set a bunch of environment variables for the entire session
+#=====================
+_basedirs="/etc /usr/local/etc /usr/local/share/trident"
+if [ -n "${XDG_CONFIG_HOME}" ] ; then
+  _basedirs="${_basedirs} ${XDG_CONFIG_HOME}"
+elif [ -n "${HOME}" ] ; then
+  _basedirs="${_basedirs} ${HOME}/.config"
+fi
+
+# Do all the *synchronous* startup scripts
+# These scripts can be used to set/export environment variables
+for _dir in ${_basedirs}
+do
+  if [ ! -e "${_dir}/xstartup" ] ; then continue fi
+  for _conf in $(ls "${_dir}/xstartup/*.sh")
+  do
+    echo "Running xstartup script: ${_conf}"
+    . "${_conf}"
+  done
+done
+
+# Now do all the *asyncronous* startup scripts
+for _dir in ${_basedirs}
+do
+  if [ ! -e "${_dir}/xstartup-parallel" ] ; then continue fi
+  for _conf in `ls $(ls "${_dir}/xstartup-parallel/*.sh")
+  do
+    echo "Running xstartup-parallel script: ${_conf}"
+    (. "${_conf}") &
+  done
+done
