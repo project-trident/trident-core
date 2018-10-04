@@ -17,8 +17,8 @@ fi
 # These scripts can be used to set/export environment variables
 for _dir in ${_basedirs}
 do
-  if [ ! -e "${_dir}/xstartup" ] ; then continue fi
-  for _conf in $(ls "${_dir}/xstartup/*.sh")
+  if [ ! -e "${_dir}/xstartup" ] ; then continue ; fi
+  for _conf in $(ls ${_dir}/xstartup/*.sh)
   do
     echo "Running xstartup script: ${_conf}"
     . "${_conf}"
@@ -28,8 +28,8 @@ done
 # Now do all the *asyncronous* startup scripts
 for _dir in ${_basedirs}
 do
-  if [ ! -e "${_dir}/xstartup-parallel" ] ; then continue fi
-  for _conf in `ls $(ls "${_dir}/xstartup-parallel/*.sh")
+  if [ ! -e "${_dir}/xstartup-parallel" ] ; then continue ; fi
+  for _conf in $(ls ${_dir}/xstartup-parallel/*.sh)
   do
     echo "Running xstartup-parallel script: ${_conf}"
     (. "${_conf}") &

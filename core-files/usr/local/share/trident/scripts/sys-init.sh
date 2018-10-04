@@ -41,6 +41,24 @@ setupPowerd(){
   rc-update add ${p_service} default
 }
 
+setupXProfile(){
+  local _script="/usr/local/bin/setup-xorg-session"
+  # Check all the .xprofile files in the user home dirs
+  # And make sure they launch the x session setup script
+  for _hd in $(ls /usr/home)
+  do
+    if [ ! -e "/usr/home/${_hd}/.xprofile" ] ; then continue; fi
+    grep -q "${_script}" "/usr/home/${_hd}/.xprofile"
+    if [ $? -ne 0 ] ; then
+      echo "
+if [ -e \"${_script}\" ] ; then
+  . ${_script}
+fi
+" >> "/usr/home/${_hd}/.xprofile"
+    fi
+  done
+}
+
 setupWlan(){
   # Check for any new wifi devices to setup
   for wnic in `sysctl -n net.wlan.devices 2>/dev/null`
@@ -118,6 +136,7 @@ fi
 #setup the networking interfaces
 setupLan
 setupWlan
+setupXProfile
 
 #Verify that config files are setup
 # - sudoers
