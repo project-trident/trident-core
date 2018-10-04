@@ -57,6 +57,26 @@ fi
 " >> "/usr/home/${_hd}/.xprofile"
     fi
   done
+  #Now make sure the default ~/.xprofile exists and/or is setup
+  if [ ! -e "/usr/share/skel/dot.xprofile" ] ; then
+    echo "# Graphical session setup
+# Created by Project Trident
+# ===================
+if [ -e \"${_script}\" ] ; then
+  . ${_script}
+fi
+" >> "/usr/share/skel/dot.xprofile"
+
+  else
+    grep -q "${_script}" "/usr/share/skel/dot.xprofile"
+    if [ $? -ne 0 ] ; then
+      echo "
+if [ -e \"${_script}\" ] ; then
+  . ${_script}
+fi
+" >> /usr/share/skel/dot.xprofile"
+    fi
+  fi
 }
 
 setupWlan(){
