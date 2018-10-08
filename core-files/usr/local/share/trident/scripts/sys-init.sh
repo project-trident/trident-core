@@ -74,7 +74,7 @@ fi
 if [ -e \"${_script}\" ] ; then
   . ${_script}
 fi
-" >> /usr/share/skel/dot.xprofile"
+" >> "/usr/share/skel/dot.xprofile"
     fi
   fi
 }
