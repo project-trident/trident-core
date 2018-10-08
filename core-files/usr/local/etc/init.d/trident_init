@@ -37,15 +37,16 @@ start()
 	  chmod 700 "/usr/local/etc/pcdm.conf"
 	fi
 	# Verify that an xorg.conf exists, and generate one as needed
-	#if [ ! -e /usr/local/etc/X11/xorg.conf ] ; then
+	xorg_conf="/etc/X11/xorg.conf"
+	#if [ ! -e "${xorg_conf}" ] ; then
 	  #Use the "auto" flag to automatically detect/set the proper driver for each GPU
-	  /usr/local/share/trident/scripts/generate-xorg-conf.sh "auto" "/usr/local/etc/X11/xorg.conf"
+	  /usr/local/share/trident/scripts/generate-xorg-conf.sh "auto" "${xorg_conf}"
 	#fi
 	#Automatically probe/update the available fonts for Xorg
 	/usr/local/share/trident/scripts/update-xorg-fonts.sh
 
 	# Check for extra kernel modules to load for video driver support
-	driver=`cat /etc/X11/xorg.conf | grep "Driver" | cut -d \" -f 2`
+	driver=`cat "${xorg_conf}" | grep "Driver" | cut -d \" -f 2`
 	case ${driver} in
 		modesetting)
 			kld_load="/boot/modules/i915kms.ko"
