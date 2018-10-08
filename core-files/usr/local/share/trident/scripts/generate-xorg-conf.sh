@@ -48,7 +48,7 @@ cp -f "${template}" "${file}"
 
 #If auto is selected, determine the best driver
 if [ "${driver}" = "auto" ] || [ -z "${driver}" ] ; then
-  for dev in `pciconf -l | grep vgapci | cut -w -f 1`
+  for dev in `pciconf -l | grep vgapci | cut -d @ -f 1`
   do
     createDriverBlock "${dev}"
   done
