@@ -7,6 +7,8 @@ Core Packages and system overlay files
 * The "core-files" directory contains a 1:1 mapping of all the files that the "trident-core" package will install. The "core-files" directory gets mapped directly onto the root filesystem ("/").
    * Example: "core-files/boot/loader.conf.local" becomes "/boot/loader.conf.local" when installed
 * The "pkg" directory contains the FreeBSD port template and script for creating the port for the current git revision.
+* The ["download-stats" directory](https://github.com/project-trident/trident-core/tree/master/download-stats) contains statistics about file downloads from the package server and estimated activity per released version.
+* The ["version-lists" directory](https://github.com/project-trident/trident-core/tree/master/version-lists) contains copies of the lists of packages for each release of project trident, as well as a script for generating a human-readable summary of the changes between two releases.
 
 ## Important files
 **NOTE:** All of the configuration files listed below will be automatically replaced with newer versions when installing updates. If you want your local-system changes to persist, please place modifications into the designated file as appropriate.
