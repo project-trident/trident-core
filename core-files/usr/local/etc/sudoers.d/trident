@@ -9,7 +9,7 @@
 #Environment Variables that need to be passed-through for consistent X11/desktop usage
 Defaults env_keep += "KDE_FULL_SESSION GNOME_DESKTOP_SESSION_ID DESKTOP_SESSION PCDM_SESSION"
 Defaults env_keep += "XAPPLRESDIR XFILESEARCHPATH XUSERFILESEARCHPATH"
-Defaults env_keep += "QTDIR KDEDIR XCURSOR_THEME"
+Defaults env_keep += "QTDIR KDEDIR XCURSOR_THEME QT_QPA_PLATFORMTHEME"
 Defaults env_keep += "XDG_SESSION_COOKIE XDG_CURRENT_DESKTOP"
 Defaults env_keep += "XMODIFIERS GTK_IM_MODULE QT_IM_MODULE QT_IM_SWITCHER"
 
@@ -27,3 +27,7 @@ Defaults env_keep += "XMODIFIERS GTK_IM_MODULE QT_IM_MODULE QT_IM_SWITCHER"
 
 # Allow passwordless access to run life preserver (wheel group only)
 %wheel ALL = NOPASSWD: /usr/local/bin/life-preserver
+
+# Allow passwordless access to run trueos-update (wheel/operator groups only)
+%wheel ALL = NOPASSWD: /usr/sbin/trueos-update
+%operator ALL = NOPASSWD: /usr/sbin/trueos-update
