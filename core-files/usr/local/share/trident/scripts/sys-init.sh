@@ -118,6 +118,10 @@ setupLan(){
   done
 }
 
+removeDebugPackages(){
+  pkg delete -y -g "FreeBSD-*-debug-*" "FreeBSD-*-development-*" "FreeBSD-*-profile-*"
+}
+
 #figure out if this is a laptop or not
 devinfo | grep -q acpi_acad0
 if [ $? -eq 0 ] ; then
@@ -144,6 +148,9 @@ setupZFSArc
 
 #Turn on power management service (if one is not already setup)
 setupPowerd
+
+#Delete all the debugging/profiling base packages (if installed)
+removeDebugPackages
 
 if [ "${type}" = "laptop" ] ; then
   # Laptop system
