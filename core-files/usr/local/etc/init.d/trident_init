@@ -8,6 +8,35 @@ depend()
 	after modules
 }
 
+load_modules_for_driver(){
+  driver=$1
+  case ${driver} in
+	modesetting)
+		kld_load="/boot/modules/i915kms.ko"
+		;;
+	intel)
+		kld_load="/boot/kernel/i915kms.ko"
+		;;
+	vboxvideo)
+		kld_load="vboxguest"
+		;;
+	nvidia)
+		if [ -f "/boot/modules/nvidia-modeset.ko" ] ; then
+			kld_load="nvidia-modeset nvidia"
+		else
+			kld_load="nvidia"
+		fi
+		;;
+	amdgpu)
+		kld_load="amdgpu"
+  esac
+  #Now load any modules
+  for _kmod in ${kld_load}
+  do
+	kldload -nq ${_kmod}
+  done
+}
+
 start_pre(){
   if [ -e "/usr/local/etc/trident/.firstboot" ] ; then
     /usr/local/share/trident/scripts/sys-init.sh
@@ -15,64 +44,44 @@ start_pre(){
   fi
 }
 
-start()
-{
-	# Make sure dbus machine-id file exists
-	if [ ! -L /etc/runlevels/default/dbus ] ; then
-	  # QT needs a valid dbus machine-id file even if dbus is not used/started
-	  if [ ! -e "/var/lib/dbus/machine-id" ] ; then
-            /usr/local/bin/dbus-uuidgen --ensure
-	  fi
-        fi
+start(){
+# Make sure dbus machine-id file exists
+if [ ! -L /etc/runlevels/default/dbus ] ; then
+  # QT needs a valid dbus machine-id file even if dbus is not used/started
+  if [ ! -e "/var/lib/dbus/machine-id" ] ; then
+    /usr/local/bin/dbus-uuidgen --ensure
+  fi
+fi
 
-	# Ensure that the icon cache for the "hicolor" theme does not exist
-	# That cache file will break the auto-detection of new icons per the XDG spec
-	if [ -e "/usr/local/share/icons/hicolor/icon-theme.cache" ] ; then
-	  rm "/usr/local/share/icons/hicolor/icon-theme.cache"
-	fi
-	#Ensure that the PCDM config file exists, or put the default one in place
-	if [ ! -e "/usr/local/etc/pcdm.conf" ] ; then
-	  cp "/usr/local/etc/pcdm.conf.trident" "/usr/local/etc/pcdm.conf"
-	  #It can contain sensitive info - only allow root to read it
-	  chmod 700 "/usr/local/etc/pcdm.conf"
-	fi
-	# Verify that an xorg.conf exists, and generate one as needed
-	xorg_conf="/etc/X11/xorg.conf"
-	#if [ ! -e "${xorg_conf}" ] ; then
-	  #Use the "auto" flag to automatically detect/set the proper driver for each GPU
-	  /usr/local/share/trident/scripts/generate-xorg-conf.sh "auto" "${xorg_conf}"
-	#fi
-	#Automatically probe/update the available fonts for Xorg
-	/usr/local/share/trident/scripts/update-xorg-fonts.sh
+# Ensure that the icon cache for the "hicolor" theme does not exist
+# That cache file will break the auto-detection of new icons per the XDG spec
+if [ -e "/usr/local/share/icons/hicolor/icon-theme.cache" ] ; then
+  rm "/usr/local/share/icons/hicolor/icon-theme.cache"
+fi
+#Ensure that the PCDM config file exists, or put the default one in place
+if [ ! -e "/usr/local/etc/pcdm.conf" ] ; then
+  cp "/usr/local/etc/pcdm.conf.trident" "/usr/local/etc/pcdm.conf"
+  #It can contain sensitive info - only allow root to read it
+  chmod 700 "/usr/local/etc/pcdm.conf"
+fi
+# Verify that an xorg.conf exists, and generate one as needed
+xorg_conf="/etc/X11/xorg.conf" #This is used as the default/fallback config
+#if [ ! -e "${xorg_conf}" ] ; then
+  #Use the "auto" flag to automatically detect/set the proper driver for each GPU
+  /usr/local/share/trident/scripts/generate-xorg-conf.sh "auto" "${xorg_conf}"
+#fi
+#Automatically probe/update the available fonts for Xorg
+/usr/local/share/trident/scripts/update-xorg-fonts.sh
+# Check for extra kernel modules to load for video driver support
+xorg_confs="/usr/local/etc/X11/xorg.conf /etc/X11/xorg.conf"
+for conf in ${xorg_confs}
+do
+  if [ ! -e "${conf}" ] ; then continue ; fi
+  driver=`cat "${conf}" | grep "Driver" | cut -d \" -f 2`
+  load_modules_for_driver ${driver}
+  break #only one config can be used
+done
 
-	# Check for extra kernel modules to load for video driver support
-	driver=`cat "${xorg_conf}" | grep "Driver" | cut -d \" -f 2`
-	case ${driver} in
-		modesetting)
-			kld_load="/boot/modules/i915kms.ko"
-			;;
-		intel)
-			kld_load="/boot/kernel/i915kms.ko"
-			;;
-		vboxvideo)
-			kld_load="vboxguest"
-			;;
-		nvidia)
-			if [ -f "/boot/modules/nvidia-modeset.ko" ] ; then
-				kld_load="nvidia-modeset nvidia"
-			else
-				kld_load="nvidia"
-			fi
-			;;
-		amdgpu)
-			kld_load="amdgpu"
-	esac
-	#Now load any modules
-	for _kmod in ${kld_load}
-	do
-		kldload -nq ${_kmod}
-	done
-
-	#Since this is a one-shot service, just mark it as started now
-	mark_service_started ${name}
+#Since this is a one-shot service, just mark it as started now
+mark_service_started ${name}
 }
