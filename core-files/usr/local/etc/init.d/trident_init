@@ -78,7 +78,11 @@ for conf in ${xorg_confs}
 do
   if [ ! -e "${conf}" ] ; then continue ; fi
   driver=`cat "${conf}" | grep "Driver" | cut -d \" -f 2`
-  load_modules_for_driver ${driver}
+  #Just in case multiple GPU devices/drivers are listed
+  for _drv in ${driver}
+  do
+    load_modules_for_driver ${_drv}
+  done
   break #only one config can be used
 done
 
