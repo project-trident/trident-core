@@ -172,11 +172,15 @@ if [ ! -e "/usr/local/etc/sudoers" ] && [ -e "/usr/local/etc/sudoers.dist" ] ; t
 fi
 # - cupsd.conf
 if [ ! -e "/usr/local/etc/cups/cupsd.conf" ] && [ -e "/usr/local/etc/cups/cupsd.conf.sample" ] ; then
-  cp "/usr/local/etc/cups/cupsd.conf.sample" "/usr/local/etc/cups/cupsd.conf"
+  ln -s "/usr/local/etc/cups/cupsd.conf.sample" "/usr/local/etc/cups/cupsd.conf"
 fi
 # - pulseaudio default.pa
 if [ ! -e "/usr/local/etc/pulse/default.pa" ] && [ -e "/usr/local/etc/pulse/default.pa.trident" ] ; then
   ln -s "/usr/local/etc/pulse/default.pa.trident" "/usr/local/etc/pulse/default.pa"
+fi
+# - fonts.conf
+if [ ! -e "/usr/local/etc/fonts/fonts.conf" ] && [ -e "/usr/local/etc/fonts/fonts.conf.sample" ] ; then
+  ln -s "/usr/local/etc/fonts/fonts.conf.sample" "/usr/local/etc/fonts/fonts.conf"
 fi
 
 
