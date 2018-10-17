@@ -17,6 +17,8 @@ createDriverBlock(){
   # INPUTS: 
   # 1: device (vgapci0 by default)
   # 2: driver (automatic by default)
+  # OUTPUTS:
+  #  $CARDNUM (number) : only set if the input device should be used as the primary GPU
   local _device="$1"
   local _driver="$2"
   if [ -z "${_device}" ] ; then
