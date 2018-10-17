@@ -12,7 +12,7 @@ if [ -z "${file}" ] ; then
   file="/etc/X11/xorg.conf"
 fi
 
-
+CARDNUM=0
 createDriverBlock(){
   # INPUTS: 
   # 1: device (vgapci0 by default)
@@ -31,6 +31,12 @@ createDriverBlock(){
   if [ "${_driver}" = "intel" ] || [ "${_driver}" = "modesetting" ] ; then
     #Disable GPU accelleration for intel/modesetting - causes graphical artifacting (TrueOS 18.06)
     options="Option   \"AccelMethod\"   \"none\""
+    #Also save this card number as the primary if on a laptop (NVIDIA optimus?)
+    devinfo | grep -q acpi_acad0
+    if [ $? -eq 0 ] ; then
+      #Got a laptop - go ahead and save this intel GPU as the primary
+      CARDNUM=${cardnum}
+    fi
   fi
 #Add the device section to the 
   echo "Section \"Device\"
@@ -47,6 +53,7 @@ template="/usr/local/share/trident/xorg-templates/xorg.conf"
 cp -f "${template}" "${file}"
 
 #If auto is selected, determine the best driver
+# Note: the CARDNUM variable will return the number of the GPU to use (typically 0)
 if [ "${driver}" = "auto" ] || [ -z "${driver}" ] ; then
   for dev in `pciconf -l | grep vgapci | cut -d @ -f 1`
   do
@@ -55,3 +62,4 @@ if [ "${driver}" = "auto" ] || [ -z "${driver}" ] ; then
 else
   createDriverBlock "vgapci0" "${driver}"
 fi
+sed -i '' "s|%%CARDNUM%%|${CARDNUM}|g" "${file}"
