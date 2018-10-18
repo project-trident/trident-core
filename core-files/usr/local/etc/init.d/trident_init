@@ -42,34 +42,16 @@ start_pre(){
     /usr/local/share/trident/scripts/sys-init.sh
     rm "/usr/local/etc/trident/.firstboot"
   fi
+  #Perform the general system sanity check
+  /usr/local/share/trident/scripts/system-sanity-check.sh
+  return 0
 }
 
 start(){
-# Make sure dbus machine-id file exists
-if [ ! -L /etc/runlevels/default/dbus ] ; then
-  # QT needs a valid dbus machine-id file even if dbus is not used/started
-  if [ ! -e "/var/lib/dbus/machine-id" ] ; then
-    /usr/local/bin/dbus-uuidgen --ensure
-  fi
-fi
-
-# Ensure that the icon cache for the "hicolor" theme does not exist
-# That cache file will break the auto-detection of new icons per the XDG spec
-if [ -e "/usr/local/share/icons/hicolor/icon-theme.cache" ] ; then
-  rm "/usr/local/share/icons/hicolor/icon-theme.cache"
-fi
-#Ensure that the PCDM config file exists, or put the default one in place
-if [ ! -e "/usr/local/etc/pcdm.conf" ] ; then
-  cp "/usr/local/etc/pcdm.conf.trident" "/usr/local/etc/pcdm.conf"
-  #It can contain sensitive info - only allow root to read it
-  chmod 700 "/usr/local/etc/pcdm.conf"
-fi
 # Verify that an xorg.conf exists, and generate one as needed
 xorg_conf="/etc/X11/xorg.conf" #This is used as the default/fallback config
-#if [ ! -e "${xorg_conf}" ] ; then
-  #Use the "auto" flag to automatically detect/set the proper driver for each GPU
-  /usr/local/share/trident/scripts/generate-xorg-conf.sh "auto" "${xorg_conf}"
-#fi
+#Use the "auto" flag to automatically detect/set the proper driver for each GPU
+/usr/local/share/trident/scripts/generate-xorg-conf.sh "auto" "${xorg_conf}"
 #Automatically probe/update the available fonts for Xorg
 /usr/local/share/trident/scripts/update-xorg-fonts.sh
 # Check for extra kernel modules to load for video driver support

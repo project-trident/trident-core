@@ -6,5 +6,5 @@ kldstat | grep -q "vboxguest"
 if [ $? -eq 0 ] && [ -e "/usr/local/bin/xinput" ] ; then
   #Virtualbox guest extensions loaded
   #Disable the forward/back mouse buttons (8 & 9)
-  xinput --set-button-map "sysmouse" 1 2 3 4 5 6 7 0 0
+  xinput --set-button-map "vboxguest" 1 2 3 4 5 6 7 0 0
 fi

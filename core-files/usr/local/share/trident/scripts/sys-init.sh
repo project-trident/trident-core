@@ -165,30 +165,8 @@ setupLan
 setupWlan
 setupXProfile
 
-#Verify that config files are setup
-# - sudoers
-if [ ! -e "/usr/local/etc/sudoers" ] && [ -e "/usr/local/etc/sudoers.dist" ] ; then
-  cp "/usr/local/etc/sudoers.dist" "/usr/local/etc/sudoers"
-fi
-# - cupsd.conf
-if [ ! -e "/usr/local/etc/cups/cupsd.conf" ] && [ -e "/usr/local/etc/cups/cupsd.conf.sample" ] ; then
-  ln -s "/usr/local/etc/cups/cupsd.conf.sample" "/usr/local/etc/cups/cupsd.conf"
-fi
-# - pulseaudio default.pa
-if [ ! -e "/usr/local/etc/pulse/default.pa" ] && [ -e "/usr/local/etc/pulse/default.pa.trident" ] ; then
-  ln -s "/usr/local/etc/pulse/default.pa.trident" "/usr/local/etc/pulse/default.pa"
-fi
-# - fonts.conf
-if [ ! -e "/usr/local/etc/fonts/fonts.conf" ] && [ -e "/usr/local/etc/fonts/fonts.conf.sample" ] ; then
-  ln -s "/usr/local/etc/fonts/fonts.conf.sample" "/usr/local/etc/fonts/fonts.conf"
-fi
-
-#Ensure that the openrc devd configs are loaded from ports as well
-grep -q "/usr/local/etc/devd-openrc" "/etc/devd.conf"
-if [ $? -ne 0 ] ; then
-  sed -i '' 's|directory "/usr/local/etc/devd";|directory "/usr/local/etc/devd";\
-	directory "/usr/local/etc/devd-openrc";|' "/etc/devd.conf"
-fi
+#Perform the system sanity check
+/usr/local/share/trident/scripts/system-sanity-check.sh
 
 
 #TrueOS 18.06-18.08 Bug Bypass (8/23/18 - Ken Moore)
