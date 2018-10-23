@@ -1,0 +1,1225 @@
+Summary of changes
+----------------
+New Packages (80):
+Removed Packages (311):
+Updated Packages (817):
+
+----------------
+New Packages (80):
+----------------
+adol-c : 2.6.3
+bagel : 1.1.2.21
+bundy : 0.20170618_10
+cargo-audit : 0.5.2
+coursier : 1.0.1
+drm-kmod : g20180930
+dwatch-json : 0.4.1
+gnome-getting-started-docs : 3.28.2
+gnome-shell-extension-windowoverlay-icons : 0.0.0.20171103
+gnome-themes-extra : 3.28
+gnome-tweaks : 3.28.1
+jsonrpc-glib : 3.28.1
+kdeconnect-kde-kde4 : 0.7.2_7
+kicad-library-footprints : 5.0.0
+kicad-library-packages3d : 5.0.0
+kicad-library-symbols : 5.0.0
+kicad-library-tmpl : 5.0.0
+libb2 : 0.98_1
+libdazzle : 3.28.3
+libgrss : 0.7.0
+libopusenc : 0.2
+libyang : 0.16_2
+nanoflann : 1.3.0
+ocaml-camlidl : 1.05_2
+onionscan : 0.2
+p5-Devel-BeginLift : 0.001003_1
+p5-Spreadsheet-GenerateXLSX : 0.04
+p5-Sub-Alias : 0.03_1
+p5-Text-Table-XLSX : 0.001
+potnet : 0.1.1_1
+poudriere-trueos : 20181007
+psftools : 1.0.10
+puppet6 : 6.0.2
+puppetdb-terminus6 : 6.0.0
+puppetdb6 : 6.0.0
+puppetserver6 : 6.0.1
+py27-apitran : g20180926
+py27-btest : 0.58
+py27-cassandra-driver : 3.15.1
+py27-deepdiff : 3.3.0
+py27-django-taggit-serializer : 0.1.7
+py27-gau2grid : 1.2.0
+py27-graphillion : 1.2
+py27-jsonpickle : 1.0
+py27-pytest-xprocess : 0.12.1
+py36-btest : 0.58
+py36-cassandra-driver : 3.15.1
+py36-deepdiff : 3.3.0
+py36-django-taggit-serializer : 0.1.7
+py36-gau2grid : 1.2.0
+py36-graphillion : 1.2
+py36-jsonpickle : 1.0
+py36-libiocage : 0.3.1
+py36-libtorrent-rasterbar : 1.1.10_1
+py36-pytest-xprocess : 0.12.1
+R-cran-forcats : 0.3.0
+R-cran-openxlsx : 4.1.0
+R-cran-rematch : 1.0.1
+R-cran-zip : 1.0.0
+rejik : 3.2.11_6
+rubygem-c21e : 1.1.5
+rubygem-cucumber-formatter-dots : 1.1.0
+rubygem-cucumber-messages : 1.1.2
+rubygem-puppetserver-ca : 1.1.1
+sam2p : 0.49.4,1
+sccache : 2.8.0.a0
+scribus-devel : 1.5.4
+sequeler : 0.6.2
+serendipity : 2.1.4
+squid : 4.3
+squidGuard : 1.4_15
+stepsync : 1.0
+template-glib : 3.28.0
+tracker-miners : 2.0.5
+tRNAscan-SE : 2.0.0_1
+u-boot-pinebook : 2018.09_3
+unit-go : 1.4
+vlc3 : 3.0.4,4
+zabbix4-frontend : 4.0.0
+zabbix4-java : 4.0.0
+
+----------------
+Removed Packages (311):
+----------------
+ace
+akonadi
+akonadi-calendar
+akonadi-calendar-tools
+akonadi-contacts
+akonadi-import-wizard
+akonadi-mime
+akonadi-notes
+akonadi-search
+akonadiconsole
+akregator
+altyo
+apsfilter
+arpack
+arpack-ng-mpich
+atk-reference
+audiocd-kio
+automx
+baloo-widgets
+bibletime
+bomber
+bovo
+cairo-reference
+calendarsupport
+calibre
+calligra
+calligraplan
+cantor
+choqok
+cutegram
+dft_tools
+digikam
+diligent
+dnscrypt-proxy
+dnsviz
+dnsviz-py36
+dolphin
+dolphin-plugins
+domoticz
+eric6-qt5-py27
+eric6-qt5-py36
+erlang-protobuffs
+eventviews
+freeze
+fuel
+gdm
+ghostwriter
+gitterdone
+gnome-desktop-reference
+gnome-initial-setup
+gnome-session
+gnome-shell-extension-overlay-icons
+gnome-themes-standard
+gnome-tweak-tool
+gnome3-lite
+gnustep-slideshow
+gnustep-slideshowkit
+gpsim
+granatier
+grantlee-editor
+grilo-plugins2
+grilo2
+gtk3-reference
+gtkextra
+gwenview
+hpijs
+incidenceeditor
+ja-spamassassin
+k3b
+kaccounts-integration
+kaccounts-providers
+kaddressbook
+kalarm
+kalarmcal
+kalzium
+kamoso
+kapman
+katomic
+kblackbox
+kblocks
+kblog
+kbounce
+kbreakout
+kcalcore
+kcalutils
+kchmviewer
+kde-baseapps
+kde-telepathy
+kde5
+kdeedu
+kdegames
+kdegraphics
+kdemultimedia
+kdenlive
+kdepim
+kdepim-addons
+kdepim-apps-libs
+kdepim-runtime
+kdesdk
+kdeutils
+kdev-php
+kdev-python
+kdevelop
+kdialog
+kdiamond
+kexi
+kf5-frameworks
+kf5-kdelibs4support
+kf5-kdesignerplugin
+kf5-kdewebkit
+kf5-kholidays
+kf5-purpose
+kf5-style-qtcurve
+kfind
+kfloppy
+kfourinline
+kget
+kgoldrunner
+kgpg
+khelpcenter
+kidentitymanagement
+kig
+kigo
+kile
+killbots
+kimagemapeditor
+kimap
+kio-extras
+kio-gdrive
+kipiplugins
+kiriki
+kitinerary
+kjumpingcube
+kldap
+kleopatra
+klettres
+klickety
+klines
+kmahjongg
+kmail
+kmail-account-wizard
+kmailtransport
+kmbox
+kmime
+kmines
+kmix
+kmplot
+kmymoney
+knavalbattle
+knetwalk
+knotes
+kolf
+kollision
+kolourpaint
+konqueror
+konquest
+konsole
+kontact
+kontactinterface
+kopete
+korganizer
+kpat
+kphotoalbum
+kpimtextedit
+kreport
+kreversi
+kshisen
+ksirk
+ksmtp
+ksnakeduel
+kspaceduel
+ksquares
+ksudoku
+ktnef
+ktorrent
+ktp-accounts-kcm
+ktp-approver
+ktp-auth-handler
+ktp-call-ui
+ktp-common-internals
+ktp-contact-list
+ktp-contact-runner
+ktp-desktop-applets
+ktp-filetransfer-handler
+ktp-kded-module
+ktp-send-file
+ktp-text-ui
+ktuberling
+kturtle
+kubrick
+kvasd
+kwalletmanager
+kwordquiz
+labplot
+latexila
+libgravatar
+libkcompactdisc
+libkdegames
+libkdepim
+libkgapi
+libkgeomap
+libkleo
+libksieve
+libkvkontakte
+libsoup-reference
+lskat
+luminance-hdr-qt5
+mailcommon
+mailimporter
+marble
+mbox-importer
+merkaartor
+messagelib
+mosquitto
+mousetweaks
+mudmagic
+musescore
+mutt-lite
+mythplugin-mythmusic
+mythtv
+mythtv-frontend
+ncs
+nextcloudclient
+nzbget
+obs-qtwebkit
+okular
+osc
+otter-browser
+owncloudclient
+p5-ExtUtils-Command
+p5-IDNA-Punycode
+p5-Search-Binary
+palapeli
+pango-reference
+pantheon-terminal
+pc-webkitviewer
+php56-pecl-mosquitto
+picmi
+pim-data-exporter
+pim-sieve-editor
+pimcommon
+pl-kadu
+plasma5-kde-cli-tools
+plasma5-kdeplasma-addons
+plasma5-kgamma5
+plasma5-khotkeys
+plasma5-kinfocenter
+plasma5-kmenuedit
+plasma5-kscreenlocker
+plasma5-ksysguard
+plasma5-kwin
+plasma5-libksysguard
+plasma5-plasma
+plasma5-plasma-desktop
+plasma5-plasma-sdk
+plasma5-plasma-workspace
+plasma5-powerdevil
+plasma5-user-manager
+psi
+py27-adb
+py27-m2crypto
+py27-qt5
+py27-qt5-demo
+py27-qt5-webkit
+py27-qt5-webkitwidgets
+py36-adb
+py36-m2crypto
+py36-OpenLP
+py36-qt5
+py36-qt5-demo
+py36-qt5-webkit
+py36-qt5-webkitwidgets
+py36-spyder
+qcad
+qmc2
+qt5
+qt5-webkit
+quassel
+quiterss
+qutebrowser
+rkward-kde
+rocs
+RStudio
+rubygem-fog-google13
+rubygem-gemnasium-gitlab-service
+rubygem-rainbow2
+scudcloud-py36
+sdr-wspr
+shotcut
+sigil
+signon-ui
+skrooge
+soundkonverter
+step
+supercollider
+teamwords
+texmaker
+tribler
+triqs
+trojita
+trueos-desktop
+trueos-toolchain
+ugene
+umbrello
+waterfox
+webvfx-qt5
+wsjt
+wspr
+yakuake
+zanshin
+zeal
+
+----------------
+Updated Packages (817):
+----------------
+accerciser : 3.14.0_1 -> 3.22.0
+accountsservice : 0.6.40 -> 0.6.42
+acpica-tools : 20180810 -> 20181003
+adwaita-icon-theme : 3.22.0 -> 3.28.0
+aircrack-ng : 1.3_1 -> 1.4
+aisleriot : 3.22.2_5 -> 3.22.5
+alacritty : g20180717 -> 0.2.0
+amass : 2.7.0_1 -> 2.7.0.8
+anjuta : 3.18.2_6 -> 3.28.0
+aom : 1.0.0 -> 1.0.0.733
+apache24 : 2.4.34 -> 2.4.35
+appstream-glib : 0.5.7 -> 0.7.8
+arpack-ng : 3.5.0_2 -> 3.6.3_1
+at-spi2-atk : 2.24.0 -> 2.26.2
+at-spi2-core : 2.24.0 -> 2.28.0
+atf-allwinner : 1.2.20180112 -> 1.2.20180403
+atk : 2.24.0 -> 2.28.1
+aubio : 0.4.6_1 -> 0.4.7
+audacity : 2.2.2_3 -> 2.3.0
+aws-sdk-cpp : 1.6.11 -> 1.6.20
+awscli : 1.16.16 -> 1.16.28
+babeld : 1.8.1 -> 1.8.2
+babl : 0.1.48_1 -> 0.1.56
+baobab : 3.24.0 -> 3.28.0
+barony : 3.2.1 -> 3.2.2
+bat : 0.6.1 -> 0.7.1_1
+bfs : 1.2.3 -> 1.2.4
+bijiben : 3.18.2_9 -> 3.28.3
+bind9-devel : 9.13.1.a0.2018.09.11_1 -> 9.13.1.a0.2018.09.28_1
+bison : 3.0.5,1 -> 3.1,1
+bitcoin : 0.16.2 -> 0.16.3
+bitcoin-daemon : 0.16.2_2 -> 0.16.3_2
+bitcoin-utils : 0.16.2 -> 0.16.3
+bmake : 20180512 -> 20180919
+bosh-bootloader : 6.10.0 -> 6.10.12
+bosh-cli : 5.2.2 -> 5.3.1
+botan2 : 2.7.0 -> 2.8.0
+c-icap : 0.5.3,2 -> 0.5.5,2
+c-icap-modules : 0.5.1 -> 0.5.2
+cairo : 1.14.8_3,2 -> 1.15.12,2
+cantarell-fonts : 0.0.25 -> 0.101
+catch : 2.4.0 -> 2.4.1
+ccache : 3.4.2_1 -> 3.4.3
+ccache-memcached : 3.4.2_1 -> 3.5.dev.20180926
+ccache-memcached-static : 3.4.2_1 -> 3.5.dev.20180926
+ccache-static : 3.4.2_1 -> 3.4.3
+cctz : 2.1_1 -> 2.2_1
+cf : 6.38.0 -> 6.39.1
+cfengine-devel : 3.2018.09.05 -> 3.2018.09.25
+cfengine-masterfiles-devel : 3.2018.09.05 -> 3.2018.09.25
+cheese : 3.18.1_2 -> 3.28.0
+CheMPS2 : 1.8.7_2 -> 1.8.8
+citra-qt5 : s20180909 -> s20181005
+citra : s20180909 -> s20181005
+clamav : 0.100.1_1 -> 0.100.2
+clamav-milter : 0.100.1_1 -> 0.100.2
+clang-devel : 8.d20180913 -> 8.d20181001
+clipper : 2.1.20180526_1 -> 2.1.20180802
+cloc : 1.78 -> 1.80
+clover : 18.1.8 -> 18.1.9
+clutter-gst : 2.0.16_1 -> 2.0.18
+clutter-gst3 : 3.0.14_1 -> 3.0.26
+clutter-gtk3 : 1.8.2 -> 1.8.4
+cmake : 3.12.1 -> 3.12.2
+cmake-doc : 3.12.1 -> 3.12.2
+cmake-gui : 3.12.1 -> 3.12.2
+cockroach : 2.0.2 -> 2.0.5
+codequery : 0.21.0_1 -> 0.21.1
+coffeescript : 2.3.1 -> 2.3.2
+colord : 1.2.12 -> 1.3.5
+consolekit2 : 1.2.0 -> 1.2.1
+coreutils : 8.28 -> 8.30
+davix : 0.6.8 -> 0.6.9_1
+dconf : 0.26.1 -> 0.28.0
+dconf-editor : 3.22.1 -> 3.28.0
+de-mediathekview : 13.2.0 -> 13.2.1
+de-mythes : 2018.09.16 -> 2018.09.30
+debhelper : 11.4 -> 11.4.1
+devhelp : 3.24.0_4 -> 3.28.1
+dnsmasq-devel : 2.80.t6,2 -> 2.80.t7,2
+docbook-xsl : 1.76.1,1 -> 1.79.1,1
+doctl : 1.9.0 -> 1.10.0
+dovecot : 2.3.2.1_1 -> 2.3.3
+dovecot-pigeonhole : 0.5.2_3 -> 0.5.3
+eksctl : 0.1.2 -> 0.1.5
+elixir-excoveralls : 0.10.0 -> 0.10.1
+eog : 3.24.1 -> 3.28.2
+eog-plugins : 3.16.6 -> 3.26.2
+epiphany : 3.24.2_7 -> 3.28.3.1
+epson-inkjet-printer-escpr : 1.6.21 -> 1.6.30
+erlang-runtime21 : 21.0.9 -> 21.1
+evince : 3.26.0_1 -> 3.28.2_1
+evince-lite : 3.26.0_1 -> 3.28.2_1
+evolution : 3.24.2_6 -> 3.28.3
+evolution-data-server : 3.24.2_11 -> 3.28.3
+evolution-ews : 3.24.2_6 -> 3.28.3
+fakeroot : 1.22 -> 1.23
+fancybox : 3.4.2 -> 3.5.0
+file-roller : 3.26.1,1 -> 3.28.0,1
+firefox : 62.0.2,1 -> 62.0.3,1
+firefox-esr : 60.2.1,1 -> 60.2.2,1
+firefox-esr-i18n : 60.2.1 -> 60.2.2
+firefox-i18n : 62.0.2 -> 62.0.3
+five-or-more : 3.22.2 -> 3.28.0
+flare-engine : 1.07 -> 1.08
+flare-game : 1.07 -> 1.08
+flatbuffers : 1.9.0_1 -> 1.10.0
+foomatic-db : 20180911 -> 20180926
+fossil : 2.6_1,2 -> 2.7,2
+four-in-a-row : 3.22.1 -> 3.28.0
+fwknop : 2.6.9_2 -> 2.6.10
+fzy : 0.9 -> 1.0
+gcab : 0.8 -> 1.0
+gcalcli : 3.2_3 -> 3.4.0
+gcc6-devel : 6.4.1.s20180919 -> 6.4.1.s20180926
+gcc7-devel : 7.3.1.s20180920 -> 7.3.1.s20181004
+gcc8-devel : 8.2.1.s20180921 -> 8.2.1.s20181005
+gcc9-devel : 9.0.0.s20180916 -> 9.0.0.s20180930
+gcr : 3.18.0 -> 3.28.0
+gdb : 8.1.1 -> 8.2
+gdk-pixbuf2 : 2.36.11 -> 2.36.12
+gdl : 3.22.0 -> 3.28.0
+geary : 0.12.1_1 -> 0.12.2
+gedit : 3.22.0_2 -> 3.28.1
+gedit-plugins : 3.18.0_2 -> 3.28.1
+geoclue : 2.4.3 -> 2.4.7
+geocode-glib : 3.18.2 -> 3.26.0
+ghex : 3.18.0 -> 3.18.3
+girara : 0.3.0_1 -> 0.3.1
+git : 2.19.0 -> 2.19.1
+git-cinnabar : 0.5.0.27 -> 0.5.0.31_1
+git-gui : 2.19.0 -> 2.19.1
+git-lite : 2.19.0 -> 2.19.1
+git-modes-emacs26_canna : 1.2.7_1,1 -> 1.2.8,1
+git-modes-emacs26_nox : 1.2.7_1,1 -> 1.2.8,1
+git-modes-emacs26 : 1.2.7_1,1 -> 1.2.8,1
+git-modes-emacs27_nox : 1.2.7_1,1 -> 1.2.8,1
+git-modes-emacs27 : 1.2.7_1,1 -> 1.2.8,1
+git-subversion : 2.19.0 -> 2.19.1
+gitaly : 0.120.0 -> 0.120.1
+gitlab-ce : 11.3.0 -> 11.3.4
+gitolite : 3.6.9,1 -> 3.6.10,1
+gjs : 1.44.0_3 -> 1.52.3
+glabels : 2.2.8_6 -> 3.4.1
+glade : 3.18.3_3 -> 3.22.1
+glib : 2.50.3_5,1 -> 2.56.1_1,1
+glib-networking : 2.50.0_1 -> 2.56.1
+glib-reference : 2.50.3_5,1 -> 2.56.1_1,1
+glibmm : 2.50.1_2,1 -> 2.56.0,1
+glibmm-reference : 2.50.1_2,1 -> 2.56.0_1,1
+gmic : 2.3.6_1 -> 2.4.0
+gnome-2048 : 3.22.0 -> 3.26.1
+gnome-autoar : 0.2.2 -> 0.2.3
+gnome-backgrounds : 3.18.0 -> 3.28.0
+gnome-builder : 3.16.2_1 -> 3.28.3
+gnome-calculator : 3.26.0_1 -> 3.28.2
+gnome-calendar : 3.18.2.1_8 -> 3.28.2
+gnome-characters : 3.18.1 -> 3.28.2
+gnome-chess : 3.24.1_1 -> 3.28.1
+gnome-clocks : 3.24.0 -> 3.28.0
+gnome-color-manager : 3.18.0_4 -> 3.28.0
+gnome-contacts : 3.18.0_6 -> 3.28.2
+gnome-control-center : 3.18.2_12 -> 3.28.2
+gnome-desktop : 3.18.2_1 -> 3.28.2
+gnome-devel-docs : 3.18.1 -> 3.28.0
+gnome-dictionary : 3.18.1 -> 3.26.1
+gnome-documents : 3.24.2_1 -> 3.28.1
+gnome-font-viewer : 3.16.2 -> 3.28.0
+gnome-keyring : 3.18.3_5 -> 3.28.2
+gnome-klotski : 3.22.1 -> 3.22.3
+gnome-maps : 3.24.3_1 -> 3.28.2
+gnome-mines : 3.24.0 -> 3.28.0
+gnome-mpv : 0.14 -> 0.15
+gnome-music : 3.18.2_2 -> 3.28.2.1
+gnome-nettool : 3.8.1,1 -> 3.8.1_1,1
+gnome-online-accounts : 3.24.1_3 -> 3.28.0
+gnome-online-miners : 3.14.3_1 -> 3.26.0
+gnome-photos : 3.24.2_3 -> 3.28.0
+gnome-power-manager : 3.18.0 -> 3.26.0
+gnome-robots : 3.22.1 -> 3.22.3
+gnome-screenshot : 3.22.0 -> 3.26.0
+gnome-settings-daemon : 3.18.2_3 -> 3.28.1
+gnome-shell : 3.18.5_10 -> 3.28.2
+gnome-shell-extension-audio-output-switcher : 0.0.0.20140520_4 -> 0.0.0.20171022
+gnome-shell-extension-coverflow : 0.0.0.20151013_1 -> 0.0.0.20180110
+gnome-shell-extension-dashtodock : 0.0.0.20151112_1 -> 0.0.0.20180510
+gnome-shell-extension-filesmenu : 0.0.0.20151025_1 -> 0.0.0.20171125
+gnome-shell-extension-hidetopbar : 0.0.0.20151025_1 -> 0.0.0.20180511
+gnome-shell-extension-lockkeys : 0.0.0.20151017_1 -> 0.0.0.20180511
+gnome-shell-extension-mediaplayer : 0.0.0.20151118 -> 0.0.0.20180316
+gnome-shell-extension-openweather : 0.0.0.20151114 -> 0.0.0.20171126
+gnome-shell-extension-panel-osd : 0.0.0.20151111 -> 0.0.0.20171023
+gnome-shell-extension-recent-items : 13 -> 15
+gnome-shell-extension-trash : 0.0.0.20150923_1 -> 0.0.0.20171125
+gnome-shell-extension-weather : 0.0.0.20151011 -> 0.0.0.20180411
+gnome-shell-extensions : 3.18.4 -> 3.28.1
+gnome-shell-extra-extensions : 3.18.0 -> 3.28
+gnome-sound-recorder : 3.18.2 -> 3.28.1
+gnome-sudoku : 3.24.0_1 -> 3.28.0
+gnome-system-monitor : 3.16.0_2 -> 3.28.2
+gnome-taquin : 3.22.0 -> 3.28.0
+gnome-terminal : 3.24.2_1 -> 3.28.2
+gnome-todo : 3.18.1_10 -> 3.28.1
+gnome-user-docs : 3.18.1 -> 3.28.2
+gnome-utils : 3.18.0,1 -> 3.26,1
+gnome-weather : 3.24.0 -> 3.26.0
+gnote : 3.18.1_11 -> 3.28.0
+gnubg : 1.06.001_1 -> 1.06.002
+gnucash : 3.2_5 -> 3.3
+gnucash-docs : 3.2 -> 3.3
+gnumeric : 1.12.28_1 -> 1.12.43
+go : 1.11,1 -> 1.11.1,1
+go-ethereum : 1.8.14 -> 1.8.16
+gobject-introspection : 1.50.0_1,1 -> 1.56.1,1
+goffice010 : 0.10.34 -> 0.10.43
+gpxsee : 5.18 -> 6.0
+graphene : 1.6.0_2 -> 1.8.2
+graphos : 0.6_1 -> 0.7
+grilo : 0.3.3 -> 0.3.4
+grilo-plugins : 0.3.4 -> 0.3.5_1
+grv : 0.2.0 -> 0.3.0
+gscan2pdf : 2.1.4 -> 2.1.6
+gsettings-desktop-schemas : 3.18.1 -> 3.28.0
+gspell : 1.4.1 -> 1.8.1
+gtk-doc : 1.25 -> 1.28
+gtk3 : 3.22.29_1 -> 3.22.30_1
+gtkmm24 : 2.24.4_3 -> 2.24.5
+gtkmm24-reference : 2.24.4_1 -> 2.24.5_1
+gtkspell3 : 3.0.8 -> 3.0.9
+gvfs : 1.26.3_10 -> 1.30.4
+haproxy-devel : 1.9.d2 -> 1.9.d3
+helm : 2.10.0_1 -> 2.11.0
+help2man : 1.47.6 -> 1.47.7
+highwayhash : g20180626 -> g20181002
+hitori : 3.22.3 -> 3.22.4
+hs-xmonad : 0.13_4 -> 0.15
+hs-xmonad-contrib : 0.13_4 -> 0.15
+hyperrogue : 10.4j -> 10.4t
+i2p : 0.9.36 -> 0.9.37
+iagno : 3.22.0 -> 3.28.0
+ibus-typing-booster : 2.1.1 -> 2.1.2
+icinga2 : 2.9.1_1 -> 2.9.2
+igmpproxy : 0.2.1,1 -> 0.2.1_1,1
+ilias : 5.3.8 -> 5.3.10
+immortal : 0.20.0 -> 0.21.0
+intel-qcu : 2.30.16.8 -> 2.30.23.0
+intellij-ultimate : 2018.2.2 -> 2018.2.3
+io_lib : 1.14.9 -> 1.14.10
+iprange : 1.0.3 -> 1.0.4
+ja-p5-Number-Phone-JP : 0.20180904 -> 0.20181001
+ja-tdiary : 5.0.9 -> 5.0.10
+jalv-select : 1.0 -> 1.2
+jenkins : 2.142 -> 2.144
+josm : 14178 -> 14289
+json-glib : 1.2.8 -> 1.4.2
+julia : 1.0.0_1 -> 1.0.1
+kafka : 1.0.0 -> 2.0.0
+kdeconnect-kde : 0.7.2_6 -> 1.3.1
+keybase : 2.6.2 -> 2.7.2
+kodi-devel : 18.0.g201809092101_1 -> 18.0.g201810021630
+krb5-devel : 1.17.2018.09.05 -> 1.17.2018.09.25
+krita : 4.1.1_3 -> 4.1.3
+ksh93-devel : 2018.09.22 -> 2018.09.25
+kstars : 2.9.7_1,1 -> 2.9.8,1
+kubectl : 1.11.3 -> 1.12.1
+lazygit : 0.2.1 -> 0.3.1
+leatherman : 1.5.0 -> 1.5.1
+libchamplain : 0.12.15 -> 0.12.16
+libdap : 3.19.1 -> 3.20.0
+libdmapsharing : 2.9.24_2 -> 2.9.39
+libepc : 0.4.4_2 -> 0.4.6
+libepoxy : 1.4.3 -> 1.5.2
+libextractor : 1.3_11 -> 1.7
+libgdata : 0.17.8 -> 0.17.9
+libgee : 0.18.1 -> 0.20.1
+libgepub : 0.4_1 -> 0.6.0
+libgnome-games-support : 1.2.2 -> 1.4.1
+libgnomekbd : 3.6.0_2 -> 3.26.0
+libgsf : 1.14.41 -> 1.14.44
+libgtop : 2.32.0 -> 2.38.0
+libgweather : 3.24.1 -> 3.28.2
+libgxps : 0.2.5 -> 0.3.0
+libical : 2.0.0_6 -> 3.0.3
+liblrdf : 0.5.0_11 -> 0.6.1
+libmediaart : 1.9.1 -> 1.9.4
+libmesode : 0.9.1 -> 0.9.2
+libnghttp2 : 1.33.0 -> 1.34.0
+libosmesa : 18.1.8_1 -> 18.1.9
+libpeas : 1.20.0 -> 1.22.0
+libressl-devel : 2.8.0 -> 2.8.1
+libsoup : 2.54.1 -> 2.62.2
+libsoup-gnome : 2.54.1 -> 2.62.2
+libtomcrypt : 1.18.1_1 -> 1.18.2
+libtorrent-rasterbar : 1.1.9 -> 1.1.10
+libva : 2.2.0_2 -> 2.3.0
+libva-utils : 2.2.0 -> 2.3.0
+libwebsockets : 2.2.2 -> 2.4.2
+libwnck3 : 3.14.0 -> 3.24.1
+libxcb : 1.13 -> 1.13.1
+libxlsxwriter : 0.8.2 -> 0.8.3
+lightsoff : 3.24.0_1 -> 3.28.0
+llvm-devel : 8.0.d20180913 -> 8.0.d20181001
+lmms : 1.1.3_3,2 -> 1.2.0.r7,2
+lua52-stdlib-debug : 1.0 -> 1.0.1
+lua52-stdlib-normalize : 2.0.1 -> 2.0.2
+lynis : 2.6.8 -> 2.6.9
+manaplus : 1.8.4.14 -> 1.8.9.1
+mantis-php56 : 2.17.0,1 -> 2.17.1,1
+mantis-php70 : 2.17.0,1 -> 2.17.1,1
+mantis-php71 : 2.17.0,1 -> 2.17.1,1
+mantis-php72 : 2.17.0,1 -> 2.17.1,1
+mapserver : 7.0.7_1 -> 7.2.1
+mariadb102-client : 10.2.17 -> 10.2.18
+mariadb102-server : 10.2.17 -> 10.2.18
+mDNSResponder : 878.30.4 -> 878.70.2
+mdp : 1.0.14 -> 1.0.15
+meld : 3.18.0 -> 3.18.2
+mesa-dri : 18.1.8_1 -> 18.1.9
+mesa-libs : 18.1.8_1 -> 18.1.9
+metacity : 3.18.1_4 -> 3.18.3
+mg : 20180408 -> 20180927
+minder-app : 1.1.0 -> 1.1.1
+minikube : 0.28.2 -> 0.30.0
+mk-livestatus : 1.2.8p18 -> 1.2.8p20
+mkgmap : r4240 -> r4244
+mkvtoolnix : 26.0.0 -> 27.0.0
+mm-common : 0.9.9 -> 0.9.12
+mod_php56 : 5.6.37 -> 5.6.38
+mpop : 1.2.6 -> 1.4.0
+msmtp : 1.6.8 -> 1.8.0
+multimarkdown : 6.3.2 -> 6.4.0
+munin-common : 2.0.40 -> 2.0.42
+munin-master : 2.0.40 -> 2.0.42
+munin-node : 2.0.40_1 -> 2.0.42
+mutter : 3.18.4_3 -> 3.28.2
+namesilo_ddns : 2.1_1 -> 2.2
+nano : 3.0_1 -> 3.1
+nautilus : 3.18.5_1 -> 3.28.1
+nautilus-sendto : 3.8.2 -> 3.8.3
+netbox : 2.3.7 -> 2.4.4
+networkmgr : 2.8 -> 3.0
+newsboat : 2.12_2 -> 2.13
+nextcloud-notes-php56 : 2.4.1 -> 2.4.2
+nextcloud-notes-php70 : 2.4.1 -> 2.4.2
+nextcloud-notes-php71 : 2.4.1 -> 2.4.2
+nextcloud-notes-php72 : 2.4.1 -> 2.4.2
+nextcloud-php56 : 14.0.0 -> 14.0.1
+nextcloud-php70 : 14.0.0 -> 14.0.1
+nextcloud-php71 : 14.0.0 -> 14.0.1
+nextcloud-php72 : 14.0.0 -> 14.0.1
+nghttp2 : 1.33.0 -> 1.34.0
+nginx-devel : 1.15.3_1 -> 1.15.5_1
+node : 10.10.0 -> 10.11.0
+notification-daemon : 3.18.1 -> 3.20.0
+ns3 : 3.28.1 -> 3.29
+nsd : 4.1.24 -> 4.1.25
+nuitka-py27 : 0.5.33 -> 0.6.0
+nuitka-py36 : 0.5.33 -> 0.6.0
+nuster : 1.8.8.3 -> 2.0.2.18
+nvidia-driver : 390.77_2 -> 390.87
+nx : 2.1.0_1 -> 2.2.0
+octave-forge-financial : 0.5.1_5 -> 0.5.2
+octave-forge-symbolic : 2.7.0_2 -> 2.7.1
+okteta : 17.12.3 -> 0.25.3,1
+open-vm-tools : 10.2.5_4,2 -> 10.3.0,2
+open-vm-tools-nox11 : 10.2.5_4,2 -> 10.3.0,2
+openra : 20180307_4 -> 20180923
+opus-tools : 0.1.10 -> 0.2
+orca : 3.18.2 -> 3.28.2
+osinfo-db : 20180903 -> 20180920
+p5-Astro-satpass : 0.101 -> 0.102
+p5-Astro-SpaceTrack : 0.117 -> 0.118
+p5-BSON : 1.8.0 -> 1.8.1
+p5-Catalyst-Runtime : 5.90118 -> 5.90119
+p5-Glib-Object-Introspection : 0.045 -> 0.046
+p5-Modern-Perl : 1.20180901 -> 1.20180928
+p5-Mojolicious : 8.0 -> 8.02
+p5-Net-IPv6Addr : 0.91 -> 0.93
+p5-Net-Whois-Raw : 2.99018 -> 2.99019
+p5-PkgConfig-LibPkgConf : 0.08 -> 0.09
+p5-Socket6 : 0.28 -> 0.29
+p5-Test-Script : 1.23 -> 1.25
+p5-Text-Table-Any : 0.092 -> 0.093
+p5-XML-Feed : 0.53_1 -> 0.54
+packer : 1.2.5 -> 1.3.1
+packr : 1.13.5 -> 1.13.7
+pango : 1.42.0 -> 1.42.4
+perl5-devel : 5.29.2.62 -> 5.29.3.34
+PETSc : 3.9.4_1 -> 3.10.1
+phoronix-test-suite-php56 : 8.0.1 -> 8.2.0
+phoronix-test-suite-php70 : 8.0.1 -> 8.2.0
+phoronix-test-suite-php71 : 8.0.1 -> 8.2.0
+phoronix-test-suite-php72 : 8.0.1 -> 8.2.0
+php56 : 5.6.37 -> 5.6.38
+php56-bcmath : 5.6.37 -> 5.6.38
+php56-bz2 : 5.6.37 -> 5.6.38
+php56-calendar : 5.6.37 -> 5.6.38
+php56-ctype : 5.6.37 -> 5.6.38
+php56-curl : 5.6.37 -> 5.6.38
+php56-dba : 5.6.37 -> 5.6.38
+php56-dom : 5.6.37 -> 5.6.38
+php56-enchant : 5.6.37 -> 5.6.38
+php56-exif : 5.6.37 -> 5.6.38
+php56-fileinfo : 5.6.37 -> 5.6.38
+php56-filter : 5.6.37 -> 5.6.38
+php56-ftp : 5.6.37 -> 5.6.38
+php56-gd : 5.6.37 -> 5.6.38
+php56-gettext : 5.6.37 -> 5.6.38
+php56-gmp : 5.6.37 -> 5.6.38
+php56-hash : 5.6.37 -> 5.6.38
+php56-horde : 5.2.19 -> 5.2.20
+php56-horde-kronolith : 4.2.24 -> 4.2.25
+php56-horde-nag : 4.2.18 -> 4.2.19
+php56-iconv : 5.6.37 -> 5.6.38
+php56-imap : 5.6.37 -> 5.6.38
+php56-interbase : 5.6.37_1 -> 5.6.38
+php56-json : 5.6.37 -> 5.6.38
+php56-ldap : 5.6.37 -> 5.6.38
+php56-mbstring : 5.6.37 -> 5.6.38
+php56-mcrypt : 5.6.37 -> 5.6.38
+php56-mssql : 5.6.37 -> 5.6.38
+php56-mysql : 5.6.37 -> 5.6.38
+php56-mysqli : 5.6.37 -> 5.6.38
+php56-odbc : 5.6.37 -> 5.6.38
+php56-opcache : 5.6.37 -> 5.6.38
+php56-openssl : 5.6.37 -> 5.6.38
+php56-pcntl : 5.6.37 -> 5.6.38
+php56-pdo_dblib : 5.6.37 -> 5.6.38
+php56-pdo_firebird : 5.6.37_1 -> 5.6.38
+php56-pdo_mysql : 5.6.37 -> 5.6.38
+php56-pdo_odbc : 5.6.37 -> 5.6.38
+php56-pdo_pgsql : 5.6.37 -> 5.6.38
+php56-pdo_sqlite : 5.6.37 -> 5.6.38
+php56-pdo : 5.6.37 -> 5.6.38
+php56-pear-horde-Horde_Core : 2.31.5 -> 2.31.6
+php56-pear-Net_SMTP : 1.8.0 -> 1.8.1
+php56-pear-PHP_CodeSniffer : 3.3.1 -> 3.3.2
+php56-pgsql : 5.6.37 -> 5.6.38
+php56-phar : 5.6.37 -> 5.6.38
+php56-posix : 5.6.37 -> 5.6.38
+php56-pspell : 5.6.37 -> 5.6.38
+php56-readline : 5.6.37 -> 5.6.38
+php56-recode : 5.6.37 -> 5.6.38
+php56-session : 5.6.37 -> 5.6.38
+php56-shmop : 5.6.37 -> 5.6.38
+php56-simplexml : 5.6.37 -> 5.6.38
+php56-snmp : 5.6.37 -> 5.6.38
+php56-soap : 5.6.37 -> 5.6.38
+php56-sockets : 5.6.37 -> 5.6.38
+php56-sqlite3 : 5.6.37 -> 5.6.38
+php56-sybase_ct : 5.6.37 -> 5.6.38
+php56-sysvmsg : 5.6.37 -> 5.6.38
+php56-sysvsem : 5.6.37 -> 5.6.38
+php56-sysvshm : 5.6.37 -> 5.6.38
+php56-tidy : 5.6.37 -> 5.6.38
+php56-tokenizer : 5.6.37 -> 5.6.38
+php56-wddx : 5.6.37 -> 5.6.38
+php56-xml : 5.6.37 -> 5.6.38
+php56-xmlreader : 5.6.37 -> 5.6.38
+php56-xmlrpc : 5.6.37 -> 5.6.38
+php56-xmlwriter : 5.6.37 -> 5.6.38
+php56-xsl : 5.6.37 -> 5.6.38
+php56-zip : 5.6.37 -> 5.6.38
+php56-zlib : 5.6.37 -> 5.6.38
+php70-horde : 5.2.19 -> 5.2.20
+php70-horde-kronolith : 4.2.24 -> 4.2.25
+php70-horde-nag : 4.2.18 -> 4.2.19
+php70-pear-horde-Horde_Core : 2.31.5 -> 2.31.6
+php70-pear-Net_SMTP : 1.8.0 -> 1.8.1
+php70-pear-PHP_CodeSniffer : 3.3.1 -> 3.3.2
+php71-horde : 5.2.19 -> 5.2.20
+php71-horde-kronolith : 4.2.24 -> 4.2.25
+php71-horde-nag : 4.2.18 -> 4.2.19
+php71-pear-horde-Horde_Core : 2.31.5 -> 2.31.6
+php71-pear-Net_SMTP : 1.8.0 -> 1.8.1
+php71-pear-PHP_CodeSniffer : 3.3.1 -> 3.3.2
+php72-horde : 5.2.19 -> 5.2.20
+php72-horde-kronolith : 4.2.24 -> 4.2.25
+php72-horde-nag : 4.2.18 -> 4.2.19
+php72-pear-horde-Horde_Core : 2.31.5 -> 2.31.6
+php72-pear-Net_SMTP : 1.8.0 -> 1.8.1
+php72-pear-PHP_CodeSniffer : 3.3.1 -> 3.3.2
+phplist : 3.3.1 -> 3.3.4
+picard-plugins : 2.0.20180816 -> 2.0.20180917
+pikopixel : 1.0.b9.c,1 -> 1.0.b9.c_1,1
+pkgconf : 1.4.2,1 -> 1.5.3,1
+pl-hunspell : 20180915 -> 20180925
+plexmediaserver : 1.13.5.5332 -> 1.13.8.5395
+plexmediaserver-plexpass : 1.13.7.5369 -> 1.13.8.5395
+pmd : 6.7.0 -> 6.8.0
+polari : 3.18.1 -> 3.28.0
+pootle : 2.5.1.3_3 -> 2.8.2
+prestashop : 1.7.4.2 -> 1.7.4.3
+pulseaudio-module-xrdp : 0.1 -> 0.2
+py27-ansible25 : 2.5.8 -> 2.5.9
+py27-applicationinsights : 0.11.6 -> 0.11.7
+py27-atspi : 2.24.0 -> 2.26.0
+py27-aubio : 0.4.6_1 -> 0.4.7
+py27-biom-format : 2.1.6_2 -> 2.1.7
+py27-botocore : 1.12.6 -> 1.12.18
+py27-cyipopt : 0.1.8 -> 0.1.9
+py27-dbus : 1.2.0_1 -> 1.2.8
+py27-deprecation : 2.0.5 -> 2.0.6
+py27-distlib : 0.2.7 -> 0.2.8
+py27-django : 1.11.15 -> 1.11.16
+py27-django-mptt : 0.9.0_3 -> 0.9.1
+py27-django111 : 1.11.15 -> 1.11.16
+py27-dns-lexicon : 2.7.0 -> 2.7.9
+py27-fail2ban : 0.10.3.1_1 -> 0.10.4
+py27-fakeredis : 0.13.1 -> 0.14.0
+py27-filelock : 3.0.8 -> 3.0.9
+py27-flexget : 2.14.21,1 -> 2.14.24,1
+py27-fusepy : 2.0.4 -> 3.0.1
+py27-gobject3 : 3.18.2 -> 3.28.3
+py27-google-api-core : 1.4.0 -> 1.4.1
+py27-gsd : 1.5.3 -> 1.5.4
+py27-hypothesis : 3.71.10 -> 3.71.11
+py27-jaraco.functools : 1.19 -> 1.20
+py27-jenkins-job-builder : 2.4.0 -> 2.5.0
+py27-libpeas : 1.20.0 -> 1.22.0
+py27-libsass : 0.15.0 -> 0.15.1
+py27-libtorrent-rasterbar : 1.1.9 -> 1.1.10_1
+py27-libzfs : 1.0.20180328 -> 1.0.20181003
+py27-limnoria : 2016.06.29 -> 2018.09.09
+py27-markdown2 : 2.3.5 -> 2.3.6
+py27-matrix-synapse : 0.33.3.1 -> 0.33.5.1
+py27-metpy : 0.9.1 -> 0.9.2
+py27-mido : 1.2.8 -> 1.2.9
+py27-ncclient : 0.6.2 -> 0.6.3
+py27-numpy : 1.15.0,1 -> 1.15.1,1
+py27-oslo.cache : 1.30.1 -> 1.31.0
+py27-packaging : 17.1 -> 18.0
+py27-paramiko : 2.4.0 -> 2.4.1
+py27-petsc4py : 3.9.1_1 -> 3.10.0
+py27-pgcli : 1.10.3 -> 1.11.0
+py27-pickleshare : 0.7.4 -> 0.7.5
+py27-pillow : 5.0.0 -> 5.2.0
+py27-pip-tools : 2.0.2 -> 3.0.0
+py27-poyo : 0.4.1 -> 0.4.2
+py27-prometheus-client : 0.3.1 -> 0.4.0
+py27-pybind11 : 2.2.1_1 -> 2.2.4
+py27-pycups : 1.9.73_1 -> 1.9.74
+py27-pyhull : 2015.2.0_1 -> 2015.2.1
+py27-pylons-sphinx-themes : 1.0.8 -> 1.0.10
+py27-pynacl : 1.2.1_1 -> 1.3.0
+py27-pyparsing : 2.2.1 -> 2.2.2
+py27-relatorio : 0.8.0 -> 0.8.1
+py27-requests-file : 1.4.2 -> 1.4.3
+py27-rwt : 4.1 -> 4.4
+py27-salt : 2018.3.1 -> 2018.3.2
+py27-setuptools : 40.0.0 -> 40.4.3
+py27-slepc4py : 3.9.0_2 -> 3.10.0
+py27-softlayer : 5.5.2 -> 5.5.3
+py27-tempora : 1.12 -> 1.13
+py27-tinyarray : 1.2.0 -> 1.2.1
+py27-tmuxp : 1.4.0 -> 1.4.2
+py27-twilio : 6.17.0 -> 6.18.0
+py27-txtorcon : 18.0.2 -> 18.1.0
+py27-ucl : 0.8.0 -> 0.8.1
+py34-numpy : 1.15.0,1 -> 1.15.1,1
+py34-setuptools : 40.0.0 -> 40.4.3
+py35-numpy : 1.15.0,1 -> 1.15.1,1
+py35-setuptools : 40.0.0 -> 40.4.3
+py36-ansible25 : 2.5.8 -> 2.5.9
+py36-applicationinsights : 0.11.6 -> 0.11.7
+py36-atspi : 2.24.0 -> 2.26.0
+py36-aubio : 0.4.6_1 -> 0.4.7
+py36-biom-format : 2.1.6_2 -> 2.1.7
+py36-botocore : 1.12.6 -> 1.12.18
+py36-cyipopt : 0.1.8 -> 0.1.9
+py36-dbus : 1.2.0_1 -> 1.2.8
+py36-deprecation : 2.0.5 -> 2.0.6
+py36-diffoscope : 99 -> 103
+py36-distlib : 0.2.7 -> 0.2.8
+py36-django : 1.11.15 -> 1.11.16
+py36-django-mptt : 0.9.0_3 -> 0.9.1
+py36-django111 : 1.11.15 -> 1.11.16
+py36-django20 : 2.0.8 -> 2.0.9
+py36-django21 : 2.1.1 -> 2.1.2
+py36-dns-lexicon : 2.7.0 -> 2.7.9
+py36-fail2ban : 0.10.3.1_1 -> 0.10.4
+py36-fakeredis : 0.13.1 -> 0.14.0
+py36-filelock : 3.0.8 -> 3.0.9
+py36-flexget : 2.14.21,1 -> 2.14.24,1
+py36-fusepy : 2.0.4 -> 3.0.1
+py36-gobject3 : 3.18.2 -> 3.28.3
+py36-google-api-core : 1.4.0 -> 1.4.1
+py36-gsd : 1.5.3 -> 1.5.4
+py36-hypothesis : 3.71.10 -> 3.71.11
+py36-jaraco.functools : 1.19 -> 1.20
+py36-jenkins-job-builder : 2.4.0 -> 2.5.0
+py36-libpeas : 1.20.0 -> 1.22.0
+py36-libsass : 0.15.0 -> 0.15.1
+py36-libzfs : 1.0.20180328 -> 1.0.20181003
+py36-limnoria : 2016.06.29 -> 2018.09.09
+py36-markdown2 : 2.3.5 -> 2.3.6
+py36-matrix-synapse : 0.33.3.1 -> 0.33.5.1
+py36-metpy : 0.9.1 -> 0.9.2
+py36-mido : 1.2.8 -> 1.2.9
+py36-mnemosyne : 2.6,1 -> 2.6.1,1
+py36-ncclient : 0.6.2 -> 0.6.3
+py36-numpy : 1.15.0,1 -> 1.15.1,1
+py36-oslo.cache : 1.30.1 -> 1.31.0
+py36-packaging : 17.1 -> 18.0
+py36-paramiko : 2.4.0 -> 2.4.1
+py36-petsc4py : 3.9.1_1 -> 3.10.0
+py36-pgcli : 1.10.3 -> 1.11.0
+py36-pickleshare : 0.7.4 -> 0.7.5
+py36-pillow : 5.0.0 -> 5.2.0
+py36-pip-tools : 2.0.2 -> 3.0.0
+py36-poyo : 0.4.1 -> 0.4.2
+py36-prometheus-client : 0.3.1 -> 0.4.0
+py36-pybind11 : 2.2.1_1 -> 2.2.4
+py36-pycups : 1.9.73_1 -> 1.9.74
+py36-pyhull : 2015.2.0_1 -> 2015.2.1
+py36-pylons-sphinx-themes : 1.0.8 -> 1.0.10
+py36-pynacl : 1.2.1_1 -> 1.3.0
+py36-pyparsing : 2.2.1 -> 2.2.2
+py36-relatorio : 0.8.0 -> 0.8.1
+py36-requests-file : 1.4.2 -> 1.4.3
+py36-rwt : 4.1 -> 4.4
+py36-salt : 2018.3.1 -> 2018.3.2
+py36-setuptools : 40.0.0 -> 40.4.3
+py36-slepc4py : 3.9.0_2 -> 3.10.0
+py36-softlayer : 5.5.2 -> 5.5.3
+py36-spot : 2.6.1 -> 2.6.2
+py36-tempora : 1.12 -> 1.13
+py36-termtosvg : 0.4.0 -> 0.5.0
+py36-tinyarray : 1.2.0 -> 1.2.1
+py36-tmuxp : 1.4.0 -> 1.4.2
+py36-twilio : 6.17.0 -> 6.18.0
+py36-txtorcon : 18.0.2 -> 18.1.0
+py36-ucl : 0.8.0 -> 0.8.1
+py37-numpy : 1.15.0,1 -> 1.15.1,1
+py37-setuptools : 40.0.0 -> 40.4.3
+pybind11 : 2.2.2_1 -> 2.2.4
+pydbus-common : 1.2.0_2 -> 1.2.8
+pygobject3-common : 3.18.2 -> 3.28.3
+qjackctl : 0.5.3_1 -> 0.5.4.1
+qmapshack : 1.11.1_1 -> 1.12.0
+qt5-3d : 5.11.1 -> 5.11.2
+qt5-assistant : 5.11.1 -> 5.11.2
+qt5-buildtools : 5.11.1 -> 5.11.2
+qt5-canvas3d : 5.11.1 -> 5.11.2
+qt5-charts : 5.11.1 -> 5.11.2
+qt5-concurrent : 5.11.1 -> 5.11.2
+qt5-connectivity : 5.11.1 -> 5.11.2
+qt5-core : 5.11.1 -> 5.11.2
+qt5-datavis3d : 5.11.1 -> 5.11.2
+qt5-dbus : 5.11.1 -> 5.11.2
+qt5-designer : 5.11.1 -> 5.11.2
+qt5-doc : 5.11.1 -> 5.11.2
+qt5-examples : 5.11.1 -> 5.11.2
+qt5-gamepad : 5.11.1 -> 5.11.2
+qt5-graphicaleffects : 5.11.1 -> 5.11.2
+qt5-gui : 5.11.1 -> 5.11.2
+qt5-help : 5.11.1 -> 5.11.2
+qt5-imageformats : 5.11.1 -> 5.11.2
+qt5-l10n : 5.11.1 -> 5.11.2
+qt5-linguist : 5.11.1 -> 5.11.2
+qt5-linguisttools : 5.11.1 -> 5.11.2
+qt5-location : 5.11.1 -> 5.11.2
+qt5-multimedia : 5.11.1 -> 5.11.2_1
+qt5-network : 5.11.1_1 -> 5.11.2_1
+qt5-opengl : 5.11.1 -> 5.11.2
+qt5-pixeltool : 5.11.1 -> 5.11.2
+qt5-printsupport : 5.11.1 -> 5.11.2
+qt5-qdbus : 5.11.1 -> 5.11.2
+qt5-qdbusviewer : 5.11.1 -> 5.11.2
+qt5-qdoc : 5.11.1 -> 5.11.2
+qt5-qdoc-data : 5.11.1 -> 5.11.2
+qt5-qev : 5.11.1 -> 5.11.2
+qt5-qmake : 5.11.1 -> 5.11.2
+qt5-qml : 5.11.1 -> 5.11.2
+qt5-qtdiag : 5.11.1 -> 5.11.2
+qt5-qtpaths : 5.11.1 -> 5.11.2
+qt5-qtplugininfo : 5.11.1 -> 5.11.2
+qt5-quick : 5.11.1 -> 5.11.2
+qt5-quickcontrols : 5.11.1 -> 5.11.2
+qt5-quickcontrols2 : 5.11.1 -> 5.11.2
+qt5-script : 5.11.1 -> 5.11.2
+qt5-scripttools : 5.11.1 -> 5.11.2
+qt5-scxml : 5.11.1 -> 5.11.2
+qt5-sensors : 5.11.1 -> 5.11.2
+qt5-serialbus : 5.11.1 -> 5.11.2
+qt5-serialport : 5.11.1 -> 5.11.2
+qt5-speech : 5.11.1 -> 5.11.2
+qt5-sql : 5.11.1 -> 5.11.2
+qt5-sqldrivers-ibase : 5.11.1 -> 5.11.2
+qt5-sqldrivers-mysql : 5.11.1 -> 5.11.2
+qt5-sqldrivers-odbc : 5.11.1 -> 5.11.2
+qt5-sqldrivers-pgsql : 5.11.1 -> 5.11.2
+qt5-sqldrivers-sqlite2 : 5.11.1 -> 5.11.2
+qt5-sqldrivers-sqlite3 : 5.11.1 -> 5.11.2
+qt5-sqldrivers-tds : 5.11.1 -> 5.11.2
+qt5-svg : 5.11.1 -> 5.11.2
+qt5-testlib : 5.11.1 -> 5.11.2
+qt5-uiplugin : 5.11.1 -> 5.11.2
+qt5-uitools : 5.11.1 -> 5.11.2
+qt5-virtualkeyboard : 5.11.1 -> 5.11.2
+qt5-webchannel : 5.11.1 -> 5.11.2
+qt5-websockets : 5.11.1 -> 5.11.2
+qt5-websockets-qml : 5.11.1 -> 5.11.2
+qt5-widgets : 5.11.1 -> 5.11.2
+qt5-x11extras : 5.11.1 -> 5.11.2
+qt5-xml : 5.11.1 -> 5.11.2
+qt5-xmlpatterns : 5.11.1 -> 5.11.2
+qt5ct : 0.35 -> 0.36
+R-cran-cli : 1.0.0 -> 1.0.1
+R-cran-data.table : 1.11.4 -> 1.11.6
+R-cran-doParallel : 1.0.11_1 -> 1.0.14
+R-cran-expm : 0.999.2_1 -> 0.999.3
+R-cran-later : 0.7.4 -> 0.7.5
+R-cran-maptools : 0.9.3 -> 0.9.4
+R-cran-robustbase : 0.93.2 -> 0.93.3
+R-cran-TTR : 0.23.3 -> 0.23.4
+R-cran-units : 0.6.0 -> 0.6.1
+R-cran-zoo : 1.8.3 -> 1.8.4
+rabbitmq : 3.7.7_1 -> 3.7.8
+racer : 2.0.14 -> 2.1.5_1
+raster3d : 3.0.2_12 -> 3.0.3_2
+riscv64-gcc : 7.2.0_5 -> 8.1.0
+rspamd : 1.7.9_1 -> 1.8.0
+rubygem-authlogic : 4.4.1 -> 4.4.2
+rubygem-aws-sdk : 2.11.134 -> 2.11.140
+rubygem-aws-sdk-core : 2.11.134 -> 2.11.140
+rubygem-aws-sdk-resources : 2.11.134 -> 2.11.140
+rubygem-cucumber-core : 3.2.0 -> 3.2.1
+rubygem-dbf : 3.1.2 -> 3.1.3
+rubygem-fog-openstack : 1.0.0 -> 1.0.3
+rubygem-google-api-client : 0.24.0 -> 0.24.2
+rubygem-mini_magick : 4.9.0 -> 4.9.2
+rubygem-ovirt-engine-sdk : 4.2.4 -> 4.2.5
+rubygem-passenger-apache : 5.3.4 -> 5.3.5
+rubygem-passenger-nginx : 5.3.4 -> 5.3.5
+rubygem-r10k : 2.6.4 -> 3.0.2
+rubygem-rubocop : 0.59.1 -> 0.59.2
+rubygem-scrypt : 3.0.5 -> 3.0.6
+rubygem-signet : 0.9.2 -> 0.10.0
+rubygem-tty-prompt : 0.17.0 -> 0.17.1
+rust : 1.29.0_1 -> 1.29.1
+rust-cbindgen : 0.6.3 -> 0.6.4
+s-tui : 0.6.7.4 -> 0.8.2
+samhain : 4.2.4 -> 4.3.1
+samhain-client : 4.2.4 -> 4.3.1
+samhain-server : 4.2.4 -> 4.3.1
+sbcl : 1.4.11_1,1 -> 1.4.12,1
+sbt : 1.2.1 -> 1.2.3
+seahorse : 3.18.0_1 -> 3.20.0
+sedutil : 1.12_2 -> 1.15.1_1
+sgt-puzzles : 20180725 -> 20180924
+shotwell : 0.30.0 -> 0.30.1
+sk-mythes : 2018.09.16 -> 2018.09.30
+ski : 6.11 -> 6.12
+slepc : 3.9.2_2 -> 3.10.0
+spamassassin : 3.4.1_12 -> 3.4.2
+spot : 2.6.1_1 -> 2.6.2
+sshguard : 2.1.0_1 -> 2.2.0
+Stikked : 0.12.0_1 -> 0.13.0
+stonesoup : 0.22.0 -> 0.22.1
+stonesoup-sdl : 0.22.0 -> 0.22.1
+stress-ng : 0.09.40 -> 0.09.41
+strongswan : 5.6.3 -> 5.7.1
+sushi : 3.18.0_2 -> 3.28.3
+swell-foop : 3.24.0_1 -> 3.28.0
+synth : 2.05 -> 2.06
+tbb : 2018.5 -> 2019
+tcpflow : 1.4.5_8 -> 1.5.0
+tdiary : 5.0.9 -> 5.0.10
+tea : 46.0.0 -> 46.3.0
+telepathy-logger : 0.8.1_1 -> 0.8.2
+thunderbird : 60.1.0 -> 60.2.1
+thunderbird-i18n : 60.1.0 -> 60.2.1
+timescaledb : 0.12.0 -> 0.12.1
+tinker : 7.1.3_5 -> 8.4.4
+totem : 3.18.1_6 -> 3.26.1
+totem-pl-parser : 3.10.8 -> 3.26.1
+tracker : 1.6.1_14 -> 2.0.4
+traefik : 1.6.6 -> 1.7.1
+translate-toolkit : 2.2.4_1 -> 2.2.5
+treeline : 3.0.0 -> 3.0.1
+trezord : 2.0.21 -> 2.0.24.5
+trident-core : 201810080936 -> 201810171137
+tuptime : 3.3.3 -> 3.4.0
+turnserver : 4.5.0.7 -> 4.5.0.8
+UniversalFeedCreator : 1.8.3 -> 1.8.3.1
+upower : 0.99.4 -> 0.99.7
+urh : 2.2.4 -> 2.3.0
+vala : 0.36.15_1,1 -> 0.40.7,1
+vim : 8.1.0342 -> 8.1.0443
+vim-console : 8.1.0342 -> 8.1.0443
+vim-tiny : 8.1.0342 -> 8.1.0443
+vino : 3.18.1_2 -> 3.22.0
+vte3 : 0.50.3_1 -> 0.52.2_1
+vtwm : 5.4.99.20130906_1 -> 5.5.0
+webkit2-gtk3 : 2.20.3_2 -> 2.20.5
+wesnoth : 1.14.3_1,1 -> 1.14.5,1
+wine : 3.0.3,1 -> 3.0.3_1,1
+wine-devel : 3.16,1 -> 3.17_1,1
+wireguard : 0.0.20180918 -> 0.0.20180925
+wireguard-go : 0.0.20180613 -> 0.0.20181001
+wtf : 20180816 -> 20180919
+xf86-video-amdgpu : 1.3.0_3 -> 18.1.0
+xf86-video-ati : 7.9.0_3,1 -> 18.1.0,1
+xfce4-whiskermenu-plugin : 2.2.1 -> 2.3.0
+xrdp : 0.9.7_1,1 -> 0.9.8,1
+yafaray : 3.0.5_2 -> 3.3.0.11
+yelp : 3.22.0_2 -> 3.28.1
+yelp-tools : 3.18.0 -> 3.28.0
+yelp-xsl : 3.18.1 -> 3.28.0
+zenity : 3.18.0 -> 3.28.1
+zh-fcitx-chewing : 0.2.2 -> 0.2.3
+zh-fcitx-cloudpinyin : 0.3.4 -> 0.3.6
+zh-fcitx-rime : 0.3.1_1 -> 0.3.2
+zh-fcitx-sunpinyin : 0.4.1 -> 0.4.2
+zh-fcitx-table-extra : 0.3.7 -> 0.3.8
+zstd : 1.3.5 -> 1.3.6
