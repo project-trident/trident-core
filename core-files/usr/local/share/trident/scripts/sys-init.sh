@@ -119,15 +119,20 @@ setupLan(){
 }
 
 removeDebugPackages(){
-  pkg delete -y -g "FreeBSD-*-debug-*" "FreeBSD-*-development-*" "FreeBSD-*-profile-*"
+  pkg delete -y -g "FreeBSD-*-debug-*" "FreeBSD-*-development-*" "FreeBSD-*-profile-*" 2>/dev/null
 }
 
-#figure out if this is a laptop or not
-devinfo | grep -q acpi_acad0
+#figure out if this is a laptop, desktop, or VM (VMWare or VirtualBox only at the moment)
+pciconf -lv | grep -qiE "(vmware|innotek)"
 if [ $? -eq 0 ] ; then
-  type="laptop"
+  type="vm"
 else
-  type="desktop"
+  devinfo | grep -q acpi_acad0
+  if [ $? -eq 0 ] ; then
+    type="laptop"
+  else
+    type="desktop"
+  fi
 fi
 
 ################################################
@@ -147,7 +152,9 @@ fi
 setupZFSArc
 
 #Turn on power management service (if one is not already setup)
-setupPowerd
+if [ "type" != "vm" ] ; then
+  setupPowerd
+fi
 
 #Delete all the debugging/profiling base packages (if installed)
 removeDebugPackages

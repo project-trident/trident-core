@@ -46,9 +46,18 @@ if [ ! -e "/usr/local/etc/pcdm.conf" ] ; then
 fi
 
 # Make sure dbus machine-id file exists
-if [ ! -L /etc/runlevels/default/dbus ] ; then
+if [ ! -L "/etc/runlevels/default/dbus" ] ; then
   # QT needs a valid dbus machine-id file even if dbus is not used/started
   if [ ! -e "/var/lib/dbus/machine-id" ] ; then
     /usr/local/bin/dbus-uuidgen --ensure
+  fi
+fi
+
+#Ensure that the /sbin/service utility exists
+if [ ! -e "/sbin/service" ] ; then
+  if [ -e "/usr/sbin/service" ] ; then
+    ln -s "/usr/sbin/service" "/sbin/service"
+  else
+    echo "[WARNING] Could not find the service utility!"
   fi
 fi
