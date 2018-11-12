@@ -1,0 +1,80 @@
+#!/bin/sh
+# ==============
+# To enable this profile, add the following to /etc/rc.conf
+# firewall_script="/etc/ipfw-profiles/open-out.rules"
+# ==============
+
+# Flush out the list before we begin.
+ipfw -q -f flush
+
+# Set rules command prefix
+cmd="ipfw -q add"
+
+# No restrictions on loopback
+####################################################################
+$cmd 00020 allow all from any to any via lo0
+####################################################################
+
+# Check the state of packets
+####################################################################
+$cmd 01000 check-state
+$cmd 01050 allow tcp from any to any established
+$cmd 01100 allow udp from any to any established
+####################################################################
+
+# Allow all outgoing packets
+####################################################################
+$cmd 02000 allow ip from any to any out keep-state
+$cmd 02050 allow ip6 from any to any out keep-state
+$cmd 02100 allow ipv6-icmp from any to any keep-state
+$cmd 02150 allow icmp from any to any keep-state
+####################################################################
+
+# Allow specific ports IN now
+# Add items to /etc/ipfw.openports in the format
+# {tcp|udp} <portnum>
+####################################################################
+nextnum=10000
+if [ -e "/etc/ipfw.openports" ] ; then
+  while read line
+  do
+    echo $line | grep -q "^#"
+    if [ $? -eq 0 ] ; then continue ; fi
+    proto="`echo $line | awk '{print $1}'`"
+    port="`echo $line | awk '{print $2}'`"
+    if [ -z "$proto" -o -z "$port" ] ; then continue ; fi
+    $cmd $nextnum allow $proto from any to any $port in keep-state
+    nextnum=`expr $nextnum + 1`
+  done < /etc/ipfw.openports
+fi
+####################################################################
+
+# Allow specific IPs incoming traffic now (Used for jails mainly)
+# Add items to /etc/ipfw.openip in the format
+# {ip4|ip6} <ip>
+####################################################################
+nextnum=20000
+if [ -e "/etc/ipfw.openip" ] ; then
+  while read line
+  do
+    echo $line | grep -q "^#"
+    if [ $? -eq 0 ] ; then continue ; fi
+    proto="`echo $line | awk '{print $1}'`"
+    ip="`echo $line | awk '{print $2}'`"
+    if [ -z "$proto" -o -z "$ip" ] ; then continue ; fi
+    $cmd $nextnum allow $proto from any to $ip in keep-state
+    nextnum=`expr $nextnum + 1`
+  done < /etc/ipfw.openip
+fi
+####################################################################
+
+
+# Deny all other incoming troublemakers
+####################################################################
+$cmd 64000 deny log all from any to any
+####################################################################
+
+# Check for user custom rules
+if [ -e "/etc/ipfw.custom" ] ; then
+  sh /etc/ipfw.custom
+fi

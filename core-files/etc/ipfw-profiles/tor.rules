@@ -1,0 +1,39 @@
+#!/bin/sh
+# ==============
+# To enable this profile, add the following to /etc/rc.conf
+# firewall_script="/etc/ipfw-profiles/tor.rules"
+# The tor service also needs to be setup and running
+# ==============
+
+# Flush out the list before we begin.
+ipfw -q -f flush
+
+# Set rules command prefix
+cmd="ipfw -q add"
+
+# Allow TOR to go in <-> out
+####################################################################
+$cmd 00010 allow ip from any to any uid _tor out keep-state
+####################################################################
+
+# Forward all TCP packets to TOR, keep state
+####################################################################
+$cmd 00030 fwd 127.0.0.1,9040 tcp from any to any out keep-state
+####################################################################
+
+# Allow everything to localhost
+####################################################################
+$cmd 00050 allow all from localhost to localhost via lo0
+####################################################################
+
+# Check the state of packets
+####################################################################
+$cmd 00050 check-state
+$cmd 00100 allow ip from any to any established
+$cmd 00115 allow udp from any to localhost 53 keep-state
+####################################################################
+
+# Deny all other incoming troublemakers
+####################################################################
+$cmd 01500 deny log all from any to any
+####################################################################
