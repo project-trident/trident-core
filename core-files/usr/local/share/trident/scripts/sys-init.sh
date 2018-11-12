@@ -119,7 +119,7 @@ setupLan(){
 }
 
 removeDebugPackages(){
-  pkg delete -y -g "FreeBSD-*-debug-*" "FreeBSD-*-development-*" "FreeBSD-*-profile-*" 2>/dev/null
+  pkg delete -y -g "OS-*-debug-*" "OS-*-development-*" "OS-*-profile-*" 2>/dev/null
 }
 
 #figure out if this is a laptop, desktop, or VM (VMWare or VirtualBox only at the moment)
