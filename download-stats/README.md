@@ -15,9 +15,12 @@ File download statistics from the package server. The raw statistics files are c
 | 18.06-BETA1 | 8/31/2018 | 7 | - | - | First public version. Pre-download tracking |
 | 18.06-BETA2 | 9/6/2018 | 19 | 52676 | 83 | Most of the downloads were from the same users. Working out mirroring solutions |
 | 18.06-BETA3 | 9/25/2018 | 13 | 18933 | 0 | Updates from BETA2 via trueos-update were completely broken. |
-| 18.06-RC1 | 10/8/2018 | | | |
+| 18.06-RC1 | 10/08/2018 | 9 | ? | ? | Download stats from October corrupted/unknown
+| 18.06-RC2 | 10/17/2018 | 24 | ? | ? | Download stats from October corrupted/unknown
+| 18.11-RC3 | 11/10/2018 | | | |
 
 ## Monthly Summaries
-| Month | Days | Number of days | Unique Users | Files Downloaded | Repo Manifest (#Systems) | 
-|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|
+| Month | Days | Number of days | Unique Users | Files Downloaded | Repo Manifest (#Systems) | Notes |
+|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:---:|
 |2018, 09| 5-30 | 27 | 2282 | 336470 | 14798 |
+|2018, 10| 1-31 | 31 | ? | ? | ? | logfile empty - nginx was not saving stats. Auto-nginx restart put in place every month to prevent this again.
