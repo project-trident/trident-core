@@ -1,0 +1,4694 @@
+Summary of changes
+----------------
+New Packages (2005):
+Removed Packages (1255):
+Updated Packages (1417):
+
+----------------
+New Packages (2005):
+----------------
+ace : 6.5.2
+akonadi : 18.08.2
+akonadi-calendar : 18.08.2
+akonadi-calendar-tools : 18.08.2
+akonadi-contacts : 18.08.2
+akonadi-import-wizard : 18.08.2
+akonadi-mime : 18.08.2
+akonadi-notes : 18.08.2
+akonadi-search : 18.08.2
+akonadiconsole : 18.08.2
+akregator : 18.08.2
+alephone : 20150620_13
+alephone-data : 1.0_10
+alephone-scenarios : 1.0_8
+apache-xml-security-c : 2.0.1
+arcanist-php73 : 20180420_1
+asterisk16 : 16.0.0
+asterisk16-espeak : 4.0_1
+asterisk16-flite : 3.0_1
+asterisk16-g72x : 1.4.3
+astromenace : 1.4.0
+audiocd-kio : 18.08.2
+automx : 0.10.2_2
+avogadro2 : 1.91.0_1
+avogadrolibs : 1.91.0.107
+aws-sdk-php73 : 3.63.1
+axa : 2.2.0
+baloo-widgets : 18.08.2
+bcmatroska2 : 0.23
+belcard : 1.0.2
+belr : 0.1.3
+bibletime : 2.11.2
+bomber : 18.08.2
+bovo : 18.08.2
+cadence : 0.9.0.7
+calendarsupport : 18.08.2
+calibre : 3.33.1_1
+calligra : 3.1.0_4
+calligraplan : 3.1.0_1
+cantor : 18.08.2
+ccls : 0.20181024
+cddlib : 0.94j_2
+choqok : 1.6.0_1
+clickhouse : 18.12.17_1
+coordgenlibs : 1.1
+ctm : 2.0
+dbcsr : 1.0.0.r.0.40
+dcw-gmt : 1.1.4
+digikam : 5.9.0_4
+diligent : 0.2.7_5
+diskimage-tools : 0.2
+dnsviz : 0.6.7
+dnsviz-py36 : 0.6.7
+dolphin : 18.08.2
+dolphin-plugins : 18.08.2
+drm-devel-kmod : 4.16.g20181027
+drm-legacy-kmod : g20181031
+drush-php73 : 8.1.16_1
+dsdp : 5.8
+dvdrip : 0.98.11_10
+eric6-qt5-py27 : 18.10
+eric6-qt5-py36 : 18.10
+erkale : g20181009
+eventviews : 18.08.2
+exercism : 3.0.9
+flent : 1.2.2
+fntsample : 4.1
+freeswitch : 1.8.1
+freetds-devel : 1.00.410,1
+frr6 : 6.0
+fuel : 1.0.1
+gau2grid : 1.2.0
+ghostwriter : 1.7.3
+gitterdone : 201710031257
+gmt5 : 5.4.4
+gpaw-setups : 0.9.11271
+granatier : 18.08.2
+grantlee-editor : 18.08.2
+gshhg-gmt : 2.3.7
+gstreamer1-plugins-webrtcdsp : 1.12.3
+gwenview : 18.08.2
+h2o : 2.2.5_1
+haproxy17 : 1.7.11
+hs-parsec-numbers : 0.1.0
+imwheel : 1.0.0.p12_2
+incidenceeditor : 18.08.2
+intel-ix-kmod : 3.3.6_1
+ipfw2dshield : 0.5
+ja-jmode : 0.6.7_9
+ja-jmode-skk : 0.6.7_9
+k3b : 18.08.2
+kaccounts-integration : 18.08.2
+kaccounts-providers : 18.08.2
+kaddressbook : 18.08.2
+kafkacat : 1.3.1
+kak-lsp : 5.9.0
+kalarm : 18.08.2
+kalarmcal : 18.08.2
+kamoso : 18.08.2
+kapman : 18.08.2
+katomic : 18.08.2
+kblackbox : 18.08.2
+kblocks : 18.08.2
+kblog : 18.08.2
+kbounce : 18.08.2
+kbreakout : 18.08.2
+kcalcore : 18.08.2
+kcalutils : 18.08.2
+kchmviewer : 7.7_2
+kde-baseapps : 18.08.2
+kde-telepathy : 18.08.2
+kde5 : 5.12.7.18.08.2
+kdeedu : 18.08.2
+kdegames : 18.08.2
+kdegraphics : 18.08.2
+kdemultimedia : 18.08.2
+kdenlive : 18.08.2
+kdepim : 18.08.2
+kdepim-addons : 18.08.2
+kdepim-apps-libs : 18.08.2
+kdepim-runtime : 18.08.2
+kdesdk : 18.08.2
+kdeutils : 18.08.2
+kdev-php : 5.2.3_1
+kdev-python : 5.2.3_1
+kdevelop : 5.2.3_2
+kdialog : 18.08.2
+kdiamond : 18.08.2
+kexi : 3.1.0
+kf5-frameworks : 5.51.0
+kf5-kdelibs4support : 5.51.0
+kf5-kdesignerplugin : 5.51.0
+kf5-kdewebkit : 5.51.0
+kf5-kholidays : 5.51.0
+kf5-purpose : 5.51.0
+kf5-style-qtcurve : 1.9.0.r1
+kfind : 18.08.2
+kfloppy : 18.08.2
+kfourinline : 18.08.2
+kget : 18.08.2
+kgoldrunner : 18.08.2
+kgpg : 18.08.2
+khelpcenter : 18.08.2
+kiconvtool : 0.99
+kidentitymanagement : 18.08.2
+kig : 18.08.2
+kigo : 18.08.2
+kile : 3.0.b2
+killbots : 18.08.2
+kimagemapeditor : 18.08.2
+kimap : 18.08.2
+kio-extras : 18.08.2
+kio-gdrive : 1.2.1
+kipiplugins : 5.9.0_2
+kiriki : 18.08.2
+kitinerary : 18.08.2
+kjumpingcube : 18.08.2
+kldap : 18.08.2
+kleopatra : 18.08.2
+klettres : 18.08.2
+klg-php56 : 1.5_1
+klg-php70 : 1.5_1
+klg-php71 : 1.5_1
+klg-php72 : 1.5_1
+klg-php73 : 1.5_1
+klickety : 18.08.2
+klines : 18.08.2
+kmahjongg : 18.08.2
+kmail : 18.08.2
+kmail-account-wizard : 18.08.2
+kmailtransport : 18.08.2
+kmbox : 18.08.2
+kmime : 18.08.2
+kmines : 18.08.2
+kmix : 18.08.2
+kmplot : 18.08.2
+kmymoney : 5.0.1_1
+knavalbattle : 18.08.2
+knetwalk : 18.08.2
+knotes : 18.08.2
+kolf : 18.08.2
+kollision : 18.08.2
+kolourpaint : 18.08.2
+konqueror : 18.08.2
+konquest : 18.08.2
+konsole : 18.08.2
+kontact : 18.08.2
+kontactinterface : 18.08.2
+kopete : 18.08.2
+korganizer : 18.08.2
+kpat : 18.08.2
+kphotoalbum : 5.4
+kpimtextedit : 18.08.2
+kreport : 3.1.0
+kreversi : 18.08.2
+kshisen : 18.08.2
+ksirk : 18.08.2
+ksmtp : 18.08.2
+ksnakeduel : 18.08.2
+kspaceduel : 18.08.2
+ksquares : 18.08.2
+ksudoku : 18.08.2
+ktnef : 18.08.2
+ktorrent : 5.1.1
+ktp-accounts-kcm : 18.08.2
+ktp-approver : 18.08.2
+ktp-auth-handler : 18.08.2
+ktp-call-ui : 18.08.2
+ktp-common-internals : 18.08.2
+ktp-contact-list : 18.08.2
+ktp-contact-runner : 18.08.2
+ktp-desktop-applets : 18.08.2
+ktp-filetransfer-handler : 18.08.2
+ktp-kded-module : 18.08.2
+ktp-send-file : 18.08.2
+ktp-text-ui : 18.08.2
+ktuberling : 18.08.2
+kturtle : 18.08.2
+kubrick : 18.08.2
+kwalletmanager : 18.08.2
+kwordquiz : 18.08.2
+labplot : 2.5.0_1
+LAStools : g20181019
+latte : 1.2.1
+lib765 : 0.4.2_2
+libcelero : 2.4.0
+libdsk : 1.4.2
+libgravatar : 18.08.2
+libkcompactdisc : 18.08.2
+libkdegames : 18.08.2
+libkdepim : 18.08.2
+libkgapi : 18.08.2
+libkgeomap : 18.08.2
+libkleo : 18.08.2
+libksieve : 18.08.2
+libkvkontakte : 5.0.0_1
+liblinphone : 3.12.0
+libmsym : 0.2.3
+libpcl : 1.12
+librdkafka : 0.11.6
+linux-c6 : 6.10_1
+linux-c6-qt47-webkit : 4.7.2_4
+linux-c6-qt47-x11 : 4.7.2_6
+linux-c7-power9-functional-sim : 1.1
+lskat : 18.08.2
+luminance-hdr-qt5 : 2.4.0_25
+maeparser : 1.0.1
+mailcommon : 18.08.2
+mailimporter : 18.08.2
+mantis-php73 : 2.18.0,1
+marble : 18.08.2
+materialdesign-ttf : 2.8.94
+mbox-importer : 18.08.2
+mcelog : 161
+mediawiki131--php73 : 1.31.1
+merkaartor : 0.18.2_11
+messagelib : 18.08.2
+mfem : 3.4
+minio-client : 2018.10.18.00.40.05
+mmtf : g20180730
+mod_php73 : 7.3.0.r4
+molequeue : 0.9.0
+molgif : g20180108
+molsketch : 0.5.2
+moodle34-php73 : 3.4.5
+moodle35-php73 : 3.5.2
+mp3burn : 0.4.2_1
+mswebrtc : 1.1.1
+musescore : 2.1_2
+mysqlwsrep57-server : 5.7.23_1
+mythplugin-mythmusic : 29.1_1
+mythtv : 29.1_2,1
+mythtv-frontend : 29.1_1,1
+ncbi-cxx-toolkit : 21.0.0
+nextcloud-calendar-php73 : 1.6.2
+nextcloud-contacts-php73 : 2.1.6
+nextcloud-mail-php73 : 0.11.0
+nextcloud-notes-php73 : 2.4.2
+nextcloud-passman-php73 : 2.1.4_1
+nextcloud-php73 : 14.0.3
+nextcloud-tasks-php73 : 0.9.7_1
+nextcloud-twofactor_totp-php73 : 1.5.0
+nextcloud-twofactor_u2f-php73 : 1.6.1
+nextcloudclient : 0.0.0.20180323_2
+nuttcp : 8.2.2
+nvme-cli : 1.6
+nyx : 2.0.4_1
+nzbget : 20.0
+obconf-qt : 0.13.0
+obs-qtwebkit : g2018090201
+okular : 18.08.2
+openbmp : 0.14.0_2
+openmesh : 7.1
+opensaml : 3.0.0_1
+OS-acct : 13.0.2018.11.07-15.25.56
+OS-acct-debug : 13.0.2018.11.07-15.25.56
+OS-acpi : 13.0.2018.11.07-15.25.56
+OS-acpi-debug : 13.0.2018.11.07-15.25.56
+OS-amd : 13.0.2018.11.07-15.25.56
+OS-amd-debug : 13.0.2018.11.07-15.25.56
+OS-apm : 13.0.2018.11.07-15.25.56
+OS-apm-debug : 13.0.2018.11.07-15.25.56
+OS-at : 13.0.2018.11.07-15.25.56
+OS-at-debug : 13.0.2018.11.07-15.25.56
+OS-autofs : 13.0.2018.11.07-15.25.56
+OS-autofs-debug : 13.0.2018.11.07-15.25.56
+OS-bhyve : 13.0.2018.11.07-15.25.56
+OS-bhyve-debug : 13.0.2018.11.07-15.25.56
+OS-binutils : 13.0.2018.11.07-15.25.56
+OS-binutils-debug : 13.0.2018.11.07-15.25.56
+OS-bsdinstall : 13.0.2018.11.07-15.25.56
+OS-bsdinstall-debug : 13.0.2018.11.07-15.25.56
+OS-bsnmp : 13.0.2018.11.07-15.25.56
+OS-bsnmp-debug : 13.0.2018.11.07-15.25.56
+OS-bsnmp-development : 13.0.2018.11.07-15.25.56
+OS-bsnmp-lib32 : 13.0.2018.11.07-15.25.56
+OS-bsnmp-lib32-debug : 13.0.2018.11.07-15.25.56
+OS-bsnmp-lib32-development : 13.0.2018.11.07-15.25.56
+OS-bsnmp-lib32-profile : 13.0.2018.11.07-15.25.56
+OS-bsnmp-profile : 13.0.2018.11.07-15.25.56
+OS-casper : 13.0.2018.11.07-15.25.56
+OS-casper-debug : 13.0.2018.11.07-15.25.56
+OS-casper-development : 13.0.2018.11.07-15.25.56
+OS-casper-lib32 : 13.0.2018.11.07-15.25.56
+OS-casper-lib32-debug : 13.0.2018.11.07-15.25.56
+OS-casper-lib32-development : 13.0.2018.11.07-15.25.56
+OS-ccdconfig : 13.0.2018.11.07-15.25.56
+OS-ccdconfig-debug : 13.0.2018.11.07-15.25.56
+OS-clang : 13.0.2018.11.07-15.25.56
+OS-clang-debug : 13.0.2018.11.07-15.25.56
+OS-clibs : 13.0.2018.11.07-15.25.56
+OS-clibs-debug : 13.0.2018.11.07-15.25.56
+OS-clibs-development : 13.0.2018.11.07-15.25.56
+OS-clibs-lib32 : 13.0.2018.11.07-15.25.56
+OS-clibs-lib32-debug : 13.0.2018.11.07-15.25.56
+OS-clibs-lib32-development : 13.0.2018.11.07-15.25.56
+OS-clibs-lib32-profile : 13.0.2018.11.07-15.25.56
+OS-clibs-profile : 13.0.2018.11.07-15.25.56
+OS-dma : 13.0.2018.11.07-15.25.56
+OS-dma-debug : 13.0.2018.11.07-15.25.56
+OS-ee : 13.0.2018.11.07-15.25.56
+OS-ee-debug : 13.0.2018.11.07-15.25.56
+OS-examples : 13.0.2018.11.07-15.25.56
+OS-gdb : 13.0.2018.11.07-15.25.56
+OS-gdb-debug : 13.0.2018.11.07-15.25.56
+OS-hast : 13.0.2018.11.07-15.25.56
+OS-hast-debug : 13.0.2018.11.07-15.25.56
+OS-ipf : 13.0.2018.11.07-15.25.56
+OS-ipf-debug : 13.0.2018.11.07-15.25.56
+OS-ipfw : 13.0.2018.11.07-15.25.56
+OS-ipfw-debug : 13.0.2018.11.07-15.25.56
+OS-iscsi_legacy : 13.0.2018.11.07-15.25.56
+OS-iscsi_legacy-debug : 13.0.2018.11.07-15.25.56
+OS-iscsi : 13.0.2018.11.07-15.25.56
+OS-iscsi-debug : 13.0.2018.11.07-15.25.56
+OS-jail : 13.0.2018.11.07-15.25.56
+OS-jail-debug : 13.0.2018.11.07-15.25.56
+OS-jail-development : 13.0.2018.11.07-15.25.56
+OS-jail-lib32 : 13.0.2018.11.07-15.25.56
+OS-jail-lib32-debug : 13.0.2018.11.07-15.25.56
+OS-jail-lib32-development : 13.0.2018.11.07-15.25.56
+OS-jail-lib32-profile : 13.0.2018.11.07-15.25.56
+OS-jail-profile : 13.0.2018.11.07-15.25.56
+OS-kernel-generic : 13.0.2018.11.07-15.25.56
+OS-kernel-generic-debug : 13.0.2018.11.07-15.25.56
+OS-lib : 13.0.2018.11.07-15.25.56
+OS-lib-debug : 13.0.2018.11.07-15.25.56
+OS-lib-development : 13.0.2018.11.07-15.25.56
+OS-lib-lib32 : 13.0.2018.11.07-15.25.56
+OS-lib-lib32-debug : 13.0.2018.11.07-15.25.56
+OS-lib-lib32-development : 13.0.2018.11.07-15.25.56
+OS-lib80211 : 13.0.2018.11.07-15.25.56
+OS-lib80211-debug : 13.0.2018.11.07-15.25.56
+OS-lib80211-development : 13.0.2018.11.07-15.25.56
+OS-lib80211-lib32 : 13.0.2018.11.07-15.25.56
+OS-lib80211-lib32-debug : 13.0.2018.11.07-15.25.56
+OS-lib80211-lib32-development : 13.0.2018.11.07-15.25.56
+OS-lib80211-lib32-profile : 13.0.2018.11.07-15.25.56
+OS-lib80211-profile : 13.0.2018.11.07-15.25.56
+OS-libalias : 13.0.2018.11.07-15.25.56
+OS-libalias-debug : 13.0.2018.11.07-15.25.56
+OS-libalias-development : 13.0.2018.11.07-15.25.56
+OS-libalias-lib32 : 13.0.2018.11.07-15.25.56
+OS-libalias-lib32-debug : 13.0.2018.11.07-15.25.56
+OS-libalias-lib32-development : 13.0.2018.11.07-15.25.56
+OS-libalias-lib32-profile : 13.0.2018.11.07-15.25.56
+OS-libalias-profile : 13.0.2018.11.07-15.25.56
+OS-libarchive : 13.0.2018.11.07-15.25.56
+OS-libarchive-debug : 13.0.2018.11.07-15.25.56
+OS-libarchive-development : 13.0.2018.11.07-15.25.56
+OS-libarchive-lib32 : 13.0.2018.11.07-15.25.56
+OS-libarchive-lib32-debug : 13.0.2018.11.07-15.25.56
+OS-libarchive-lib32-development : 13.0.2018.11.07-15.25.56
+OS-libarchive-lib32-profile : 13.0.2018.11.07-15.25.56
+OS-libarchive-profile : 13.0.2018.11.07-15.25.56
+OS-libauditd : 13.0.2018.11.07-15.25.56
+OS-libauditd-debug : 13.0.2018.11.07-15.25.56
+OS-libauditd-development : 13.0.2018.11.07-15.25.56
+OS-libauditd-lib32 : 13.0.2018.11.07-15.25.56
+OS-libauditd-lib32-debug : 13.0.2018.11.07-15.25.56
+OS-libauditd-lib32-development : 13.0.2018.11.07-15.25.56
+OS-libauditd-lib32-profile : 13.0.2018.11.07-15.25.56
+OS-libauditd-profile : 13.0.2018.11.07-15.25.56
+OS-libbe : 13.0.2018.11.07-15.25.56
+OS-libbe-debug : 13.0.2018.11.07-15.25.56
+OS-libbe-development : 13.0.2018.11.07-15.25.56
+OS-libbe-lib32 : 13.0.2018.11.07-15.25.56
+OS-libbe-lib32-debug : 13.0.2018.11.07-15.25.56
+OS-libbe-lib32-development : 13.0.2018.11.07-15.25.56
+OS-libbe-lib32-profile : 13.0.2018.11.07-15.25.56
+OS-libbe-profile : 13.0.2018.11.07-15.25.56
+OS-libbegemot : 13.0.2018.11.07-15.25.56
+OS-libbegemot-debug : 13.0.2018.11.07-15.25.56
+OS-libbegemot-development : 13.0.2018.11.07-15.25.56
+OS-libbegemot-lib32 : 13.0.2018.11.07-15.25.56
+OS-libbegemot-lib32-debug : 13.0.2018.11.07-15.25.56
+OS-libbegemot-lib32-development : 13.0.2018.11.07-15.25.56
+OS-libbegemot-lib32-profile : 13.0.2018.11.07-15.25.56
+OS-libbegemot-profile : 13.0.2018.11.07-15.25.56
+OS-libblocksruntime : 13.0.2018.11.07-15.25.56
+OS-libblocksruntime-debug : 13.0.2018.11.07-15.25.56
+OS-libblocksruntime-development : 13.0.2018.11.07-15.25.56
+OS-libblocksruntime-lib32 : 13.0.2018.11.07-15.25.56
+OS-libblocksruntime-lib32-debug : 13.0.2018.11.07-15.25.56
+OS-libblocksruntime-lib32-development : 13.0.2018.11.07-15.25.56
+OS-libblocksruntime-lib32-profile : 13.0.2018.11.07-15.25.56
+OS-libblocksruntime-profile : 13.0.2018.11.07-15.25.56
+OS-libbluetooth : 13.0.2018.11.07-15.25.56
+OS-libbluetooth-debug : 13.0.2018.11.07-15.25.56
+OS-libbluetooth-development : 13.0.2018.11.07-15.25.56
+OS-libbluetooth-lib32 : 13.0.2018.11.07-15.25.56
+OS-libbluetooth-lib32-debug : 13.0.2018.11.07-15.25.56
+OS-libbluetooth-lib32-development : 13.0.2018.11.07-15.25.56
+OS-libbluetooth-lib32-profile : 13.0.2018.11.07-15.25.56
+OS-libbluetooth-profile : 13.0.2018.11.07-15.25.56
+OS-libbsdstat : 13.0.2018.11.07-15.25.56
+OS-libbsdstat-debug : 13.0.2018.11.07-15.25.56
+OS-libbsdstat-development : 13.0.2018.11.07-15.25.56
+OS-libbsdstat-lib32 : 13.0.2018.11.07-15.25.56
+OS-libbsdstat-lib32-debug : 13.0.2018.11.07-15.25.56
+OS-libbsdstat-lib32-development : 13.0.2018.11.07-15.25.56
+OS-libbsdstat-lib32-profile : 13.0.2018.11.07-15.25.56
+OS-libbsdstat-profile : 13.0.2018.11.07-15.25.56
+OS-libbsdxml : 13.0.2018.11.07-15.25.56
+OS-libbsdxml-debug : 13.0.2018.11.07-15.25.56
+OS-libbsdxml-development : 13.0.2018.11.07-15.25.56
+OS-libbsdxml-lib32 : 13.0.2018.11.07-15.25.56
+OS-libbsdxml-lib32-debug : 13.0.2018.11.07-15.25.56
+OS-libbsdxml-lib32-development : 13.0.2018.11.07-15.25.56
+OS-libbsdxml-lib32-profile : 13.0.2018.11.07-15.25.56
+OS-libbsdxml-profile : 13.0.2018.11.07-15.25.56
+OS-libbsm : 13.0.2018.11.07-15.25.56
+OS-libbsm-debug : 13.0.2018.11.07-15.25.56
+OS-libbsm-development : 13.0.2018.11.07-15.25.56
+OS-libbsm-lib32 : 13.0.2018.11.07-15.25.56
+OS-libbsm-lib32-debug : 13.0.2018.11.07-15.25.56
+OS-libbsm-lib32-development : 13.0.2018.11.07-15.25.56
+OS-libbsm-lib32-profile : 13.0.2018.11.07-15.25.56
+OS-libbsm-profile : 13.0.2018.11.07-15.25.56
+OS-libbz2 : 13.0.2018.11.07-15.25.56
+OS-libbz2-debug : 13.0.2018.11.07-15.25.56
+OS-libbz2-development : 13.0.2018.11.07-15.25.56
+OS-libbz2-lib32 : 13.0.2018.11.07-15.25.56
+OS-libbz2-lib32-debug : 13.0.2018.11.07-15.25.56
+OS-libbz2-lib32-development : 13.0.2018.11.07-15.25.56
+OS-libbz2-lib32-profile : 13.0.2018.11.07-15.25.56
+OS-libbz2-profile : 13.0.2018.11.07-15.25.56
+OS-libcalendar : 13.0.2018.11.07-15.25.56
+OS-libcalendar-debug : 13.0.2018.11.07-15.25.56
+OS-libcalendar-development : 13.0.2018.11.07-15.25.56
+OS-libcalendar-lib32 : 13.0.2018.11.07-15.25.56
+OS-libcalendar-lib32-debug : 13.0.2018.11.07-15.25.56
+OS-libcalendar-lib32-development : 13.0.2018.11.07-15.25.56
+OS-libcalendar-lib32-profile : 13.0.2018.11.07-15.25.56
+OS-libcalendar-profile : 13.0.2018.11.07-15.25.56
+OS-libcam : 13.0.2018.11.07-15.25.56
+OS-libcam-debug : 13.0.2018.11.07-15.25.56
+OS-libcam-development : 13.0.2018.11.07-15.25.56
+OS-libcam-lib32 : 13.0.2018.11.07-15.25.56
+OS-libcam-lib32-debug : 13.0.2018.11.07-15.25.56
+OS-libcam-lib32-development : 13.0.2018.11.07-15.25.56
+OS-libcam-lib32-profile : 13.0.2018.11.07-15.25.56
+OS-libcam-profile : 13.0.2018.11.07-15.25.56
+OS-libcasper : 13.0.2018.11.07-15.25.56
+OS-libcasper-debug : 13.0.2018.11.07-15.25.56
+OS-libcasper-development : 13.0.2018.11.07-15.25.56
+OS-libcasper-lib32 : 13.0.2018.11.07-15.25.56
+OS-libcasper-lib32-debug : 13.0.2018.11.07-15.25.56
+OS-libcasper-lib32-development : 13.0.2018.11.07-15.25.56
+OS-libcom_err : 13.0.2018.11.07-15.25.56
+OS-libcom_err-debug : 13.0.2018.11.07-15.25.56
+OS-libcom_err-development : 13.0.2018.11.07-15.25.56
+OS-libcom_err-lib32 : 13.0.2018.11.07-15.25.56
+OS-libcom_err-lib32-debug : 13.0.2018.11.07-15.25.56
+OS-libcom_err-lib32-development : 13.0.2018.11.07-15.25.56
+OS-libcom_err-lib32-profile : 13.0.2018.11.07-15.25.56
+OS-libcom_err-profile : 13.0.2018.11.07-15.25.56
+OS-libcompat : 13.0.2018.11.07-15.25.56
+OS-libcompat-development : 13.0.2018.11.07-15.25.56
+OS-libcompat-lib32-development : 13.0.2018.11.07-15.25.56
+OS-libcompat-lib32-profile : 13.0.2018.11.07-15.25.56
+OS-libcompat-profile : 13.0.2018.11.07-15.25.56
+OS-libcompiler_rt : 13.0.2018.11.07-15.25.56
+OS-libcompiler_rt-development : 13.0.2018.11.07-15.25.56
+OS-libcompiler_rt-lib32 : 13.0.2018.11.07-15.25.56
+OS-libcompiler_rt-lib32-development : 13.0.2018.11.07-15.25.56
+OS-libcompiler_rt-lib32-profile : 13.0.2018.11.07-15.25.56
+OS-libcompiler_rt-profile : 13.0.2018.11.07-15.25.56
+OS-libcrypt : 13.0.2018.11.07-15.25.56
+OS-libcrypt-debug : 13.0.2018.11.07-15.25.56
+OS-libcrypt-development : 13.0.2018.11.07-15.25.56
+OS-libcrypt-lib32 : 13.0.2018.11.07-15.25.56
+OS-libcrypt-lib32-debug : 13.0.2018.11.07-15.25.56
+OS-libcrypt-lib32-development : 13.0.2018.11.07-15.25.56
+OS-libcrypt-lib32-profile : 13.0.2018.11.07-15.25.56
+OS-libcrypt-profile : 13.0.2018.11.07-15.25.56
+OS-libcuse : 13.0.2018.11.07-15.25.56
+OS-libcuse-debug : 13.0.2018.11.07-15.25.56
+OS-libcuse-development : 13.0.2018.11.07-15.25.56
+OS-libcuse-lib32 : 13.0.2018.11.07-15.25.56
+OS-libcuse-lib32-debug : 13.0.2018.11.07-15.25.56
+OS-libcuse-lib32-development : 13.0.2018.11.07-15.25.56
+OS-libcuse-lib32-profile : 13.0.2018.11.07-15.25.56
+OS-libcuse-profile : 13.0.2018.11.07-15.25.56
+OS-libdevctl : 13.0.2018.11.07-15.25.56
+OS-libdevctl-debug : 13.0.2018.11.07-15.25.56
+OS-libdevctl-development : 13.0.2018.11.07-15.25.56
+OS-libdevctl-lib32 : 13.0.2018.11.07-15.25.56
+OS-libdevctl-lib32-debug : 13.0.2018.11.07-15.25.56
+OS-libdevctl-lib32-development : 13.0.2018.11.07-15.25.56
+OS-libdevctl-lib32-profile : 13.0.2018.11.07-15.25.56
+OS-libdevctl-profile : 13.0.2018.11.07-15.25.56
+OS-libdevinfo : 13.0.2018.11.07-15.25.56
+OS-libdevinfo-debug : 13.0.2018.11.07-15.25.56
+OS-libdevinfo-development : 13.0.2018.11.07-15.25.56
+OS-libdevinfo-lib32 : 13.0.2018.11.07-15.25.56
+OS-libdevinfo-lib32-debug : 13.0.2018.11.07-15.25.56
+OS-libdevinfo-lib32-development : 13.0.2018.11.07-15.25.56
+OS-libdevinfo-lib32-profile : 13.0.2018.11.07-15.25.56
+OS-libdevinfo-profile : 13.0.2018.11.07-15.25.56
+OS-libdevstat : 13.0.2018.11.07-15.25.56
+OS-libdevstat-debug : 13.0.2018.11.07-15.25.56
+OS-libdevstat-development : 13.0.2018.11.07-15.25.56
+OS-libdevstat-lib32 : 13.0.2018.11.07-15.25.56
+OS-libdevstat-lib32-debug : 13.0.2018.11.07-15.25.56
+OS-libdevstat-lib32-development : 13.0.2018.11.07-15.25.56
+OS-libdevstat-lib32-profile : 13.0.2018.11.07-15.25.56
+OS-libdevstat-profile : 13.0.2018.11.07-15.25.56
+OS-libdpv : 13.0.2018.11.07-15.25.56
+OS-libdpv-debug : 13.0.2018.11.07-15.25.56
+OS-libdpv-development : 13.0.2018.11.07-15.25.56
+OS-libdpv-lib32 : 13.0.2018.11.07-15.25.56
+OS-libdpv-lib32-debug : 13.0.2018.11.07-15.25.56
+OS-libdpv-lib32-development : 13.0.2018.11.07-15.25.56
+OS-libdpv-lib32-profile : 13.0.2018.11.07-15.25.56
+OS-libdpv-profile : 13.0.2018.11.07-15.25.56
+OS-libdwarf : 13.0.2018.11.07-15.25.56
+OS-libdwarf-debug : 13.0.2018.11.07-15.25.56
+OS-libdwarf-development : 13.0.2018.11.07-15.25.56
+OS-libdwarf-lib32 : 13.0.2018.11.07-15.25.56
+OS-libdwarf-lib32-debug : 13.0.2018.11.07-15.25.56
+OS-libdwarf-lib32-development : 13.0.2018.11.07-15.25.56
+OS-libdwarf-lib32-profile : 13.0.2018.11.07-15.25.56
+OS-libdwarf-profile : 13.0.2018.11.07-15.25.56
+OS-libefivar : 13.0.2018.11.07-15.25.56
+OS-libefivar-debug : 13.0.2018.11.07-15.25.56
+OS-libefivar-development : 13.0.2018.11.07-15.25.56
+OS-libefivar-lib32 : 13.0.2018.11.07-15.25.56
+OS-libefivar-lib32-debug : 13.0.2018.11.07-15.25.56
+OS-libefivar-lib32-development : 13.0.2018.11.07-15.25.56
+OS-libefivar-lib32-profile : 13.0.2018.11.07-15.25.56
+OS-libefivar-profile : 13.0.2018.11.07-15.25.56
+OS-libeinfo : 13.0.2018.11.07-15.25.56
+OS-libeinfo-debug : 13.0.2018.11.07-15.25.56
+OS-libeinfo-development : 13.0.2018.11.07-15.25.56
+OS-libeinfo-lib32 : 13.0.2018.11.07-15.25.56
+OS-libeinfo-lib32-debug : 13.0.2018.11.07-15.25.56
+OS-libeinfo-lib32-development : 13.0.2018.11.07-15.25.56
+OS-libeinfo-lib32-profile : 13.0.2018.11.07-15.25.56
+OS-libeinfo-profile : 13.0.2018.11.07-15.25.56
+OS-libelf : 13.0.2018.11.07-15.25.56
+OS-libelf-debug : 13.0.2018.11.07-15.25.56
+OS-libelf-development : 13.0.2018.11.07-15.25.56
+OS-libelf-lib32 : 13.0.2018.11.07-15.25.56
+OS-libelf-lib32-debug : 13.0.2018.11.07-15.25.56
+OS-libelf-lib32-development : 13.0.2018.11.07-15.25.56
+OS-libelf-lib32-profile : 13.0.2018.11.07-15.25.56
+OS-libelf-profile : 13.0.2018.11.07-15.25.56
+OS-libelftc : 13.0.2018.11.07-15.25.56
+OS-libelftc-development : 13.0.2018.11.07-15.25.56
+OS-libevent : 13.0.2018.11.07-15.25.56
+OS-libevent-debug : 13.0.2018.11.07-15.25.56
+OS-libevent-development : 13.0.2018.11.07-15.25.56
+OS-libevent-lib32 : 13.0.2018.11.07-15.25.56
+OS-libevent-lib32-debug : 13.0.2018.11.07-15.25.56
+OS-libevent-lib32-development : 13.0.2018.11.07-15.25.56
+OS-libevent-lib32-profile : 13.0.2018.11.07-15.25.56
+OS-libevent-profile : 13.0.2018.11.07-15.25.56
+OS-libexecinfo : 13.0.2018.11.07-15.25.56
+OS-libexecinfo-debug : 13.0.2018.11.07-15.25.56
+OS-libexecinfo-development : 13.0.2018.11.07-15.25.56
+OS-libexecinfo-lib32 : 13.0.2018.11.07-15.25.56
+OS-libexecinfo-lib32-debug : 13.0.2018.11.07-15.25.56
+OS-libexecinfo-lib32-development : 13.0.2018.11.07-15.25.56
+OS-libexecinfo-lib32-profile : 13.0.2018.11.07-15.25.56
+OS-libexecinfo-profile : 13.0.2018.11.07-15.25.56
+OS-libfetch : 13.0.2018.11.07-15.25.56
+OS-libfetch-debug : 13.0.2018.11.07-15.25.56
+OS-libfetch-development : 13.0.2018.11.07-15.25.56
+OS-libfetch-lib32 : 13.0.2018.11.07-15.25.56
+OS-libfetch-lib32-debug : 13.0.2018.11.07-15.25.56
+OS-libfetch-lib32-development : 13.0.2018.11.07-15.25.56
+OS-libfetch-lib32-profile : 13.0.2018.11.07-15.25.56
+OS-libfetch-profile : 13.0.2018.11.07-15.25.56
+OS-libfigpar : 13.0.2018.11.07-15.25.56
+OS-libfigpar-debug : 13.0.2018.11.07-15.25.56
+OS-libfigpar-development : 13.0.2018.11.07-15.25.56
+OS-libfigpar-lib32 : 13.0.2018.11.07-15.25.56
+OS-libfigpar-lib32-debug : 13.0.2018.11.07-15.25.56
+OS-libfigpar-lib32-development : 13.0.2018.11.07-15.25.56
+OS-libfigpar-lib32-profile : 13.0.2018.11.07-15.25.56
+OS-libfigpar-profile : 13.0.2018.11.07-15.25.56
+OS-libgeom : 13.0.2018.11.07-15.25.56
+OS-libgeom-debug : 13.0.2018.11.07-15.25.56
+OS-libgeom-development : 13.0.2018.11.07-15.25.56
+OS-libgeom-lib32 : 13.0.2018.11.07-15.25.56
+OS-libgeom-lib32-debug : 13.0.2018.11.07-15.25.56
+OS-libgeom-lib32-development : 13.0.2018.11.07-15.25.56
+OS-libgeom-lib32-profile : 13.0.2018.11.07-15.25.56
+OS-libgeom-profile : 13.0.2018.11.07-15.25.56
+OS-libgpio : 13.0.2018.11.07-15.25.56
+OS-libgpio-debug : 13.0.2018.11.07-15.25.56
+OS-libgpio-development : 13.0.2018.11.07-15.25.56
+OS-libgpio-lib32 : 13.0.2018.11.07-15.25.56
+OS-libgpio-lib32-debug : 13.0.2018.11.07-15.25.56
+OS-libgpio-lib32-development : 13.0.2018.11.07-15.25.56
+OS-libgpio-lib32-profile : 13.0.2018.11.07-15.25.56
+OS-libgpio-profile : 13.0.2018.11.07-15.25.56
+OS-libgssapi : 13.0.2018.11.07-15.25.56
+OS-libgssapi-debug : 13.0.2018.11.07-15.25.56
+OS-libgssapi-development : 13.0.2018.11.07-15.25.56
+OS-libgssapi-lib32 : 13.0.2018.11.07-15.25.56
+OS-libgssapi-lib32-debug : 13.0.2018.11.07-15.25.56
+OS-libgssapi-lib32-development : 13.0.2018.11.07-15.25.56
+OS-libgssapi-lib32-profile : 13.0.2018.11.07-15.25.56
+OS-libgssapi-profile : 13.0.2018.11.07-15.25.56
+OS-libifconfig-development : 13.0.2018.11.07-15.25.56
+OS-libifconfig-lib32-development : 13.0.2018.11.07-15.25.56
+OS-libifconfig-lib32-profile : 13.0.2018.11.07-15.25.56
+OS-libifconfig-profile : 13.0.2018.11.07-15.25.56
+OS-libipsec : 13.0.2018.11.07-15.25.56
+OS-libipsec-debug : 13.0.2018.11.07-15.25.56
+OS-libipsec-development : 13.0.2018.11.07-15.25.56
+OS-libipsec-lib32 : 13.0.2018.11.07-15.25.56
+OS-libipsec-lib32-debug : 13.0.2018.11.07-15.25.56
+OS-libipsec-lib32-development : 13.0.2018.11.07-15.25.56
+OS-libipsec-lib32-profile : 13.0.2018.11.07-15.25.56
+OS-libipsec-profile : 13.0.2018.11.07-15.25.56
+OS-libipt : 13.0.2018.11.07-15.25.56
+OS-libipt-debug : 13.0.2018.11.07-15.25.56
+OS-libipt-development : 13.0.2018.11.07-15.25.56
+OS-libipt-profile : 13.0.2018.11.07-15.25.56
+OS-libkiconv : 13.0.2018.11.07-15.25.56
+OS-libkiconv-debug : 13.0.2018.11.07-15.25.56
+OS-libkiconv-development : 13.0.2018.11.07-15.25.56
+OS-libkiconv-lib32 : 13.0.2018.11.07-15.25.56
+OS-libkiconv-lib32-debug : 13.0.2018.11.07-15.25.56
+OS-libkiconv-lib32-development : 13.0.2018.11.07-15.25.56
+OS-libkiconv-lib32-profile : 13.0.2018.11.07-15.25.56
+OS-libkiconv-profile : 13.0.2018.11.07-15.25.56
+OS-libkvm : 13.0.2018.11.07-15.25.56
+OS-libkvm-debug : 13.0.2018.11.07-15.25.56
+OS-libkvm-development : 13.0.2018.11.07-15.25.56
+OS-libkvm-lib32 : 13.0.2018.11.07-15.25.56
+OS-libkvm-lib32-debug : 13.0.2018.11.07-15.25.56
+OS-libkvm-lib32-development : 13.0.2018.11.07-15.25.56
+OS-libkvm-lib32-profile : 13.0.2018.11.07-15.25.56
+OS-libkvm-profile : 13.0.2018.11.07-15.25.56
+OS-libldns : 13.0.2018.11.07-15.25.56
+OS-libldns-debug : 13.0.2018.11.07-15.25.56
+OS-libldns-development : 13.0.2018.11.07-15.25.56
+OS-libldns-lib32 : 13.0.2018.11.07-15.25.56
+OS-libldns-lib32-debug : 13.0.2018.11.07-15.25.56
+OS-libldns-lib32-development : 13.0.2018.11.07-15.25.56
+OS-libldns-lib32-profile : 13.0.2018.11.07-15.25.56
+OS-libldns-profile : 13.0.2018.11.07-15.25.56
+OS-liblzma : 13.0.2018.11.07-15.25.56
+OS-liblzma-debug : 13.0.2018.11.07-15.25.56
+OS-liblzma-development : 13.0.2018.11.07-15.25.56
+OS-liblzma-lib32 : 13.0.2018.11.07-15.25.56
+OS-liblzma-lib32-debug : 13.0.2018.11.07-15.25.56
+OS-liblzma-lib32-development : 13.0.2018.11.07-15.25.56
+OS-liblzma-lib32-profile : 13.0.2018.11.07-15.25.56
+OS-liblzma-profile : 13.0.2018.11.07-15.25.56
+OS-libmagic : 13.0.2018.11.07-15.25.56
+OS-libmagic-debug : 13.0.2018.11.07-15.25.56
+OS-libmagic-development : 13.0.2018.11.07-15.25.56
+OS-libmagic-lib32 : 13.0.2018.11.07-15.25.56
+OS-libmagic-lib32-debug : 13.0.2018.11.07-15.25.56
+OS-libmagic-lib32-development : 13.0.2018.11.07-15.25.56
+OS-libmagic-lib32-profile : 13.0.2018.11.07-15.25.56
+OS-libmagic-profile : 13.0.2018.11.07-15.25.56
+OS-libmd : 13.0.2018.11.07-15.25.56
+OS-libmd-debug : 13.0.2018.11.07-15.25.56
+OS-libmd-development : 13.0.2018.11.07-15.25.56
+OS-libmd-lib32 : 13.0.2018.11.07-15.25.56
+OS-libmd-lib32-debug : 13.0.2018.11.07-15.25.56
+OS-libmd-lib32-development : 13.0.2018.11.07-15.25.56
+OS-libmd-lib32-profile : 13.0.2018.11.07-15.25.56
+OS-libmd-profile : 13.0.2018.11.07-15.25.56
+OS-libmemstat : 13.0.2018.11.07-15.25.56
+OS-libmemstat-debug : 13.0.2018.11.07-15.25.56
+OS-libmemstat-development : 13.0.2018.11.07-15.25.56
+OS-libmemstat-lib32 : 13.0.2018.11.07-15.25.56
+OS-libmemstat-lib32-debug : 13.0.2018.11.07-15.25.56
+OS-libmemstat-lib32-development : 13.0.2018.11.07-15.25.56
+OS-libmemstat-lib32-profile : 13.0.2018.11.07-15.25.56
+OS-libmemstat-profile : 13.0.2018.11.07-15.25.56
+OS-libmp : 13.0.2018.11.07-15.25.56
+OS-libmp-debug : 13.0.2018.11.07-15.25.56
+OS-libmp-development : 13.0.2018.11.07-15.25.56
+OS-libmp-lib32 : 13.0.2018.11.07-15.25.56
+OS-libmp-lib32-debug : 13.0.2018.11.07-15.25.56
+OS-libmp-lib32-development : 13.0.2018.11.07-15.25.56
+OS-libmp-lib32-profile : 13.0.2018.11.07-15.25.56
+OS-libmp-profile : 13.0.2018.11.07-15.25.56
+OS-libmt : 13.0.2018.11.07-15.25.56
+OS-libmt-debug : 13.0.2018.11.07-15.25.56
+OS-libmt-development : 13.0.2018.11.07-15.25.56
+OS-libmt-lib32 : 13.0.2018.11.07-15.25.56
+OS-libmt-lib32-debug : 13.0.2018.11.07-15.25.56
+OS-libmt-lib32-development : 13.0.2018.11.07-15.25.56
+OS-libmt-lib32-profile : 13.0.2018.11.07-15.25.56
+OS-libmt-profile : 13.0.2018.11.07-15.25.56
+OS-libnetgraph : 13.0.2018.11.07-15.25.56
+OS-libnetgraph-debug : 13.0.2018.11.07-15.25.56
+OS-libnetgraph-development : 13.0.2018.11.07-15.25.56
+OS-libnetgraph-lib32 : 13.0.2018.11.07-15.25.56
+OS-libnetgraph-lib32-debug : 13.0.2018.11.07-15.25.56
+OS-libnetgraph-lib32-development : 13.0.2018.11.07-15.25.56
+OS-libnetgraph-lib32-profile : 13.0.2018.11.07-15.25.56
+OS-libnetgraph-profile : 13.0.2018.11.07-15.25.56
+OS-libngatm : 13.0.2018.11.07-15.25.56
+OS-libngatm-debug : 13.0.2018.11.07-15.25.56
+OS-libngatm-development : 13.0.2018.11.07-15.25.56
+OS-libngatm-lib32 : 13.0.2018.11.07-15.25.56
+OS-libngatm-lib32-debug : 13.0.2018.11.07-15.25.56
+OS-libngatm-lib32-development : 13.0.2018.11.07-15.25.56
+OS-libngatm-lib32-profile : 13.0.2018.11.07-15.25.56
+OS-libngatm-profile : 13.0.2018.11.07-15.25.56
+OS-libnv : 13.0.2018.11.07-15.25.56
+OS-libnv-debug : 13.0.2018.11.07-15.25.56
+OS-libnv-development : 13.0.2018.11.07-15.25.56
+OS-libnv-lib32 : 13.0.2018.11.07-15.25.56
+OS-libnv-lib32-debug : 13.0.2018.11.07-15.25.56
+OS-libnv-lib32-development : 13.0.2018.11.07-15.25.56
+OS-libnv-lib32-profile : 13.0.2018.11.07-15.25.56
+OS-libnv-profile : 13.0.2018.11.07-15.25.56
+OS-libopie : 13.0.2018.11.07-15.25.56
+OS-libopie-debug : 13.0.2018.11.07-15.25.56
+OS-libopie-development : 13.0.2018.11.07-15.25.56
+OS-libopie-lib32 : 13.0.2018.11.07-15.25.56
+OS-libopie-lib32-debug : 13.0.2018.11.07-15.25.56
+OS-libopie-lib32-development : 13.0.2018.11.07-15.25.56
+OS-libopie-lib32-profile : 13.0.2018.11.07-15.25.56
+OS-libopie-profile : 13.0.2018.11.07-15.25.56
+OS-libpam-development : 13.0.2018.11.07-15.25.56
+OS-libpam-lib32-development : 13.0.2018.11.07-15.25.56
+OS-libpathconv : 13.0.2018.11.07-15.25.56
+OS-libpathconv-debug : 13.0.2018.11.07-15.25.56
+OS-libpathconv-development : 13.0.2018.11.07-15.25.56
+OS-libpathconv-lib32 : 13.0.2018.11.07-15.25.56
+OS-libpathconv-lib32-debug : 13.0.2018.11.07-15.25.56
+OS-libpathconv-lib32-development : 13.0.2018.11.07-15.25.56
+OS-libpathconv-lib32-profile : 13.0.2018.11.07-15.25.56
+OS-libpathconv-profile : 13.0.2018.11.07-15.25.56
+OS-libpcap : 13.0.2018.11.07-15.25.56
+OS-libpcap-debug : 13.0.2018.11.07-15.25.56
+OS-libpcap-development : 13.0.2018.11.07-15.25.56
+OS-libpcap-lib32 : 13.0.2018.11.07-15.25.56
+OS-libpcap-lib32-debug : 13.0.2018.11.07-15.25.56
+OS-libpcap-lib32-development : 13.0.2018.11.07-15.25.56
+OS-libpcap-lib32-profile : 13.0.2018.11.07-15.25.56
+OS-libpcap-profile : 13.0.2018.11.07-15.25.56
+OS-libpjdlog : 13.0.2018.11.07-15.25.56
+OS-libpjdlog-debug : 13.0.2018.11.07-15.25.56
+OS-libpjdlog-development : 13.0.2018.11.07-15.25.56
+OS-libpjdlog-lib32 : 13.0.2018.11.07-15.25.56
+OS-libpjdlog-lib32-debug : 13.0.2018.11.07-15.25.56
+OS-libpjdlog-lib32-development : 13.0.2018.11.07-15.25.56
+OS-libpjdlog-lib32-profile : 13.0.2018.11.07-15.25.56
+OS-libpjdlog-profile : 13.0.2018.11.07-15.25.56
+OS-libpmc : 13.0.2018.11.07-15.25.56
+OS-libpmc-debug : 13.0.2018.11.07-15.25.56
+OS-libpmc-development : 13.0.2018.11.07-15.25.56
+OS-libpmc-lib32 : 13.0.2018.11.07-15.25.56
+OS-libpmc-lib32-debug : 13.0.2018.11.07-15.25.56
+OS-libpmc-lib32-development : 13.0.2018.11.07-15.25.56
+OS-libpmc-lib32-profile : 13.0.2018.11.07-15.25.56
+OS-libpmc-profile : 13.0.2018.11.07-15.25.56
+OS-libpmcstat-development : 13.0.2018.11.07-15.25.56
+OS-libproc : 13.0.2018.11.07-15.25.56
+OS-libproc-debug : 13.0.2018.11.07-15.25.56
+OS-libproc-development : 13.0.2018.11.07-15.25.56
+OS-libproc-lib32 : 13.0.2018.11.07-15.25.56
+OS-libproc-lib32-debug : 13.0.2018.11.07-15.25.56
+OS-libproc-lib32-development : 13.0.2018.11.07-15.25.56
+OS-libproc-lib32-profile : 13.0.2018.11.07-15.25.56
+OS-libproc-profile : 13.0.2018.11.07-15.25.56
+OS-libprocstat : 13.0.2018.11.07-15.25.56
+OS-libprocstat-debug : 13.0.2018.11.07-15.25.56
+OS-libprocstat-development : 13.0.2018.11.07-15.25.56
+OS-libprocstat-lib32 : 13.0.2018.11.07-15.25.56
+OS-libprocstat-lib32-debug : 13.0.2018.11.07-15.25.56
+OS-libprocstat-lib32-development : 13.0.2018.11.07-15.25.56
+OS-libprocstat-lib32-profile : 13.0.2018.11.07-15.25.56
+OS-libprocstat-profile : 13.0.2018.11.07-15.25.56
+OS-libradius : 13.0.2018.11.07-15.25.56
+OS-libradius-debug : 13.0.2018.11.07-15.25.56
+OS-libradius-development : 13.0.2018.11.07-15.25.56
+OS-libradius-lib32 : 13.0.2018.11.07-15.25.56
+OS-libradius-lib32-debug : 13.0.2018.11.07-15.25.56
+OS-libradius-lib32-development : 13.0.2018.11.07-15.25.56
+OS-libradius-lib32-profile : 13.0.2018.11.07-15.25.56
+OS-libradius-profile : 13.0.2018.11.07-15.25.56
+OS-librc : 13.0.2018.11.07-15.25.56
+OS-librc-debug : 13.0.2018.11.07-15.25.56
+OS-librc-development : 13.0.2018.11.07-15.25.56
+OS-librc-lib32 : 13.0.2018.11.07-15.25.56
+OS-librc-lib32-debug : 13.0.2018.11.07-15.25.56
+OS-librc-lib32-development : 13.0.2018.11.07-15.25.56
+OS-librc-lib32-profile : 13.0.2018.11.07-15.25.56
+OS-librc-profile : 13.0.2018.11.07-15.25.56
+OS-libregex : 13.0.2018.11.07-15.25.56
+OS-libregex-debug : 13.0.2018.11.07-15.25.56
+OS-libregex-development : 13.0.2018.11.07-15.25.56
+OS-libregex-lib32 : 13.0.2018.11.07-15.25.56
+OS-libregex-lib32-debug : 13.0.2018.11.07-15.25.56
+OS-libregex-lib32-development : 13.0.2018.11.07-15.25.56
+OS-libregex-lib32-profile : 13.0.2018.11.07-15.25.56
+OS-libregex-profile : 13.0.2018.11.07-15.25.56
+OS-librpcsec_gss : 13.0.2018.11.07-15.25.56
+OS-librpcsec_gss-debug : 13.0.2018.11.07-15.25.56
+OS-librpcsec_gss-development : 13.0.2018.11.07-15.25.56
+OS-librpcsec_gss-lib32 : 13.0.2018.11.07-15.25.56
+OS-librpcsec_gss-lib32-debug : 13.0.2018.11.07-15.25.56
+OS-librpcsec_gss-lib32-development : 13.0.2018.11.07-15.25.56
+OS-librpcsvc : 13.0.2018.11.07-15.25.56
+OS-librpcsvc-debug : 13.0.2018.11.07-15.25.56
+OS-librpcsvc-development : 13.0.2018.11.07-15.25.56
+OS-librpcsvc-lib32 : 13.0.2018.11.07-15.25.56
+OS-librpcsvc-lib32-debug : 13.0.2018.11.07-15.25.56
+OS-librpcsvc-lib32-development : 13.0.2018.11.07-15.25.56
+OS-librpcsvc-lib32-profile : 13.0.2018.11.07-15.25.56
+OS-librpcsvc-profile : 13.0.2018.11.07-15.25.56
+OS-librss : 13.0.2018.11.07-15.25.56
+OS-librss-debug : 13.0.2018.11.07-15.25.56
+OS-librss-development : 13.0.2018.11.07-15.25.56
+OS-librss-lib32 : 13.0.2018.11.07-15.25.56
+OS-librss-lib32-debug : 13.0.2018.11.07-15.25.56
+OS-librss-lib32-development : 13.0.2018.11.07-15.25.56
+OS-librss-lib32-profile : 13.0.2018.11.07-15.25.56
+OS-librss-profile : 13.0.2018.11.07-15.25.56
+OS-librt : 13.0.2018.11.07-15.25.56
+OS-librt-debug : 13.0.2018.11.07-15.25.56
+OS-librt-development : 13.0.2018.11.07-15.25.56
+OS-librt-lib32 : 13.0.2018.11.07-15.25.56
+OS-librt-lib32-debug : 13.0.2018.11.07-15.25.56
+OS-librt-lib32-development : 13.0.2018.11.07-15.25.56
+OS-librt-lib32-profile : 13.0.2018.11.07-15.25.56
+OS-librt-profile : 13.0.2018.11.07-15.25.56
+OS-librtld_db : 13.0.2018.11.07-15.25.56
+OS-librtld_db-debug : 13.0.2018.11.07-15.25.56
+OS-librtld_db-development : 13.0.2018.11.07-15.25.56
+OS-librtld_db-lib32 : 13.0.2018.11.07-15.25.56
+OS-librtld_db-lib32-debug : 13.0.2018.11.07-15.25.56
+OS-librtld_db-lib32-development : 13.0.2018.11.07-15.25.56
+OS-librtld_db-lib32-profile : 13.0.2018.11.07-15.25.56
+OS-librtld_db-profile : 13.0.2018.11.07-15.25.56
+OS-libsbuf : 13.0.2018.11.07-15.25.56
+OS-libsbuf-debug : 13.0.2018.11.07-15.25.56
+OS-libsbuf-development : 13.0.2018.11.07-15.25.56
+OS-libsbuf-lib32 : 13.0.2018.11.07-15.25.56
+OS-libsbuf-lib32-debug : 13.0.2018.11.07-15.25.56
+OS-libsbuf-lib32-development : 13.0.2018.11.07-15.25.56
+OS-libsbuf-lib32-profile : 13.0.2018.11.07-15.25.56
+OS-libsbuf-profile : 13.0.2018.11.07-15.25.56
+OS-libsdp : 13.0.2018.11.07-15.25.56
+OS-libsdp-debug : 13.0.2018.11.07-15.25.56
+OS-libsdp-development : 13.0.2018.11.07-15.25.56
+OS-libsdp-lib32 : 13.0.2018.11.07-15.25.56
+OS-libsdp-lib32-debug : 13.0.2018.11.07-15.25.56
+OS-libsdp-lib32-development : 13.0.2018.11.07-15.25.56
+OS-libsdp-lib32-profile : 13.0.2018.11.07-15.25.56
+OS-libsdp-profile : 13.0.2018.11.07-15.25.56
+OS-libsmb : 13.0.2018.11.07-15.25.56
+OS-libsmb-debug : 13.0.2018.11.07-15.25.56
+OS-libsmb-development : 13.0.2018.11.07-15.25.56
+OS-libsmb-lib32 : 13.0.2018.11.07-15.25.56
+OS-libsmb-lib32-debug : 13.0.2018.11.07-15.25.56
+OS-libsmb-lib32-development : 13.0.2018.11.07-15.25.56
+OS-libsmb-lib32-profile : 13.0.2018.11.07-15.25.56
+OS-libsmb-profile : 13.0.2018.11.07-15.25.56
+OS-libsqlite3 : 13.0.2018.11.07-15.25.56
+OS-libsqlite3-debug : 13.0.2018.11.07-15.25.56
+OS-libsqlite3-development : 13.0.2018.11.07-15.25.56
+OS-libsqlite3-lib32 : 13.0.2018.11.07-15.25.56
+OS-libsqlite3-lib32-debug : 13.0.2018.11.07-15.25.56
+OS-libsqlite3-lib32-development : 13.0.2018.11.07-15.25.56
+OS-libsqlite3-lib32-profile : 13.0.2018.11.07-15.25.56
+OS-libsqlite3-profile : 13.0.2018.11.07-15.25.56
+OS-libstdbuf : 13.0.2018.11.07-15.25.56
+OS-libstdbuf-debug : 13.0.2018.11.07-15.25.56
+OS-libstdbuf-development : 13.0.2018.11.07-15.25.56
+OS-libstdbuf-lib32 : 13.0.2018.11.07-15.25.56
+OS-libstdbuf-lib32-debug : 13.0.2018.11.07-15.25.56
+OS-libstdbuf-lib32-development : 13.0.2018.11.07-15.25.56
+OS-libstdbuf-lib32-profile : 13.0.2018.11.07-15.25.56
+OS-libstdbuf-profile : 13.0.2018.11.07-15.25.56
+OS-libstdthreads : 13.0.2018.11.07-15.25.56
+OS-libstdthreads-debug : 13.0.2018.11.07-15.25.56
+OS-libstdthreads-development : 13.0.2018.11.07-15.25.56
+OS-libstdthreads-lib32 : 13.0.2018.11.07-15.25.56
+OS-libstdthreads-lib32-debug : 13.0.2018.11.07-15.25.56
+OS-libstdthreads-lib32-development : 13.0.2018.11.07-15.25.56
+OS-libstdthreads-lib32-profile : 13.0.2018.11.07-15.25.56
+OS-libstdthreads-profile : 13.0.2018.11.07-15.25.56
+OS-libsysdecode : 13.0.2018.11.07-15.25.56
+OS-libsysdecode-debug : 13.0.2018.11.07-15.25.56
+OS-libsysdecode-development : 13.0.2018.11.07-15.25.56
+OS-libsysdecode-lib32 : 13.0.2018.11.07-15.25.56
+OS-libsysdecode-lib32-debug : 13.0.2018.11.07-15.25.56
+OS-libsysdecode-lib32-development : 13.0.2018.11.07-15.25.56
+OS-libsysdecode-lib32-profile : 13.0.2018.11.07-15.25.56
+OS-libsysdecode-profile : 13.0.2018.11.07-15.25.56
+OS-libtacplus : 13.0.2018.11.07-15.25.56
+OS-libtacplus-debug : 13.0.2018.11.07-15.25.56
+OS-libtacplus-development : 13.0.2018.11.07-15.25.56
+OS-libtacplus-lib32 : 13.0.2018.11.07-15.25.56
+OS-libtacplus-lib32-debug : 13.0.2018.11.07-15.25.56
+OS-libtacplus-lib32-development : 13.0.2018.11.07-15.25.56
+OS-libtacplus-lib32-profile : 13.0.2018.11.07-15.25.56
+OS-libtacplus-profile : 13.0.2018.11.07-15.25.56
+OS-libthread_db : 13.0.2018.11.07-15.25.56
+OS-libthread_db-debug : 13.0.2018.11.07-15.25.56
+OS-libthread_db-development : 13.0.2018.11.07-15.25.56
+OS-libthread_db-lib32 : 13.0.2018.11.07-15.25.56
+OS-libthread_db-lib32-debug : 13.0.2018.11.07-15.25.56
+OS-libthread_db-lib32-development : 13.0.2018.11.07-15.25.56
+OS-libthread_db-lib32-profile : 13.0.2018.11.07-15.25.56
+OS-libthread_db-profile : 13.0.2018.11.07-15.25.56
+OS-libucl : 13.0.2018.11.07-15.25.56
+OS-libucl-debug : 13.0.2018.11.07-15.25.56
+OS-libucl-development : 13.0.2018.11.07-15.25.56
+OS-libucl-lib32 : 13.0.2018.11.07-15.25.56
+OS-libucl-lib32-debug : 13.0.2018.11.07-15.25.56
+OS-libucl-lib32-development : 13.0.2018.11.07-15.25.56
+OS-libucl-lib32-profile : 13.0.2018.11.07-15.25.56
+OS-libucl-profile : 13.0.2018.11.07-15.25.56
+OS-libufs : 13.0.2018.11.07-15.25.56
+OS-libufs-debug : 13.0.2018.11.07-15.25.56
+OS-libufs-development : 13.0.2018.11.07-15.25.56
+OS-libufs-lib32 : 13.0.2018.11.07-15.25.56
+OS-libufs-lib32-debug : 13.0.2018.11.07-15.25.56
+OS-libufs-lib32-development : 13.0.2018.11.07-15.25.56
+OS-libufs-lib32-profile : 13.0.2018.11.07-15.25.56
+OS-libufs-profile : 13.0.2018.11.07-15.25.56
+OS-libugidfw : 13.0.2018.11.07-15.25.56
+OS-libugidfw-debug : 13.0.2018.11.07-15.25.56
+OS-libugidfw-development : 13.0.2018.11.07-15.25.56
+OS-libugidfw-lib32 : 13.0.2018.11.07-15.25.56
+OS-libugidfw-lib32-debug : 13.0.2018.11.07-15.25.56
+OS-libugidfw-lib32-development : 13.0.2018.11.07-15.25.56
+OS-libugidfw-lib32-profile : 13.0.2018.11.07-15.25.56
+OS-libugidfw-profile : 13.0.2018.11.07-15.25.56
+OS-libulog : 13.0.2018.11.07-15.25.56
+OS-libulog-debug : 13.0.2018.11.07-15.25.56
+OS-libulog-development : 13.0.2018.11.07-15.25.56
+OS-libulog-lib32 : 13.0.2018.11.07-15.25.56
+OS-libulog-lib32-debug : 13.0.2018.11.07-15.25.56
+OS-libulog-lib32-development : 13.0.2018.11.07-15.25.56
+OS-libulog-lib32-profile : 13.0.2018.11.07-15.25.56
+OS-libulog-profile : 13.0.2018.11.07-15.25.56
+OS-libusb : 13.0.2018.11.07-15.25.56
+OS-libusb-debug : 13.0.2018.11.07-15.25.56
+OS-libusb-development : 13.0.2018.11.07-15.25.56
+OS-libusb-lib32 : 13.0.2018.11.07-15.25.56
+OS-libusb-lib32-debug : 13.0.2018.11.07-15.25.56
+OS-libusb-lib32-development : 13.0.2018.11.07-15.25.56
+OS-libusb-lib32-profile : 13.0.2018.11.07-15.25.56
+OS-libusb-profile : 13.0.2018.11.07-15.25.56
+OS-libusbhid : 13.0.2018.11.07-15.25.56
+OS-libusbhid-debug : 13.0.2018.11.07-15.25.56
+OS-libusbhid-development : 13.0.2018.11.07-15.25.56
+OS-libusbhid-lib32 : 13.0.2018.11.07-15.25.56
+OS-libusbhid-lib32-debug : 13.0.2018.11.07-15.25.56
+OS-libusbhid-lib32-development : 13.0.2018.11.07-15.25.56
+OS-libusbhid-lib32-profile : 13.0.2018.11.07-15.25.56
+OS-libusbhid-profile : 13.0.2018.11.07-15.25.56
+OS-libutil : 13.0.2018.11.07-15.25.56
+OS-libutil-debug : 13.0.2018.11.07-15.25.56
+OS-libutil-development : 13.0.2018.11.07-15.25.56
+OS-libutil-lib32 : 13.0.2018.11.07-15.25.56
+OS-libutil-lib32-debug : 13.0.2018.11.07-15.25.56
+OS-libutil-lib32-development : 13.0.2018.11.07-15.25.56
+OS-libutil-lib32-profile : 13.0.2018.11.07-15.25.56
+OS-libutil-profile : 13.0.2018.11.07-15.25.56
+OS-libvgl : 13.0.2018.11.07-15.25.56
+OS-libvgl-debug : 13.0.2018.11.07-15.25.56
+OS-libvgl-development : 13.0.2018.11.07-15.25.56
+OS-libvgl-lib32 : 13.0.2018.11.07-15.25.56
+OS-libvgl-lib32-debug : 13.0.2018.11.07-15.25.56
+OS-libvgl-lib32-development : 13.0.2018.11.07-15.25.56
+OS-libvgl-lib32-profile : 13.0.2018.11.07-15.25.56
+OS-libvgl-profile : 13.0.2018.11.07-15.25.56
+OS-libvmmapi : 13.0.2018.11.07-15.25.56
+OS-libvmmapi-debug : 13.0.2018.11.07-15.25.56
+OS-libvmmapi-development : 13.0.2018.11.07-15.25.56
+OS-libvmmapi-profile : 13.0.2018.11.07-15.25.56
+OS-libwrap : 13.0.2018.11.07-15.25.56
+OS-libwrap-debug : 13.0.2018.11.07-15.25.56
+OS-libwrap-development : 13.0.2018.11.07-15.25.56
+OS-libwrap-lib32 : 13.0.2018.11.07-15.25.56
+OS-libwrap-lib32-debug : 13.0.2018.11.07-15.25.56
+OS-libwrap-lib32-development : 13.0.2018.11.07-15.25.56
+OS-libwrap-lib32-profile : 13.0.2018.11.07-15.25.56
+OS-libwrap-profile : 13.0.2018.11.07-15.25.56
+OS-libxo : 13.0.2018.11.07-15.25.56
+OS-libxo-debug : 13.0.2018.11.07-15.25.56
+OS-libxo-development : 13.0.2018.11.07-15.25.56
+OS-libxo-lib32 : 13.0.2018.11.07-15.25.56
+OS-libxo-lib32-debug : 13.0.2018.11.07-15.25.56
+OS-libxo-lib32-development : 13.0.2018.11.07-15.25.56
+OS-libxo-lib32-profile : 13.0.2018.11.07-15.25.56
+OS-libxo-profile : 13.0.2018.11.07-15.25.56
+OS-liby-development : 13.0.2018.11.07-15.25.56
+OS-liby-lib32-development : 13.0.2018.11.07-15.25.56
+OS-liby-lib32-profile : 13.0.2018.11.07-15.25.56
+OS-liby-profile : 13.0.2018.11.07-15.25.56
+OS-libypclnt : 13.0.2018.11.07-15.25.56
+OS-libypclnt-debug : 13.0.2018.11.07-15.25.56
+OS-libypclnt-development : 13.0.2018.11.07-15.25.56
+OS-libypclnt-lib32 : 13.0.2018.11.07-15.25.56
+OS-libypclnt-lib32-debug : 13.0.2018.11.07-15.25.56
+OS-libypclnt-lib32-development : 13.0.2018.11.07-15.25.56
+OS-libypclnt-lib32-profile : 13.0.2018.11.07-15.25.56
+OS-libypclnt-profile : 13.0.2018.11.07-15.25.56
+OS-libz : 13.0.2018.11.07-15.25.56
+OS-libz-debug : 13.0.2018.11.07-15.25.56
+OS-libz-development : 13.0.2018.11.07-15.25.56
+OS-libz-lib32 : 13.0.2018.11.07-15.25.56
+OS-libz-lib32-debug : 13.0.2018.11.07-15.25.56
+OS-libz-lib32-development : 13.0.2018.11.07-15.25.56
+OS-libz-lib32-profile : 13.0.2018.11.07-15.25.56
+OS-libz-profile : 13.0.2018.11.07-15.25.56
+OS-lld : 13.0.2018.11.07-15.25.56
+OS-lld-debug : 13.0.2018.11.07-15.25.56
+OS-lldb : 13.0.2018.11.07-15.25.56
+OS-lldb-debug : 13.0.2018.11.07-15.25.56
+OS-natd : 13.0.2018.11.07-15.25.56
+OS-natd-debug : 13.0.2018.11.07-15.25.56
+OS-pf : 13.0.2018.11.07-15.25.56
+OS-pf-debug : 13.0.2018.11.07-15.25.56
+OS-quotacheck : 13.0.2018.11.07-15.25.56
+OS-quotacheck-debug : 13.0.2018.11.07-15.25.56
+OS-rcmds : 13.0.2018.11.07-15.25.56
+OS-rcmds-debug : 13.0.2018.11.07-15.25.56
+OS-rescue : 13.0.2018.11.07-15.25.56
+OS-runtime : 13.0.2018.11.09-22.05.25
+OS-runtime-debug : 13.0.2018.11.09-22.05.25
+OS-runtime-development : 13.0.2018.11.07-15.25.56
+OS-runtime-lib32 : 13.0.2018.11.07-15.25.56
+OS-runtime-lib32-debug : 13.0.2018.11.07-15.25.56
+OS-runtime-lib32-development : 13.0.2018.11.07-15.25.56
+OS-runtime-lib32-profile : 13.0.2018.11.07-15.25.56
+OS-runtime-manuals : 13.0.2018.11.07-15.25.56
+OS-runtime-profile : 13.0.2018.11.07-15.25.56
+OS-sendmail : 13.0.2018.11.07-15.25.56
+OS-sendmail-debug : 13.0.2018.11.07-15.25.56
+OS-sendmail-development : 13.0.2018.11.07-15.25.56
+OS-sendmail-lib32 : 13.0.2018.11.07-15.25.56
+OS-sendmail-lib32-debug : 13.0.2018.11.07-15.25.56
+OS-sendmail-lib32-development : 13.0.2018.11.07-15.25.56
+OS-sendmail-lib32-profile : 13.0.2018.11.07-15.25.56
+OS-sendmail-profile : 13.0.2018.11.07-15.25.56
+OS-ssh : 13.0.2018.11.07-15.25.56
+OS-ssh-debug : 13.0.2018.11.07-15.25.56
+OS-ssh-development : 13.0.2018.11.07-15.25.56
+OS-ssh-lib32 : 13.0.2018.11.07-15.25.56
+OS-ssh-lib32-debug : 13.0.2018.11.07-15.25.56
+OS-ssh-lib32-development : 13.0.2018.11.07-15.25.56
+OS-ssh-lib32-profile : 13.0.2018.11.07-15.25.56
+OS-ssh-profile : 13.0.2018.11.07-15.25.56
+OS-svn : 13.0.2018.11.07-15.25.56
+OS-svn-debug : 13.0.2018.11.07-15.25.56
+OS-syscons : 13.0.2018.11.07-15.25.56
+OS-tests : 13.0.2018.11.07-15.25.56
+OS-tests-debug : 13.0.2018.11.07-15.25.56
+OS-unbound : 13.0.2018.11.07-15.25.56
+OS-unbound-debug : 13.0.2018.11.07-15.25.56
+OS-unbound-development : 13.0.2018.11.07-15.25.56
+OS-unbound-lib32 : 13.0.2018.11.07-15.25.56
+OS-unbound-lib32-debug : 13.0.2018.11.07-15.25.56
+OS-unbound-lib32-development : 13.0.2018.11.07-15.25.56
+OS-unbound-lib32-profile : 13.0.2018.11.07-15.25.56
+OS-unbound-profile : 13.0.2018.11.07-15.25.56
+OS-vi : 13.0.2018.11.07-15.25.56
+OS-vi-debug : 13.0.2018.11.07-15.25.56
+OS-zfs : 13.0.2018.11.07-15.25.56
+osc : 0.163.0
+otter-browser : 0.9.99.3
+owncloudclient : 2.4.1_1
+p5-Algorithm-KMeans : 2.05
+p5-Alt-Crypt-RSA-BigInt : 0.06
+p5-Apache-MP3 : 4.00_4
+p5-App-Sqitch : 0.9994_1
+p5-Audio : 1.029_3
+p5-Class-Tiny-Chained : 0.004
+p5-Compress-LZO : 1.09
+p5-Crypt-OpenPGP : 1.12
+p5-Crypt-Twofish_PP : 0.17_2
+p5-DBIx-Class-EncodedColumn : 0.00015
+p5-Encode-Base32-GMP : 0.02
+p5-Encode-Base58-GMP : 1.00
+p5-Event-ExecFlow : 0.64_1
+p5-Image-PNG-Libpng : 0.46
+p5-Image-PNG-QRCode : 0.09
+p5-IO-Compress-Lzop : 2.081
+p5-jmx4perl : 1.11_3
+p5-Locale-libintl : 1.29
+p5-Mail-Box-IMAP4 : 3.003
+p5-Mail-Box-POP3 : 3.004
+p5-Mail-Message : 3.007
+p5-Mail-Transport : 3.003
+p5-Math-GMPf : 0.43
+p5-Math-GMPq : 0.45
+p5-Math-GMPz : 0.48
+p5-Math-GSL : 0.39_4
+p5-Math-MPC : 1.08_2
+p5-Math-MPFR : 4.05
+p5-Math-Prime-Util : 0.71
+p5-Math-Prime-Util-GMP : 0.51
+p5-MaxMind-DB-Reader-XS : 1.000006
+p5-Mcstas-Tools : 2.2a_1
+p5-MojoMojo : 1.12
+p5-Mongoose : 2.00
+p5-MooX-Aliases : 0.001006_1
+p5-MooX-Traits : 0.005_1
+p5-Net-LibIDN2 : 1.00
+p5-Ogg-Vorbis-Header : 0.10
+p5-PGPLOT : 2.21_11
+p5-POE-Filter-LZO : 1.72
+p5-Search-VectorSpace : 0.02_11
+p5-Twitter-API : 1.0005_1
+p5-Video-OpenQuicktime : 1.02_7
+p5-WWW-OAuth : 1.000_1
+p5-X11-Xlib : 0.18_2
+palapeli : 18.08.2
+pavucontrol-qt : 0.4.0
+pc-webkitviewer : 201706210943_1
+pdfoutline : 4.1
+PDL : 2.019
+percona-pam-for-mysql : 5.6.41.84.1_1
+percona56-server : 5.6.41.84.1
+perftest : 4.4.0.3
+pgtcl-postgresql11 : 2.1.1
+phabricator-php73 : 20180420
+phoronix-test-suite-php73 : 8.2.0
+php56-pecl-rdkafka : 3.0.5
+php56-pecl-xdebug25 : 2.5.5_1
+php70-pecl-rdkafka : 3.0.5
+php70-pecl-xdebug-devel : 2.7.0.b1
+php70-pecl-xdebug25 : 2.5.5_1
+php71-pecl-rdkafka : 3.0.5
+php71-pecl-xdebug-devel : 2.7.0.b1
+php71-pecl-xdebug25 : 2.5.5_1
+php72-pear-SebastianBergmann_PHPCPD : 2.0.0
+php72-pear-SebastianBergmann_PHPLOC : 4.0.1
+php72-pecl-rdkafka : 3.0.5
+php72-pecl-xdebug : 2.6.1
+php72-pecl-xdebug-devel : 2.7.0.b1
+php73 : 7.3.0.r4
+php73-aphpbreakdown : 2.2.2
+php73-aphpunit : 1.7
+php73-bcmath : 7.3.0.r4
+php73-bsdconv : 11.5.0
+php73-bz2 : 7.3.0.r4
+php73-calendar : 7.3.0.r4
+php73-composer : 1.7.2
+php73-ctype : 7.3.0.r4
+php73-curl : 7.3.0.r4
+php73-dba : 7.3.0.r4
+php73-dom : 7.3.0.r4
+php73-enchant : 7.3.0.r4
+php73-exif : 7.3.0.r4
+php73-extensions : 1.0
+php73-facedetect : 1.1_7
+php73-fastdfs : 5.0.11
+php73-fileinfo : 7.3.0.r4
+php73-filter : 7.3.0.r4
+php73-ftp : 7.3.0.r4
+php73-gd : 7.3.0.r4
+php73-geos : 1.0.0
+php73-gettext : 7.3.0.r4
+php73-gmp : 7.3.0.r4
+php73-hash : 7.3.0.r4
+php73-horde : 5.2.20
+php73-horde-ansel : 3.0.9
+php73-horde-content : 2.0.6
+php73-horde-gollem : 3.0.12
+php73-horde-groupware : 5.2.22
+php73-horde-imp : 6.2.22
+php73-horde-ingo : 3.2.16
+php73-horde-kronolith : 4.2.25
+php73-horde-mnemo : 4.2.14_1
+php73-horde-nag : 4.2.19
+php73-horde-passwd : 5.0.7
+php73-horde-timeobjects : 2.1.4
+php73-horde-trean : 1.1.9
+php73-horde-turba : 4.2.23
+php73-horde-webmail : 5.2.22
+php73-horde-whups : 3.0.12
+php73-horde-wicked : 2.0.8
+php73-Ice37 : 3.7.1
+php73-iconv : 7.3.0.r4
+php73-imap : 7.3.0.r4
+php73-interbase : 7.3.0.r4
+php73-intl : 7.3.0.r4
+php73-json : 7.3.0.r4
+php73-ldap : 7.3.0.r4
+php73-libphutil : 20180420
+php73-matomo : 3.6.1
+php73-maxminddb : 1.1.0_1
+php73-mbstring : 7.3.0.r4
+php73-mecab : 0.6.0_1
+php73-memcache : 3.0.9
+php73-mysqli : 7.3.0.r4
+php73-odbc : 7.3.0.r4
+php73-opcache : 7.3.0.r4
+php73-opencc : 0.0.0.20161110
+php73-openssl : 7.3.0.r4
+php73-pcntl : 7.3.0.r4
+php73-pdo_dblib : 7.3.0.r4
+php73-pdo_firebird : 7.3.0.r4
+php73-pdo_mysql : 7.3.0.r4
+php73-pdo_odbc : 7.3.0.r4
+php73-pdo_pgsql : 7.3.0.r4
+php73-pdo_sqlite : 7.3.0.r4
+php73-pdo : 7.3.0.r4
+php73-pear : 1.10.5_1
+php73-pear-Auth_HTTP : 2.1.8
+php73-pear-Auth_PrefManager : 1.2.2
+php73-pear-Auth_RADIUS : 1.1.0
+php73-pear-Auth_SASL : 1.1.0
+php73-pear-Auth : 1.6.4
+php73-pear-Benchmark : 1.2.9
+php73-pear-Cache_Lite : 1.7.16,1
+php73-pear-Cache : 1.5.6_1
+php73-pear-channel-doctrine : 20130618
+php73-pear-channel-ezc : 20060124
+php73-pear-channel-geshi : 20180906
+php73-pear-channel-horde : 20160602
+php73-pear-channel-htmlpurifier.org : 20140120_1
+php73-pear-channel-openpear : 20111203
+php73-pear-channel-pdepend : 20100520
+php73-pear-channel-phing : 20120813
+php73-pear-channel-phpdoc : 20120214
+php73-pear-channel-phpmd : 20120607
+php73-pear-channel-phpunit : 20110327
+php73-pear-channel-pirum : 20110921_1
+php73-pear-channel-symfony : 20110701
+php73-pear-channel-symfony2 : 20110826_2
+php73-pear-channel-theseer : 20120501_1
+php73-pear-channel-twig : 20140108
+php73-pear-codegen : 1.0.7
+php73-pear-Config : 1.10.12
+php73-pear-Console_Color : 1.0.3
+php73-pear-Console_CommandLine : 1.2.2
+php73-pear-Console_Getargs : 1.4.0
+php73-pear-Console_Table : 1.3.1
+php73-pear-Contact_Vcard_Build : 1.1.2
+php73-pear-Contact_Vcard_Parse : 1.32.0
+php73-pear-Crypt_Blowfish : 1.1.0.r2
+php73-pear-Crypt_CBC : 1.0.1
+php73-pear-Crypt_CHAP : 1.5.0
+php73-pear-Crypt_DiffieHellman : 0.2.6
+php73-pear-Crypt_GPG : 1.4.3
+php73-pear-Crypt_HMAC2 : 1.0.0
+php73-pear-Crypt_MicroID : 0.1.0
+php73-pear-Crypt_RC4 : 1.0.3
+php73-pear-Crypt_RSA : 1.2.1_1
+php73-pear-Crypt_XXTEA : 0.9.0
+php73-pear-Date_Holidays_Austria : 0.1.6
+php73-pear-Date_Holidays_Brazil : 0.1.2
+php73-pear-Date_Holidays_Denmark : 0.1.3
+php73-pear-Date_Holidays_Discordian : 0.1.1
+php73-pear-Date_Holidays_EnglandWales : 0.1.5
+php73-pear-Date_Holidays_Germany : 0.1.2_1
+php73-pear-Date_Holidays_Iceland : 0.1.2
+php73-pear-Date_Holidays_Ireland : 0.1.3
+php73-pear-Date_Holidays_Italy : 0.1.1
+php73-pear-Date_Holidays_Japan : 0.1.3
+php73-pear-Date_Holidays_Netherlands : 0.1.4
+php73-pear-Date_Holidays_Norway : 0.1.2
+php73-pear-Date_Holidays_PHPdotNet : 0.1.2
+php73-pear-Date_Holidays_Romania : 0.1.2
+php73-pear-Date_Holidays_Slovenia : 0.1.2
+php73-pear-Date_Holidays_Sweden : 0.1.3
+php73-pear-Date_Holidays_Ukraine : 0.1.2
+php73-pear-Date_Holidays_UNO : 0.1.3
+php73-pear-Date_Holidays_USA : 0.1.1
+php73-pear-Date_Holidays : 0.21.8
+php73-pear-Date : 1.4.7
+php73-pear-DB_DataObject_FormBuilder : 1.0.2
+php73-pear-DB_DataObject : 1.11.5
+php73-pear-DB_ldap : 1.2.1
+php73-pear-DB_ldap2 : 0.5.1_1
+php73-pear-DB_Pager : 0.7.2
+php73-pear-DB_QueryTool : 1.1.2
+php73-pear-DB_Sqlite_Tools : 0.1.7
+php73-pear-DB_Table : 1.5.6_1,1
+php73-pear-DB : 1.9.2,1
+php73-pear-DBA_Relational : 0.2.0
+php73-pear-DBA : 1.1.1
+php73-pear-doctrine-DoctrineCommon : 2.3.0
+php73-pear-doctrine-DoctrineDBAL : 2.3.4
+php73-pear-doctrine-DoctrineORM : 2.3.3
+php73-pear-Event_Dispatcher : 1.1.0
+php73-pear-ezc_Base : 1.8
+php73-pear-ezc_ConsoleTools : 1.6.1
+php73-pear-File_Archive : 1.5.5
+php73-pear-File_Bittorrent2 : 1.3.1
+php73-pear-File_DNS : 0.1.0
+php73-pear-File_Find : 1.3.3
+php73-pear-File_Fortune : 1.0.0_1
+php73-pear-File_Fstab : 2.0.3
+php73-pear-File_Gettext : 0.4.2
+php73-pear-File_HtAccess : 1.2.1
+php73-pear-File_Iterator : 2.0.2
+php73-pear-File_MARC : 1.3.0
+php73-pear-File_Passwd : 1.1.7
+php73-pear-File_PDF : 0.3.3
+php73-pear-File_SMBPasswd : 1.0.3
+php73-pear-File : 1.4.1,2
+php73-pear-FSM : 1.4.0
+php73-pear-Games_Chess : 1.0.1
+php73-pear-Horde_Crypt_Blowfish : 1.1.2
+php73-pear-Horde_Crypt : 2.7.12
+php73-pear-Horde_Image : 2.5.3
+php73-pear-Horde_Imap_Client : 2.29.16
+php73-pear-Horde_Kolab_Server : 2.0.5
+php73-pear-Horde_Log : 2.3.0
+php73-pear-Horde_Mapi : 1.0.8_1
+php73-pear-Horde_Smtp : 1.9.5
+php73-pear-Horde_Vfs : 2.4.0
+php73-pear-horde-Horde_ActiveSync : 2.39.4
+php73-pear-horde-Horde_Alarm : 2.2.10
+php73-pear-horde-Horde_Argv : 2.1.0
+php73-pear-horde-Horde_Auth : 2.2.2
+php73-pear-horde-Horde_Autoloader_Cache : 2.1.3
+php73-pear-horde-Horde_Autoloader : 2.1.2
+php73-pear-horde-Horde_Browser : 2.0.15
+php73-pear-horde-Horde_Cache : 2.5.5
+php73-pear-horde-Horde_Cli : 2.3.0
+php73-pear-horde-Horde_Compress_Fast : 1.1.1
+php73-pear-horde-Horde_Compress : 2.2.1
+php73-pear-horde-Horde_Constraint : 2.0.3
+php73-pear-horde-Horde_Controller : 2.0.5
+php73-pear-horde-Horde_Core : 2.31.6
+php73-pear-horde-Horde_Css_Parser : 1.0.11
+php73-pear-horde-Horde_CssMinify : 1.0.4
+php73-pear-horde-Horde_Data : 2.1.4
+php73-pear-horde-Horde_Date_Parser : 2.0.6
+php73-pear-horde-Horde_Date : 2.4.1
+php73-pear-horde-Horde_Dav : 1.1.4
+php73-pear-horde-Horde_Db : 2.4.0
+php73-pear-horde-Horde_Editor : 2.0.5
+php73-pear-horde-Horde_Exception : 2.0.8
+php73-pear-horde-Horde_Feed : 2.0.4
+php73-pear-horde-Horde_Form : 2.0.18
+php73-pear-horde-Horde_Group : 2.1.1
+php73-pear-horde-Horde_HashTable : 1.2.6
+php73-pear-horde-Horde_History : 2.3.6
+php73-pear-horde-Horde_Http : 2.1.7
+php73-pear-horde-Horde_Icalendar : 2.1.8
+php73-pear-horde-Horde_Idna : 1.1.1
+php73-pear-horde-Horde_Imsp : 2.0.10
+php73-pear-horde-Horde_Injector : 2.0.5
+php73-pear-horde-Horde_Itip : 2.1.2
+php73-pear-horde-Horde_JavascriptMinify : 1.1.5
+php73-pear-horde-Horde_Kolab_Format : 2.0.9
+php73-pear-horde-Horde_Kolab_Session : 2.0.3
+php73-pear-horde-Horde_Kolab_Storage : 2.2.3
+php73-pear-horde-Horde_Ldap : 2.4.1
+php73-pear-horde-Horde_ListHeaders : 1.2.5
+php73-pear-horde-Horde_Lock : 2.1.4
+php73-pear-horde-Horde_LoginTasks : 2.0.7
+php73-pear-horde-Horde_Mail_Autoconfig : 1.0.3
+php73-pear-horde-Horde_Mail : 2.6.4_1
+php73-pear-horde-Horde_Memcache : 2.1.1
+php73-pear-horde-Horde_Mime_Viewer : 2.2.2
+php73-pear-horde-Horde_Mime : 2.11.0
+php73-pear-horde-Horde_Mongo : 1.1.0
+php73-pear-horde-Horde_Nls : 2.2.1
+php73-pear-horde-Horde_Notification : 2.0.4
+php73-pear-horde-Horde_Oauth : 2.0.4
+php73-pear-horde-Horde_Pack : 1.0.7
+php73-pear-horde-Horde_Pdf : 2.0.7
+php73-pear-horde-Horde_Perms : 2.1.7
+php73-pear-horde-Horde_Prefs : 2.9.0
+php73-pear-horde-Horde_Queue : 1.1.5
+php73-pear-horde-Horde_Rdo : 2.1.0
+php73-pear-horde-Horde_Role : 1.0.1
+php73-pear-horde-Horde_Routes : 2.0.5
+php73-pear-horde-Horde_Rpc : 2.1.8
+php73-pear-horde-Horde_Scheduler : 2.0.3
+php73-pear-horde-Horde_Scribe : 2.0.3
+php73-pear-horde-Horde_Secret : 2.0.6
+php73-pear-horde-Horde_Serialize : 2.0.5
+php73-pear-horde-Horde_Service_Facebook : 2.0.10
+php73-pear-horde-Horde_Service_Gravatar : 1.0.1
+php73-pear-horde-Horde_Service_Twitter : 2.1.6
+php73-pear-horde-Horde_Service_UrlShortener : 2.0.3
+php73-pear-horde-Horde_Service_Weather : 2.5.4
+php73-pear-horde-Horde_SessionHandler : 2.2.9
+php73-pear-horde-Horde_Share : 2.2.0
+php73-pear-horde-Horde_Socket_Client : 2.1.2
+php73-pear-horde-Horde_SpellChecker : 2.1.3
+php73-pear-horde-Horde_Stream_Filter : 2.0.4
+php73-pear-horde-Horde_Stream_Wrapper : 2.1.4
+php73-pear-horde-Horde_Stream : 1.6.3
+php73-pear-horde-Horde_Support : 2.2.0
+php73-pear-horde-Horde_SyncMl : 2.0.7
+php73-pear-horde-Horde_Template : 2.0.3
+php73-pear-horde-Horde_Text_Diff : 2.2.0
+php73-pear-horde-Horde_Text_Filter_Csstidy : 2.0.1
+php73-pear-horde-Horde_Text_Filter : 2.3.5
+php73-pear-horde-Horde_Text_Flowed : 2.0.3
+php73-pear-horde-Horde_Thrift : 2.0.3
+php73-pear-horde-Horde_Timezone : 1.1.0
+php73-pear-horde-Horde_Token : 2.0.9
+php73-pear-horde-Horde_Translation : 2.2.2
+php73-pear-horde-Horde_Tree : 2.0.5
+php73-pear-horde-Horde_Url : 2.2.6
+php73-pear-horde-Horde_Util : 2.5.8
+php73-pear-horde-Horde_View : 2.0.6
+php73-pear-horde-Horde_Xml_Element : 2.0.4
+php73-pear-horde-Horde_Xml_Wbxml : 2.0.3
+php73-pear-HTML_AJAX : 0.5.8
+php73-pear-HTML_BBCodeParser : 1.2.3
+php73-pear-HTML_Common : 1.2.5
+php73-pear-HTML_Common2 : 2.1.1
+php73-pear-HTML_Crypt : 1.3.4
+php73-pear-HTML_CSS : 1.5.4
+php73-pear-HTML_Form : 1.3.0
+php73-pear-HTML_Javascript : 1.1.2
+php73-pear-HTML_Page2 : 0.6.1
+php73-pear-HTML_QuickForm_advmultiselect : 1.5.1
+php73-pear-HTML_QuickForm_Controller : 1.0.10
+php73-pear-HTML_QuickForm_Livesearch : 0.4.1
+php73-pear-HTML_QuickForm_Renderer_Tableless : 0.6.2
+php73-pear-HTML_QuickForm_SelectFilter : 1.0.0
+php73-pear-HTML_QuickForm : 3.2.16
+php73-pear-HTML_QuickForm2 : 2.0.2
+php73-pear-HTML_Select_Common : 1.2.0
+php73-pear-HTML_Select : 1.3.1
+php73-pear-HTML_Table : 1.8.4
+php73-pear-HTML_TagCloud : 1.0.0
+php73-pear-HTML_Template_Flexy : 1.3.13
+php73-pear-HTML_Template_IT : 1.3.1,1
+php73-pear-HTML_Template_PHPLIB : 1.6.0
+php73-pear-HTML_Template_Sigma : 1.3.0
+php73-pear-HTML_TreeMenu : 1.2.2
+php73-pear-htmlpurifier : 4.9.2_1
+php73-pear-HTTP_Client : 1.2.1
+php73-pear-HTTP_Download : 1.1.4
+php73-pear-HTTP_FloodControl : 0.1.1
+php73-pear-HTTP_Header : 1.2.1
+php73-pear-HTTP_Request : 1.4.4
+php73-pear-HTTP_Request2 : 2.3.0,1
+php73-pear-HTTP_Server : 0.4.1
+php73-pear-HTTP_Session2 : 0.7.3
+php73-pear-HTTP_Upload : 0.9.1
+php73-pear-HTTP_WebDAV_Client : 1.0.2
+php73-pear-HTTP_WebDAV_Server : 1.0.0.r4
+php73-pear-HTTP : 1.4.1
+php73-pear-I18N : 1.0.0
+php73-pear-I18Nv2 : 0.11.4
+php73-pear-Image_3D : 0.4.2
+php73-pear-Image_Barcode : 1.1.3
+php73-pear-Image_Barcode2 : 0.2.3
+php73-pear-Image_Canvas : 0.3.2_1
+php73-pear-Image_Color : 1.0.4
+php73-pear-Image_Graph : 0.8.0
+php73-pear-Image_GraphViz : 1.3.0
+php73-pear-Image_Transform : 0.9.5
+php73-pear-LiveUser_Admin : 0.4.0_1
+php73-pear-LiveUser : 0.16.14
+php73-pear-Log : 1.13.1
+php73-pear-Mail_Mbox : 0.6.3
+php73-pear-Mail_Mime : 1.10.2,2
+php73-pear-Mail_mimeDecode : 1.5.6
+php73-pear-Mail_Queue : 1.2.7_1
+php73-pear-Mail : 1.4.1,1
+php73-pear-Math_BigInteger : 1.0.3
+php73-pear-Math_Combinatorics : 1.0.0,1
+php73-pear-Math_Fraction : 0.4.1
+php73-pear-MDB_QueryTool : 1.2.3
+php73-pear-MDB : 1.3.0
+php73-pear-MDB2_Driver_mysqli : 1.5.0.b4
+php73-pear-MDB2_Driver_pgsql : 1.5.0.b4
+php73-pear-MDB2_Schema : 0.8.6
+php73-pear-MDB2 : 2.5.0.b5
+php73-pear-MIME_Type : 1.4.1
+php73-pear-Net_CDDB : 0.3.0
+php73-pear-Net_CheckIP : 1.2.2
+php73-pear-Net_Cyrus : 0.3.1
+php73-pear-Net_Dict : 1.0.7
+php73-pear-Net_DIME : 1.0.2,1
+php73-pear-Net_DNS2 : 1.4.4
+php73-pear-Net_DNSBL : 1.3.7_1
+php73-pear-Net_Finger : 1.0.1
+php73-pear-Net_FTP : 1.4.0
+php73-pear-Net_Gearman : 0.2.3_3
+php73-pear-Net_Geo : 1.0.5
+php73-pear-Net_GeoIP : 1.0.0.r1_1
+php73-pear-Net_Growl : 2.7.0
+php73-pear-Net_Ident : 1.1.0
+php73-pear-Net_IDNA : 0.8.1
+php73-pear-Net_IMAP : 1.1.3
+php73-pear-Net_IPv4 : 1.3.4
+php73-pear-Net_IPv6 : 1.3.0.b2_2
+php73-pear-Net_LDAP : 1.1.5_1
+php73-pear-Net_LDAP2 : 2.2.0,1
+php73-pear-Net_LMTP : 1.0.2
+php73-pear-Net_MAC : 0.1.5_1
+php73-pear-Net_Nmap : 1.0.5
+php73-pear-Net_NNTP : 1.5.2,1
+php73-pear-Net_Ping : 2.4.5
+php73-pear-Net_POP3 : 1.3.8
+php73-pear-Net_Portscan : 1.0.3
+php73-pear-Net_Server : 1.0.3
+php73-pear-Net_Sieve : 1.4.4
+php73-pear-Net_SmartIRC : 1.1.13
+php73-pear-Net_SMS : 0.2.1
+php73-pear-Net_SMTP : 1.8.1
+php73-pear-Net_Socket : 1.0.14
+php73-pear-Net_Traceroute : 0.21.3
+php73-pear-Net_URL_Mapper : 0.9.1
+php73-pear-Net_URL : 1.0.15
+php73-pear-Net_URL2 : 2.2.1
+php73-pear-Net_UserAgent_Detect : 2.5.2_1
+php73-pear-Net_UserAgent_Mobile : 1.0.0
+php73-pear-Net_Vpopmaild : 0.3.2
+php73-pear-Net_Whois : 1.0.5
+php73-pear-Numbers_Roman : 1.0.2
+php73-pear-Numbers_Words : 0.16.4
+php73-pear-OLE : 1.0.0.r3
+php73-pear-Pager : 2.5.1
+php73-pear-Payment_DTA : 1.4.3
+php73-pear-pdepend_staticReflection : 1.0.0
+php73-pear-pdepend-PHP_Depend : 1.1.2
+php73-pear-PEAR_Info : 1.9.2_2
+php73-pear-PEAR_PackageFileManager_Plugins : 1.0.4
+php73-pear-PEAR_PackageFileManager : 1.7.2
+php73-pear-PEAR_PackageFileManager2 : 1.0.4
+php73-pear-phing : 2.6.1
+php73-pear-PHP_Archive : 0.12.0
+php73-pear-PHP_ArrayOf : 0.2.1
+php73-pear-PHP_Beautifier : 0.1.15_1
+php73-pear-PHP_CodeSniffer : 3.3.2
+php73-pear-PHP_Compat : 1.5.0
+php73-pear-PHP_CompatInfo : 1.9.0_4
+php73-pear-PHP_Parser : 0.2.2
+php73-pear-PHP_ParserGenerator : 0.1.7
+php73-pear-PHP_Shell : 0.3.2
+php73-pear-PHP_Timer : 2.0.0
+php73-pear-PHP_TokenStream : 1.4.11
+php73-pear-PHP_UML : 1.6.2
+php73-pear-PHPDoc : 0.1.0
+php73-pear-PhpDocumentor : 1.4.4
+php73-pear-phpmd-PHP_PMD : 1.5.0
+php73-pear-PHPTAL : 1.2.2
+php73-pear-phpunit-PHP_CodeBrowser : 1.0.2
+php73-pear-phpunit-PHP_CodeCoverage : 5.2.2
+php73-pear-pirum-Pirum : 1.1.5
+php73-pear-SebastianBergmann_FinderFacade : 1.2.2
+php73-pear-SebastianBergmann_Git : 1.2.0_1
+php73-pear-SebastianBergmann_Version : 2.0.1
+php73-pear-Services_Amazon_S3 : 0.4.0
+php73-pear-Services_Amazon : 0.9.0
+php73-pear-Services_Blogging : 0.2.4
+php73-pear-Services_Compete : 0.1.0
+php73-pear-Services_Delicious : 0.6.0
+php73-pear-Services_Digg : 0.4.7_1
+php73-pear-Services_Facebook : 0.2.14
+php73-pear-Services_GeoNames : 1.0.1
+php73-pear-Services_Google : 0.2.0
+php73-pear-Services_JSON : 1.0.3
+php73-pear-Services_OpenSearch : 0.2.0
+php73-pear-Services_Pingback : 0.2.2
+php73-pear-Services_ShortURL : 0.3.1
+php73-pear-Services_TinyURL : 0.1.2
+php73-pear-Services_TwitPic : 0.1.0
+php73-pear-Services_Twitter : 0.7.0
+php73-pear-Services_urlTea : 0.1.0
+php73-pear-Services_W3C_CSSValidator : 0.2.3
+php73-pear-Services_W3C_HTMLValidator : 1.0.0,1
+php73-pear-Services_Weather : 1.4.6,1
+php73-pear-Services_Yadis : 0.5.3
+php73-pear-Services_Yahoo : 0.2.0
+php73-pear-SOAP : 0.14.0
+php73-pear-Spreadsheet_Excel_Writer : 0.9.4
+php73-pear-Structures_DataGrid_DataSource_Array : 0.1.4
+php73-pear-Structures_DataGrid_DataSource_CSV : 0.1.6
+php73-pear-Structures_DataGrid_DataSource_DB : 0.1.1
+php73-pear-Structures_DataGrid_DataSource_PDO : 0.2.0
+php73-pear-Structures_DataGrid_Renderer_Console : 0.1.1
+php73-pear-Structures_DataGrid_Renderer_CSV : 0.1.4
+php73-pear-Structures_DataGrid_Renderer_Flexy : 0.1.4
+php73-pear-Structures_DataGrid_Renderer_HTMLSortForm : 0.1.3
+php73-pear-Structures_DataGrid_Renderer_HTMLTable : 0.1.6
+php73-pear-Structures_DataGrid_Renderer_Pager : 0.1.3
+php73-pear-Structures_DataGrid_Renderer_Smarty : 0.1.5
+php73-pear-Structures_DataGrid_Renderer_XLS : 0.1.3
+php73-pear-Structures_DataGrid_Renderer_XML : 0.1.3
+php73-pear-Structures_DataGrid_Renderer_XUL : 0.1.3
+php73-pear-Structures_DataGrid : 0.9.3
+php73-pear-Structures_LinkedList : 0.2.2
+php73-pear-Symfony_Component_Console : 2.4.4
+php73-pear-Symfony_Component_Finder : 2.4.4
+php73-pear-Symfony_Component_Yaml : 2.4.4
+php73-pear-System_Command : 1.0.8
+php73-pear-Testing_Selenium : 0.4.4
+php73-pear-Text_Diff : 1.2.2
+php73-pear-Text_Figlet : 1.0.2
+php73-pear-Text_Highlighter : 0.8.0
+php73-pear-Text_Password : 1.2.1
+php73-pear-Text_Spell_Audio : 0.1.0
+php73-pear-Text_Template : 1.2.0
+php73-pear-Text_Wiki : 1.2.1
+php73-pear-TheSeer_DirectoryScanner : 1.3.2
+php73-pear-TheSeer_fDOMDocument : 1.6.6
+php73-pear-TheSeer_fXSL : 1.1.0
+php73-pear-TheSeer_phpDox : 0.5.0
+php73-pear-Translation2 : 2.0.4,1
+php73-pear-twig-twig : 1.29.0
+php73-pear-UDDI : 0.2.4
+php73-pear-URI_Template : 0.3.3
+php73-pear-Validate_AU : 0.1.4_1
+php73-pear-Validate_Finance_CreditCard : 0.6.0
+php73-pear-Validate_Finance : 0.5.6
+php73-pear-Validate_ISPN : 0.6.1
+php73-pear-Validate_US : 0.5.5
+php73-pear-Validate : 0.8.5_1
+php73-pear-Var_Dump : 1.0.4_1
+php73-pear-VersionControl_Git : 0.5.0
+php73-pear-VersionControl_SVN : 0.5.2
+php73-pear-VFS : 0.3.0
+php73-pear-XML_Beautifier : 1.2.2
+php73-pear-XML_DTD : 0.5.2
+php73-pear-XML_Feed_Parser : 1.0.5
+php73-pear-XML_GRDDL : 0.2.0
+php73-pear-XML_HTMLSax : 2.1.2
+php73-pear-XML_NITF : 1.1.1
+php73-pear-XML_Parser : 1.3.7
+php73-pear-XML_Query2XML : 1.7.2
+php73-pear-XML_RPC : 1.5.5
+php73-pear-XML_RPC2 : 1.1.4
+php73-pear-XML_RSS : 1.1.0
+php73-pear-XML_Serializer : 0.21.0
+php73-pear-XML_SVG : 1.1.0
+php73-pear-XML_Transformer : 1.1.2
+php73-pear-XML_Tree : 1.1_2
+php73-pear-XML_Util : 1.4.3
+php73-pear-XML_Wddx : 1.0.2
+php73-pear-YAML : 1.0.6
+php73-pecl-APCu : 5.1.12
+php73-pecl-bitset : 3.0.1
+php73-pecl-cassandra : 1.3.2
+php73-pecl-crypto : 0.3.1
+php73-pecl-dio : 0.1.0
+php73-pecl-ev : 1.0.4
+php73-pecl-event : 2.3.0
+php73-pecl-geoip : 1.1.1
+php73-pecl-gnupg : 1.4.0_1
+php73-pecl-grpc : 1.16.0
+php73-pecl-horde_lz4 : 1.0.10
+php73-pecl-hrtime : 0.6.0
+php73-pecl-http : 3.2.0
+php73-pecl-igbinary : 2.0.8
+php73-pecl-imagick : 3.4.3_2
+php73-pecl-jsmin : 3.0.0
+php73-pecl-json_post : 1.0.1_1
+php73-pecl-jsond : 1.4.0
+php73-pecl-krb5 : 1.1.2
+php73-pecl-libsodium : 1.0.6_1
+php73-pecl-lzf : 1.6.6
+php73-pecl-mailparse : 3.0.2
+php73-pecl-mcrypt : 1.0.1
+php73-pecl-memcached : 3.0.4
+php73-pecl-mongodb : 1.5.2
+php73-pecl-oauth : 2.0.3
+php73-pecl-pam : 1.0.3_2
+php73-pecl-pdflib : 4.1.2
+php73-pecl-proctitle : 0.1.2_1
+php73-pecl-propro : 2.1.0
+php73-pecl-qrencode : 0.6_1
+php73-pecl-radius : 1.4.0.b1
+php73-pecl-raphf : 2.0.0_1
+php73-pecl-rdkafka : 3.0.5
+php73-pecl-redis : 4.1.1
+php73-pecl-redis3 : 3.1.6
+php73-pecl-rrd : 2.0.1_1
+php73-pecl-scrypt : 1.4.2
+php73-pecl-ssh2 : 1.1.2
+php73-pecl-stats : 2.0.3
+php73-pecl-stomp : 2.0.2
+php73-pecl-swoole : 4.2.3
+php73-pecl-sync : 1.1.0
+php73-pecl-timezonedb : 2018.6
+php73-pecl-uuid : 1.0.4_1
+php73-pecl-xdebug-devel : 2.7.0.b1
+php73-pecl-xdiff : 2.0.1
+php73-pecl-yaml : 2.0.2
+php73-pecl-yar : 2.0.4
+php73-pecl-zmq : 1.1.3_3
+php73-pecl-zookeeper : 0.6.2
+php73-pgsql : 7.3.0.r4
+php73-phar : 7.3.0.r4
+php73-pHash : 0.9.6_3
+php73-posix : 7.3.0.r4
+php73-pspell : 7.3.0.r4
+php73-readline : 7.3.0.r4
+php73-recode : 7.3.0.r4
+php73-screw : 1.5_1
+php73-session : 7.3.0.r4
+php73-shmop : 7.3.0.r4
+php73-simplexml : 7.3.0.r4
+php73-snappy : 0.1.9
+php73-snmp : 7.3.0.r4
+php73-soap : 7.3.0.r4
+php73-sockets : 7.3.0.r4
+php73-sodium : 7.3.0.r4
+php73-sqlite3 : 7.3.0.r4
+php73-sysvmsg : 7.3.0.r4
+php73-sysvsem : 7.3.0.r4
+php73-sysvshm : 7.3.0.r4
+php73-tarantool : 0.3.2
+php73-tidy : 7.3.0.r4
+php73-tokenizer : 7.3.0.r4
+php73-wddx : 7.3.0.r4
+php73-xml : 7.3.0.r4
+php73-xmlreader : 7.3.0.r4
+php73-xmlrpc : 7.3.0.r4
+php73-xmlwriter : 7.3.0.r4
+php73-xsl : 7.3.0.r4
+php73-zip : 7.3.0.r4
+php73-zlib : 7.3.0.r4
+phpldapadmin-php56 : 1.2.3_9,1
+phpldapadmin-php70 : 1.2.3_9,1
+phpldapadmin-php71 : 1.2.3_9,1
+phpldapadmin-php72 : 1.2.3_9,1
+phpMyAdmin-php73 : 4.8.3
+phppgadmin-php73 : 5.1_4
+phpunit6-php73 : 6.5.13
+phpunit7-php73 : 7.4.3
+picmi : 18.08.2
+pim-data-exporter : 18.08.2
+pim-sieve-editor : 18.08.2
+pimcommon : 18.08.2
+pl-kadu : 4.3_7,1
+plasma5-kde-cli-tools : 5.12.7
+plasma5-kdeplasma-addons : 5.12.7
+plasma5-kgamma5 : 5.12.7
+plasma5-khotkeys : 5.12.7
+plasma5-kinfocenter : 5.12.7
+plasma5-kmenuedit : 5.12.7
+plasma5-kscreenlocker : 5.12.7
+plasma5-ksysguard : 5.12.7
+plasma5-kwin : 5.12.7
+plasma5-libksysguard : 5.12.7
+plasma5-plasma : 5.12.7
+plasma5-plasma-desktop : 5.12.7
+plasma5-plasma-sdk : 5.12.7
+plasma5-plasma-workspace : 5.12.7
+plasma5-powerdevil : 5.12.7
+plasma5-user-manager : 5.12.7
+postgresql11-client : 11.0
+postgresql11-contrib : 11.0
+postgresql11-docs : 11.0
+postgresql11-plperl : 11.0
+postgresql11-plpython : 11.0
+postgresql11-pltcl : 11.0
+postgresql11-server : 11.0_2
+primme : 2.2
+psi : 1.3
+py27-adb : 1.3.0.1
+py27-ansible26 : 2.6.5
+py27-av : 0.5.3
+py27-biscuits : 0.1.1
+py27-bro-pkg : 1.4.2
+py27-fypp : 2.1.1
+py27-gffutils : 0.9
+py27-google-cloud-dlp : 0.9.0
+py27-google-cloud-vision : 0.34.0
+py27-gtfparse : 1.2.0
+py27-m2crypto : 0.30.1
+py27-molequeue : 0.9.0
+py27-packet-python : 1.37.1
+py27-primme : 2.2
+py27-psutil121 : 1.2.1_2
+py27-pyfaidx : 0.5.5.2
+py27-python-louvain : 0.11
+py27-qt5 : 5.9.2_4
+py27-qt5-demo : 5.9.2_3
+py27-qt5-webkit : 5.9.2_5
+py27-qt5-webkitwidgets : 5.9.2_5
+py27-serializable : 0.1.1
+py27-toil : 3.18.0
+py27-typechecks : 0.1.0
+py27-xcffib : 0.6.0
+py36-adb : 1.3.0.1
+py36-aioice : 0.6.8
+py36-aiortc : 0.9.9
+py36-ansible26 : 2.6.5
+py36-av : 0.5.3
+py36-avogadrolibs : 1.91.0.107
+py36-bdflib : 1.0.4
+py36-biscuits : 0.1.1
+py36-bro-pkg : 1.4.2
+py36-fypp : 2.1.1
+py36-gffutils : 0.9
+py36-google-cloud-dlp : 0.9.0
+py36-google-cloud-vision : 0.34.0
+py36-gtfparse : 1.2.0
+py36-khard : 0.12.2
+py36-m2crypto : 0.30.1
+py36-molequeue : 0.9.0
+py36-OpenLP : 2.4.6
+py36-packet-python : 1.37.1
+py36-primme : 2.2
+py36-psutil121 : 1.2.1_2
+py36-pyfaidx : 0.5.5.2
+py36-pylibsrtp : 0.6.0
+py36-python-louvain : 0.11
+py36-pyznap : 1.0.2
+py36-qt5 : 5.9.2_4
+py36-qt5-demo : 5.9.2_3
+py36-qt5-webkit : 5.9.2_5
+py36-qt5-webkitwidgets : 5.9.2_5
+py36-requests-kerberos : 0.11.0_2
+py36-sbws : 0.8.0_1
+py36-serializable : 0.1.1
+py36-typechecks : 0.1.0
+py36-xcffib : 0.6.0
+pypy3 : 6.0.0_1
+pypy3-gdbm : 6.0.0_1
+pypy3-sqlite3 : 6.0.0_1
+pypy3-tkinter : 6.0.0_1
+qcad : 3.21.1.1_4
+QComicBook : 0.9.1
+qlipper : 5.1.1
+qmc2 : 0.195
+qownnotes : 18.07.2
+qt5 : 5.11.2_1
+qt5-wayland : 5.11.2_1
+qt5-webkit : 5.212.0.a2_14
+QtBitcoinTrader : 1.40.23
+quassel : 0.12.5_2
+quiterss : 0.18.12
+qutebrowser : 1.5.1
+R-cran-cellranger : 1.1.0
+R-cran-covr : 3.2.1
+R-cran-haven : 1.1.2
+R-cran-readxl : 1.1.0
+R-cran-rex : 1.1.2
+R-cran-rio : 0.5.10
+R-cran-testthat : 2.0.1
+radiance : g20181029
+retroshare : 0.6.4
+rnnoise-nu : g20180916
+rocs : 18.08.2
+roundcube-automatic_addressbook-php73 : 0.4.3
+roundcube-carddav-php73 : 3.0.2
+roundcube-contextmenu-php73 : 2.3
+roundcube-html5_notifier-php73 : 0.6.2
+roundcube-identity_smtp-php73 : 20170914
+roundcube-login_info-php73 : 1.2_1
+roundcube-markasjunk2-php73 : 1.11.2
+roundcube-mobilecube-php73 : 3.1.0.030110A
+roundcube-mvision2-php73 : 2_1
+roundcube-php73 : 1.3.8,1
+roundcube-sauserprefs-php73 : 1.10_1
+roundcube-sieverules-php73 : 2.3,1
+roundcube-thunderbird_labels-php73 : 1.3.0
+roundcube-umich-php73 : 20090813
+roundcube-veximaccountadmin-php73 : 0.1_2
+roundcube-yubikey_auth-php73 : g20180404
+RStudio : 1.2.679_2
+rubygem-github-markup17 : 1.7.0
+rubygem-gitlab-sidekiq-fetcher : 0.3.0
+rubygem-mini_portile2 : 2.3.0
+rubygem-vagrant_cloud : 2.0.1
+rude : 0.70_4
+s : 0.5.13
+samplv1-lv2 : 0.9.3
+scudcloud-py36 : 1.65
+sdr-wspr : 0.1.0_6
+seafile-gui : 6.1.7_2
+shibboleth-sp : 3.0.2_1
+shotcut : 17.02_6
+sigil : 0.9.10
+signon-ui : 0.17_1
+simint : 0.8
+skippy-xd : 0.5.0_2
+skrooge : 2.15.0
+skype4 : 4.3.0.37_5,1
+smart : 0.0.11
+smarty-php73 : 2.6.31
+smarty3-php73 : 3.1.32
+soundkonverter : 3.0.1
+speech-denoiser-lv2 : g20181007_1
+sqlitestudio : 3.2.1_1
+squid-devel : 4.0.25_2
+squirrelmail-abook_import_export-plugin-php73 : 1.1_2
+squirrelmail-askuserinfo-plugin-php73 : 1.1_2
+squirrelmail-avelsieve-plugin-php73 : 1.9.9
+squirrelmail-calendar_file_backend-plugin-php73 : 1.0_3
+squirrelmail-change_ldappass-plugin-php73 : 2.2_6
+squirrelmail-change-sqlpass-plugin-php73 : 3.3_3
+squirrelmail-check-quota-plugin-php73 : 2.2_3
+squirrelmail-compatibility-plugin-php73 : 2.0.16_1
+squirrelmail-email_footer-plugin-php73 : 0.6_1
+squirrelmail-login_auth-plugin-php73 : 3.0_2
+squirrelmail-login_notes-plugin-php73 : 1.2_2
+squirrelmail-mark_read-plugin-php73 : 1.4.2_4
+squirrelmail-multilogin-plugin-php73 : 2.4_3
+squirrelmail-notes-plugin-php73 : 1.2_3
+squirrelmail-notify-plugin-php73 : 1.3_3
+squirrelmail-password_forget-plugin-php73 : 2.3
+squirrelmail-php73 : 20180404
+squirrelmail-plugins-php73 : 1.0_2
+squirrelmail-pupdate-plugin-php73 : 0.7_4
+squirrelmail-qmailadmin_login-plugin-php73 : 1.1_4
+squirrelmail-quota_usage-plugin-php73 : 1.3.1_3
+squirrelmail-sasql-plugin-php73 : 3.2.0_3
+squirrelmail-secure_login-plugin-php73 : 1.4_3
+squirrelmail-shared_calendars-plugin-php73 : 2.0.1_3
+squirrelmail-spam-buttons-plugin-php73 : 2.3.1_2
+squirrelmail-squirrel_logger-plugin-php73 : 2.3_2
+squirrelmail-timeout_user-plugin-php73 : 1.1.1_5
+squirrelmail-translations-php73 : 20170705
+squirrelmail-unsafe_image_rules-plugin-php73 : 0.8_3
+squirrelmail-user_special_mailboxes-plugin-php73 : 0.1_3
+squirrelmail-vlogin-plugin-php73 : 3.10.2_2
+squirrelmail-web_search-plugin-php73 : 0.1.6_4
+squirrelmail-wetteronline-plugin-php73 : 0.1_3
+ssd_report : 0.2
+step : 18.08.2
+supercollider : 3.9.3_1
+suphp-php56 : 0.7.2_2
+suphp-php70 : 0.7.2_2
+suphp-php71 : 0.7.2_2
+suphp-php72 : 0.7.2_2
+suphp-php73 : 0.7.2_2
+sxml : 1.0.7
+sympa : 6.2.36
+synthv1-lv2 : 0.9.3
+syslog-ng318 : 3.18.1
+teamwords : 0.2.1_4
+texmaker : 4.5_10,3
+tribler : 6.5.2_10
+trojita : 0.7_4
+trueos-desktop : 201807060938
+trueos-toolchain : 1.3
+trustedqsl : 2.4_1
+twemoji-color-font-ttf : 1.4
+typo3-8-php73 : 8.7.19
+ugene : 1.31.0
+umbrello : 18.08.2
+unit-php73 : 1.5
+urbit : 0.6.0
+vkd3d : 1.1
+waylandpp : 0.2.3_1
+webrtc-audio-processing : 0.3.1
+webvfx-qt5 : 0.4.4.20160823_4
+wildfly12 : 12.0.0
+wildfly13 : 13.0.0
+wildfly14 : 14.0.1
+xcpc : 20070122_15
+xen-kernel411 : 4.11.0_2
+xen-tools411 : 4.11.0_6
+xf86-video-ati-legacy : 7.9.0_3,1
+xmltooling : 3.0.2_1
+xrootd : 4.8.4
+xtrabackup : 2.4.12
+yadifa : 2.3.8_1
+yakuake : 3.0.5
+zabbix4-agent : 4.0.0
+zabbix4-proxy : 4.0.0
+zabbix4-server : 4.0.0
+zanshin : 0.5.0_1
+zeal : 0.6.0_1
+zenphoto-php73 : 1.5
+
+----------------
+Removed Packages (1255):
+----------------
+abakus
+abby
+abi-compliance-checker
+acoustid-fingerprinter
+aeskulap
+aimage
+akonadi-kde4
+amarok
+amide
+amor-kde4
+analitza-kde4
+anki
+ap24-mod_auth_openid
+ap24-mod_auth_pubtkt
+ap24-mod_pagespeed
+ap24-mod_setenvifplus
+apache-spark
+api-sanity-checker
+apiextractor
+appleseed
+ar-kde-l10n
+ark-kde4
+attica
+audex
+autobench
+avidemux
+avidemux-cli
+avidemux-plugins
+avidemux-qt4
+avogadro
+awgg-qt4
+aws
+aws-demos
+bacula-bat
+bacula-client
+bacula-client-static
+bacula-server
+baloo-kde4
+baloo-widgets-kde4
+balsa
+bash-static
+basket
+bbftp
+bg-kde-l10n
+bglibs
+bip
+BitcoinArmory
+bitmessage
+blastbeat
+blinken-kde4
+bomber-kde4
+bovo-kde4
+bowtie
+boxbackup-devel
+bs-kde-l10n
+bsdftpd-ssl
+bubble-chains
+bundy
+burp
+bzr-explorer
+ca_valencia-kde-l10n
+ca-kde-l10n
+cagibi
+cantor-kde4
+canu
+capicity
+capitalism
+ccaudio2
+cciss_vol_status
+ccrtp
+certificate-transparency
+cervisia-kde4
+cfengine-masterfiles310
+cfengine-masterfiles311
+cfengine-masterfiles36
+cfengine-masterfiles37
+cfengine-masterfiles38
+cfengine-masterfiles39
+cfengine22
+cfengine310
+cfengine311
+cfengine32
+cfengine33
+cfengine34
+cfengine35
+cfengine36
+cfengine37
+cfengine38
+cfengine39
+choqok-kde4
+cilkplus-rtl
+clamcour
+clementine-player
+climm
+clipgrab
+condor
+corosync3
+couchdb
+couchdb2
+courier
+courier-pythonfilter
+cpp-netlib
+cpprestsdk
+credns
+creox
+cryptcat
+crystal
+cs-kde-l10n
+cueplayer
+cutycapt
+cvm
+da-kde-l10n
+dabstick-radio
+dalton
+dboxfe
+dclib
+dcmtk
+de-kde-l10n
+de-tipp10
+dhcdrop
+dhcpd
+diffpdf
+digikam-doc
+digikam-kde4
+digikam-l10n
+distcache
+distel-emacs26_canna
+distel-emacs26_nox
+distel-emacs26
+distel-emacs27_nox
+distel-emacs27
+dixit
+djview-qt4
+dnscheckengine
+dnsmasq-devel
+dnsperf
+dolphin-plugins-kde4
+doublecmd-qt4
+dragon-kde4
+dream
+dsniff
+easysoap
+edb
+eiskaltdcpp-daemon
+eiskaltdcpp-gtk
+eiskaltdcpp-lib
+eiskaltdcpp-qt
+ejabberd
+ekiga
+el-kde-l10n
+elfutils
+elinks
+elixir
+elixir-apex
+elixir-cachex
+elixir-calecto
+elixir-calendar
+elixir-combine
+elixir-comeonin_i18n
+elixir-comeonin
+elixir-conform
+elixir-connection
+elixir-coverex
+elixir-crontab
+elixir-csv
+elixir-db_connection
+elixir-decimal
+elixir-deppie
+elixir-dialyze
+elixir-distillery
+elixir-earmark
+elixir-ecto
+elixir-estree
+elixir-eternal
+elixir-exactor
+elixir-excoveralls
+elixir-exjsx
+elixir-exprotobuf
+elixir-exredis
+elixir-funnel
+elixir-gen_stage
+elixir-gen_state_machine
+elixir-geo
+elixir-gettext
+elixir-hex
+elixir-html_entities
+elixir-html_sanitize_ex
+elixir-httpoison
+elixir-httpotion
+elixir-inflex
+elixir-joken
+elixir-jose
+elixir-kafka_ex
+elixir-libring
+elixir-make
+elixir-mariaex
+elixir-maru
+elixir-math
+elixir-mime
+elixir-msgpax
+elixir-nadia
+elixir-nats
+elixir-nimble_csv
+elixir-oauth2
+elixir-paratize
+elixir-phoenix_ecto
+elixir-phoenix_html
+elixir-phoenix_pubsub
+elixir-phoenix
+elixir-plug
+elixir-poison
+elixir-postgrex
+elixir-quantum
+elixir-smppex
+elixir-swarm
+elixir-sweet_xml
+elixir-timex_ecto
+elixir-timex
+elixir-trailing_format_plug
+elixir-tzdata
+elixir-unsafe
+elixir-uuid
+elixir-webassembly
+elmerfem
+en_GB-kde-l10n
+enma
+epic5
+eric6-qt4-py27
+eric6-qt4-py36
+erlang
+erlang-backoff
+erlang-base64url
+erlang-bbmustache
+erlang-bear
+erlang-certifi
+erlang-cf
+erlang-cl
+erlang-clique
+erlang-common_lib
+erlang-couchbeam
+erlang-cowboy
+erlang-cowlib
+erlang-cuttlefish
+erlang-edown
+erlang-epgsql
+erlang-eredis
+erlang-erlware_commons
+erlang-esdl
+erlang-exmpp
+erlang-fast_tls
+erlang-fast_xml
+erlang-folsom
+erlang-gen_leader
+erlang-gen_rpc
+erlang-gen_smtp
+erlang-getopt
+erlang-goldrush
+erlang-gpb
+erlang-gproc
+erlang-hackney
+erlang-hut
+erlang-ibrowse
+erlang-idna
+erlang-java
+erlang-jobs
+erlang-jose
+erlang-jsx
+erlang-jsxd
+erlang-katana
+erlang-lager_syslog
+erlang-lager
+erlang-meck
+erlang-metrics
+erlang-mimerl
+erlang-mimetypes
+erlang-mochiweb
+erlang-mochiweb-basho
+erlang-msgpack
+erlang-neotoma
+erlang-oserl
+erlang-p1_utils
+erlang-parse_trans
+erlang-poolboy
+erlang-pooler
+erlang-providers
+erlang-ranch
+erlang-rebar3_hex
+erlang-recon
+erlang-riak
+erlang-runtime15
+erlang-runtime16
+erlang-runtime17
+erlang-runtime18
+erlang-runtime19
+erlang-sbroker
+erlang-snappy
+erlang-ssl_verify_fun
+erlang-syslog
+erlang-unicode_util_compat
+erlang-webmachine
+erlang-wx
+erlang-xmlrpc
+erlang-yamerl
+es-kde-l10n
+esmtp
+esperanza
+esteidfirefoxplugin
+et-kde-l10n
+eu-kde-l10n
+fa-kde-l10n
+fbopenssl
+fbreader
+fet
+fi-kde-l10n
+filelight-kde4
+flukz
+fmit
+fontmatrix
+fonulator
+fr-kde-l10n
+FreeCAD
+freenet6
+frescobaldi
+fth
+fwbuilder
+ga-kde-l10n
+gale
+gdcm
+gegl3
+generatorrunner
+geomWatch
+ghostbsd-grub2-settings
+git-cola
+gl-kde-l10n
+gle-graphics
+gmsh-occ
+gns3
+gnuradio
+gnustep-app
+gogoc
+goldendict
+gprolog
+gqrx
+gr-osmosdr
+grafana3
+granatier-kde4
+grdesktop
+grub2
+grub2-efi
+grub2-pcbsd
+gsk
+gstreamer-plugins-all
+gstreamer-qt4
+gstreamer1-qt4
+gtk-qt-engine
+gwenview-kde4
+gxplugins-lv2
+h323plus
+hadoop
+hadoop2
+hbase
+he-kde-l10n
+hi-kde-l10n
+hitch
+homerun
+hotot
+hpenc
+hr-kde-l10n
+htmldoc
+httperf
+hu-kde-l10n
+hupnp
+hydrogen
+i386-wine
+i386-wine-devel
+ia-kde-l10n
+id-kde-l10n
+ike
+imapfilter
+InsightToolkit
+ipsec-tools
+ircproxy
+irssi-fish
+is-kde-l10n
+isakmpd
+it-kde-l10n
+ja-jpilot
+ja-kde-l10n
+ja-kiten-kde4
+ja-mutt-devel
+jabber
+jag
+john
+jovie-kde4
+jpilot
+jpilot-picsnvideos
+juk-kde4
+k3b-kde4
+k8048
+k9copy
+kaccessible-kde4
+kactivities
+kactivitymanagerd
+kaffeine
+kajongg-kde4
+kalgebra-kde4
+kalzium-kde4
+kamera-kde4
+kanagram-kde4
+kapman-kde4
+kapptemplate-kde4
+kaptain
+kardsgt
+kate-kde4
+kate-plugin-pate-kde4
+katomic-kde4
+kbiff
+kblackbox-kde4
+kblocks-kde4
+kbounce-kde4
+kbreakout-kde4
+kbruch-kde4
+kcachegrind-kde4
+kcalc-kde4
+kcharselect-kde4
+kcm-polkit-kde
+kcolorchooser-kde4
+kcoloredit
+kcov
+kcron-kde4
+kdbg
+kde
+kde-base-artwork-kde4
+kde-baseapps-kde4
+kde-dev-scripts-kde4
+kde-dev-utils-kde4
+kde-gtk-config
+kde-l10n
+kde-runtime-kde4
+kde-wallpapers-kde4
+kde-windeco-crystal
+kde-workspace-kde4
+kde4-style-bespin
+kde4-style-nitrogen
+kde4-style-oxygen-transparent
+kde4-style-polyester
+kde4-style-qtcurve
+kde4-style-skulpture
+kde4-windeco-dekorator
+kdeaccessibility-kde4
+kdeadmin-kde4
+kdeartwork-kde4
+kdebindings-kde4
+kdeconnect-kde-kde4
+kdeedu-kde4
+kdegames-kde4
+kdegraphics-kde4
+kdegraphics-mobipocket-kde4
+kdegraphics-strigi-analyzer-kde4
+kdegraphics-svgpart-kde4
+kdegraphics-thumbnailers-kde4
+kdelibs-kde4
+kdemultimedia-ffmpegthumbs-kde4
+kdemultimedia-kde4
+kdemultimedia-mplayerthumbs-kde4
+kdenetwork-filesharing-kde4
+kdenetwork-kde4
+kdenetwork-strigi-analyzers-kde4
+kdenlive-kde4
+kdepim-kde4
+kdepim-runtime-kde4
+kdepimlibs-kde4
+kdeplasma-addons-kde4
+kdesdk-kde4
+kdesdk-kioslaves-kde4
+kdesdk-strigi-analyzers-kde4
+kdesdk-thumbnailers-kde4
+kdesvn-kde4
+kdetoys-kde4
+kdeutils-kde4
+kdevelop-kde4
+kdevelop-pg-qt-kde4
+kdevelop-php-docs-kde4
+kdevelop-php-kde4
+kdevplatform-kde4
+kdewebdev-kde4
+kdf-kde4
+kdiamond-kde4
+kdiff3
+kdirstat
+keynote
+kfilemetadata-kde4
+kfloppy-kde4
+kfourinline-kde4
+kgamma-kde4
+kgeography-kde4
+kget-kde4
+kgoldrunner-kde4
+kgpg-kde4
+khangman-kde4
+kicad-library
+kiconedit
+kid3-kde4
+kid3-qt4
+kig-kde4
+kigo-kde4
+kile-kde4
+killbots-kde4
+kio-audiocd-kde4
+kio-upnp-ms
+kipi-plugin-acquireimages
+kipi-plugin-advancedslideshow
+kipi-plugin-batchprocess
+kipi-plugin-calendar
+kipi-plugin-debianscreenshots
+kipi-plugin-dngconverter
+kipi-plugin-dropbox
+kipi-plugin-expoblending
+kipi-plugin-facebook
+kipi-plugin-flashexport
+kipi-plugin-flickrexport
+kipi-plugin-galleryexport
+kipi-plugin-googleservices
+kipi-plugin-gpssync
+kipi-plugin-htmlexport
+kipi-plugin-imageshackexport
+kipi-plugin-imageviewer
+kipi-plugin-imgurexport
+kipi-plugin-ipodexport
+kipi-plugin-jalbumexport
+kipi-plugin-jpeglossless
+kipi-plugin-kioexport
+kipi-plugin-kmlexport
+kipi-plugin-kopete
+kipi-plugin-mediawiki
+kipi-plugin-metadataedit
+kipi-plugin-panorama
+kipi-plugin-photolayoutseditor
+kipi-plugin-piwigoexport
+kipi-plugin-printimages
+kipi-plugin-rajceexport
+kipi-plugin-rawconverter
+kipi-plugin-removeredeyes
+kipi-plugin-sendimages
+kipi-plugin-shwup
+kipi-plugin-smug
+kipi-plugin-timeadjust
+kipi-plugin-videoslideshow
+kipi-plugin-vkontakte
+kipi-plugin-yandexfotki
+kipi-plugins
+kiriki-kde4
+kjumpingcube-kde4
+kk-kde-l10n
+klat4
+klatexformula
+klayout
+klettres-kde4
+klickety-kde4
+klines-kde4
+km-kde-l10n
+kmag-kde4
+kmahjongg-kde4
+kmess
+kmines-kde4
+kmix-kde4
+kmousetool-kde4
+kmouth-kde4
+kmplayer-kde4
+kmplot-kde4
+kmymoney-kde4
+knavalbattle-kde4
+knetwalk-kde4
+knights
+knot-resolver
+knot1
+knutclient
+ko-kde-l10n
+kolf-kde4
+kollision-kde4
+kolourpaint-kde4
+kompare-kde4
+konquest-kde4
+konsole-kde4
+kopete-kde4
+kover
+kpartsplugin
+kpat-kde4
+kpdftool
+kphotoalbum-kde4
+kplayer
+kpovmodeler
+kqoauth
+kqtquickcharts-kde4
+krb5-114
+krdc-kde4
+krecipes
+kremotecontrol-kde4
+kreversi-kde4
+krfb-kde4
+kronosnet
+kruler-kde4
+krusader-kde4
+ksaneplugin-kde4
+kscd-kde4
+kshisen-kde4
+kshowmail
+kshutdown
+ksirk-kde4
+ksnakeduel-kde4
+ksnapshot-kde4
+kspaceduel-kde4
+ksquares-kde4
+ksshaskpass
+kstars-kde4
+kstreamripper
+ksudoku-kde4
+ksystemlog-kde4
+kteatime-kde4
+ktimer-kde4
+ktorrent-kde4
+ktouch-kde4
+ktp-accounts-kcm-kde4
+ktp-approver-kde4
+ktp-auth-handler-kde4
+ktp-common-internals-kde4
+ktp-contact-list-kde4
+ktp-contact-runner-kde4
+ktp-desktop-applets-kde4
+ktp-filetransfer-handler-kde4
+ktp-kded-integration-module-kde4
+ktp-send-file-kde4
+ktp-text-ui-kde4
+ktuberling-kde4
+kturtle-kde4
+ktux-kde4
+kubrick-kde4
+kuser-kde4
+kvirc
+kvirc-qt4
+kwalletmanager-kde4
+kwebkitpart
+kwooty
+kwordquiz-kde4
+l0pht-watch
+lastfm-desktop
+launchy
+layouteditor
+lazarus-qt4
+lazpaint-qt4
+ldap-account-manager
+ldmud
+leechcraft
+leo
+leocad
+lfe
+libarms
+libdkim
+libdomainkeys
+libdombey
+libechonest
+libesmtp
+libeXosip2
+libircclient
+libjreen
+libkcddb-kde4
+libkcompactdisc-kde4
+libkdcraw-kde4
+libkdeedu-kde4
+libkdegames-kde4
+libkexiv2-kde4
+libkfbapi
+libkgapi-kde4
+libkgeomap-kde4
+libkipi-kde4
+libkipiplugins
+libkmahjongg-kde4
+libkolab
+libkomparediff2-kde4
+libkonq-kde4
+libksane-kde4
+libkscreen
+libktorrent-kde4
+libkvkontakte-kde4
+liblastfm-qt4
+libleaftag
+libmediawiki-kde4
+libmsocket
+libopkele
+libp11
+libproxy-kde
+libqtelegram-ae
+libswift
+libtorrent
+libzrtpcpp
+licq-osd
+licq-qt4-gui
+linknx
+linm
+linpsk
+linux-kernel
+linuxdcpp
+liteide-qt4
+lokalize-kde4
+lprof-devel
+lskat-kde4
+lt-kde-l10n
+lua51-luasec
+lua52-luasec
+luminance-hdr
+lv-kde-l10n
+mailfront
+marble-kde4
+mariadb100-client
+mariadb100-server
+mariadb101-client
+mariadb101-server
+mariadb55-client
+mariadb55-server
+mediadownloader
+mediawiki129
+megaglest
+memleax
+meshlab
+minitunes
+mixxx20
+mlton
+mongo-cxx-driver
+mongodb32
+mongodb34
+mongodb34-tools
+mongodb36-tools
+monodevelop
+monotone
+monotone-viz
+MOOSE-neural-simulator
+mr-kde-l10n
+msbcg729
+msilbc
+msx264
+multisync-syncml
+mumble
+murmur
+mysql-connector-c
+mysqlwsrep56-server
+nagios-check_bacula
+nagios-check_relayd_status
+NagiosAgent
+namecoin
+natron
+nb-kde-l10n
+ncrack
+nds-kde-l10n
+nepomuk-core-kde4
+nepomuk-widgets-kde4
+netatalk
+netdot
+netpgp
+nginx
+nginx-full
+nim
+nimble
+ninja-ide
+njplot
+nl-kde-l10n
+nn-kde-l10n
+obfsclient
+octave-forge
+octave-forge-dicom
+okteta-kde4
+okular-kde4
+omniNotify
+omniORB
+omniORB41
+oozie
+opal
+openastromenace
+openca-tools-forked
+opencryptoki
+opendd
+openfx-io
+openhbci
+openiked
+openscad
+opensips
+opensmtpd
+opensmtpd-devel
+opensmtpd-extras
+opensmtpd-extras-filter-clamav
+opensmtpd-extras-filter-dkim
+opensmtpd-extras-filter-dnsbl
+opensmtpd-extras-filter-lua
+opensmtpd-extras-filter-monkey
+opensmtpd-extras-filter-pause
+opensmtpd-extras-filter-perl
+opensmtpd-extras-filter-python
+opensmtpd-extras-filter-regex
+opensmtpd-extras-filter-spamassassin
+opensmtpd-extras-queue-python
+opensmtpd-extras-queue-ram
+opensmtpd-extras-scheduler-python
+opensmtpd-extras-scheduler-ram
+opensmtpd-extras-table-ldap
+opensmtpd-extras-table-mysql
+opensmtpd-extras-table-passwd
+opensmtpd-extras-table-postgresql
+opensmtpd-extras-table-python
+opensmtpd-extras-table-redis
+opensmtpd-extras-table-socketmap
+opensmtpd-extras-table-sqlite
+opensmtpd-extras-tool-stats
+openssh-portable-hpn
+openssl_tpm_engine
+openstructure
+opentsdb
+ori
+oscam
+oss
+osslsigncode
+ostinato
+p4
+p4.el
+p4delta
+p4genpatch
+p5-Alien-Gimp
+p5-AnyEvent-CouchDB
+p5-Crypt-OpenSSL-CA
+p5-Crypt-OpenSSL-ECDSA
+p5-HTML-HTMLDoc
+p5-Mango
+p5-Net-DNS-SEC
+p5-Net-DNS-Zone-Parser
+p5-Net-DNS-ZoneFile-Fast
+p5-Net-RabbitMQ
+p5-Net-SAML
+p5-Nginx-ReadBody
+p5-PDF-WebKit
+p5-perlkde-kde4
+p5-perlqt-kde4
+p5-Quota
+p5-WWW-Mechanize-PhantomJS
+pa-kde-l10n
+pairs-kde4
+palapeli-kde4
+pam_mount
+pam_p11
+parley-kde4
+pcbsd-appweb
+peazip-qt4
+pgadmin3
+phantomjs
+phonon-designerplugin-qt4
+phonon-gstreamer-qt4
+phonon-qt4
+phonon-vlc-qt4
+phonon-xine
+photivo-qt4
+php56-pecl-swoole
+php56-pecl-xdebug
+php56-tclink
+php70-pecl-xdebug26
+php71-pear-SebastianBergmann_PHPCPD
+php71-pear-SebastianBergmann_PHPLOC
+php71-pecl-xdebug26
+php72-pecl-xdebug26
+phpldapadmin
+picmi-kde4
+pijul
+piklab
+pipelight
+pkg-devel
+pks
+pl-ekg
+pl-ekg2
+pl-kde-l10n
+pl-qfaktury
+plasma-applet-adjustableclock
+plasma-applet-cwp
+plasma-applet-daisy
+plasma-applet-fancytasks
+plasma-applet-ftpmonitor
+plasma-applet-geekclock
+plasma-applet-ktp-kde4
+plasma-applet-panelspacer
+plasma-applet-qstardict
+plasma-applet-serverstatuswidget
+plasma-applet-simpleweatherforecast
+plasma-applet-teacooker
+plasma-applet-yawp
+plasma
+plasma-scriptengine-python-kde4
+plasma-scriptengine-ruby-kde4
+plasma5-breeze-kde4
+playonbsd
+plume-creator-devel
+pokerth
+policykit-qt
+polkit-kde
+polygraph
+pop3proxy
+portshaker
+portshaker-config
+pound
+poxml-kde4
+prayer
+print-manager-kde4
+prosody
+prosody-modules
+pt_BR-kde-l10n
+pt-kde-l10n
+ptlib
+puddletag
+pvk
+py27-fltk
+py27-imgkit
+py27-krosspython-kde4
+py27-musicbrainz2
+py27-nyx
+py27-omniorb
+py27-omniorb3
+py27-poppler-qt4
+py27-pow
+py27-pydoop
+py27-pykde4-kde4
+py27-pykdeuic4-kde4
+py27-python-dtrace
+py27-qt4
+py27-qt4-assistant
+py27-qt4-core
+py27-qt4-dbus
+py27-qt4-declarative
+py27-qt4-demo
+py27-qt4-designer
+py27-qt4-designerplugin
+py27-qt4-gui
+py27-qt4-help
+py27-qt4-multimedia
+py27-qt4-network
+py27-qt4-opengl
+py27-qt4-phonon
+py27-qt4-qscintilla2
+py27-qt4-script
+py27-qt4-scripttools
+py27-qt4-sql
+py27-qt4-svg
+py27-qt4-test
+py27-qt4-webkit
+py27-qt4-xml
+py27-qt4-xmlpatterns
+py27-qtconsole
+py27-veusz
+py27-yubioath-desktop
+py34-cython
+py34-gdbm
+py34-numpy
+py34-setuptools
+py34-sqlite3
+py34-tkinter
+py36-attic
+py36-fltk
+py36-imgkit
+py36-nyx
+py36-poppler-qt4
+py36-python-dtrace
+py36-qt4
+py36-qt4-assistant
+py36-qt4-core
+py36-qt4-dbus
+py36-qt4-declarative
+py36-qt4-demo
+py36-qt4-designer
+py36-qt4-designerplugin
+py36-qt4-gui
+py36-qt4-help
+py36-qt4-multimedia
+py36-qt4-network
+py36-qt4-opengl
+py36-qt4-phonon
+py36-qt4-qscintilla2
+py36-qt4-script
+py36-qt4-scripttools
+py36-qt4-sql
+py36-qt4-svg
+py36-qt4-test
+py36-qt4-webkit
+py36-qt4-xml
+py36-qt4-xmlpatterns
+py36-qtconsole
+py36-veusz
+pyside-py27
+pyside-tools-py27
+python34
+q4wine
+qbzr
+qcomicbook
+qct
+qdevelop
+qemu
+qemu-cheri
+qfsm
+qgis
+qgmailnotifier
+qhacc
+qjsonrpc
+qkismet
+qmail-autoresponder
+qmail-dk
+qmail-ldap
+qmail-qfilter
+qmail-spamcontrol
+qmmp
+qmmp-plugin-pack
+qmpdclient
+qoauth
+qorganizer
+qpopper
+qprog
+qpxtool
+qrfcview
+qross
+qscintilla2
+qscintilla2-designerplugin
+qstardict
+qsynergy
+qt4
+qt4-accessible
+qt4-assistant
+qt4-assistant-adp
+qt4-declarative
+qt4-designer
+qt4-help
+qt4-help-tools
+qt4-libQtAssistantClient
+qt4-linguist
+qt4-mobility
+qt4-network
+qt4-pixeltool
+qt4-qmlviewer
+qt4-qt3support
+qt4-qtconfig
+qt4-qtdemo
+qt4-qtsolutions-singleapplication
+qt4-qtsolutions-soap
+qt4-uic3
+qt4-webkit
+qt4-xmlpatterns
+qt4-xmlpatterns-tool
+qt4pas
+qtcurve
+qtel
+qtfm
+qtiplot
+qtm
+qtscriptgenerator
+qtweetlib
+quazip-qt4
+qucs
+qupzilla-qt4
+qwt5-designerplugin
+qwt6-qt4
+qxmpp
+qzeitgeist
+rabbitmq
+racoon2
+radmind
+radsecproxy
+ramblercontacts
+raop_play
+ratbox-respond
+razorback-api
+razorback-archiveInflate
+razorback-clamavNugget
+razorback-dispatcher
+razorback-fileInject
+razorback-fsMonitor
+razorback-fsWalk
+razorback-masterNugget
+razorback-pdfFox
+razorback-scriptNugget
+razorback-swfScanner
+razorback-syslogNugget
+razorback-virusTotal
+razorback-yaraNugget
+rdesktop
+rebar
+rebar3
+recoll
+rekonq
+relayd
+relx
+remotedesk
+resin
+riak-cs
+ro-kde-l10n
+rocs-kde4
+rosegarden
+routers2-extensions
+rsyncrypto
+rtorrent
+ru-ircd-hybrid
+ru-kde-l10n
+rubinius
+ruby23
+ruby24-korundum-kde4
+ruby24-krossruby-kde4
+ruby24-qtruby-kde4
+rubygem-ezprint
+rubygem-passenger-apache
+rubygem-passenger-nginx
+rubygem-pdfkit
+samba-nsupdate
+sbsigntool
+scantailor
+scilab
+scilab-toolbox-swt
+scribus
+scythia
+seexpr
+semantik
+send
+shards
+shellinabox
+shiboken
+silence
+simon
+sipp
+sitecopy
+sk-kde-l10n
+skanlite-kde4
+skype-call-recorder
+sl-kde-l10n
+smb4k-kde4
+smokekde-kde4
+smokeqt-kde4
+socketw
+softether
+softether-devel
+softhsm2
+soprano
+spamd
+spamdb-curses
+spamdyke
+spmfilter
+spmfilter-clamav
+sqliteman
+squid3
+sr-kde-l10n
+ss5
+sslsniffer
+ssltunnel-server
+sslwrap
+sst
+ssvnc
+staf
+stanchion
+stellarium-qt4
+step-kde4
+stone
+stud
+subcommander
+subversion-kwallet
+superkaramba-kde4
+suphp
+sv-kde-l10n
+sweeper-kde4
+swine
+swish++
+syncplay
+syslog-ng-incubator
+syslog-ng36
+syslog-ng37
+tagutils
+tcpcrypt
+tea
+telegramqml
+telepathy-kde4
+telepathy-logger-qt4
+telepathy-qt4
+tellico
+texmacs
+texstudio-qt4
+textroom
+titus
+tkp4
+tla
+tlswrap
+tora
+toxic
+tpm-tools
+tr-kde-l10n
+trac-fullblog
+trac-fullblognotification
+trac-wikitopdf
+trafficserver
+transmission
+transmission-qt4
+transmission-remote-gui-qt4
+tsung
+tulip
+turpial
+twoftpd
+ubertooth
+ucommon
+ucspi-proxy
+ucspi-unix
+ufdbGuard
+ug-kde-l10n
+uhub
+uim-kde4
+uim-qt4
+uk-kde-l10n
+umbrello-kde4
+umplayer
+undernet-ircu
+unifi-devel
+unifi-lts
+unifi5
+universalindentgui
+vacuum-im
+validns
+valknut
+vanitygen
+vde2
+vpcs
+vtun
+vv
+vym
+wa-kde-l10n
+walker
+websocat
+webstone-ssl
+WinFF-qt4
+wings
+wkhtmltopdf
+xar
+xca
+xcrysden
+xglobe
+xrdesktop2
+xshttpd
+xshttpd-devel
+xtensa-esp32-elf
+yafic
+yakuake-kde4
+yaws
+yubikey-piv-manager
+zabbix2-agent
+zabbix2-java
+zabbix2-proxy
+zabbix2-server
+zeroconf-ioslave-kde4
+zh_CN-kde-l10n
+zh_TW-kde-l10n
+znotes-qt4
+zxid
+
+----------------
+Updated Packages (1417):
+----------------
+ace+tao-doc : 6.4.3 -> 6.5.2
+acpica-tools : 20181003 -> 20181031
+acts : 1.2 -> 1.3
+amass : 2.7.0.8 -> 2.8.0
+amavisd-new : 2.11.0_3,1 -> 2.11.1,1
+analitza : 18.08.1 -> 18.08.2
+aom : 1.0.0.733 -> 1.0.0.860
+ap24-mod_auth_openidc : 2.3.5 -> 2.3.8
+ap24-mod_http2-devel : 1.10.20 -> 1.11.3
+ap24-mod_jk : 1.2.43,1 -> 1.2.46,1
+apache-solr : 7.1.0 -> 7.4.0
+apache24 : 2.4.35 -> 2.4.37
+apr : 1.6.3.1.6.1_1 -> 1.6.5.1.6.1
+arb : 2.15.0 -> 2.15.1
+archiveopteryx-devel : 3.2.99.20180207 -> 3.2.99.20181030
+ark : 18.08.1 -> 18.08.2
+artikulate : 18.08.1 -> 18.08.2
+asterisk13-g72x : 1.4.2_1 -> 1.4.3
+asterisk15-g72x : 1.4.2_1 -> 1.4.3
+auto-admin : 0.4.3 -> 0.4.4
+avenger : 0.8.4_1 -> 0.8.5
+aws-sdk-cpp : 1.6.20 -> 1.6.35
+awscli : 1.16.28 -> 1.16.44
+babl : 0.1.56 -> 0.1.58
+bagel : 1.1.2.21 -> 1.2.0
+bashdb : 4.4.0.94_1 -> 4.4.1.0.0
+bat : 0.7.1_1 -> 0.8.0_1
+bazel : 0.17.1 -> 0.19.0
+bctoolbox : 0.2.0_6 -> 0.6.0
+beid : 4.4.5 -> 4.4.9
+belle-sip : 1.5.0_4 -> 1.6.3
+bftpd : 4.9 -> 5.0
+bind-tools : 9.12.2P2 -> 9.12.3
+bind9-devel : 9.13.1.a0.2018.09.28_1 -> 9.13.1.a0.2018.10.31
+bind911 : 9.11.4P2 -> 9.11.5
+bind912 : 9.12.2P2 -> 9.12.3
+bitcoin : 0.16.3 -> 0.17.0
+bitcoin-daemon : 0.16.3_2 -> 0.17.0_3
+bitcoin-utils : 0.16.3 -> 0.17.0
+blinken : 18.08.1 -> 18.08.2
+bmf : 0.9.4_3 -> 0.84_1
+bmpp : 4.18.1 -> 4.19.1
+boringssl : 0.0.0.0.2018.01.10.01 -> 0.0.0.0.2018.10.30.01
+bosh-bootloader : 6.10.12 -> 6.10.18
+botan110 : 1.10.13_9 -> 1.10.17
+brotli : 1.0.6,1 -> 1.0.7,1
+bsdisks : 0.4_1 -> 0.5
+bvm : 1.1.4 -> 1.1.5
+bzrtp : 1.0.4 -> 1.0.6
+ca_root_nss : 3.39_1 -> 3.40_1
+cabextract : 1.7 -> 1.8
+Carla : 1.9.11 -> 1.9.12
+catch : 2.4.1 -> 2.4.2
+cbsd : 11.2.1 -> 12.0.0
+ccid : 1.4.29 -> 1.4.30
+cdecl : 4.7 -> 4.8
+cervisia : 18.08.1 -> 18.08.2
+cf : 6.39.1 -> 6.40.0
+cfengine : 3.11.0_1 -> 3.12.0
+cfengine-masterfiles : 3.11.0 -> 3.12.0
+cgnslib : 3.2.1_13,1 -> 3.3.1,1
+check_ssl_cert : 1.73.0 -> 1.76.0
+CheMPS2 : 1.8.8 -> 1.8.9
+chicken5 : 5.0.0.r2 -> 5.0.0.r4
+cimg : 2.3.6_1,3 -> 2.4.1,3
+citra-qt5 : s20181005 -> s20181030
+citra : s20181005 -> s20181030
+clang-devel : 8.d20181001 -> 8.d20181024
+CLDR : 33.1 -> 34.0
+cmake : 3.12.2 -> 3.12.3
+cmake-doc : 3.12.2 -> 3.12.3
+cmake-gui : 3.12.2 -> 3.12.3
+cockroach : 2.0.5 -> 2.0.6
+compat10x-amd64 : 10.3.1003000.20170608 -> 10.4.1004000.20181014
+compat11x-amd64 : 11.0.1100122.20170608 -> 11.2.1102000.20181014
+cone : 0.96.2_1 -> 1.0
+conserver-com : 8.2.1_1 -> 8.2.2
+consul : 1.2.3 -> 1.3.0
+copyq : 2.7.1_1 -> 3.6.1
+coreos-etcd31 : 3.1.19 -> 3.1.20
+coreos-etcd32 : 3.2.24 -> 3.2.25
+coreos-etcd33 : 3.3.9 -> 3.3.10
+courier-authlib : 0.68.0_1 -> 0.69.0
+courier-authlib-base : 0.68.0_2 -> 0.69.0
+courier-authlib-ldap : 0.68.0_1 -> 0.69.0
+courier-authlib-mysql : 0.68.0_1 -> 0.69.0
+courier-authlib-pgsql : 0.68.0_1 -> 0.69.0
+courier-authlib-userdb : 0.68.0 -> 0.69.0
+courier-authlib-usergdbm : 0.68.0 -> 0.69.0
+courier-authlib-vchkpw : 0.68.0 -> 0.69.0
+courier-unicode : 2.0_1 -> 2.1
+cppcheck : 1.84_1 -> 1.85
+cppcheck-gui : 1.84_1 -> 1.85
+cups-filters : 1.16.0_6 -> 1.21.3
+cyrus-imapd25 : 2.5.11_3 -> 2.5.12
+de-eric6 : 18.09 -> 18.10
+de-mythes : 2018.09.30 -> 2018.10.28
+debhelper : 11.4.1 -> 11.5
+desktop-installer : 0.6.1 -> 0.6.2
+din : 37a -> 38
+dnscrypt-proxy2 : 2.0.16_1 -> 2.0.17
+dnsmasq : 2.79,1 -> 2.80,1
+doctl : 1.10.0 -> 1.11.0
+dragon-player : 18.08.1 -> 18.08.2
+drm-next-kmod : 4.11.g20180822 -> 4.11.g20181027
+drumkv1-lv2 : 0.9.2 -> 0.9.3
+drupal7 : 7.59 -> 7.60
+duktape : 2.2.1 -> 2.3.0
+duo : 1.10.1 -> 1.10.5
+duplicity : 0.7.17 -> 0.7.18.2
+edbrowse : 3.7.3_1 -> 3.7.4
+eGroupware : 17.1.20180831 -> 17.1.20181018
+eksctl : 0.1.5 -> 0.1.8
+emacs-devel : 27.0.50.20180901,2 -> 27.0.50.20181022,2
+emacs-devel-nox : 27.0.50.20180901,2 -> 27.0.50.20181022,2
+emby-server : 3.5.2.0 -> 3.5.3.0
+emptyepsilon : 2018.02.15_1 -> 2018.09.06
+engauge-digitizer : 10.10 -> 10.11
+erlang-runtime20 : 20.3.8.9 -> 20.3.8.10
+erlang-runtime21 : 21.1 -> 21.1.1
+es-eric6 : 18.09 -> 18.10
+eschalot : 1.2.0 -> 1.2.0.20180118
+ettercap : 0.8.2,1 -> 0.8.2_1,1
+expect : 5.45.4,1 -> 5.45.4_1,1
+facter : 3.12.0_1 -> 3.12.1
+fancybox : 3.5.0 -> 3.5.2
+fasttracker2 : 0.1.b99 -> 0.1.b109
+feh : 2.27.1_1 -> 2.28.1
+filelight : 18.08.1 -> 18.08.2
+fio : 3.10 -> 3.11
+firefox : 62.0.3,1 -> 63.0.1,1
+firefox-esr : 60.2.2,1 -> 60.3.0_2,1
+firefox-esr-i18n : 60.2.2 -> 60.3.0
+firefox-i18n : 62.0.3 -> 63.0.1
+freebsd-8k-wallpapers : 1.0 -> 1.1_1
+freebsd-8k-wallpapers-kde : 1.0 -> 1.1_1
+freebsd-release-manifests : 20180627 -> 20181027
+fxt : 2017.07.25 -> 2018.07.03
+fzf : 0.17.4 -> 0.17.5
+gbi : 5.8 -> 6.0
+gcc : 7_1 -> 8_2
+gcc6 : 6.4.0_8 -> 6.5.0
+gcc6-devel : 6.4.1.s20180926 -> 6.4.1.s20181024
+gcc7-devel : 7.3.1.s20181004 -> 7.3.1.s20181025
+gcc8-devel : 8.2.1.s20181005 -> 8.2.1.s20181026
+gcc9-devel : 9.0.0.s20180930 -> 9.0.0.s20181021
+gcolor3 : 2.3 -> 2.3.1
+geckodriver : 0.21.0_1 -> 0.23.0_1
+gegl : 0.2.0_25 -> 0.4.8_1
+getdp : 3.0.2 -> 3.0.3
+gigolo : 0.4.2_1 -> 0.4.90
+gimp : 2.8.22,2 -> 2.10.6,2
+gimp-app : 2.8.22_1,1 -> 2.10.6_1,1
+git-extras : 4.5.0 -> 4.6.0
+gitaly : 0.120.1 -> 0.125.1_1
+gitea : 1.5.1 -> 1.5.2
+gitlab-ce : 11.3.4 -> 11.4.3
+gitlab-workhorse : 6.1.0 -> 7.0.0
+glpi : 9.2.1,1 -> 9.3.1,1
+gmsh : 3.0.6_3 -> 4.0.2_1
+gnu-dico : 2.4 -> 2.7
+gnucap : 2009.12.07_1 -> 2013.04.23
+gnuplot : 5.2.4 -> 5.2.5
+gnuplot-lite : 5.2.4 -> 5.2.5
+gnuplot-tex-extras : 5.2.4 -> 5.2.5
+go-for-it : 1.6.6 -> 1.6.7
+go-www : 1.1.1 -> 1.1.2
+gohugo : 0.48 -> 0.50
+google-cloud-sdk : 217.0.0 -> 223.0.0
+gpa : 0.9.10 -> 0.10.0
+gpgme : 1.11.1 -> 1.12.0
+gpgme-cpp : 1.11.1 -> 1.12.0
+gpgme-qt5 : 1.11.1 -> 1.12.0
+gpstk : 2.10 -> 2.10.6
+gpxsee : 6.0 -> 6.2
+grantleetheme : 18.08.1 -> 18.08.2
+graphpath : 1.0 -> 1.2
+gscan2pdf : 2.1.6 -> 2.1.7
+gtk-doc : 1.28 -> 1.29
+gtkspell3 : 3.0.9 -> 3.0.10
+haproxy-devel : 1.9.d3 -> 1.9.d5
+harfbuzz : 1.9.0 -> 2.1.0
+harfbuzz-icu : 1.9.0 -> 2.1.0_1
+help2man : 1.47.7 -> 1.47.8
+homebank : 5.2.1 -> 5.2.2
+hpl : 2.1_10 -> 2.2
+hs-xmobar : 0.26_2 -> 0.28
+hyperrogue : 10.4t -> 10.4w
+hyphy : 2.3.13 -> 2.3.14.16
+hypre : 2.11.2_4 -> 2.15.1
+i2pd : 2.20.0_1 -> 2.21.1
+i3lock : 2.10_2 -> 2.11.1
+ibus-m17n : 1.3.4.16 -> 1.4.1
+ibus-typing-booster : 2.1.2 -> 2.1.3
+icinga2 : 2.9.2 -> 2.10.1
+icingaweb2-module-director : 1.5.1 -> 1.5.2
+icu : 62.1_2,1 -> 63.1,1
+icu-lx : 62.1_2 -> 63.1
+idnits : 2.15.01 -> 2.16.0
+imageworsener : 1.3.2 -> 1.3.3
+intel-em-kmod : 7.6.2_1 -> 7.7.4_1
+intellij : 2018.2.3 -> 2018.2.5
+iozone : 3.457 -> 3.484
+ipdecap : 0.7.1_1 -> 0.7.2_1
+ipv6calc : 1.0.0 -> 1.1.0
+iqtree : 1.6.7 -> 1.6.8
+istio : 1.0.2 -> 1.0.3
+ja-fcitx-skk : 0.1.2_3 -> 0.1.4
+ja-font-ipaex : 00201_8 -> 00301
+ja-font-koruri : 20161105 -> 20180915
+ja-kiten : 18.08.1 -> 18.08.2
+ja-multiskkserv : 0.20020201_1 -> 0.20100128
+jackett : 0.8.898 -> 0.10.267
+java-subversion : 1.10.2_1 -> 1.10.3
+jenkins : 2.144 -> 2.149
+jenkins-lts : 2.121.3 -> 2.138.2
+juk : 18.08.1 -> 18.08.2
+jupp : 3.1.36 -> 3.1.37
+kakoune : 2018.09.04 -> 2018.10.27
+kalgebra : 18.08.1 -> 18.08.2
+kamera : 18.08.1 -> 18.08.2
+kanagram : 18.08.1 -> 18.08.2
+kapptemplate : 18.08.1 -> 18.08.2
+kate : 18.08.1 -> 18.08.2
+kbackup : 18.08.1 -> 18.08.2
+kbfs : 2.6.0 -> 2.8.0
+kbibtex : 0.6.2_4 -> 0.8.1_1
+kbruch : 18.08.1 -> 18.08.2
+kcachegrind : 18.08.1 -> 18.08.2
+kcalc : 18.08.1 -> 18.08.2
+kcharselect : 18.08.1 -> 18.08.2
+kcolorchooser : 18.08.1 -> 18.08.2
+kcontacts : 18.08.1 -> 18.08.2
+kcron : 18.08.1 -> 18.08.2
+kdav : 18.08.1 -> 18.08.2
+kde-dev-scripts : 18.08.1 -> 18.08.2
+kde-dev-utils : 18.08.1 -> 18.08.2
+kde-thumbnailer-chm : 0.2_5 -> 0.2.1
+kde-thumbnailer-epub : 1.0_2 -> 1.1.9.b
+kde-thumbnailer-fb2 : 0.2_2 -> 0.3.1
+kdeaccessibility : 18.08.1 -> 18.08.2
+kdeadmin : 18.08.1 -> 18.08.2
+kdebugsettings : 18.08.1 -> 18.08.2
+kdeedu-data : 18.08.1 -> 18.08.2
+kdegraphics-mobipocket : 18.08.1 -> 18.08.2
+kdegraphics-svgpart : 18.08.1 -> 18.08.2
+kdegraphics-thumbnailers : 18.08.1 -> 18.08.2
+kdemultimedia-ffmpegthumbs : 18.08.1 -> 18.08.2
+kdenetwork : 18.08.1 -> 18.08.2
+kdenetwork-filesharing : 18.08.1 -> 18.08.2
+kdesdk-thumbnailers : 18.08.1 -> 18.08.2
+kdf : 18.08.1 -> 18.08.2
+keditbookmarks : 18.08.1 -> 18.08.2
+keybase : 2.7.2 -> 2.8.0
+kf5-attica : 5.50.0 -> 5.51.0
+kf5-baloo : 5.50.0 -> 5.51.0
+kf5-breeze-icons : 5.50.0 -> 5.51.0
+kf5-extra-cmake-modules : 5.50.0 -> 5.51.0
+kf5-frameworkintegration : 5.50.0 -> 5.51.0
+kf5-kactivities : 5.50.0 -> 5.51.0
+kf5-kactivities-stats : 5.50.0 -> 5.51.0
+kf5-kapidox : 5.50.0 -> 5.51.0
+kf5-karchive : 5.50.0 -> 5.51.0
+kf5-kauth : 5.50.0 -> 5.51.0
+kf5-kbookmarks : 5.50.0 -> 5.51.0
+kf5-kcmutils : 5.50.0 -> 5.51.0
+kf5-kcodecs : 5.50.0 -> 5.51.0
+kf5-kcompletion : 5.50.0 -> 5.51.0
+kf5-kconfig : 5.50.0 -> 5.51.0
+kf5-kconfigwidgets : 5.50.0 -> 5.51.0
+kf5-kcoreaddons : 5.50.0 -> 5.51.0
+kf5-kcrash : 5.50.0 -> 5.51.0
+kf5-kdbusaddons : 5.50.0 -> 5.51.0
+kf5-kdeclarative : 5.50.0 -> 5.51.0
+kf5-kded : 5.50.0 -> 5.51.0
+kf5-kdesu : 5.50.0 -> 5.51.0
+kf5-kdnssd : 5.50.0 -> 5.51.0
+kf5-kdoctools : 5.50.0 -> 5.51.0
+kf5-kemoticons : 5.50.0 -> 5.51.0
+kf5-kfilemetadata : 5.50.0 -> 5.51.0
+kf5-kglobalaccel : 5.50.0 -> 5.51.0
+kf5-kguiaddons : 5.50.0 -> 5.51.0
+kf5-khtml : 5.50.0 -> 5.51.0
+kf5-ki18n : 5.50.0 -> 5.51.0
+kf5-kiconthemes : 5.50.0 -> 5.51.0_2
+kf5-kidletime : 5.50.0 -> 5.51.0
+kf5-kimageformats : 5.50.0_1 -> 5.51.0_1
+kf5-kinit : 5.50.0 -> 5.51.0
+kf5-kio : 5.50.0 -> 5.51.0_1
+kf5-kirigami2 : 5.50.0 -> 5.51.0
+kf5-kitemmodels : 5.50.0 -> 5.51.0
+kf5-kitemviews : 5.50.0 -> 5.51.0
+kf5-kjobwidgets : 5.50.0 -> 5.51.0
+kf5-kjs : 5.50.0 -> 5.51.0
+kf5-kjsembed : 5.50.0 -> 5.51.0
+kf5-kmediaplayer : 5.50.0 -> 5.51.0
+kf5-knewstuff : 5.50.0 -> 5.51.0
+kf5-knotifications : 5.50.0 -> 5.51.0
+kf5-knotifyconfig : 5.50.0 -> 5.51.0
+kf5-kpackage : 5.50.0 -> 5.51.0
+kf5-kparts : 5.50.0 -> 5.51.0
+kf5-kpeople : 5.50.0 -> 5.51.0
+kf5-kplotting : 5.50.0 -> 5.51.0
+kf5-kpty : 5.50.0 -> 5.51.0
+kf5-kross : 5.50.0 -> 5.51.0
+kf5-krunner : 5.50.0 -> 5.51.0
+kf5-kservice : 5.50.0 -> 5.51.0
+kf5-ktexteditor : 5.50.0 -> 5.51.0
+kf5-ktextwidgets : 5.50.0 -> 5.51.0
+kf5-kunitconversion : 5.50.0 -> 5.51.0
+kf5-kwallet : 5.50.0 -> 5.51.0
+kf5-kwayland : 5.50.0_1 -> 5.51.0_1
+kf5-kwidgetsaddons : 5.50.0 -> 5.51.0
+kf5-kwindowsystem : 5.50.0 -> 5.51.0
+kf5-kxmlgui : 5.50.0 -> 5.51.0
+kf5-kxmlrpcclient : 5.50.0 -> 5.51.0
+kf5-oxygen-icons5 : 5.50.0 -> 5.51.0
+kf5-plasma-framework : 5.50.0 -> 5.51.0
+kf5-prison : 5.50.0 -> 5.51.0
+kf5-qqc2-desktop-style : 5.50.0 -> 5.51.0
+kf5-solid : 5.50.0 -> 5.51.0
+kf5-sonnet : 5.50.0 -> 5.51.0
+kf5-syndication : 5.50.0,1 -> 5.51.0,1
+kf5-syntax-highlighting : 5.50.0 -> 5.51.0_1
+kf5-threadweaver : 5.50.0 -> 5.51.0
+kgeography : 18.08.1 -> 18.08.2
+khangman : 18.08.1 -> 18.08.2
+kicad : 5.0.0,2 -> 5.0.1,2
+kicad-devel : r20180821185413_4 -> r20181026164214_4
+kicad-library-footprints : 5.0.0 -> 5.0.1
+kicad-library-footprints-devel : r20180820163957 -> r20181022012927
+kicad-library-packages3d : 5.0.0 -> 5.0.1
+kicad-library-packages3d-devel : r20180816165555 -> r20181020112618
+kicad-library-symbols : 5.0.0 -> 5.0.1
+kicad-library-symbols-devel : r20180821013303 -> r20181017225049
+kicad-library-tmpl : 5.0.0 -> 5.0.1
+kmag : 18.08.1 -> 18.08.2
+kmousetool : 18.08.1 -> 18.08.2
+kmouth : 18.08.1 -> 18.08.2
+knot2 : 2.6.8_1 -> 2.7.3_1
+ko-hunspell : 0.5.6_3 -> 0.7.1
+kodi-devel : 18.0.g201810021630 -> 18.0.g201810231420
+kompare : 18.08.1 -> 18.08.2
+kpkpass : 18.08.1 -> 18.08.2
+krb5-devel : 1.17.2018.09.25 -> 1.17.2018.10.23
+krdc : 18.08.1 -> 18.08.2
+krfb : 18.08.1 -> 18.08.2
+krita : 4.1.3 -> 4.1.5
+kross-interpreters : 18.08.1 -> 18.08.2
+kruler : 18.08.1 -> 18.08.2
+ksh93-devel : 2018.09.25 -> 2018.10.23
+ksystemlog : 18.08.1 -> 18.08.2
+kteatime : 18.08.1 -> 18.08.2
+ktimer : 18.08.1 -> 18.08.2
+ktouch : 18.08.1 -> 18.08.2
+kubectl : 1.12.1 -> 1.12.2
+kurly : 1.2.1 -> 1.2.2
+kwave : 18.08.1 -> 18.08.2
+kyotocabinet : 1.2.76_1 -> 1.2.77
+latte-dock : 0.8.1 -> 0.8.2
+lazygit : 0.3.1 -> 0.5
+libarchive : 3.3.2_1,1 -> 3.3.3,1
+libdvdcss : 1.4.1 -> 1.4.2
+liberation-fonts-ttf : 2.00.1,2 -> 2.00.3,2
+libestr : 0.1.10_1 -> 0.1.11
+libexo : 0.12.2 -> 0.12.3
+libgcrypt : 1.8.3 -> 1.8.4
+libgit2 : 0.27.4 -> 0.27.7
+libHX : 3.23 -> 3.24
+libkcddb : 18.08.1 -> 18.08.2
+libkdcraw : 18.08.1 -> 18.08.2
+libkeduvocdocument : 18.08.1 -> 18.08.2
+libkexiv2 : 18.08.1 -> 18.08.2
+libkipi : 18.08.1 -> 18.08.2
+libkmahjongg : 18.08.1 -> 18.08.2
+libkomparediff2 : 18.08.1 -> 18.08.2
+libksane : 18.08.1 -> 18.08.2
+libmesh : 1.3.0_3 -> 1.3.1
+libmpdclient : 2.15 -> 2.16
+libmtp : 1.1.15 -> 1.1.16
+libmusicxml : 3.11_1 -> 3.13
+libopenmpt : 0.3.11_1 -> 0.3.13
+libopusenc : 0.2 -> 0.2.1
+libprojectM : 2.1.0_1 -> 3.1.0
+libressl : 2.7.4 -> 2.8.2
+libressl-devel : 2.8.1 -> 2.8.2
+libSM : 1.2.2_5,1 -> 1.2.3,1
+libssh : 0.7.5 -> 0.8.4
+libsvm : 3.22 -> 3.23
+libsvm-python : 3.22 -> 3.23
+libunrar5 : 5.6.6 -> 5.6.8
+liburcu : 0.10.0 -> 0.10.1
+libuv : 1.23.1 -> 1.23.2
+libversion : 2.6.0_1 -> 2.8.1
+libvirt : 4.7.0 -> 4.8.0
+libvirt-glib : 1.0.0_1 -> 2.0.0
+libxc : 3.0.0_5 -> 4.2.3
+libyaml : 0.1.6_2 -> 0.2.1
+linphone : 3.10.2_2,1 -> 4.1.1,1
+linux-flashplayer : 31.0.0.108 -> 31.0.0.122
+liveMedia : 2018.02.28,2 -> 2018.10.17,2
+llvm-devel : 8.0.d20181001 -> 8.0.d20181024
+lokalize : 18.08.1 -> 18.08.2
+lsof : 4.92.b,8 -> 4.92.b_1,8
+lua52-xapian : 1.4.7 -> 1.4.8
+luscus : 0.8.5 -> 0.8.6
+lxterminal : 0.3.1 -> 0.3.2
+maildrop : 2.9.3_1 -> 3.0.0
+MailScanner : 5.1.1 -> 5.1.2_1
+mantis-php56 : 2.17.1,1 -> 2.18.0,1
+mantis-php70 : 2.17.1,1 -> 2.18.0,1
+mantis-php71 : 2.17.1,1 -> 2.18.0,1
+mantis-php72 : 2.17.1,1 -> 2.18.0,1
+mariadb103-client : 10.3.8 -> 10.3.10_2
+mariadb103-server : 10.3.8_2 -> 10.3.10_1
+mate-media : 1.20.0 -> 1.20.1
+mattermost-server : 4.8.0 -> 5.4.0
+mattermost-webapp : 4.8.0 -> 5.4.0
+mcollective : 2.12.3 -> 2.12.4
+mcollective-puppet-agent : 1.13.2 -> 1.14.0
+mcollective-puppet-client : 1.13.2 -> 1.14.0
+mcollective-puppet-common : 1.13.2 -> 1.14.0
+meandmyshadow : 0.4.1_4 -> 0.5
+mediastreamer : 2.14.0_10 -> 2.16.1
+memcached : 1.5.10 -> 1.5.11
+mercurial : 4.7.1 -> 4.7.2
+meson : 0.46.1 -> 0.48.0
+MetaPhysicL : 0.3.0.1 -> 0.3.1
+metasploit : 4.17.14 -> 4.17.17
+midipp : 1.3.4 -> 2.0.0
+minder-app : 1.1.1 -> 1.1.2
+mini_httpd : 1.29 -> 1.30
+mkgmap : r4244 -> r4245
+mkvtoolnix : 27.0.0 -> 28.2.0
+mod_dav_svn : 1.10.2_1 -> 1.10.3
+mod_php71 : 7.1.22 -> 7.1.23
+mod_php72 : 7.2.10 -> 7.2.11
+monero-cli : 0.12.3.0_3 -> 0.13.0.4
+moodbar : 1.0 -> 1.1
+mppp : 0.11 -> 0.12
+mpv : 0.29.0_6,1 -> 0.29.1,1
+msopenh264 : 1.1.2_2 -> 1.2.1
+musicpd : 0.20.21_1 -> 0.20.22
+mysql55-client : 5.5.61 -> 5.5.62
+mysql55-server : 5.5.61 -> 5.5.62
+mysql56-client : 5.6.41 -> 5.6.42
+mysql56-server : 5.6.41 -> 5.6.42
+mysql57-client : 5.7.23 -> 5.7.24
+mysql57-server : 5.7.23_1 -> 5.7.24
+nagstamon : 1.0.1_2 -> 3.0.2
+nanogui : g20180318 -> g20180413
+nats-streaming-server : 0.11.0 -> 0.11.2
+ncbi-toolkit : 2012.06.20_1 -> 2017.01.06
+ne : 3.1.1 -> 3.1.2_1
+netbox : 2.4.4 -> 2.4.6
+netpbm : 10.83.02 -> 10.84.02
+nextcloud-mail-php56 : 0.10.0 -> 0.11.0
+nextcloud-mail-php70 : 0.10.0 -> 0.11.0
+nextcloud-mail-php71 : 0.10.0 -> 0.11.0
+nextcloud-mail-php72 : 0.10.0 -> 0.11.0
+nextcloud-php56 : 14.0.1 -> 14.0.3
+nextcloud-php70 : 14.0.1 -> 14.0.3
+nextcloud-php71 : 14.0.1 -> 14.0.3
+nextcloud-php72 : 14.0.1 -> 14.0.3
+ngs-sdk : 2.9.2 -> 2.9.3
+nickle : 2.81 -> 2.84
+nip2 : 8.6.0_2 -> 8.7.0
+nnn : 1.9 -> 2.0
+node : 10.11.0 -> 10.13.0
+nss : 3.39 -> 3.40
+ntl : 11.3.0 -> 11.3.1
+nuitka-py27 : 0.6.0 -> 0.6.0.5
+nuitka-py36 : 0.6.0 -> 0.6.0.5
+nwchem : 6.8.1.r.94_5 -> 6.8.1.r.144
+ocaml-opam : 2.0.0 -> 2.0.1
+oksh : 20180401 -> 20181009
+open-vm-tools : 10.3.0,2 -> 10.3.0_1,2
+open-vm-tools-nox11 : 10.3.0,2 -> 10.3.0_1,2
+openbor : 6484 -> 6547
+opencascade : 7.2.0_3 -> 7.3.0
+opencollada : 1.6.63_1 -> 1.6.65
+opensc : 0.18.0 -> 0.19.0
+openscad-devel : 2018.04.19_5 -> 2018.10.22
+opus : 1.2.1 -> 1.3
+ora2pg : 19.0 -> 19.1
+orange3 : 3.15.0 -> 3.17.0
+ortp : 0.27.0 -> 1.0.2
+osinfo-db : 20180920 -> 20181011
+osquery : 3.2.6_3 -> 3.3.1_1
+owfs : 3.1p1_1 -> 3.2p3
+oysttyer : 2.9.1 -> 2.10.0
+p5-Astro-App-Satpass2 : 0.035 -> 0.036
+p5-Astro-FITS-CFITSIO : 1.11_1 -> 1.12
+p5-Astro-SIMBAD-Client : 0.037 -> 0.038
+p5-Astro-SpaceTrack : 0.118 -> 0.121
+p5-Badger : 0.12 -> 0.13
+p5-bignum : 0.50 -> 0.51
+p5-Bio-ASN1-EntrezGene : 1.72_1,1 -> 1.73,1
+p5-BSON-XS : 0.4.4 -> 0.4.6
+p5-Catalyst-Runtime : 5.90119 -> 5.90120
+p5-CGI-Simple : 1.160 -> 1.210
+p5-Clone : 0.39 -> 0.41
+p5-Commandable : 0.02 -> 0.03
+p5-Config-Model : 2.126 -> 2.127
+p5-Continuity : 1.5_1 -> 1.6
+p5-CPAN-Perl-Releases : 3.76 -> 3.80
+p5-CPAN-Recent-Uploads : 0.14 -> 0.16
+p5-Crypt-ECB : 1.45_1 -> 2.21
+p5-Crypt-OpenSSL-RSA : 0.30_1 -> 0.31
+p5-Crypt-OpenSSL-X509 : 1.809 -> 1.811
+p5-Dancer2-Plugin-Deferred : 0.007017 -> 0.007018
+p5-Dancer2-Plugin-Passphrase : 3.3.0_1 -> 3.3.3
+p5-Data-Types : 0.13 -> 0.14
+p5-DateTime-Locale : 1.22 -> 1.23
+p5-DBD-CSV : 0.53,1 -> 0.54,1
+p5-DBD-SQLite2 : 0.37 -> 0.38
+p5-DBI : 1.641 -> 1.642
+p5-Devel-FindPerl : 0.014 -> 0.015
+p5-Devel-NYTProf : 6.04 -> 6.06
+p5-Email-Send : 2.199_1 -> 2.201
+p5-Error : 0.17026 -> 0.17027
+p5-FFI-CheckLib : 0.20 -> 0.22
+p5-File-ChangeNotify : 0.28 -> 0.29
+p5-File-Slurp : 9999.19_1 -> 9999.22
+p5-Future : 0.38 -> 0.39
+p5-Geo-WebService-Elevation-USGS : 0.108 -> 0.110
+p5-GIS-Distance-Fast : 0.07_1 -> 0.08_1
+p5-HTML-Lint : 2.20_1 -> 2.32
+p5-HTTP-BrowserDetect : 3.16 -> 3.19
+p5-InlineX-C2XS : 0.25 -> 0.26
+p5-IO-Pager : 0.39 -> 0.40
+p5-IO-Socket-SSL : 2.059 -> 2.060
+p5-libwww : 6.35 -> 6.36
+p5-Lingua-EN-NameParse : 1.37 -> 1.38
+p5-Mail-Box : 2.109_2 -> 3.005
+p5-Mail-DKIM : 0.53 -> 0.54
+p5-Mail-Sender : 0.8.23 -> 0.903
+p5-Math-Base85 : 0.2_1 -> 0.4
+p5-Math-BigInt : 1.999813 -> 1.999816
+p5-Math-BigInt-FastCalc : 0.5007 -> 0.5008
+p5-Math-BigInt-GMP : 1.6005 -> 1.6006
+p5-Math-BigInt-Pari : 1.3004 -> 1.3005
+p5-Minion : 9.06 -> 9.07
+p5-Modern-Perl : 1.20180928 -> 1.20181021
+p5-Module-CoreList : 5.20180920 -> 5.20181020
+p5-Module-ExtractUse : 0.342 -> 0.343
+p5-Mojo-Pg : 4.10 -> 4.11
+p5-Mojolicious : 8.02 -> 8.04
+p5-Mojolicious-Plugin-NYTProf : 0.20 -> 0.21
+p5-Mojolicious-Plugin-TtRenderer : 1.59 -> 1.60
+p5-MojoX-Renderer-Xslate : 0.13 -> 0.14
+p5-Net-IPv6Addr : 0.93 -> 0.96
+p5-Net-Libdnet : 0.98_2 -> 0.99
+p5-Net-OpenSSH : 0.77 -> 0.78
+p5-Net-Server-Mail : 0.18_1 -> 0.26
+p5-Net-Whois-Raw : 2.99019 -> 2.99020
+p5-News-Article-NoCeM : 0.08_1 -> 0.09
+p5-Object-Declare : 0.23 -> 0.24
+p5-Object-Signature : 1.07_1 -> 1.08
+p5-Parallel-ForkManager : 1.20 -> 2.02
+p5-PerlX-Maybe : 1.001 -> 1.200
+p5-PkgConfig : 0.22026 -> 0.23026
+p5-Pod-Readme : 1.1.2 -> 1.2.0
+p5-Pod-WSDL : 0.061_1 -> 0.063
+p5-POE-Component-Server-SimpleHTTP : 2.26 -> 2.28
+p5-prefork : 1.04_2 -> 1.05
+p5-Prima : 1.52 -> 1.53
+p5-Reddit-Client : 1.281,3 -> 1.2811,3
+p5-Specio : 0.42 -> 0.43
+p5-Squatting : 0.82_1 -> 0.83
+p5-Statistics-Basic : 1.6607_1 -> 1.6611
+p5-Statistics-ChiSquare : 0.6_1 -> 1.0000
+p5-Statistics-Descriptive : 3.0609_1 -> 3.0702
+p5-String-Flogger : 1.101243_1 -> 1.101245
+p5-subversion : 1.10.2_1 -> 1.10.3
+p5-Template-Declare : 0.46_1 -> 0.47_1
+p5-Template-Toolkit : 2.27 -> 2.28
+p5-Term-Menus : 3.015 -> 3.016
+p5-Term-VT102-Boundless : 0.04_1 -> 0.05
+p5-Test-Trap : 0.3.3 -> 0.3.4
+p5-Test2-Harness : 0.001069 -> 0.001070
+p5-Text-Diff-HTML : 0.07_1 -> 0.08
+p5-Text-PDF : 0.29a_3 -> 0.31
+p5-Text-Trac : 0.18 -> 0.19
+p5-Text-Wrapper : 1.04_1 -> 1.05
+p5-Time-Warp : 0.53 -> 0.54
+p5-Toadfarm : 0.78 -> 0.79
+p5-transdecoder : 2.1.0_1 -> 5.4.0
+p5-URI-Template : 0.23 -> 0.24
+p5-URI-Title : 1.86_3 -> 1.901
+p5-WWW-Mechanize : 1.88 -> 1.89
+p5-Xapian : 1.4.7.0 -> 1.4.8.0
+p5-XML-Atom-SimpleFeed : 0.862 -> 0.902
+p5-XML-DT : 0.63_1 -> 0.68
+p5-XML-Feed : 0.54 -> 0.55
+p5-XML-XPath : 1.42 -> 1.44
+p5-YAML-Syck : 1.27_1 -> 1.31
+parallel : 20171222 -> 20180922
+parley : 18.08.1 -> 18.08.2
+pcdm : 201803101421 -> 201811060944
+pchecker : 1.20 -> 1.21
+pciids : 20180921 -> 20181027
+pdagent-integrations : 1.4 -> 1.5
+pdf-tools-emacs26_canna : 0.80.101 -> 0.80.125
+pdf-tools-emacs26 : 0.80.101 -> 0.80.125
+pdf-tools-emacs27 : 0.80.101 -> 0.80.125
+pdfbox : 2.0.11 -> 2.0.12
+pdfpc : 4.1.2 -> 4.2.1
+perl5-devel : 5.29.3.34 -> 5.29.4.24
+PETSc : 3.10.1 -> 3.10.2
+pgbarman : 2.4 -> 2.5
+pgbarman-py36 : 2.4 -> 2.5
+pgFormatter : 3.1 -> 3.2
+pglogical : 2.2.0 -> 2.2.1
+php-xapian : 1.4.7 -> 1.4.8
+php56-horde-ansel : 3.0.8 -> 3.0.9
+php56-matomo : 3.6.0 -> 3.6.1
+php56-pear-File_MARC : 1.2.0 -> 1.3.0
+php56-pear-horde-Horde_ActiveSync : 2.39.3 -> 2.39.4
+php56-pecl-cassandra : 1.3.0 -> 1.3.2
+php56-pecl-grpc : 1.15.0 -> 1.16.0
+php56-pecl-igbinary : 2.0.7 -> 2.0.8
+php56-pecl-redis : 4.1.0 -> 4.1.1
+php56-pecl-timezonedb : 2018.5 -> 2018.6
+php70-aphpunit : 1.6 -> 1.7
+php70-horde-ansel : 3.0.8 -> 3.0.9
+php70-matomo : 3.6.0 -> 3.6.1
+php70-pear-File_MARC : 1.2.0 -> 1.3.0
+php70-pear-horde-Horde_ActiveSync : 2.39.3 -> 2.39.4
+php70-pecl-cassandra : 1.3.0 -> 1.3.2
+php70-pecl-grpc : 1.15.0 -> 1.16.0
+php70-pecl-igbinary : 2.0.7 -> 2.0.8
+php70-pecl-oauth : 2.0.2 -> 2.0.3
+php70-pecl-redis : 4.1.0 -> 4.1.1
+php70-pecl-swoole : 1.10.5_1 -> 4.2.3
+php70-pecl-timezonedb : 2018.5 -> 2018.6
+php70-pecl-xdebug : 2.5.5_1 -> 2.6.1
+php71 : 7.1.22 -> 7.1.23
+php71-aphpunit : 1.6 -> 1.7
+php71-bcmath : 7.1.22 -> 7.1.23
+php71-bz2 : 7.1.22 -> 7.1.23
+php71-calendar : 7.1.22 -> 7.1.23
+php71-ctype : 7.1.22 -> 7.1.23
+php71-curl : 7.1.22 -> 7.1.23
+php71-dba : 7.1.22 -> 7.1.23
+php71-dom : 7.1.22 -> 7.1.23
+php71-enchant : 7.1.22 -> 7.1.23
+php71-exif : 7.1.22 -> 7.1.23
+php71-fileinfo : 7.1.22 -> 7.1.23
+php71-filter : 7.1.22 -> 7.1.23
+php71-ftp : 7.1.22 -> 7.1.23
+php71-gd : 7.1.22 -> 7.1.23
+php71-gettext : 7.1.22 -> 7.1.23
+php71-gmp : 7.1.22 -> 7.1.23
+php71-hash : 7.1.22 -> 7.1.23
+php71-horde-ansel : 3.0.8 -> 3.0.9
+php71-iconv : 7.1.22 -> 7.1.23
+php71-imap : 7.1.22 -> 7.1.23
+php71-interbase : 7.1.22 -> 7.1.23
+php71-intl : 7.1.22 -> 7.1.23_1
+php71-json : 7.1.22 -> 7.1.23
+php71-ldap : 7.1.22 -> 7.1.23
+php71-matomo : 3.6.0 -> 3.6.1
+php71-mbstring : 7.1.22 -> 7.1.23
+php71-mcrypt : 7.1.22 -> 7.1.23
+php71-mysqli : 7.1.22 -> 7.1.23
+php71-odbc : 7.1.22 -> 7.1.23
+php71-opcache : 7.1.22 -> 7.1.23
+php71-openssl : 7.1.22 -> 7.1.23
+php71-pcntl : 7.1.22 -> 7.1.23
+php71-pdo_dblib : 7.1.22 -> 7.1.23
+php71-pdo_firebird : 7.1.22 -> 7.1.23
+php71-pdo_mysql : 7.1.22 -> 7.1.23
+php71-pdo_odbc : 7.1.22 -> 7.1.23
+php71-pdo_pgsql : 7.1.22 -> 7.1.23
+php71-pdo_sqlite : 7.1.22 -> 7.1.23
+php71-pdo : 7.1.22 -> 7.1.23
+php71-pear-File_MARC : 1.2.0 -> 1.3.0
+php71-pear-horde-Horde_ActiveSync : 2.39.3 -> 2.39.4
+php71-pecl-cassandra : 1.3.0 -> 1.3.2
+php71-pecl-grpc : 1.15.0 -> 1.16.0
+php71-pecl-igbinary : 2.0.7 -> 2.0.8
+php71-pecl-oauth : 2.0.2 -> 2.0.3
+php71-pecl-redis : 4.1.0 -> 4.1.1
+php71-pecl-swoole : 1.10.5_1 -> 4.2.3
+php71-pecl-timezonedb : 2018.5 -> 2018.6
+php71-pecl-xdebug : 2.5.5_1 -> 2.6.1
+php71-pgsql : 7.1.22 -> 7.1.23
+php71-phar : 7.1.22 -> 7.1.23
+php71-posix : 7.1.22 -> 7.1.23
+php71-pspell : 7.1.22 -> 7.1.23
+php71-readline : 7.1.22 -> 7.1.23
+php71-recode : 7.1.22 -> 7.1.23
+php71-session : 7.1.22 -> 7.1.23
+php71-shmop : 7.1.22 -> 7.1.23
+php71-simplexml : 7.1.22 -> 7.1.23
+php71-snmp : 7.1.22 -> 7.1.23
+php71-soap : 7.1.22 -> 7.1.23
+php71-sockets : 7.1.22 -> 7.1.23
+php71-sqlite3 : 7.1.22 -> 7.1.23
+php71-sysvmsg : 7.1.22 -> 7.1.23
+php71-sysvsem : 7.1.22 -> 7.1.23
+php71-sysvshm : 7.1.22 -> 7.1.23
+php71-tidy : 7.1.22 -> 7.1.23
+php71-tokenizer : 7.1.22 -> 7.1.23
+php71-wddx : 7.1.22 -> 7.1.23
+php71-xml : 7.1.22 -> 7.1.23
+php71-xmlreader : 7.1.22 -> 7.1.23
+php71-xmlrpc : 7.1.22 -> 7.1.23
+php71-xmlwriter : 7.1.22 -> 7.1.23
+php71-xsl : 7.1.22 -> 7.1.23
+php71-zip : 7.1.22 -> 7.1.23
+php71-zlib : 7.1.22 -> 7.1.23
+php72 : 7.2.10 -> 7.2.11
+php72-aphpunit : 1.6 -> 1.7
+php72-bcmath : 7.2.10 -> 7.2.11
+php72-bz2 : 7.2.10 -> 7.2.11
+php72-calendar : 7.2.10 -> 7.2.11
+php72-ctype : 7.2.10 -> 7.2.11
+php72-curl : 7.2.10 -> 7.2.11
+php72-dba : 7.2.10 -> 7.2.11
+php72-dom : 7.2.10 -> 7.2.11
+php72-enchant : 7.2.10 -> 7.2.11
+php72-exif : 7.2.10 -> 7.2.11
+php72-fileinfo : 7.2.10 -> 7.2.11
+php72-filter : 7.2.10 -> 7.2.11
+php72-ftp : 7.2.10 -> 7.2.11
+php72-gd : 7.2.10 -> 7.2.11
+php72-gettext : 7.2.10 -> 7.2.11
+php72-gmp : 7.2.10 -> 7.2.11
+php72-hash : 7.2.10 -> 7.2.11
+php72-horde-ansel : 3.0.8 -> 3.0.9
+php72-iconv : 7.2.10 -> 7.2.11
+php72-imap : 7.2.10 -> 7.2.11
+php72-interbase : 7.2.10 -> 7.2.11
+php72-intl : 7.2.10 -> 7.2.11_1
+php72-json : 7.2.10 -> 7.2.11
+php72-ldap : 7.2.10 -> 7.2.11
+php72-matomo : 3.6.0 -> 3.6.1
+php72-mbstring : 7.2.10 -> 7.2.11
+php72-mysqli : 7.2.10 -> 7.2.11
+php72-odbc : 7.2.10 -> 7.2.11
+php72-opcache : 7.2.10 -> 7.2.11
+php72-openssl : 7.2.10 -> 7.2.11
+php72-pcntl : 7.2.10 -> 7.2.11
+php72-pdo_dblib : 7.2.10 -> 7.2.11
+php72-pdo_firebird : 7.2.10 -> 7.2.11
+php72-pdo_mysql : 7.2.10 -> 7.2.11
+php72-pdo_odbc : 7.2.10 -> 7.2.11
+php72-pdo_pgsql : 7.2.10 -> 7.2.11
+php72-pdo_sqlite : 7.2.10 -> 7.2.11
+php72-pdo : 7.2.10 -> 7.2.11
+php72-pear-File_MARC : 1.2.0 -> 1.3.0
+php72-pear-horde-Horde_ActiveSync : 2.39.3 -> 2.39.4
+php72-pecl-cassandra : 1.3.0 -> 1.3.2
+php72-pecl-grpc : 1.15.0 -> 1.16.0
+php72-pecl-igbinary : 2.0.7 -> 2.0.8
+php72-pecl-oauth : 2.0.2 -> 2.0.3
+php72-pecl-redis : 4.1.0 -> 4.1.1
+php72-pecl-swoole : 1.10.5_1 -> 4.2.3
+php72-pecl-timezonedb : 2018.5 -> 2018.6
+php72-pgsql : 7.2.10 -> 7.2.11
+php72-phar : 7.2.10 -> 7.2.11
+php72-posix : 7.2.10 -> 7.2.11
+php72-pspell : 7.2.10 -> 7.2.11
+php72-readline : 7.2.10 -> 7.2.11
+php72-recode : 7.2.10 -> 7.2.11
+php72-session : 7.2.10 -> 7.2.11
+php72-shmop : 7.2.10 -> 7.2.11
+php72-simplexml : 7.2.10 -> 7.2.11
+php72-snmp : 7.2.10 -> 7.2.11
+php72-soap : 7.2.10 -> 7.2.11
+php72-sockets : 7.2.10 -> 7.2.11
+php72-sodium : 7.2.10 -> 7.2.11
+php72-sqlite3 : 7.2.10 -> 7.2.11
+php72-sysvmsg : 7.2.10 -> 7.2.11
+php72-sysvsem : 7.2.10 -> 7.2.11
+php72-sysvshm : 7.2.10 -> 7.2.11
+php72-tidy : 7.2.10 -> 7.2.11
+php72-tokenizer : 7.2.10 -> 7.2.11
+php72-wddx : 7.2.10 -> 7.2.11
+php72-xml : 7.2.10 -> 7.2.11
+php72-xmlreader : 7.2.10 -> 7.2.11
+php72-xmlrpc : 7.2.10 -> 7.2.11
+php72-xmlwriter : 7.2.10 -> 7.2.11
+php72-xsl : 7.2.10 -> 7.2.11
+php72-zip : 7.2.10 -> 7.2.11
+php72-zlib : 7.2.10 -> 7.2.11
+phplist : 3.3.4 -> 3.3.5
+phpunit7-php70 : 7.3.5 -> 7.4.3
+phpunit7-php71 : 7.3.5 -> 7.4.3
+phpunit7-php72 : 7.3.5 -> 7.4.3
+pkcs11-helper : 1.11_3 -> 1.25.1_1
+pkg_replace : 20180530 -> 20181024
+pkgconf : 1.5.3,1 -> 1.5.4,1
+pl-hunspell : 20180925 -> 20181025
+plasma5-breeze : 5.12.5_1 -> 5.12.7
+plasma5-breeze-gtk : 5.12.5 -> 5.12.7
+plasma5-discover : 5.12.5_1 -> 5.12.7
+plasma5-drkonqi : 5.12.5 -> 5.12.7
+plasma5-kactivitymanagerd : 5.12.5_1 -> 5.12.7
+plasma5-kde-gtk-config : 5.12.5_1 -> 5.12.7
+plasma5-kdecoration : 5.12.5_1 -> 5.12.7
+plasma5-kscreen : 5.12.5 -> 5.12.7
+plasma5-ksshaskpass : 5.12.5_1 -> 5.12.7
+plasma5-kwallet-pam : 5.12.5_1 -> 5.12.7
+plasma5-kwayland-integration : 5.12.5_2 -> 5.12.7
+plasma5-kwrited : 5.12.5_1 -> 5.12.7
+plasma5-libkscreen : 5.12.5_1 -> 5.12.7
+plasma5-milou : 5.12.5_1 -> 5.12.7
+plasma5-oxygen : 5.12.5_1 -> 5.12.7
+plasma5-plasma-integration : 5.12.5_1 -> 5.12.7
+plasma5-plasma-pa : 5.12.5_1 -> 5.12.7
+plasma5-plasma-workspace-wallpapers : 5.12.5 -> 5.12.7
+plasma5-polkit-kde-agent-1 : 5.12.5_1 -> 5.12.7
+plasma5-sddm-kcm : 5.12.5_1 -> 5.12.7
+plasma5-systemsettings : 5.12.5_1 -> 5.12.7
+plex-ttf : 1.0.2 -> 1.2.0
+plexmediaserver-plexpass : 1.13.8.5395 -> 1.13.9.5439
+ponyc : 0.24.4_1 -> 0.25.0
+port-index-uniquifier : 1200065 -> 1300002
+portlint : 2.18.4 -> 2.18.6
+portsreinstall : 4.0.0 -> 4.1.0
+postfix-current : 3.4.20180904,5 -> 3.4.20180904_1,5
+postfix-current-sasl : 3.4.20180904,5 -> 3.4.20180904_1,5
+poudriere : 3.2.7 -> 3.2.8
+poudriere-devel : 3.2.99.20180601 -> 3.2.99.20181024
+poxml : 18.08.1 -> 18.08.2
+ppsspp : 1.6.3_3 -> 1.7
+ppsspp-qt5 : 1.6.3_1 -> 1.7
+print-manager : 18.08.1 -> 18.08.2
+prometheus : 2.4.2 -> 2.4.3_1
+puppet5 : 5.5.6 -> 5.5.7
+puppet6 : 6.0.2 -> 6.0.3
+puppetdb-terminus5 : 5.2.4 -> 5.2.6
+puppetdb-terminus6 : 6.0.0 -> 6.0.1
+puppetdb5 : 5.2.4 -> 5.2.6
+puppetdb6 : 6.0.0 -> 6.0.1
+puppetserver5 : 5.3.5 -> 5.3.6
+puppetserver6 : 6.0.1 -> 6.0.2
+py27-adal : 1.1.0 -> 1.2.0
+py27-alembic : 1.0.0_1 -> 1.0.1
+py27-ansible : 2.6.4 -> 2.7.0
+py27-AnyQt : 0.0.8 -> 0.0.10
+py27-authres : 1.1.0 -> 1.1.1
+py27-bdflib : 1.0.3_1 -> 1.0.4
+py27-bjoern : 2.2.2 -> 2.2.3
+py27-botocore : 1.12.18 -> 1.12.34
+py27-brotli : 1.0.6 -> 1.0.7
+py27-certbot : 0.27.1,1 -> 0.27.1_1,1
+py27-certsrv : 1.5.0 -> 2.0.0
+py27-Chameleon : 3.4 -> 3.5
+py27-cli-helpers : 1.0.2 -> 1.1.0
+py27-click-completion : 0.4.1 -> 0.5.0
+py27-click-log : 0.2.1 -> 0.3.2
+py27-cligj : 0.4.0 -> 0.5.0
+py27-construct : 2.5.3,1 -> 2.9.45,1
+py27-cvxopt : 1.2.1 -> 1.2.2
+py27-DendroPy : 4.3.0 -> 4.4.0
+py27-dfvfs : 20180703 -> 20180831
+py27-django-allauth : 0.36.0 -> 0.38.0
+py27-django-extensions : 2.1.0 -> 2.1.3
+py27-dkimpy : 0.8.1 -> 0.9.0
+py27-fido2 : 0.3.0 -> 0.4.0
+py27-Flask : 0.12.4 -> 1.0.2
+py27-Flask-APScheduler : 1.7.1 -> 1.10.1
+py27-Flask-Babel : 0.11.2 -> 0.12.0
+py27-flask-marshmallow : 0.8.0 -> 0.9.0
+py27-Flask-Migrate : 2.2.1_1 -> 2.3.0
+py27-fonttools : 3.30.0 -> 3.31.0
+py27-game_sdl2 : 7.1.0 -> 7.1.1
+py27-gevent : 1.3.6 -> 1.3.7
+py27-gimp : 2.8.22_1 -> 2.10.6_1
+py27-gitdb2 : 2.0.4 -> 2.0.5
+py27-gixy : 0.1.3_1 -> 0.1.20
+py27-gnupg : 2.3.1 -> 3.1.1
+py27-google-api-core : 1.4.1 -> 1.5.0
+py27-gpgme : 1.11.1 -> 1.12.0
+py27-halite : 0.1.15_2 -> 0.1.17
+py27-IBMQuantumExperience : 2.0.3 -> 2.0.4
+py27-inflect : 0.2.5 -> 1.0.1
+py27-intspan : 1.5.3 -> 1.5.14
+py27-invoke : 0.17.0 -> 0.23.0_1
+py27-ioflo : 1.5.0_1 -> 1.7.5
+py27-ipykernel : 4.9.0 -> 4.10.0
+py27-ipyparallel : 6.2.2_1 -> 6.2.3
+py27-jaraco.classes : 1.3 -> 1.5
+py27-jaraco.itertools : 1.7.1 -> 3.0.0
+py27-jaraco.logging : 1.3.1 -> 1.5.2
+py27-jenkins-job-builder : 2.5.0 -> 2.6.0
+py27-joblib : 0.9.4 -> 0.12.5
+py27-kafka-python : 1.4.2 -> 1.4.3
+py27-keras : 2.2.2 -> 2.2.4
+py27-libvirt : 4.7.0 -> 4.8.0
+py27-lz4 : 2.1.0 -> 2.1.1
+py27-m2r : 0.1.14 -> 0.2.1
+py27-magic : 5.34 -> 5.35
+py27-marshmallow : 3.0.0.b7 -> 3.0.0.b19
+py27-marshmallow-sqlalchemy : 0.13.2 -> 0.14.1
+py27-MDAnalysis : 0.18.0 -> 0.19.0
+py27-MDAnalysisTests : 0.18.0 -> 0.19.0
+py27-mechanize : 0.3.6 -> 0.3.7
+py27-molecule : 2.18.1 -> 2.19.0
+py27-mqttwarn : 0.6.367 -> 0.10.4
+py27-msrest : 0.5.5 -> 0.6.1
+py27-munkres : 1.0.7 -> 1.0.11
+py27-natural : 0.1.6 -> 0.2.0
+py27-nose2 : 0.7.4 -> 0.8.0
+py27-openpyxl : 2.5.7 -> 2.5.8
+py27-openssl : 17.5.0_1 -> 18.0.0
+py27-opster : 4.1 -> 4.2
+py27-oslo.cache : 1.31.0 -> 1.31.1
+py27-oslo.utils : 3.37.0 -> 3.37.1
+py27-OWSLib : 0.16.0 -> 0.17.0
+py27-pandas : 0.23.3 -> 0.23.4
+py27-paramiko : 2.4.1 -> 2.4.2
+py27-patsy : 0.5.0_1 -> 0.5.1
+py27-pdagent : 1.4_2 -> 1.5
+py27-pid : 2.1.1 -> 2.2.0
+py27-pip-tools : 3.0.0 -> 3.1.0
+py27-planet : 1.1.0 -> 1.2.0
+py27-plaso : 20180818 -> 20180930
+py27-prometheus-client : 0.4.0 -> 0.4.2
+py27-py : 1.6.0 -> 1.7.0
+py27-pycompilation : 0.4.3 -> 0.4.4
+py27-pydicom : 1.1.0 -> 1.2.0
+py27-pydnstable : 0.6.0 -> 0.6.1
+py27-pydocstyle : 2.1.1 -> 3.0.0
+py27-pyee : 1.0.2 -> 5.0.0_2
+py27-pylast : 1.4.2 -> 2.4.0
+py27-pymongo : 3.7.1 -> 3.7.2
+py27-pyodbc : 4.0.21 -> 4.0.24
+py27-pyodesys : 0.12.3_1 -> 0.12.4
+py27-Pyomo : 5.5.0 -> 5.5.1
+py27-pyral : 1.3.2 -> 1.4.2
+py27-pysaml2 : 4.6.2 -> 4.6.3
+py27-pystorm : 3.1.0_2 -> 3.1.4
+py27-python-bugzilla : 2.1.0 -> 2.2.0
+py27-python-gnupg : 0.4.1 -> 0.4.3
+py27-python-jenkins : 1.2.1 -> 1.3.0
+py27-pytz : 2018.5,1 -> 2018.7,1
+py27-pywikibot : 3.0.20180403 -> 3.0.20180922
+py27-pyzmq : 17.0.0 -> 17.1.2
+py27-QtAwesome : 0.4.4 -> 0.5.1
+py27-QtPy : 1.5.1 -> 1.5.2
+py27-raet : 0.6.5_1 -> 0.6.8
+py27-rencode : 1.0.5 -> 1.0.6
+py27-requests-futures : 0.9.7 -> 0.9.8
+py27-responses : 0.9.0 -> 0.10.2
+py27-robotframework-pabot : 0.44 -> 0.45
+py27-ruamel.ordereddict : 0.4.9 -> 0.4.13
+py27-rwt : 4.4 -> 4.4.2
+py27-salt : 2018.3.2 -> 2018.3.3
+py27-scikit-fuzzy : 0.3.1_1 -> 0.4.0
+py27-scikit-umfpack : 0.3.1 -> 0.3.2
+py27-scour : 0.35_1 -> 0.37
+py27-seafdav : 6.3.6 -> 6.3.7
+py27-seafobj : 6.3.6 -> 6.3.7
+py27-shellingham : 1.2.6 -> 1.2.7
+py27-shodan : 1.10.2 -> 1.10.4
+py27-simpleeval : 0.9.6 -> 0.9.8
+py27-smmap2 : 2.0.4 -> 2.0.5
+py27-SoapySDR : 0.6.1.71_1 -> 0.7.0
+py27-stem : 1.6.0_1 -> 1.7.0
+py27-streamparse : 3.5.0 -> 3.14.0
+py27-subversion : 1.10.2_1 -> 1.10.3
+py27-testinfra : 1.14.1 -> 1.17.0
+py27-testpath : 0.3.1 -> 0.4.2
+py27-toml : 0.9.6 -> 0.10.0
+py27-tqdm : 4.26.0 -> 4.27.0
+py27-twilio : 6.18.0 -> 6.19.2
+py27-txtorcon : 18.1.0 -> 18.3.0
+py27-uncertainties : 3.0.2 -> 3.0.3
+py27-unit : 1.4 -> 1.5
+py27-watchdog : 0.8.3 -> 0.9.0
+py27-WebTest : 2.0.29 -> 2.0.32
+py27-whichcraft : 0.4.1 -> 0.5.2
+py27-xapian : 1.4.7 -> 1.4.8
+py27-xdis : 3.8.7 -> 3.8.8
+py27-yamllint : 1.11.1 -> 1.12.1
+py27-yt : 3.4.1_2 -> 3.5.0
+py27-YubiOTP : 0.2.1 -> 0.2.2
+py27-zodbpickle : 0.7.0 -> 1.0.2
+py27-zope.interface : 4.1.3 -> 4.6.0
+py27-zstandard : 0.9.1_2 -> 0.10.1
+py36-adal : 1.1.0 -> 1.2.0
+py36-aioredis : 1.1.0_1 -> 1.2.0
+py36-alembic : 1.0.0_1 -> 1.0.1
+py36-ansible : 2.6.4 -> 2.7.0
+py36-AnyQt : 0.0.8 -> 0.0.10
+py36-asyncpg : 0.17.0 -> 0.18.1
+py36-authres : 1.1.0 -> 1.1.1
+py36-bjoern : 2.2.2 -> 2.2.3
+py36-botocore : 1.12.18 -> 1.12.34
+py36-brotli : 1.0.6 -> 1.0.7
+py36-certbot : 0.27.1,1 -> 0.27.1_1,1
+py36-certsrv : 1.5.0 -> 2.0.0
+py36-Chameleon : 3.4 -> 3.5
+py36-chempy : 0.7.3 -> 0.7.6
+py36-cli-helpers : 1.0.2 -> 1.1.0
+py36-click-completion : 0.4.1 -> 0.5.0
+py36-click-log : 0.2.1 -> 0.3.2
+py36-cligj : 0.4.0 -> 0.5.0
+py36-construct : 2.5.3,1 -> 2.9.45,1
+py36-cvxopt : 1.2.1 -> 1.2.2
+py36-DendroPy : 4.3.0 -> 4.4.0
+py36-dfvfs : 20180703 -> 20180831
+py36-django-allauth : 0.36.0 -> 0.38.0
+py36-django-extensions : 2.1.0 -> 2.1.3
+py36-dkimpy : 0.8.1 -> 0.9.0
+py36-fido2 : 0.3.0 -> 0.4.0
+py36-Flask : 0.12.4 -> 1.0.2
+py36-Flask-APScheduler : 1.7.1 -> 1.10.1
+py36-Flask-Babel : 0.11.2 -> 0.12.0
+py36-flask-marshmallow : 0.8.0 -> 0.9.0
+py36-Flask-Migrate : 2.2.1_1 -> 2.3.0
+py36-fonttools : 3.30.0 -> 3.31.0
+py36-game_sdl2 : 7.1.0 -> 7.1.1
+py36-gdbm : 3.6.6_5 -> 3.6.7_5
+py36-gevent : 1.3.6 -> 1.3.7
+py36-gitdb2 : 2.0.4 -> 2.0.5
+py36-gixy : 0.1.3_1 -> 0.1.20
+py36-gnupg : 2.3.1 -> 3.1.1
+py36-google-api-core : 1.4.1 -> 1.5.0
+py36-gpgme : 1.11.1 -> 1.12.0
+py36-IBMQuantumExperience : 2.0.3 -> 2.0.4
+py36-inflect : 0.2.5 -> 1.0.1
+py36-intspan : 1.5.3 -> 1.5.14
+py36-invoke : 0.17.0 -> 0.23.0_1
+py36-ipykernel : 4.9.0 -> 4.10.0
+py36-ipyparallel : 6.2.2_1 -> 6.2.3
+py36-jaraco.classes : 1.3 -> 1.5
+py36-jaraco.itertools : 1.7.1 -> 3.0.0
+py36-jaraco.logging : 1.3.1 -> 1.5.2
+py36-jenkins-job-builder : 2.5.0 -> 2.6.0
+py36-joblib : 0.9.4 -> 0.12.5
+py36-jsonrpclib-pelix : 0.3.1 -> 0.3.2
+py36-kafka-python : 1.4.2 -> 1.4.3
+py36-keras : 2.2.2 -> 2.2.4
+py36-khal : 0.9.9_1 -> 0.9.10
+py36-libversion : 1.0.0 -> 1.1.2
+py36-libvirt : 4.7.0 -> 4.8.0
+py36-loompy : 2.0.14 -> 2.0.16
+py36-lz4 : 2.1.0 -> 2.1.1
+py36-m2r : 0.1.14 -> 0.2.1
+py36-magic : 5.34 -> 5.35
+py36-marshmallow : 3.0.0.b7 -> 3.0.0.b19
+py36-marshmallow-sqlalchemy : 0.13.2 -> 0.14.1
+py36-MDAnalysis : 0.18.0 -> 0.19.0
+py36-MDAnalysisTests : 0.18.0 -> 0.19.0
+py36-molecule : 2.18.1 -> 2.19.0
+py36-msrest : 0.5.5 -> 0.6.1
+py36-munkres : 1.0.7 -> 1.0.11
+py36-natural : 0.1.6 -> 0.2.0
+py36-nose2 : 0.7.4 -> 0.8.0
+py36-openpyxl : 2.5.7 -> 2.5.8
+py36-openssl : 17.5.0_1 -> 18.0.0
+py36-opster : 4.1 -> 4.2
+py36-orange3-bioinformatics : 3.2.0 -> 3.2.2
+py36-orange3-single-cell : 0.8.0 -> 0.8.2
+py36-orange3-text : 0.5.0 -> 0.5.1
+py36-oslo.cache : 1.31.0 -> 1.31.1
+py36-oslo.utils : 3.37.0 -> 3.37.1
+py36-OWSLib : 0.16.0 -> 0.17.0
+py36-pandas : 0.23.3 -> 0.23.4
+py36-paramiko : 2.4.1 -> 2.4.2
+py36-patsy : 0.5.0_1 -> 0.5.1
+py36-pid : 2.1.1 -> 2.2.0
+py36-pip-tools : 3.0.0 -> 3.1.0
+py36-planet : 1.1.0 -> 1.2.0
+py36-prometheus-client : 0.4.0 -> 0.4.2
+py36-py : 1.6.0 -> 1.7.0
+py36-pycompilation : 0.4.3 -> 0.4.4
+py36-pydicom : 1.1.0 -> 1.2.0
+py36-pydocstyle : 2.1.1 -> 3.0.0
+py36-pyee : 1.0.2 -> 5.0.0_2
+py36-PyFR : 1.7.6_2 -> 1.8.0
+py36-pylast : 1.4.2 -> 2.4.0
+py36-pymongo : 3.7.1 -> 3.7.2
+py36-pyodbc : 4.0.21 -> 4.0.24
+py36-pyodesys : 0.12.3_1 -> 0.12.4
+py36-Pyomo : 5.5.0 -> 5.5.1
+py36-pyral : 1.3.2 -> 1.4.2
+py36-pysaml2 : 4.6.2 -> 4.6.3
+py36-python-bugzilla : 2.1.0 -> 2.2.0
+py36-python-gnupg : 0.4.1 -> 0.4.3
+py36-python-jenkins : 1.2.1 -> 1.3.0
+py36-python-tools : 3.6.6 -> 3.6.7
+py36-pytz : 2018.5,1 -> 2018.7,1
+py36-pywikibot : 3.0.20180403 -> 3.0.20180922
+py36-pyzmq : 17.0.0 -> 17.1.2
+py36-QtAwesome : 0.4.4 -> 0.5.1
+py36-QtPy : 1.5.1 -> 1.5.2
+py36-rencode : 1.0.5 -> 1.0.6
+py36-requests-futures : 0.9.7 -> 0.9.8
+py36-responses : 0.9.0 -> 0.10.2
+py36-robotframework-pabot : 0.44 -> 0.45
+py36-rwt : 4.4 -> 4.4.2
+py36-salt : 2018.3.2 -> 2018.3.3
+py36-scikit-umfpack : 0.3.1 -> 0.3.2
+py36-scour : 0.35_1 -> 0.37
+py36-shellingham : 1.2.6 -> 1.2.7
+py36-shodan : 1.10.2 -> 1.10.4
+py36-simpleeval : 0.9.6 -> 0.9.8
+py36-smmap2 : 2.0.4 -> 2.0.5
+py36-SoapySDR : 0.6.1.71_1 -> 0.7.0
+py36-spot : 2.6.2 -> 2.6.3
+py36-sqlite3 : 3.6.6_7 -> 3.6.7_7
+py36-stem : 1.6.0_1 -> 1.7.0
+py36-subversion : 1.10.2_1 -> 1.10.3
+py36-testinfra : 1.14.1 -> 1.17.0
+py36-testpath : 0.3.1 -> 0.4.2
+py36-tkinter : 3.6.6_6 -> 3.6.7_6
+py36-toml : 0.9.6 -> 0.10.0
+py36-tqdm : 4.26.0 -> 4.27.0
+py36-twilio : 6.18.0 -> 6.19.2
+py36-txtorcon : 18.1.0 -> 18.3.0
+py36-uncertainties : 3.0.2 -> 3.0.3
+py36-unit : 1.4 -> 1.5
+py36-uvloop : 0.11.2 -> 0.11.3
+py36-vdirsyncer : 0.16.3_1 -> 0.16.7
+py36-watchdog : 0.8.3 -> 0.9.0
+py36-WebTest : 2.0.29 -> 2.0.32
+py36-whichcraft : 0.4.1 -> 0.5.2
+py36-xapian : 1.4.7 -> 1.4.8
+py36-xdis : 3.8.7 -> 3.8.8
+py36-yamllint : 1.11.1 -> 1.12.1
+py36-yt : 3.4.1_2 -> 3.5.0
+py36-YubiOTP : 0.2.1 -> 0.2.2
+py36-zodbpickle : 0.7.0 -> 1.0.2
+py36-zope.interface : 4.1.3 -> 4.6.0
+py36-zstandard : 0.9.1_2 -> 0.10.1
+py37-gdbm : 3.7.0_5 -> 3.7.1_5
+py37-sqlite3 : 3.7.0_7 -> 3.7.1_7
+py37-tkinter : 3.7.0_6 -> 3.7.1_6
+pycharm-ce : 2018.2.3 -> 2018.2.4
+python36 : 3.6.6_1 -> 3.6.7
+python37 : 3.7.0_3 -> 3.7.1
+qsynth : 0.5.2 -> 0.5.3
+qt5-style-plugins : 5.0.0_2 -> 5.0.0.23
+qtchooser : 39 -> 66
+qtum : 0.16.0 -> 0.16.1
+quantis-kmod : v13.11.08 -> v18.03.08
+quantis : v13.11.08_11 -> v18.03.08
+R-cran-car : 2.1.6_1 -> 3.0.2
+R-cran-carData : 3.0.1 -> 3.0.2
+R-cran-coda : 0.19.1_1 -> 0.19.2
+R-cran-data.table : 1.11.6 -> 1.11.8
+R-cran-digest : 0.6.17 -> 0.6.18
+R-cran-dplyr : 0.7.6 -> 0.7.7
+R-cran-evaluate : 0.11 -> 0.12
+R-cran-fansi : 0.3.0 -> 0.4.0
+R-cran-htmlwidgets : 1.2 -> 1.3
+R-cran-memisc : 0.99.14.11 -> 0.99.14.12
+R-cran-mime : 0.5_1 -> 0.6
+R-cran-nloptr : 1.0.4_2 -> 1.2.1
+R-cran-R6 : 2.2.2_1 -> 2.3.0
+R-cran-Rcpp : 0.12.18 -> 0.12.19
+R-cran-reshape : 0.8.7_1 -> 0.8.8
+R-cran-rgdal : 1.3.4 -> 1.3.6
+R-cran-rlang : 0.2.2 -> 0.3.0.1
+R-cran-rstudioapi : 0.7_1 -> 0.8
+R-cran-sf : 0.6.3 -> 0.7.1
+R-cran-spdep : 0.7.8 -> 0.7.9
+R-cran-survey : 3.33.2 -> 3.34
+R-cran-tidyr : 0.8.1 -> 0.8.2
+R-cran-tidyselect : 0.2.4 -> 0.2.5
+R-cran-tinytex : 0.8 -> 0.9
+R-cran-xfun : 0.3 -> 0.4
+racket : 7.0 -> 7.1
+racket-minimal : 7.0 -> 7.1
+rar : 5.6.0,3 -> 5.6.1,3
+rdkit : 2018.03.4 -> 2018.09.1
+redis_exporter : 0.20.2 -> 0.21.2
+redis-devel : 5.0.r5 -> 5.0.0
+renpy : 7.1.0 -> 7.1.1
+ripgrep : 0.9.0_1 -> 0.10.0_1
+roundcube-php56 : 1.3.7,1 -> 1.3.8,1
+roundcube-php70 : 1.3.7,1 -> 1.3.8,1
+roundcube-php71 : 1.3.7,1 -> 1.3.8,1
+roundcube-php72 : 1.3.7,1 -> 1.3.8,1
+roundcube-thunderbird_labels-php56 : 1.1.4 -> 1.3.0
+roundcube-thunderbird_labels-php70 : 1.1.4 -> 1.3.0
+roundcube-thunderbird_labels-php71 : 1.1.4 -> 1.3.0
+roundcube-thunderbird_labels-php72 : 1.1.4 -> 1.3.0
+rsibreak : 0.12.8 -> 0.12.9
+rspamd : 1.8.0 -> 1.8.1_1
+rssroll : 0.6 -> 0.6.2
+rsyslog : 8.38.0 -> 8.39.0
+ru-eric6 : 18.09 -> 18.10
+ruby : 2.4.4_4,1 -> 2.4.5,1
+ruby-build : 20180822 -> 20181019
+ruby-subversion : 1.10.2_1 -> 1.10.3
+ruby24-gdbm : 2.4.4_3,1 -> 2.4.5_3,1
+ruby24-xapian : 1.4.7 -> 1.4.8
+rubygem-activerecord-import : 0.25.0 -> 0.27.0
+rubygem-autoprefixer-rails : 9.1.4 -> 9.3.1
+rubygem-aws-sdk : 2.11.140 -> 2.11.160
+rubygem-aws-sdk-core : 2.11.140 -> 2.11.160
+rubygem-aws-sdk-resources : 2.11.140 -> 2.11.160
+rubygem-bindata : 2.4.3 -> 2.4.4
+rubygem-bosh-gen : 0.99.2 -> 0.101.1
+rubygem-bundler : 1.16.5 -> 1.17.1
+rubygem-capybara-screenshot : 1.0.21 -> 1.0.22
+rubygem-cri : 2.15.1 -> 2.15.2
+rubygem-cucumber-messages : 1.1.2 -> 2.0.0
+rubygem-deface : 1.3.1 -> 1.3.2
+rubygem-doorkeeper : 5.0.0 -> 5.0.2
+rubygem-doorkeeper-rails5 : 5.0.0 -> 5.0.2
+rubygem-doorkeeper-rails50 : 5.0.0 -> 5.0.2
+rubygem-dynflow : 1.1.0 -> 1.1.1
+rubygem-faker : 1.8.7 -> 1.9.1
+rubygem-fog-openstack : 1.0.3 -> 1.0.5
+rubygem-fog-vsphere : 2.3.0 -> 2.4.0
+rubygem-gitaly-proto : 0.117.0 -> 0.118.1
+rubygem-github-markup : 2.0.1 -> 3.0.1
+rubygem-google-api-client : 0.24.2 -> 0.24.3
+rubygem-googleauth : 0.6.6 -> 0.6.7
+rubygem-grape-swagger : 0.31.0 -> 0.31.1
+rubygem-graphql : 1.8.4 -> 1.8.11
+rubygem-hammer_cli_foreman : 0.14.0 -> 0.15.0
+rubygem-hammer_cli : 0.14.0 -> 0.15.0
+rubygem-her : 1.0.2 -> 1.0.3
+rubygem-holidays : 6.5.0 -> 6.6.1
+rubygem-i18n : 1.1.0,2 -> 1.1.1,2
+rubygem-iso8601 : 0.12.0 -> 0.12.1
+rubygem-itextomml : 1.5.7 -> 1.5.8
+rubygem-jasmine-core : 3.2.1 -> 3.3.0
+rubygem-jekyll-watch : 2.0.0 -> 2.1.2
+rubygem-liquid : 4.0.0 -> 4.0.1
+rubygem-mail : 2.7.0,2 -> 2.7.1,2
+rubygem-message_bus : 2.1.5 -> 2.1.6
+rubygem-metasploit_payloads-mettle : 0.4.1 -> 0.4.2
+rubygem-metasploit-payloads : 1.3.47 -> 1.3.52
+rubygem-money : 6.12.0_1 -> 6.13.1
+rubygem-mustache : 1.0.5 -> 1.1.0
+rubygem-net-dns : 0.8.0_1 -> 0.9.0
+rubygem-net-ping : 2.0.4 -> 2.0.5
+rubygem-nokogiri : 1.8.4 -> 1.8.5
+rubygem-oauth2 : 1.4.0_2 -> 1.4.1
+rubygem-octokit : 4.12.0 -> 4.13.0
+rubygem-oj : 3.6.0 -> 3.7.0
+rubygem-opennebula : 5.6.1 -> 5.6.2
+rubygem-openssl : 2.1.1 -> 2.1.2
+rubygem-puppetserver-ca : 1.1.1 -> 1.1.2
+rubygem-r10k : 3.0.2 -> 3.0.3
+rubygem-rack-attack : 5.4.0 -> 5.4.1
+rubygem-rack-contrib : 2.0.1 -> 2.1.0
+rubygem-rack-oauth2 : 1.9.2 -> 1.9.3
+rubygem-rails-i18n : 5.1.1 -> 5.1.2
+rubygem-rails-i18n-rails50 : 5.1.1 -> 5.1.2
+rubygem-rails-settings-cached : 0.7.1 -> 0.7.2
+rubygem-rails-settings-cached-rails5 : 0.7.1 -> 0.7.2
+rubygem-rails-settings-cached-rails50 : 0.7.1 -> 0.7.2
+rubygem-ransack : 2.0.1 -> 2.1.0
+rubygem-rbpdf : 1.19.5 -> 1.19.6
+rubygem-rdf : 3.0.4 -> 3.0.5
+rubygem-recog : 2.1.22 -> 2.1.24
+rubygem-rgeo : 1.1.1 -> 1.1.2
+rubygem-roda : 3.12.0 -> 3.13.0
+rubygem-rspec-expectations : 3.8.1 -> 3.8.2
+rubygem-rspec-rails : 3.8.0 -> 3.8.1
+rubygem-rubocop : 0.59.2 -> 0.60.0
+rubygem-ruby-macho : 2.0.0 -> 2.1.0
+rubygem-rubygems-mirror : 1.2.0_1 -> 1.3.0
+rubygem-rugged : 0.27.4 -> 0.27.5
+rubygem-scss_lint : 0.57.0 -> 0.57.1
+rubygem-selenium-webdriver : 3.14.0 -> 3.14.1
+rubygem-sequel : 5.12.0 -> 5.13.0
+rubygem-signet : 0.10.0 -> 0.11.0
+rubygem-specinfra : 2.75.0 -> 2.76.2
+rubygem-sshkit : 1.17.0 -> 1.18.0
+rubygem-state_machines-activerecord : 0.5.1 -> 0.5.2
+rubygem-stomp : 1.4.4 -> 1.4.5
+rubygem-strong_migrations : 0.2.3 -> 0.3.1
+rubygem-sys-cpu : 0.7.2 -> 0.8.0
+rubygem-tins : 1.16.3 -> 1.17.0
+rubygem-tmuxinator : 0.12.0 -> 0.13.0
+rubygem-tty-config : 0.2.0 -> 0.3.0
+rubygem-tty-which : 0.3.0 -> 0.4.0
+rubygem-twitter-text : 2.1.0_1 -> 3.0.0
+rubygem-tzinfo-data : 1.2018.5 -> 1.2018.7
+rubygem-winrm-fs : 1.3.0 -> 1.3.1
+rubygem-xpath : 3.1.0 -> 3.2.0
+rundeck : 2.11.4 -> 2.11.7
+rust : 1.29.1 -> 1.30.0
+rust-bindgen : 0.40.0_1 -> 0.43.0_1
+rust-cbindgen : 0.6.4 -> 0.6.7
+s6 : 2.7.2.0 -> 2.7.2.1
+s6-rc : 0.4.0.0 -> 0.4.1.0
+sagittarius-scheme : 0.9.2_2 -> 0.9.4
+SASM : 3.9.0 -> 3.10.0
+sbt : 1.2.3 -> 1.2.6
+scala-docs : 2.12.6 -> 2.12.7
+sddm-freebsd-black-theme : 1.0_1 -> 1.2_1
+seahub : 6.3.6 -> 6.3.7
+secp256k1 : 0.1.20171222 -> 0.1.20180531
+seed7 : 05.20180821 -> 05.20181014
+sekrit-twc-zimg : 2.7.5_1 -> 2.8
+sequeler : 0.6.2 -> 0.6.3
+shairport-sync : 3.2.1_1 -> 3.2.2
+signon-kwallet-extension : 18.08.1 -> 18.08.2
+simlib : 3.02_1 -> 3.06
+sk-mythes : 2018.09.30 -> 2018.10.28
+slepc : 3.10.0 -> 3.10.1
+slib : 3b4 -> 3b5
+slibtool : 0.5.25 -> 0.5.26
+slim-freebsd-black-theme : 1.0 -> 1.2_1
+smplayer : 18.1.0 -> 18.9.0
+smplayer-skins : 15.2.0,1 -> 15.2.0_1,1
+smplayer-themes : 16.8.0,1 -> 18.6.0,1
+smtube : 18.3.0 -> 18.9.0
+snort : 2.9.11.1_1 -> 2.9.12
+SoapySDR : 0.6.1.71 -> 0.7.0
+solidity : 0.4.24 -> 0.4.25
+sonarr : 2.0.0.5228 -> 2.0.0.5252
+spdlog : 1.1.0 -> 1.2.1
+spectacle : 18.08.1_1 -> 18.08.2
+spleen-font : 1.0.0 -> 1.0.1
+spot : 2.6.2 -> 2.6.3
+sqwebmail : 5.9.3 -> 6.0.0
+sslsplit : 0.5.3 -> 0.5.4
+stress-ng : 0.09.41 -> 0.09.43
+subtitlecomposer : 0.5.7_13 -> 0.6.6
+subversion : 1.10.2_1 -> 1.10.3
+subversion-gnome-keyring : 1.10.2_4 -> 1.10.3
+sweeper : 18.08.1 -> 18.08.2
+syncthing : 0.14.50 -> 0.14.51
+syslog-ng : 3.17.2_1 -> 3.18.1
+talkatu : g2018081801 -> g2018102501
+tarantool : 1.9.2 -> 1.10.2_1
+tautulli : 2.0.28 -> 2.1.22
+tbb : 2019 -> 2019.1
+tDOM : 0.9.0 -> 0.9.1
+teamspeak3-server : 3.4.0,1 -> 3.5.0,1
+telegraf : 1.7.4 -> 1.8.2
+telegram-desktop : 1.3.14_2 -> 1.4.2_2
+testssl.sh : 3.0.r1 -> 3.0.r2
+texworks : 0.4.6_7 -> 0.6.2
+theonionbox : 4.2.1_1 -> 4.3.0
+thunderbird : 60.2.1 -> 60.3.0
+thunderbird-i18n : 60.2.1 -> 60.3.0
+tinc : 1.0.34 -> 1.0.35
+tinc-devel : 1.1pre16 -> 1.1pre17
+tmux : 2.7 -> 2.8
+tor-devel : 0.3.5.2_1 -> 0.3.5.3
+torrent-file-editor : 0.3.12 -> 0.3.13
+toxcore : 0.2.7,1 -> 0.2.8,1
+trac : 1.2.2 -> 1.2.3
+traefik : 1.7.1 -> 1.7.3
+translate-toolkit : 2.2.5 -> 2.3.1
+treeline : 3.0.1 -> 3.0.2
+treesheets : 1.0.0_1 -> 1.0.1
+trident-core : 201810171137 -> 201811061143
+trident-icons : 201808221454 -> 201807260759
+trident-installer : 201810020828 -> 201811061135
+tshark : 2.6.3 -> 2.6.4
+tshark-lite : 2.6.3 -> 2.6.4
+tvheadend : 4.2.6_4 -> 4.2.7_1
+twiki : 6.0.2,2 -> 6.1.0,2
+typo3-7 : 7.6.30 -> 7.6.31
+typo3-8-php70 : 8.7.17 -> 8.7.19
+typo3-8-php71 : 8.7.17 -> 8.7.19
+typo3-8-php72 : 8.7.17 -> 8.7.19
+unbound : 1.8.0 -> 1.8.1
+unit : 1.4 -> 1.5
+unit-go : 1.4 -> 1.5
+unit-perl5.26 : 1.4 -> 1.5
+unit-php56 : 1.4 -> 1.5
+unit-php70 : 1.4 -> 1.5
+unit-php71 : 1.4 -> 1.5
+unit-php72 : 1.4 -> 1.5
+up-imapproxy : 1.2.7_5 -> 1.2.8.p20171105
+urh : 2.3.0 -> 2.4.1
+valentina : 0.6.0.0_1 -> 0.6.1
+vapoursynth : R44_1 -> R45.1
+vegeta : 11.3.0 -> 12.0.0
+vether-kmod : g20180802 -> g20181017
+vips : 8.6.5_3 -> 8.7.0
+virtual_oss : 1.1.6 -> 1.2.0
+virtualbox-ose : 5.2.18_1 -> 5.2.20
+virtualbox-ose-additions : 5.2.18_1 -> 5.2.20_1
+virtualbox-ose-additions-nox11 : 5.2.18_1 -> 5.2.20_1
+virtualbox-ose-kmod : 5.2.18 -> 5.2.20_1
+virtualbox-ose-nox11 : 5.2.18_1 -> 5.2.20
+wayland : 1.14.0 -> 1.16.0
+wayland-protocols : 1.12 -> 1.16
+weechat : 2.2 -> 2.3
+wine-devel : 3.17_1,1 -> 3.19,1
+wireguard : 0.0.20180925 -> 0.0.20181018_1
+wireguard-go : 0.0.20181001 -> 0.0.20181018
+wireshark : 2.6.3 -> 2.6.4
+wireshark-lite : 2.6.3 -> 2.6.4
+wireshark-qt5 : 2.6.3 -> 2.6.4
+wtf : 20180919 -> 20180925
+xapian-bindings : 1.4.7 -> 1.4.8
+xapian-core : 1.4.7_1,1 -> 1.4.8,1
+xapian-omega : 1.4.7 -> 1.4.8
+xcircuit : 3.10.10,1 -> 3.10.12,1
+xerces-c3 : 3.2.0_2 -> 3.2.2
+xf86-video-intel : 2.99.917.20180512_2 -> 2.99.917.20180906
+xfce4-clipman-plugin : 1.4.2_1 -> 1.4.3
+xmlrpc-c : 1.39.13_2 -> 1.43.08
+xmrig : 2.6.4 -> 2.8.3
+xorgxrdp : 0.2.7_1 -> 0.2.8
+yarn : 1.9.4 -> 1.10.1
+yices : 2.6.0 -> 2.6.1
+yubico-piv-tool : 1.4.4 -> 1.6.2
+zeroconf-ioslave : 18.08.1 -> 18.08.2
+zeronet : 0.6.2_1 -> 0.6.4
+zfs-snap-diff : 0.0.9 -> 0.0.10
+zh-fcitx-libpinyin : 0.3.2 -> 0.5.3
+zh-ibus-libpinyin : 1.7.2_3 -> 1.10.0
+zh-libpinyin : 1.2.0 -> 2.2.0
+zoneinfo : 2018.e -> 2018.f
+zsh-syntax-highlighting : 20170329 -> 0.6.0.186,1
+zstd : 1.3.6 -> 1.3.7
