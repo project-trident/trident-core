@@ -124,7 +124,7 @@ Name=${volume}
 GenericName=${xdg_comment}
 Comment=${xdg_comment}
 Icon=${xdg_icon}
-TryExec=${dev}
+TryExec=/dev/${dev}
 Actions=${xdg_actions_list}
 ${xdg_actions}
 " > /media/${dev}.desktop
