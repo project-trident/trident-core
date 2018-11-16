@@ -1,3 +1,8 @@
+#========================
+# This file is installed by Project Trident
+# Changes to this file will be lost during updates
+# **Place changes in /boot/loader.conf**
+#========================
 # Project Trident Branding
 loader_brand="trident"
 loader_logo="trident"
@@ -9,3 +14,7 @@ hw.psm.synaptics_support="1"
 hw.psm.elantech_support="1"
 #Ensure that the VT switching for NVIDIA graphics chips work
 hw.vga.textmode="1"
+#Ensure that the sound support modules are loaded (base kernel modules)
+sound_load="YES"
+snd_driver_load="YES"
+snd_hda_load="YES"
