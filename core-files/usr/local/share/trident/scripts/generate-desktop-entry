@@ -110,9 +110,9 @@ if [ "${type}" != "udf" ] && [ "${type}" != "cd9660" ]; then
 xdg_actions_list="${xdg_actions_list}fsck;"
 xdg_actions="${xdg_actions}
 [Desktop Action fsck]
-Name="Check Filesystem"
+Name=\"Check Filesystem\"
 Icon=document-edit-decrypt-verify
-Exec="qsudo fsck -t ${type} ${dev}"
+Exec=\"qsudo fsck -t ${type} ${dev}\"
 "
 fi
 
