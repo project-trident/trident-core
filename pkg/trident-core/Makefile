@@ -14,8 +14,8 @@ RUN_DEPENDS=	${LOCALBASE}/sbin/PCDMd:x11/pcdm \
 		${LOCALBASE}/bin/pc-wificonfig:sysutils/pc-networkmanager \
 		${LOCALBASE}/bin/pc-mixer:audio/pc-mixer \
 		${LOCALBASE}/bin/sysadm-client:sysutils/sysadm-client \
-		${LOCALBASE}/bin/personacrypt:sysutils/personacrypt \
 		${LOCALBASE}/bin/xdg-open:devel/xdg-utils \
+		sysup>=0:sysutils/sysup \
 		cups-filters>=0:print/cups-filters \
 		lumina>=0:x11/lumina \
 		foomatic-db>=0:print/foomatic-db \
