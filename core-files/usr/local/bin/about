@@ -1,0 +1,38 @@
+#!/bin/sh
+#Quick script to return basic information about the system
+
+#Project Trident Versioning
+manifest="/home/kenmoore/Trident/trident-build/trident-master.json" #"/var/db/trueos-manifest.json"
+echo "Project Trident Information"
+echo "--------------------------------------"
+echo "OS Version: "$(jq -r '."os_version"' ${manifest})
+base_pkg_prefix=$(jq -r '."base-packages"."name-prefix"' ${manifest})
+runtime_pkg_date=`pkg query %v ${base_pkg_prefix}-runtime | cut -d . -f 3-`
+echo "Build Date: ${runtime_pkg_date}"
+echo "--------------------------------------"
+echo "TrueOS Sources Used:"
+gh_org=$(jq -r '."base-github-org"' ${manifest})
+gh_repo=$(jq -r '."base-github-repo"' ${manifest})
+gh_tag=$(jq -r '."base-github-tag"' ${manifest})
+echo "  Base Repository: https://github.com/${gh_org}/${gh_repo}"
+echo "  Base Commit Tag: ${gh_tag}"
+gh_org=$(jq -r '."ports-github-org"' ${manifest})
+gh_repo=$(jq -r '."ports-github-repo"' ${manifest})
+gh_tag=$(jq -r '."ports-github-tag"' ${manifest})
+echo "  Ports Repository: https://github.com/${gh_org}/${gh_repo}"
+echo "  Ports Commit Tag: ${gh_tag}"
+echo "--------------------------------------"
+echo "System Specs:"
+echo "  $(sysctl -n hw.model)"
+echo "  Physical CPUs: $(sysctl -n hw.ncpu)"
+phys_mem=$(sysctl -n hw.physmem)
+phys_mem=`bc -e scale=2 -e ${phys_mem}/1073741824 -e quit`
+echo "  Physical Memory: ${phys_mem} GB"
+echo "--------------------------------------"
+#Now get some GPU information
+echo "GPU Information:"
+num_gpus=`pciconf -l | grep vgapci | wc -l`
+for i in `jot ${num_gpus} 0`
+do
+  echo "  $(pciconf -lv vgapci${i})"
+done
