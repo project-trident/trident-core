@@ -2,7 +2,7 @@
 #Quick script to return basic information about the system
 
 #Project Trident Versioning
-manifest="/home/kenmoore/Trident/trident-build/trident-master.json" #"/var/db/trueos-manifest.json"
+manifest="/var/db/trueos-manifest.json"
 echo "Project Trident Information"
 echo "--------------------------------------"
 echo "OS Version: "$(jq -r '."os_version"' ${manifest})
