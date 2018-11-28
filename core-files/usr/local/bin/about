@@ -23,6 +23,7 @@ echo "  Ports Repository: https://github.com/${gh_org}/${gh_repo}"
 echo "  Ports Commit Tag: ${gh_tag}"
 echo "--------------------------------------"
 echo "System Specs:"
+echo "  Boot Method: $(sysctl -n machdep.bootmethod)"
 echo "  $(sysctl -n hw.model)"
 echo "  Physical CPUs: $(sysctl -n hw.ncpu)"
 phys_mem=$(sysctl -n hw.physmem)
@@ -35,4 +36,13 @@ num_gpus=`pciconf -l | grep vgapci | wc -l`
 for i in `jot ${num_gpus} 0`
 do
   echo "  $(pciconf -lv vgapci${i})"
+done
+echo "--------------------------------------"
+echo "Network Device Information"
+for i in $(ifconfig -l ether) $(sysctl -n net.wlan.devices)
+do
+  tmp=$(pciconf -lv ${i} 2>/dev/null)
+  if [ $? -eq 0 ] ; then
+    echo "  ${tmp}"
+  fi
 done
