@@ -1,0 +1,875 @@
+Summary of changes
+----------------
+New Packages (3):
+Removed Packages (564):
+Updated Packages (291):
+
+----------------
+New Packages (3):
+----------------
+OS-kernel-generic-nodebug : 13.0.2018.11.28-21.47.41
+OS-kernel-generic-nodebug-debug : 13.0.2018.11.28-21.47.41
+sysup : 0.1.1
+
+----------------
+Removed Packages (564):
+----------------
+allegro-devel
+cvs2darcs
+ffs2recov
+ghc
+ghc843
+hedgewars
+hs-abstract-deque
+hs-abstract-par
+hs-activehs-base
+hs-adjunctions
+hs-aeson
+hs-aeson-compat
+hs-aeson-pretty
+hs-Agda
+hs-Agda-stdlib
+hs-alex
+hs-ALUT
+hs-angel
+hs-ansi-terminal
+hs-ansi-wl-pprint
+hs-appar
+hs-arrows
+hs-asn1-data
+hs-asn1-encoding
+hs-asn1-parse
+hs-asn1-types
+hs-async
+hs-atomic-primops
+hs-attoparsec
+hs-attoparsec-iso8601
+hs-authenticate
+hs-auto-update
+hs-aws
+hs-base-compat
+hs-base-compat-batteries
+hs-base-orphans
+hs-base-unicode-symbols
+hs-base16-bytestring
+hs-base64-bytestring
+hs-basement
+hs-basic-prelude
+hs-bencode
+hs-bifunctors
+hs-bits-atomic
+hs-blaze-builder
+hs-blaze-html
+hs-blaze-markup
+hs-blaze-textual
+hs-bloomfilter
+hs-Boolean
+hs-BoundedChan
+hs-boxes
+hs-brainfuck
+hs-bsb-http-chunked
+hs-bsd-sysctl
+hs-byteable
+hs-byteorder
+hs-bytestring-csv
+hs-bytestring-lexing
+hs-bytestring-mmap
+hs-bytestring-nums
+hs-bytestring-show
+hs-c2hs
+hs-cabal-install
+hs-cairo
+hs-call-stack
+hs-case-insensitive
+hs-cassava
+hs-categories
+hs-cereal
+hs-cgi
+hs-cgrep
+hs-checkers
+hs-chunked-data
+hs-cipher-aes
+hs-cipher-aes128
+hs-cipher-blowfish
+hs-cipher-camellia
+hs-cipher-des
+hs-cipher-rc4
+hs-classy-prelude
+hs-classy-prelude-conduit
+hs-clientsession
+hs-clock
+hs-cmark
+hs-cmark-gfm
+hs-cmdargs
+hs-code-page
+hs-colour
+hs-comonad
+hs-concurrent-output
+hs-conduit
+hs-conduit-combinators
+hs-conduit-extra
+hs-ConfigFile
+hs-configurator
+hs-connection
+hs-constraints
+hs-contravariant
+hs-convertible
+hs-cookie
+hs-cpphs
+hs-cprng-aes
+hs-cpu
+hs-criterion
+hs-Crypto
+hs-crypto-api
+hs-crypto-cipher-types
+hs-crypto-conduit
+hs-crypto-numbers
+hs-crypto-pubkey
+hs-crypto-pubkey-types
+hs-crypto-random
+hs-crypto-random-api
+hs-cryptocipher
+hs-cryptohash
+hs-cryptohash-conduit
+hs-cryptohash-cryptoapi
+hs-cryptohash-md5
+hs-cryptohash-sha1
+hs-cryptohash-sha256
+hs-cryptonite
+hs-cryptonite-conduit
+hs-css-text
+hs-csv
+hs-curl
+hs-darcs
+hs-data-default
+hs-data-default-class
+hs-data-default-instances-base
+hs-data-default-instances-containers
+hs-data-default-instances-dlist
+hs-data-default-instances-old-locale
+hs-data-endian
+hs-data-hash
+hs-data-lens
+hs-data-lens-template
+hs-data-ordlist
+hs-data-pprint
+hs-date-cache
+hs-datetime
+hs-DAV
+hs-dbus
+hs-deepseq-generics
+hs-dia-base
+hs-dia-functions
+hs-Diff
+hs-digest
+hs-directory-tree
+hs-disk-free-space
+hs-distributive
+hs-dlist
+hs-dlist-instances
+hs-dns
+hs-doctemplates
+hs-double-conversion
+hs-DRBG
+hs-easy-file
+hs-echo
+hs-ed25519
+hs-EdisonAPI
+hs-EdisonCore
+hs-edit-distance
+hs-either
+hs-ekg
+hs-ekg-core
+hs-ekg-json
+hs-email-validate
+hs-enclosed-exceptions
+hs-entropy
+hs-equivalence
+hs-erf
+hs-errors
+hs-exceptions
+hs-extensible-exceptions
+hs-extra
+hs-fast-logger
+hs-fastcgi
+hs-fdo-notify
+hs-feed
+hs-fgl
+hs-file-embed
+hs-filemanip
+hs-filestore
+hs-fixed
+hs-fmlist
+hs-fortran-src
+hs-foundation
+hs-free
+hs-fsnotify
+hs-gconf
+hs-generic-deriving
+hs-GenericPretty
+hs-geniplate-mirror
+hs-ghc-events
+hs-ghc-mtl
+hs-ghc-paths
+hs-gio
+hs-gitrev
+hs-glib
+hs-Glob
+hs-GLURaw
+hs-GLUT
+hs-gnuidn
+hs-gnutls
+hs-graphviz
+hs-gsasl
+hs-gtk
+hs-gtk2hs
+hs-gtk2hs-buildtools
+hs-gtksourceview2
+hs-hackage-security
+hs-haddock
+hs-haddock-api
+hs-haddock-library
+hs-half
+hs-happstack-server
+hs-happy
+hs-hashable
+hs-hashtables
+hs-haskell-lexer
+hs-haskell-src
+hs-haskell-src-exts
+hs-haskell-src-exts-util
+hs-haskell-src-meta
+hs-hasktags
+hs-hedis
+hs-heist
+hs-hex
+hs-hexpat
+hs-highlighting-kate
+hs-hinotify
+hs-hint
+hs-hjsmin
+hs-hlibev
+hs-hlint
+hs-hoauth2
+hs-hoogle
+hs-hostname
+hs-hourglass
+hs-hs-bibutils
+hs-hsb2hs
+hs-hscolour
+hs-hslogger
+hs-hslua
+hs-hslua-module-text
+hs-HsOpenSSL
+hs-hspec
+hs-hspec-core
+hs-hspec-discover
+hs-hspec-expectations
+hs-HStringTemplate
+hs-html
+hs-html-conduit
+hs-HTTP
+hs-http-api-data
+hs-http-client
+hs-http-client-tls
+hs-http-conduit
+hs-http-date
+hs-http-reverse-proxy
+hs-http-server
+hs-http-types
+hs-http2
+hs-HUnit
+hs-hxt
+hs-hxt-charproperties
+hs-hxt-regex-xmlschema
+hs-hxt-unicode
+hs-ieee754
+hs-IfElse
+hs-integer-logarithms
+hs-io-streams
+hs-io-streams-haproxy
+hs-iproute
+hs-js-flot
+hs-js-jquery
+hs-json
+hs-JuicyPixels
+hs-kan-extensions
+hs-keys
+hs-kqueue
+hs-language-c
+hs-language-javascript
+hs-largeword
+hs-lazysmallcheck
+hs-lens
+hs-lhs2tex
+hs-libmpd
+hs-libxml
+hs-libxml-sax
+hs-lifted-async
+hs-lifted-base
+hs-List
+hs-ListLike
+hs-logict
+hs-maccatcher
+hs-magic
+hs-map-syntax
+hs-math-functions
+hs-memory
+hs-MemoTrie
+hs-microlens
+hs-microlens-th
+hs-microstache
+hs-mime
+hs-mime-mail
+hs-mime-types
+hs-MissingH
+hs-mmap
+hs-mmorph
+hs-monad-control
+hs-monad-logger
+hs-monad-loops
+hs-monad-par
+hs-monad-par-extras
+hs-monad-unlift
+hs-monadcryptorandom
+hs-MonadRandom
+hs-monads-tf
+hs-mono-traversable
+hs-mono-traversable-instances
+hs-mountpoints
+hs-mtl
+hs-mueval
+hs-multipart
+hs-murmur-hash
+hs-mutable-containers
+hs-mwc-random
+hs-mysql
+hs-ncurses
+hs-network
+hs-network-info
+hs-network-multicast
+hs-network-protocol-xmpp
+hs-network-uri
+hs-newtype
+hs-newtype-generics
+hs-nonce
+hs-NumInstances
+hs-ObjectName
+hs-oeis
+hs-old-locale
+hs-old-time
+hs-Only
+hs-OpenAL
+hs-OpenGL
+hs-OpenGLRaw
+hs-optparse-applicative
+hs-pandoc
+hs-pandoc-citeproc
+hs-pandoc-types
+hs-pango
+hs-parallel
+hs-parsec-numbers
+hs-path-pieces
+hs-pcap
+hs-pcre-light
+hs-pem
+hs-persistent
+hs-persistent-sqlite
+hs-persistent-template
+hs-pointed
+hs-polyparse
+hs-porte
+hs-prelude-extras
+hs-preprocessor-tools
+hs-pretty-show
+hs-prettyclass
+hs-primitive
+hs-probability
+hs-process-extras
+hs-profunctors
+hs-project-template
+hs-psqueues
+hs-publicsuffixlist
+hs-pureMD5
+hs-pwstore-fast
+hs-QuickCheck
+hs-quickcheck-io
+hs-random
+hs-readable
+hs-ReadArgs
+hs-readline
+hs-recaptcha
+hs-refact
+hs-reflection
+hs-regex-applicative
+hs-regex-base
+hs-regex-compat
+hs-regex-compat-tdfa
+hs-regex-pcre
+hs-regex-pcre-builtin
+hs-regex-posix
+hs-regex-tdfa
+hs-resolv
+hs-resource-pool
+hs-resourcet
+hs-rfc5051
+hs-RSA
+hs-safe
+hs-safe-exceptions
+hs-SafeSemaphore
+hs-sandi
+hs-say
+hs-scanner
+hs-scientific
+hs-securemem
+hs-semigroupoids
+hs-semigroups
+hs-sendfile
+hs-setenv
+hs-setlocale
+hs-SHA
+hs-shake
+hs-shakespeare
+hs-ShellCheck
+hs-shelly
+hs-show
+hs-silently
+hs-simple-reflect
+hs-simple-sendfile
+hs-skein
+hs-skylighting
+hs-skylighting-core
+hs-smallcheck
+hs-snap
+hs-snap-core
+hs-snap-server
+hs-socks
+hs-split
+hs-StateVar
+hs-statistics
+hs-stm-chans
+hs-STMonadTrans
+hs-storable-record
+hs-storable-tuple
+hs-Stream
+hs-streaming-commons
+hs-strict
+hs-stringsearch
+hs-svgcairo
+hs-syb
+hs-syb-with-class
+hs-system-fileio
+hs-system-filepath
+hs-tagged
+hs-tagsoup
+hs-tagstream-conduit
+hs-tar
+hs-temporary
+hs-terminal-size
+hs-test-framework
+hs-test-framework-hunit
+hs-test-framework-quickcheck2
+hs-texmath
+hs-text-icu
+hs-text-short
+hs-tf-random
+hs-th-abstraction
+hs-th-expand-syns
+hs-th-lift
+hs-th-lift-instances
+hs-th-orphans
+hs-th-reify-many
+hs-threads
+hs-threadscope
+hs-time-compat
+hs-time-locale-compat
+hs-timezone-olson
+hs-timezone-series
+hs-tls
+hs-tls-session-manager
+hs-torrent
+hs-transformers-base
+hs-transformers-compat
+hs-typed-process
+hs-unamb
+hs-unexceptionalio
+hs-unicode-show
+hs-uniplate
+hs-unix-compat
+hs-unix-time
+hs-unlambda
+hs-unliftio
+hs-unliftio-core
+hs-unordered-containers
+hs-uri
+hs-uri-bytestring
+hs-uri-bytestring-aeson
+hs-uri-encode
+hs-url
+hs-utf8-light
+hs-utf8-string
+hs-utility-ht
+hs-uuagc
+hs-uuagc-bootstrap
+hs-uuagc-cabal
+hs-uuid
+hs-uuid-types
+hs-uulib
+hs-vault
+hs-vector
+hs-vector-algorithms
+hs-vector-binary-instances
+hs-vector-instances
+hs-vector-space
+hs-vector-th-unbox
+hs-void
+hs-vte
+hs-wai
+hs-wai-app-static
+hs-wai-extra
+hs-wai-logger
+hs-warp
+hs-warp-tls
+hs-webkit
+hs-wl-pprint-text
+hs-word8
+hs-wxdirect
+hs-X11
+hs-X11-xft
+hs-x509
+hs-x509-store
+hs-x509-system
+hs-x509-validation
+hs-xml
+hs-xml-conduit
+hs-xml-hamlet
+hs-xml-types
+hs-xmlhtml
+hs-xmobar
+hs-xmonad
+hs-xmonad-contrib
+hs-xss-sanitize
+hs-yaml
+hs-yesod
+hs-yesod-auth
+hs-yesod-auth-hashdb
+hs-yesod-bin
+hs-yesod-core
+hs-yesod-form
+hs-yesod-persistent
+hs-yesod-static
+hs-yesod-test
+hs-zip-archive
+hs-zlib
+hs-zlib-bindings
+musicpc
+OS-kernel-generic
+OS-kernel-generic-debug
+pefs-kmod
+personacrypt
+pm3umpdl
+py27-bup
+py27-pypandoc
+py36-pypandoc
+R-cran-rmarkdown
+RStudio
+scroll
+smlnj
+stack
+trueos-desktop
+zh-ibus-table-chinese
+
+----------------
+Updated Packages (291):
+----------------
+OS-acct : 13.0.2018.11.13-14.57.06 -> 13.0.2018.11.28-21.47.41
+OS-acct-debug : 13.0.2018.11.13-14.57.06 -> 13.0.2018.11.28-21.47.41
+OS-acpi : 13.0.2018.11.13-14.57.06 -> 13.0.2018.11.28-21.47.41
+OS-acpi-debug : 13.0.2018.11.13-14.57.06 -> 13.0.2018.11.28-21.47.41
+OS-amd : 13.0.2018.11.13-14.57.06 -> 13.0.2018.11.28-21.47.41
+OS-amd-debug : 13.0.2018.11.13-14.57.06 -> 13.0.2018.11.28-21.47.41
+OS-apm : 13.0.2018.11.13-14.57.06 -> 13.0.2018.11.28-21.47.41
+OS-apm-debug : 13.0.2018.11.13-14.57.06 -> 13.0.2018.11.28-21.47.41
+OS-at : 13.0.2018.11.13-14.57.06 -> 13.0.2018.11.28-21.47.41
+OS-at-debug : 13.0.2018.11.13-14.57.06 -> 13.0.2018.11.28-21.47.41
+OS-autofs : 13.0.2018.11.13-14.57.06 -> 13.0.2018.11.28-21.47.41
+OS-autofs-debug : 13.0.2018.11.13-14.57.06 -> 13.0.2018.11.28-21.47.41
+OS-bhyve : 13.0.2018.11.13-14.57.06 -> 13.0.2018.11.28-21.47.41
+OS-bhyve-debug : 13.0.2018.11.13-14.57.06 -> 13.0.2018.11.28-21.47.41
+OS-binutils : 13.0.2018.11.13-14.57.06 -> 13.0.2018.11.28-21.47.41
+OS-binutils-debug : 13.0.2018.11.13-14.57.06 -> 13.0.2018.11.28-21.47.41
+OS-bsdinstall : 13.0.2018.11.13-14.57.06 -> 13.0.2018.11.28-21.47.41
+OS-bsdinstall-debug : 13.0.2018.11.13-14.57.06 -> 13.0.2018.11.28-21.47.41
+OS-bsnmp : 13.0.2018.11.13-14.57.06 -> 13.0.2018.11.28-21.47.41
+OS-bsnmp-debug : 13.0.2018.11.13-14.57.06 -> 13.0.2018.11.28-21.47.41
+OS-ccdconfig : 13.0.2018.11.13-14.57.06 -> 13.0.2018.11.28-21.47.41
+OS-ccdconfig-debug : 13.0.2018.11.13-14.57.06 -> 13.0.2018.11.28-21.47.41
+OS-clang : 13.0.2018.11.13-14.57.06 -> 13.0.2018.11.28-21.47.41
+OS-clang-debug : 13.0.2018.11.13-14.57.06 -> 13.0.2018.11.28-21.47.41
+OS-clibs : 13.0.2018.11.13-14.57.06 -> 13.0.2018.11.28-21.47.41
+OS-clibs-debug : 13.0.2018.11.13-14.57.06 -> 13.0.2018.11.28-21.47.41
+OS-clibs-development : 13.0.2018.11.13-14.57.06 -> 13.0.2018.11.28-21.47.41
+OS-clibs-lib32 : 13.0.2018.11.13-14.57.06 -> 13.0.2018.11.28-21.47.41
+OS-clibs-lib32-debug : 13.0.2018.11.13-14.57.06 -> 13.0.2018.11.28-21.47.41
+OS-clibs-lib32-development : 13.0.2018.11.13-14.57.06 -> 13.0.2018.11.28-21.47.41
+OS-clibs-lib32-profile : 13.0.2018.11.13-14.57.06 -> 13.0.2018.11.28-21.47.41
+OS-clibs-profile : 13.0.2018.11.13-14.57.06 -> 13.0.2018.11.28-21.47.41
+OS-dma : 13.0.2018.11.13-14.57.06 -> 13.0.2018.11.28-21.47.41
+OS-dma-debug : 13.0.2018.11.13-14.57.06 -> 13.0.2018.11.28-21.47.41
+OS-ee : 13.0.2018.11.13-14.57.06 -> 13.0.2018.11.28-21.47.41
+OS-ee-debug : 13.0.2018.11.13-14.57.06 -> 13.0.2018.11.28-21.47.41
+OS-gdb : 13.0.2018.11.13-14.57.06 -> 13.0.2018.11.28-21.47.41
+OS-gdb-debug : 13.0.2018.11.13-14.57.06 -> 13.0.2018.11.28-21.47.41
+OS-hast : 13.0.2018.11.13-14.57.06 -> 13.0.2018.11.28-21.47.41
+OS-hast-debug : 13.0.2018.11.13-14.57.06 -> 13.0.2018.11.28-21.47.41
+OS-ipf : 13.0.2018.11.13-14.57.06 -> 13.0.2018.11.28-21.47.41
+OS-ipf-debug : 13.0.2018.11.13-14.57.06 -> 13.0.2018.11.28-21.47.41
+OS-ipfw : 13.0.2018.11.13-14.57.06 -> 13.0.2018.11.28-21.47.41
+OS-ipfw-debug : 13.0.2018.11.13-14.57.06 -> 13.0.2018.11.28-21.47.41
+OS-iscsi_legacy : 13.0.2018.11.13-14.57.06 -> 13.0.2018.11.28-21.47.41
+OS-iscsi_legacy-debug : 13.0.2018.11.13-14.57.06 -> 13.0.2018.11.28-21.47.41
+OS-iscsi : 13.0.2018.11.13-14.57.06 -> 13.0.2018.11.28-21.47.41
+OS-iscsi-debug : 13.0.2018.11.13-14.57.06 -> 13.0.2018.11.28-21.47.41
+OS-jail : 13.0.2018.11.13-14.57.06 -> 13.0.2018.11.28-21.47.41
+OS-jail-debug : 13.0.2018.11.13-14.57.06 -> 13.0.2018.11.28-21.47.41
+OS-libalias : 13.0.2018.11.07-15.25.56 -> 13.0.2018.11.28-21.47.41
+OS-libalias-debug : 13.0.2018.11.07-15.25.56 -> 13.0.2018.11.28-21.47.41
+OS-libalias-development : 13.0.2018.11.07-15.25.56 -> 13.0.2018.11.28-21.47.41
+OS-libalias-lib32 : 13.0.2018.11.07-15.25.56 -> 13.0.2018.11.28-21.47.41
+OS-libalias-lib32-debug : 13.0.2018.11.07-15.25.56 -> 13.0.2018.11.28-21.47.41
+OS-libalias-lib32-development : 13.0.2018.11.07-15.25.56 -> 13.0.2018.11.28-21.47.41
+OS-libalias-lib32-profile : 13.0.2018.11.07-15.25.56 -> 13.0.2018.11.28-21.47.41
+OS-libalias-profile : 13.0.2018.11.07-15.25.56 -> 13.0.2018.11.28-21.47.41
+OS-libarchive : 13.0.2018.11.13-14.57.06 -> 13.0.2018.11.28-21.47.41
+OS-libarchive-debug : 13.0.2018.11.13-14.57.06 -> 13.0.2018.11.28-21.47.41
+OS-libarchive-development : 13.0.2018.11.13-14.57.06 -> 13.0.2018.11.28-21.47.41
+OS-libarchive-lib32 : 13.0.2018.11.13-14.57.06 -> 13.0.2018.11.28-21.47.41
+OS-libarchive-lib32-debug : 13.0.2018.11.13-14.57.06 -> 13.0.2018.11.28-21.47.41
+OS-libarchive-lib32-development : 13.0.2018.11.13-14.57.06 -> 13.0.2018.11.28-21.47.41
+OS-libarchive-lib32-profile : 13.0.2018.11.13-14.57.06 -> 13.0.2018.11.28-21.47.41
+OS-libarchive-profile : 13.0.2018.11.13-14.57.06 -> 13.0.2018.11.28-21.47.41
+OS-libbe : 13.0.2018.11.13-14.57.06 -> 13.0.2018.11.28-21.47.41
+OS-libbe-debug : 13.0.2018.11.13-14.57.06 -> 13.0.2018.11.28-21.47.41
+OS-libbe-development : 13.0.2018.11.13-14.57.06 -> 13.0.2018.11.28-21.47.41
+OS-libbe-lib32 : 13.0.2018.11.13-14.57.06 -> 13.0.2018.11.28-21.47.41
+OS-libbe-lib32-debug : 13.0.2018.11.13-14.57.06 -> 13.0.2018.11.28-21.47.41
+OS-libbe-lib32-development : 13.0.2018.11.13-14.57.06 -> 13.0.2018.11.28-21.47.41
+OS-libbe-lib32-profile : 13.0.2018.11.13-14.57.06 -> 13.0.2018.11.28-21.47.41
+OS-libbe-profile : 13.0.2018.11.13-14.57.06 -> 13.0.2018.11.28-21.47.41
+OS-libcam : 13.0.2018.11.13-14.57.06 -> 13.0.2018.11.26-14.22.45
+OS-libcam-debug : 13.0.2018.11.13-14.57.06 -> 13.0.2018.11.26-14.22.45
+OS-libcam-development : 13.0.2018.11.13-14.57.06 -> 13.0.2018.11.26-14.22.45
+OS-libcam-lib32 : 13.0.2018.11.13-14.57.06 -> 13.0.2018.11.26-14.22.45
+OS-libcam-lib32-debug : 13.0.2018.11.13-14.57.06 -> 13.0.2018.11.26-14.22.45
+OS-libcam-lib32-development : 13.0.2018.11.13-14.57.06 -> 13.0.2018.11.26-14.22.45
+OS-libcam-lib32-profile : 13.0.2018.11.13-14.57.06 -> 13.0.2018.11.26-14.22.45
+OS-libcam-profile : 13.0.2018.11.13-14.57.06 -> 13.0.2018.11.26-14.22.45
+OS-libcasper : 13.0.2018.11.13-14.57.06 -> 13.0.2018.11.28-21.47.41
+OS-libcasper-debug : 13.0.2018.11.13-14.57.06 -> 13.0.2018.11.28-21.47.41
+OS-libcasper-development : 13.0.2018.11.13-14.57.06 -> 13.0.2018.11.28-21.47.41
+OS-libcasper-lib32 : 13.0.2018.11.13-14.57.06 -> 13.0.2018.11.28-21.47.41
+OS-libcasper-lib32-debug : 13.0.2018.11.13-14.57.06 -> 13.0.2018.11.28-21.47.41
+OS-libcasper-lib32-development : 13.0.2018.11.13-14.57.06 -> 13.0.2018.11.28-21.47.41
+OS-libfetch : 13.0.2018.11.07-15.25.56 -> 13.0.2018.11.28-21.47.41
+OS-libfetch-debug : 13.0.2018.11.07-15.25.56 -> 13.0.2018.11.28-21.47.41
+OS-libfetch-development : 13.0.2018.11.07-15.25.56 -> 13.0.2018.11.28-21.47.41
+OS-libfetch-lib32 : 13.0.2018.11.07-15.25.56 -> 13.0.2018.11.28-21.47.41
+OS-libfetch-lib32-debug : 13.0.2018.11.07-15.25.56 -> 13.0.2018.11.28-21.47.41
+OS-libfetch-lib32-development : 13.0.2018.11.07-15.25.56 -> 13.0.2018.11.28-21.47.41
+OS-libfetch-lib32-profile : 13.0.2018.11.07-15.25.56 -> 13.0.2018.11.28-21.47.41
+OS-libfetch-profile : 13.0.2018.11.07-15.25.56 -> 13.0.2018.11.28-21.47.41
+OS-libgssapi : 13.0.2018.11.07-15.25.56 -> 13.0.2018.11.26-14.22.45
+OS-libgssapi-debug : 13.0.2018.11.07-15.25.56 -> 13.0.2018.11.26-14.22.45
+OS-libgssapi-development : 13.0.2018.11.07-15.25.56 -> 13.0.2018.11.26-14.22.45
+OS-libgssapi-lib32 : 13.0.2018.11.07-15.25.56 -> 13.0.2018.11.26-14.22.45
+OS-libgssapi-lib32-debug : 13.0.2018.11.07-15.25.56 -> 13.0.2018.11.26-14.22.45
+OS-libgssapi-lib32-development : 13.0.2018.11.07-15.25.56 -> 13.0.2018.11.26-14.22.45
+OS-libifconfig-development : 13.0.2018.11.07-15.25.56 -> 13.0.2018.11.28-21.47.41
+OS-libifconfig-lib32-development : 13.0.2018.11.07-15.25.56 -> 13.0.2018.11.28-21.47.41
+OS-libifconfig-lib32-profile : 13.0.2018.11.07-15.25.56 -> 13.0.2018.11.28-21.47.41
+OS-libifconfig-profile : 13.0.2018.11.07-15.25.56 -> 13.0.2018.11.28-21.47.41
+OS-libkvm : 13.0.2018.11.13-14.57.06 -> 13.0.2018.11.28-21.47.41
+OS-libkvm-debug : 13.0.2018.11.13-14.57.06 -> 13.0.2018.11.28-21.47.41
+OS-libkvm-development : 13.0.2018.11.13-14.57.06 -> 13.0.2018.11.28-21.47.41
+OS-libkvm-lib32 : 13.0.2018.11.13-14.57.06 -> 13.0.2018.11.28-21.47.41
+OS-libkvm-lib32-debug : 13.0.2018.11.13-14.57.06 -> 13.0.2018.11.28-21.47.41
+OS-libkvm-lib32-development : 13.0.2018.11.13-14.57.06 -> 13.0.2018.11.28-21.47.41
+OS-libkvm-lib32-profile : 13.0.2018.11.13-14.57.06 -> 13.0.2018.11.28-21.47.41
+OS-libkvm-profile : 13.0.2018.11.13-14.57.06 -> 13.0.2018.11.28-21.47.41
+OS-libldns : 13.0.2018.11.07-15.25.56 -> 13.0.2018.11.28-21.47.41
+OS-libldns-debug : 13.0.2018.11.07-15.25.56 -> 13.0.2018.11.28-21.47.41
+OS-libldns-development : 13.0.2018.11.07-15.25.56 -> 13.0.2018.11.28-21.47.41
+OS-libldns-lib32 : 13.0.2018.11.07-15.25.56 -> 13.0.2018.11.28-21.47.41
+OS-libldns-lib32-debug : 13.0.2018.11.07-15.25.56 -> 13.0.2018.11.28-21.47.41
+OS-libldns-lib32-development : 13.0.2018.11.07-15.25.56 -> 13.0.2018.11.28-21.47.41
+OS-libldns-lib32-profile : 13.0.2018.11.07-15.25.56 -> 13.0.2018.11.28-21.47.41
+OS-libldns-profile : 13.0.2018.11.07-15.25.56 -> 13.0.2018.11.28-21.47.41
+OS-libmemstat : 13.0.2018.11.07-15.25.56 -> 13.0.2018.11.26-14.22.45
+OS-libmemstat-debug : 13.0.2018.11.07-15.25.56 -> 13.0.2018.11.26-14.22.45
+OS-libmemstat-development : 13.0.2018.11.07-15.25.56 -> 13.0.2018.11.26-14.22.45
+OS-libmemstat-lib32 : 13.0.2018.11.07-15.25.56 -> 13.0.2018.11.26-14.22.45
+OS-libmemstat-lib32-debug : 13.0.2018.11.07-15.25.56 -> 13.0.2018.11.26-14.22.45
+OS-libmemstat-lib32-development : 13.0.2018.11.07-15.25.56 -> 13.0.2018.11.26-14.22.45
+OS-libmemstat-lib32-profile : 13.0.2018.11.07-15.25.56 -> 13.0.2018.11.26-14.22.45
+OS-libmemstat-profile : 13.0.2018.11.07-15.25.56 -> 13.0.2018.11.26-14.22.45
+OS-libmp : 13.0.2018.11.07-15.25.56 -> 13.0.2018.11.26-14.22.45
+OS-libmp-debug : 13.0.2018.11.07-15.25.56 -> 13.0.2018.11.26-14.22.45
+OS-libmp-development : 13.0.2018.11.07-15.25.56 -> 13.0.2018.11.26-14.22.45
+OS-libmp-lib32 : 13.0.2018.11.07-15.25.56 -> 13.0.2018.11.26-14.22.45
+OS-libmp-lib32-debug : 13.0.2018.11.07-15.25.56 -> 13.0.2018.11.26-14.22.45
+OS-libmp-lib32-development : 13.0.2018.11.07-15.25.56 -> 13.0.2018.11.26-14.22.45
+OS-libnv : 13.0.2018.11.07-15.25.56 -> 13.0.2018.11.26-14.22.45
+OS-libnv-debug : 13.0.2018.11.07-15.25.56 -> 13.0.2018.11.26-14.22.45
+OS-libnv-development : 13.0.2018.11.07-15.25.56 -> 13.0.2018.11.26-14.22.45
+OS-libnv-lib32 : 13.0.2018.11.07-15.25.56 -> 13.0.2018.11.26-14.22.45
+OS-libnv-lib32-debug : 13.0.2018.11.07-15.25.56 -> 13.0.2018.11.26-14.22.45
+OS-libnv-lib32-development : 13.0.2018.11.07-15.25.56 -> 13.0.2018.11.26-14.22.45
+OS-libnv-lib32-profile : 13.0.2018.11.07-15.25.56 -> 13.0.2018.11.26-14.22.45
+OS-libnv-profile : 13.0.2018.11.07-15.25.56 -> 13.0.2018.11.26-14.22.45
+OS-libpcap : 13.0.2018.11.07-15.25.56 -> 13.0.2018.11.28-21.47.41
+OS-libpcap-debug : 13.0.2018.11.07-15.25.56 -> 13.0.2018.11.28-21.47.41
+OS-libpcap-development : 13.0.2018.11.07-15.25.56 -> 13.0.2018.11.28-21.47.41
+OS-libpcap-lib32 : 13.0.2018.11.07-15.25.56 -> 13.0.2018.11.28-21.47.41
+OS-libpcap-lib32-debug : 13.0.2018.11.07-15.25.56 -> 13.0.2018.11.28-21.47.41
+OS-libpcap-lib32-development : 13.0.2018.11.07-15.25.56 -> 13.0.2018.11.28-21.47.41
+OS-libpcap-lib32-profile : 13.0.2018.11.07-15.25.56 -> 13.0.2018.11.28-21.47.41
+OS-libpcap-profile : 13.0.2018.11.07-15.25.56 -> 13.0.2018.11.28-21.47.41
+OS-libpmc : 13.0.2018.11.21-12.30.56 -> 13.0.2018.11.28-21.47.41
+OS-libpmc-debug : 13.0.2018.11.21-12.30.56 -> 13.0.2018.11.28-21.47.41
+OS-libpmc-development : 13.0.2018.11.21-12.30.56 -> 13.0.2018.11.28-21.47.41
+OS-libpmc-lib32 : 13.0.2018.11.21-12.30.56 -> 13.0.2018.11.28-21.47.41
+OS-libpmc-lib32-debug : 13.0.2018.11.21-12.30.56 -> 13.0.2018.11.28-21.47.41
+OS-libpmc-lib32-development : 13.0.2018.11.21-12.30.56 -> 13.0.2018.11.28-21.47.41
+OS-libpmc-lib32-profile : 13.0.2018.11.21-12.30.56 -> 13.0.2018.11.28-21.47.41
+OS-libpmc-profile : 13.0.2018.11.21-12.30.56 -> 13.0.2018.11.28-21.47.41
+OS-libproc : 13.0.2018.11.13-14.57.06 -> 13.0.2018.11.28-21.47.41
+OS-libproc-debug : 13.0.2018.11.13-14.57.06 -> 13.0.2018.11.28-21.47.41
+OS-libproc-development : 13.0.2018.11.13-14.57.06 -> 13.0.2018.11.28-21.47.41
+OS-libproc-lib32 : 13.0.2018.11.13-14.57.06 -> 13.0.2018.11.28-21.47.41
+OS-libproc-lib32-debug : 13.0.2018.11.13-14.57.06 -> 13.0.2018.11.28-21.47.41
+OS-libproc-lib32-development : 13.0.2018.11.13-14.57.06 -> 13.0.2018.11.28-21.47.41
+OS-libproc-lib32-profile : 13.0.2018.11.13-14.57.06 -> 13.0.2018.11.28-21.47.41
+OS-libproc-profile : 13.0.2018.11.13-14.57.06 -> 13.0.2018.11.28-21.47.41
+OS-libprocstat : 13.0.2018.11.13-14.57.06 -> 13.0.2018.11.28-21.47.41
+OS-libprocstat-debug : 13.0.2018.11.13-14.57.06 -> 13.0.2018.11.28-21.47.41
+OS-libprocstat-development : 13.0.2018.11.13-14.57.06 -> 13.0.2018.11.28-21.47.41
+OS-libprocstat-lib32 : 13.0.2018.11.13-14.57.06 -> 13.0.2018.11.28-21.47.41
+OS-libprocstat-lib32-debug : 13.0.2018.11.13-14.57.06 -> 13.0.2018.11.28-21.47.41
+OS-libprocstat-lib32-development : 13.0.2018.11.13-14.57.06 -> 13.0.2018.11.28-21.47.41
+OS-libprocstat-lib32-profile : 13.0.2018.11.13-14.57.06 -> 13.0.2018.11.28-21.47.41
+OS-libprocstat-profile : 13.0.2018.11.13-14.57.06 -> 13.0.2018.11.28-21.47.41
+OS-librc : 13.0.2018.11.13-14.57.06 -> 13.0.2018.11.28-21.47.41
+OS-librc-debug : 13.0.2018.11.13-14.57.06 -> 13.0.2018.11.28-21.47.41
+OS-librc-development : 13.0.2018.11.13-14.57.06 -> 13.0.2018.11.28-21.47.41
+OS-librc-lib32 : 13.0.2018.11.13-14.57.06 -> 13.0.2018.11.28-21.47.41
+OS-librc-lib32-debug : 13.0.2018.11.13-14.57.06 -> 13.0.2018.11.28-21.47.41
+OS-librc-lib32-development : 13.0.2018.11.13-14.57.06 -> 13.0.2018.11.28-21.47.41
+OS-librc-lib32-profile : 13.0.2018.11.13-14.57.06 -> 13.0.2018.11.28-21.47.41
+OS-librc-profile : 13.0.2018.11.13-14.57.06 -> 13.0.2018.11.28-21.47.41
+OS-libregex : 13.0.2018.11.07-15.25.56 -> 13.0.2018.11.28-21.47.41
+OS-libregex-debug : 13.0.2018.11.07-15.25.56 -> 13.0.2018.11.28-21.47.41
+OS-libregex-development : 13.0.2018.11.07-15.25.56 -> 13.0.2018.11.28-21.47.41
+OS-libregex-lib32 : 13.0.2018.11.07-15.25.56 -> 13.0.2018.11.28-21.47.41
+OS-libregex-lib32-debug : 13.0.2018.11.07-15.25.56 -> 13.0.2018.11.28-21.47.41
+OS-libregex-lib32-development : 13.0.2018.11.07-15.25.56 -> 13.0.2018.11.28-21.47.41
+OS-libregex-lib32-profile : 13.0.2018.11.07-15.25.56 -> 13.0.2018.11.28-21.47.41
+OS-libregex-profile : 13.0.2018.11.07-15.25.56 -> 13.0.2018.11.28-21.47.41
+OS-librpcsec_gss : 13.0.2018.11.07-15.25.56 -> 13.0.2018.11.26-14.22.45
+OS-librpcsec_gss-debug : 13.0.2018.11.07-15.25.56 -> 13.0.2018.11.26-14.22.45
+OS-librpcsec_gss-development : 13.0.2018.11.07-15.25.56 -> 13.0.2018.11.26-14.22.45
+OS-librpcsec_gss-lib32 : 13.0.2018.11.07-15.25.56 -> 13.0.2018.11.26-14.22.45
+OS-librpcsec_gss-lib32-debug : 13.0.2018.11.07-15.25.56 -> 13.0.2018.11.26-14.22.45
+OS-librpcsec_gss-lib32-development : 13.0.2018.11.07-15.25.56 -> 13.0.2018.11.26-14.22.45
+OS-librt : 13.0.2018.11.07-15.25.56 -> 13.0.2018.11.26-14.22.45
+OS-librt-debug : 13.0.2018.11.07-15.25.56 -> 13.0.2018.11.26-14.22.45
+OS-librt-development : 13.0.2018.11.07-15.25.56 -> 13.0.2018.11.26-14.22.45
+OS-librt-lib32 : 13.0.2018.11.07-15.25.56 -> 13.0.2018.11.26-14.22.45
+OS-librt-lib32-debug : 13.0.2018.11.07-15.25.56 -> 13.0.2018.11.26-14.22.45
+OS-librt-lib32-development : 13.0.2018.11.07-15.25.56 -> 13.0.2018.11.26-14.22.45
+OS-librtld_db : 13.0.2018.11.13-14.57.06 -> 13.0.2018.11.28-21.47.41
+OS-librtld_db-debug : 13.0.2018.11.13-14.57.06 -> 13.0.2018.11.28-21.47.41
+OS-librtld_db-development : 13.0.2018.11.13-14.57.06 -> 13.0.2018.11.28-21.47.41
+OS-librtld_db-lib32 : 13.0.2018.11.13-14.57.06 -> 13.0.2018.11.28-21.47.41
+OS-librtld_db-lib32-debug : 13.0.2018.11.13-14.57.06 -> 13.0.2018.11.28-21.47.41
+OS-librtld_db-lib32-development : 13.0.2018.11.13-14.57.06 -> 13.0.2018.11.28-21.47.41
+OS-librtld_db-lib32-profile : 13.0.2018.11.13-14.57.06 -> 13.0.2018.11.28-21.47.41
+OS-librtld_db-profile : 13.0.2018.11.13-14.57.06 -> 13.0.2018.11.28-21.47.41
+OS-libstdthreads : 13.0.2018.11.07-15.25.56 -> 13.0.2018.11.26-14.22.45
+OS-libstdthreads-debug : 13.0.2018.11.07-15.25.56 -> 13.0.2018.11.26-14.22.45
+OS-libstdthreads-development : 13.0.2018.11.07-15.25.56 -> 13.0.2018.11.26-14.22.45
+OS-libstdthreads-lib32 : 13.0.2018.11.07-15.25.56 -> 13.0.2018.11.26-14.22.45
+OS-libstdthreads-lib32-debug : 13.0.2018.11.07-15.25.56 -> 13.0.2018.11.26-14.22.45
+OS-libstdthreads-lib32-development : 13.0.2018.11.07-15.25.56 -> 13.0.2018.11.26-14.22.45
+OS-libthread_db : 13.0.2018.11.07-15.25.56 -> 13.0.2018.11.26-14.22.45
+OS-libthread_db-debug : 13.0.2018.11.07-15.25.56 -> 13.0.2018.11.26-14.22.45
+OS-libthread_db-development : 13.0.2018.11.07-15.25.56 -> 13.0.2018.11.26-14.22.45
+OS-libthread_db-lib32 : 13.0.2018.11.07-15.25.56 -> 13.0.2018.11.26-14.22.45
+OS-libthread_db-lib32-debug : 13.0.2018.11.07-15.25.56 -> 13.0.2018.11.26-14.22.45
+OS-libthread_db-lib32-development : 13.0.2018.11.07-15.25.56 -> 13.0.2018.11.26-14.22.45
+OS-libufs : 13.0.2018.11.07-15.25.56 -> 13.0.2018.11.28-21.47.41
+OS-libufs-debug : 13.0.2018.11.07-15.25.56 -> 13.0.2018.11.28-21.47.41
+OS-libufs-development : 13.0.2018.11.07-15.25.56 -> 13.0.2018.11.28-21.47.41
+OS-libufs-lib32 : 13.0.2018.11.07-15.25.56 -> 13.0.2018.11.28-21.47.41
+OS-libufs-lib32-debug : 13.0.2018.11.07-15.25.56 -> 13.0.2018.11.28-21.47.41
+OS-libufs-lib32-development : 13.0.2018.11.07-15.25.56 -> 13.0.2018.11.28-21.47.41
+OS-libufs-lib32-profile : 13.0.2018.11.07-15.25.56 -> 13.0.2018.11.28-21.47.41
+OS-libufs-profile : 13.0.2018.11.07-15.25.56 -> 13.0.2018.11.28-21.47.41
+OS-libulog : 13.0.2018.11.07-15.25.56 -> 13.0.2018.11.26-14.22.45
+OS-libulog-debug : 13.0.2018.11.07-15.25.56 -> 13.0.2018.11.26-14.22.45
+OS-libulog-development : 13.0.2018.11.07-15.25.56 -> 13.0.2018.11.26-14.22.45
+OS-libulog-lib32 : 13.0.2018.11.07-15.25.56 -> 13.0.2018.11.26-14.22.45
+OS-libulog-lib32-debug : 13.0.2018.11.07-15.25.56 -> 13.0.2018.11.26-14.22.45
+OS-libulog-lib32-development : 13.0.2018.11.07-15.25.56 -> 13.0.2018.11.26-14.22.45
+OS-libutil : 13.0.2018.11.13-14.57.06 -> 13.0.2018.11.28-21.47.41
+OS-libutil-debug : 13.0.2018.11.13-14.57.06 -> 13.0.2018.11.28-21.47.41
+OS-libutil-development : 13.0.2018.11.13-14.57.06 -> 13.0.2018.11.28-21.47.41
+OS-libutil-lib32 : 13.0.2018.11.13-14.57.06 -> 13.0.2018.11.28-21.47.41
+OS-libutil-lib32-debug : 13.0.2018.11.13-14.57.06 -> 13.0.2018.11.28-21.47.41
+OS-libutil-lib32-development : 13.0.2018.11.13-14.57.06 -> 13.0.2018.11.28-21.47.41
+OS-libutil-lib32-profile : 13.0.2018.11.13-14.57.06 -> 13.0.2018.11.28-21.47.41
+OS-libutil-profile : 13.0.2018.11.13-14.57.06 -> 13.0.2018.11.28-21.47.41
+OS-lld : 13.0.2018.11.13-14.57.06 -> 13.0.2018.11.28-21.47.41
+OS-lld-debug : 13.0.2018.11.13-14.57.06 -> 13.0.2018.11.28-21.47.41
+OS-lldb : 13.0.2018.11.13-14.57.06 -> 13.0.2018.11.28-21.47.41
+OS-lldb-debug : 13.0.2018.11.13-14.57.06 -> 13.0.2018.11.28-21.47.41
+OS-natd : 13.0.2018.11.13-14.57.06 -> 13.0.2018.11.28-21.47.41
+OS-natd-debug : 13.0.2018.11.13-14.57.06 -> 13.0.2018.11.28-21.47.41
+OS-pf : 13.0.2018.11.13-14.57.06 -> 13.0.2018.11.28-21.47.41
+OS-pf-debug : 13.0.2018.11.13-14.57.06 -> 13.0.2018.11.28-21.47.41
+OS-quotacheck : 13.0.2018.11.13-14.57.06 -> 13.0.2018.11.28-21.47.41
+OS-quotacheck-debug : 13.0.2018.11.13-14.57.06 -> 13.0.2018.11.28-21.47.41
+OS-rcmds : 13.0.2018.11.13-14.57.06 -> 13.0.2018.11.28-21.47.41
+OS-rcmds-debug : 13.0.2018.11.13-14.57.06 -> 13.0.2018.11.28-21.47.41
+OS-rescue : 13.0.2018.11.13-14.57.06 -> 13.0.2018.11.28-21.47.41
+OS-runtime : 13.0.2018.11.22-12.36.32 -> 13.0.2018.11.28-21.47.41
+OS-runtime-debug : 13.0.2018.11.22-12.36.32 -> 13.0.2018.11.28-21.47.41
+OS-runtime-development : 13.0.2018.11.21-12.30.56 -> 13.0.2018.11.28-21.47.41
+OS-runtime-lib32 : 13.0.2018.11.13-14.57.06 -> 13.0.2018.11.28-21.47.41
+OS-runtime-lib32-debug : 13.0.2018.11.13-14.57.06 -> 13.0.2018.11.28-21.47.41
+OS-runtime-lib32-development : 13.0.2018.11.13-14.57.06 -> 13.0.2018.11.28-21.47.41
+OS-runtime-lib32-profile : 13.0.2018.11.07-15.25.56 -> 13.0.2018.11.28-21.47.41
+OS-runtime-manuals : 13.0.2018.11.13-14.57.06 -> 13.0.2018.11.28-21.47.41
+OS-runtime-profile : 13.0.2018.11.07-15.25.56 -> 13.0.2018.11.28-21.47.41
+OS-sendmail : 13.0.2018.11.13-14.57.06 -> 13.0.2018.11.28-21.47.41
+OS-sendmail-debug : 13.0.2018.11.13-14.57.06 -> 13.0.2018.11.28-21.47.41
+OS-ssh : 13.0.2018.11.13-14.57.06 -> 13.0.2018.11.28-21.47.41
+OS-ssh-debug : 13.0.2018.11.13-14.57.06 -> 13.0.2018.11.28-21.47.41
+OS-ssh-development : 13.0.2018.11.07-15.25.56 -> 13.0.2018.11.28-21.47.41
+OS-ssh-lib32 : 13.0.2018.11.07-15.25.56 -> 13.0.2018.11.28-21.47.41
+OS-ssh-lib32-debug : 13.0.2018.11.07-15.25.56 -> 13.0.2018.11.28-21.47.41
+OS-ssh-lib32-development : 13.0.2018.11.07-15.25.56 -> 13.0.2018.11.28-21.47.41
+OS-ssh-lib32-profile : 13.0.2018.11.07-15.25.56 -> 13.0.2018.11.28-21.47.41
+OS-ssh-profile : 13.0.2018.11.07-15.25.56 -> 13.0.2018.11.28-21.47.41
+OS-svn : 13.0.2018.11.13-14.57.06 -> 13.0.2018.11.28-21.47.41
+OS-svn-debug : 13.0.2018.11.13-14.57.06 -> 13.0.2018.11.28-21.47.41
+OS-tests : 13.0.2018.11.13-14.57.06 -> 13.0.2018.11.28-21.47.41
+OS-tests-debug : 13.0.2018.11.13-14.57.06 -> 13.0.2018.11.28-21.47.41
+OS-unbound : 13.0.2018.11.13-14.57.06 -> 13.0.2018.11.28-21.47.41
+OS-unbound-debug : 13.0.2018.11.13-14.57.06 -> 13.0.2018.11.28-21.47.41
+OS-vi : 13.0.2018.11.13-14.57.06 -> 13.0.2018.11.28-21.47.41
+OS-vi-debug : 13.0.2018.11.13-14.57.06 -> 13.0.2018.11.28-21.47.41
+port-index-uniquifier : 1300003 -> 1300004
+sysadm : 201806120928 -> 201811280857
+sysadm-client : 201802091522 -> 201811261058
+trident-core : 201811161350 -> 201811281209
+trident-installer : 201811061135 -> 201811281609
