@@ -4,6 +4,9 @@
 #  Line Format: <add/delete>:<servicename>:[runlevel]
 #==============================
 add:ipfw:boot
+add:automount:default
+add:automountd:default
+add:autounmountd:default
 add:cupsd:default
 add:moused:default
 add:sndiod:default
