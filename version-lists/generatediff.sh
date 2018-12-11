@@ -42,14 +42,20 @@ insertHeaderLine(){
   #Inputs: 1: temporary file name
   # Uses: $difffile, $rem_file, $up_file, $add_file
   _file="$1"
+  _header=$2
   pkg_count=`wc -l "${_file}" | cut -w -f 2`
+  if [ -n "${_header}" ] ; then
+    msg="### "
+  else
+    msg="* "
+  fi
   #Label the section
   if [ "${_file}" = "${add_file}" ] ; then
-    echo "New Packages (${pkg_count}):" >> "${difffile}"
+    echo "${msg}New Packages (${pkg_count}):" >> "${difffile}"
   elif [ "${_file}" = "${rem_file}" ] ; then
-    echo "Removed Packages (${pkg_count}):" >> "${difffile}"
+    echo "${msg}Removed Packages (${pkg_count}):" >> "${difffile}"
   elif [ "${_file}" = "${up_file}" ] ; then
-    echo "Updated Packages (${pkg_count}):" >> "${difffile}"
+    echo "${msg}Updated Packages (${pkg_count}):" >> "${difffile}"
   fi
 }
 
@@ -79,7 +85,7 @@ do
   findInFile "${_pkg}" "${newfile}"
   if [ -z "${_line}" ] ; then
     #Deleted package - not in new file
-    echo "${_pkg}" >> ${rem_file}
+    echo "* ${_pkg}" >> ${rem_file}
   else 
     pkgVersionFromLine "${_line}"
     sameVersions "${_oldver}" "${_version}"
@@ -88,7 +94,7 @@ do
       #echo "Unchanged: ${_pkg}"
     else
       #Version changed
-      echo "${_pkg} : ${_oldver} -> ${_version}" >> "${up_file}"
+      echo "* ${_pkg} : ${_oldver} -> ${_version}" >> "${up_file}"
     fi
   fi
 done < "${oldfile}"
@@ -101,7 +107,7 @@ do
   findInFile "${_pkg}" "${oldfile}"
   if [ -z "${_line}" ] ; then
     #New package (not in old repo)
-    echo "${_pkg} : ${_version}" >> "${add_file}"
+    echo "* ${_pkg} : ${_version}" >> "${add_file}"
   fi
 done < "${newfile}"
 
@@ -111,8 +117,7 @@ if [ -e "${difffile}" ] ; then
 fi
 
 # Add the summary section to the top of the diff
-echo "Summary of changes
-----------------" >> "${difffile}"
+echo '## Summary of changes' >> "${difffile}"
 for file in ${add_file} ${rem_file} ${up_file}
 do
   if [ ! -e "${file}" ] ; then continue; fi
@@ -126,10 +131,9 @@ do
   #Add a section break if needed
   if [ -e "${difffile}" ] ; then
     echo "
-----------------" >> "${difffile}"
+" >> "${difffile}"
   fi
-  insertHeaderLine ${file}
-  echo "----------------" >> "${difffile}"
+  insertHeaderLine ${file} true
   #Dump to the diff file and remove the temporary one
   cat "${file}" >> "${difffile}"
   rm "${file}"
