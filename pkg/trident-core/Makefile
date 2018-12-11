@@ -23,7 +23,7 @@ RUN_DEPENDS=	${LOCALBASE}/sbin/PCDMd:x11/pcdm \
 		xorg-minimal>=0:x11/xorg-minimal \
 		cuse4bsd-kmod>=0:multimedia/cuse4bsd-kmod \
 		webcamd>=0:multimedia/webcamd \
-		/boot/modules/drm.ko:graphics/drm-next-kmod \
+		/boot/modules/drm.ko:graphics/drm-current-kmod \
 		xdg-user-dirs>=0:devel/xdg-user-dirs \
 		trident-icons>=0:trident/trident-icons \
 		cursor-chameleon-pearl>=0:x11-themes/cursor-chameleon-pearl \
