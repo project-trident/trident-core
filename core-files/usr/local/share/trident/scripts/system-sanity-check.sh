@@ -13,8 +13,14 @@ fi
 if [ ! -e "/usr/local/etc/cups/cupsd.conf" ] && [ -e "/usr/local/etc/cups/cupsd.conf.sample" ] ; then
   ln -s "/usr/local/etc/cups/cupsd.conf.sample" "/usr/local/etc/cups/cupsd.conf"
 fi
+# - sysctl.conf
+if [ ! -e "/etc/sysctl.conf" ] ; then
+  #if this file is missing, then ALL sysctl config files get ignored. Make sure it exists.
+  touch "/etc/sysctl.conf"
+fi
 # - pulseaudio default.pa
-if [ ! -e "/usr/local/etc/pulse/default.pa" ] && [ -e "/usr/local/etc/pulse/default.pa.trident" ] ; then
+pkg info -e pulseaudio-module-sndio
+if [ $? -eq 0 ] && [ ! -e "/usr/local/etc/pulse/default.pa" ] && [ -e "/usr/local/etc/pulse/default.pa.trident" ] ; then
   ln -s "/usr/local/etc/pulse/default.pa.trident" "/usr/local/etc/pulse/default.pa"
 fi
 # - fonts.conf
@@ -38,6 +44,7 @@ fi
 if [ -e "/usr/local/share/icons/hicolor/icon-theme.cache" ] ; then
   rm "/usr/local/share/icons/hicolor/icon-theme.cache"
 fi
+
 #Ensure that the PCDM config file exists, or put the default one in place
 if [ ! -e "/usr/local/etc/pcdm.conf" ] ; then
   cp "/usr/local/etc/pcdm.conf.trident" "/usr/local/etc/pcdm.conf"
