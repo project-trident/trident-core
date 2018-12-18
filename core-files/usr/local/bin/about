@@ -15,12 +15,12 @@ gh_org=$(jq -r '."base-github-org"' ${manifest})
 gh_repo=$(jq -r '."base-github-repo"' ${manifest})
 gh_tag=$(jq -r '."base-github-tag"' ${manifest})
 echo "  Base Repository: https://github.com/${gh_org}/${gh_repo}"
-echo "  Base Commit Tag: ${gh_tag}"
+echo "  Base Commit Branch or Tag: ${gh_tag}"
 gh_org=$(jq -r '."ports-github-org"' ${manifest})
 gh_repo=$(jq -r '."ports-github-repo"' ${manifest})
 gh_tag=$(jq -r '."ports-github-tag"' ${manifest})
 echo "  Ports Repository: https://github.com/${gh_org}/${gh_repo}"
-echo "  Ports Commit Tag: ${gh_tag}"
+echo "  Ports Commit Branch or Tag: ${gh_tag}"
 echo "--------------------------------------"
 echo "System Specs:"
 echo "  Boot Method: $(sysctl -n machdep.bootmethod)"
