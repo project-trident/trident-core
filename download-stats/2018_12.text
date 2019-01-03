@@ -1,0 +1,1099 @@
+Statistics generated with VISITORS version 0.7
+http://www.hping.org/visitors for more information
+
+=== General information ===
+--- Information about analyzed log files
+--- Generated: Tue Jan  1 20:58:36 2019
+
+* Number of entries processed: 635864
+* Number of invalid entries: 0
+* Processing time in seconds: 7
+
+=== Generated reports ===
+--- Click on the report name you want to see
+* Number of reports generated: 15
+-> Unique visitors in each day
+-> Unique visitors in each month
+-> Unique visitors from Google in each day
+-> Unique visitors from Google in each month
+-> Weekday-Hour combined map
+-> Month-Day combined map
+-> Requested pages
+-> Requested images and CSS
+-> Referers
+-> Referers by first time
+-> User agents
+-> Browsers
+-> Domains
+-> Weekday distribution
+-> Hours distribution
+
+=== Unique visitors in each day ===
+--- Multiple hits with the same IP, user agent and access day, are considered a single visit
+* Number of unique visitors: 3610
+* Different days in logfile: 31
+   01/Dec/2018 : 106       |################                             2.9%
+   02/Dec/2018 : 109       |################                             3.0%
+   03/Dec/2018 : 90        |#############                                2.5%
+   04/Dec/2018 : 102       |###############                              2.8%
+   05/Dec/2018 : 103       |###############                              2.9%
+   06/Dec/2018 : 107       |################                             3.0%
+   07/Dec/2018 : 96        |##############                               2.7%
+   08/Dec/2018 : 84        |############                                 2.3%
+   09/Dec/2018 : 105       |################                             2.9%
+   10/Dec/2018 : 113       |#################                            3.1%
+   11/Dec/2018 : 154       |#######################                      4.3%
+   12/Dec/2018 : 127       |###################                          3.5%
+   13/Dec/2018 : 95        |##############                               2.6%
+   14/Dec/2018 : 102       |###############                              2.8%
+   15/Dec/2018 : 98        |###############                              2.7%
+   16/Dec/2018 : 85        |#############                                2.4%
+   17/Dec/2018 : 64        |#########                                    1.8%
+   18/Dec/2018 : 214       |################################             5.9%
+   19/Dec/2018 : 99        |###############                              2.7%
+   20/Dec/2018 : 113       |#################                            3.1%
+   21/Dec/2018 : 108       |################                             3.0%
+   22/Dec/2018 : 73        |###########                                  2.0%
+   23/Dec/2018 : 89        |#############                                2.5%
+   24/Dec/2018 : 69        |##########                                   1.9%
+   25/Dec/2018 : 69        |##########                                   1.9%
+   26/Dec/2018 : 79        |############                                 2.2%
+   27/Dec/2018 : 90        |#############                                2.5%
+   28/Dec/2018 : 75        |###########                                  2.1%
+   29/Dec/2018 : 236       |####################################         6.5%
+   30/Dec/2018 : 270       |#########################################    7.5%
+   31/Dec/2018 : 286       |############################################ 7.9%
+
+=== Unique visitors in each month ===
+--- Multiple hits with the same IP, user agent and access day, are considered a single visit
+* Number of unique visitors: 3610
+* Different months in logfile: 1
+   Dec/2018    : 3610      |############################################ 100.0%
+
+=== Unique visitors from Google in each day ===
+--- The red part of the bar expresses the percentage of visits originated from Google
+* Number of unique visitors: 3610
+* Number of unique visitors from google: 2
+* Different days in logfile: 31
+   01/Dec/2018: 0          |............................................ 0.0%
+   02/Dec/2018: 0          |............................................ 0.0%
+   03/Dec/2018: 0          |............................................ 0.0%
+   04/Dec/2018: 0          |............................................ 0.0%
+   05/Dec/2018: 0          |............................................ 0.0%
+   06/Dec/2018: 0          |............................................ 0.0%
+   07/Dec/2018: 0          |............................................ 0.0%
+   08/Dec/2018: 0          |............................................ 0.0%
+   09/Dec/2018: 0          |............................................ 0.0%
+   10/Dec/2018: 0          |............................................ 0.0%
+   11/Dec/2018: 0          |............................................ 0.0%
+   12/Dec/2018: 0          |............................................ 0.0%
+   13/Dec/2018: 0          |............................................ 0.0%
+   14/Dec/2018: 0          |............................................ 0.0%
+   15/Dec/2018: 0          |............................................ 0.0%
+   16/Dec/2018: 0          |............................................ 0.0%
+   17/Dec/2018: 0          |............................................ 0.0%
+   18/Dec/2018: 0          |............................................ 0.0%
+   19/Dec/2018: 0          |............................................ 0.0%
+   20/Dec/2018: 0          |............................................ 0.0%
+   21/Dec/2018: 0          |............................................ 0.0%
+   22/Dec/2018: 1          |............................................ 1.4%
+   23/Dec/2018: 0          |............................................ 0.0%
+   24/Dec/2018: 0          |............................................ 0.0%
+   25/Dec/2018: 0          |............................................ 0.0%
+   26/Dec/2018: 0          |............................................ 0.0%
+   27/Dec/2018: 0          |............................................ 0.0%
+   28/Dec/2018: 1          |............................................ 1.3%
+   29/Dec/2018: 0          |............................................ 0.0%
+   30/Dec/2018: 0          |............................................ 0.0%
+   31/Dec/2018: 0          |............................................ 0.0%
+
+=== Unique visitors from Google in each month ===
+--- The red part of the bar expresses the percentage of visits originated from Google
+* Number of unique visitors: 3610
+* Number of unique visitors from google: 2
+* Different months in logfile: 1
+   Dec/2018: 2          |............................................ 0.1%
+
+=== Weekday-Hour combined map ===
+--- Brighter means higher level of hits
+* Hour with max traffic starting at Tu 00:00 with hits: 482
+* Hour with min traffic starting at Fr 20:00 with hits: 9
+
+             Mo:                         
+             Tu: #             +     .   
+             We:                         
+             Th:                         
+             Fr:                         
+             Sa:        .                
+             Su:                         
+
+                 000000000011111111112222
+                 012345678901234567890123
+                                         
+
+=== Month-Day combined map ===
+--- Brighter means higher level of hits
+* Day with max traffic is Dec 25 with hits: 956
+* Day with min traffic is Dec 24 with hits: 74
+
+            Jan:                                
+            Feb:                                
+            Mar:                                
+            Apr:                                
+            May:                                
+            Jun:                                
+            Jul:                                
+            Aug:                                
+            Sep:                                
+            Oct:                                
+            Nov:                                
+            Dec: .. ........      .      #   ..-
+
+                 0000000001111111111222222222233
+                 1234567890123456789012345678901
+                                                
+
+=== Requested pages ===
+--- Page requests ordered by hits
+* Different pages requested: 28719
+1)    /iso/release/Trident-18.12-PRERELEASE-x64-20181208.iso: 176432
+2)    /iso/release/Trident-18.12-PRERELEASE2-x64-20181219.iso: 38556
+3)    /iso/release/Trident-18.11-PRERELEASE_2-x64-20181130.iso: 26317
+4)    /pkg/release/FreeBSD:13:amd64/latest/packagesite.txz: 11280
+5)    /pkg/release/FreeBSD:13:amd64/latest/meta.txz: 11234
+6)    /pkg/release/FreeBSD:12:amd64/latest/meta.txz: 484
+7)    /pkg/release/FreeBSD:12:amd64/latest/packagesite.txz: 481
+8)    /pkg/release/FreeBSD:13:amd64/latest/All/wayland-protocols-1.16.txz: 351
+9)    /pkg/release/FreeBSD:13:amd64/latest/All/colord-1.3.5.txz: 350
+10)    /pkg/release/FreeBSD:13:amd64/latest/All/argyllcms-1.9.2_3.txz: 350
+11)    /pkg/release/FreeBSD:13:amd64/latest/All/gtk3-3.22.30_3.txz: 350
+12)    /pkg/release/FreeBSD:13:amd64/latest/All/adwaita-icon-theme-3.28.0.txz: 350
+13)    /pkg/release/FreeBSD:13:amd64/latest/All/at-spi2-core-2.28.0.txz: 349
+14)    /pkg/release/FreeBSD:13:amd64/latest/All/at-spi2-atk-2.26.2.txz: 349
+15)    /pkg/release/FreeBSD:13:amd64/latest/All/dconf-0.28.0.txz: 345
+16)    /iso/release/Trident-RC3-x64-20181110.iso: 333
+17)    /iso/archive/RC3/Trident-RC3-x64-20181110.iso: 332
+18)    /pkg/release/FreeBSD:13:amd64/latest/All/libIDL-0.8.14_4.txz: 328
+19)    /pkg/release/FreeBSD:13:amd64/latest/All/libgsf-1.14.44.txz: 324
+20)    /pkg/release/FreeBSD:13:amd64/latest/All/libcroco-0.6.12.txz: 322
+21)    /pkg/release/FreeBSD:13:amd64/latest/All/librsvg2-2.40.20.txz: 321
+22)    /pkg/release/FreeBSD:13:amd64/latest/All/gconf2-3.2.6_5.txz: 320
+23)    /pkg/release/FreeBSD:13:amd64/latest/All/ORBit2-2.14.19_2.txz: 317
+24)    /pkg/release/FreeBSD:13:amd64/latest/All/startup-notification-0.12_4.txz: 305
+25)    /pkg/release/FreeBSD:13:amd64/latest/All/polkit-0.114_1.txz: 292
+26)    /pkg/release/FreeBSD:13:amd64/latest/All/spidermonkey52-52.9.0.txz: 292
+27)    /pkg/release/FreeBSD:13:amd64/latest/All/alsa-plugins-1.1.1_4.txz: 286
+28)    /pkg/release/FreeBSD:13:amd64/latest/All/libevent-2.1.8_2.txz: 258
+29)    /pkg/release/FreeBSD:13:amd64/latest/All/foomatic-db-20180926.txz: 245
+30)    /pkg/release/FreeBSD:13:amd64/latest/All/ffmpeg-4.1,1.txz: 243
+31)    /pkg/release/FreeBSD:13:amd64/latest/All/sdl2-2.0.9_1.txz: 241
+32)    /pkg/release/FreeBSD:13:amd64/latest/All/pkg-1.10.5_5.txz: 240
+33)    /pkg/release/FreeBSD:13:amd64/latest/All/mpg123-1.25.10.txz: 238
+34)    /pkg/release/FreeBSD:13:amd64/latest/All/llvm60-6.0.1_3.txz: 237
+35)    /pkg/release/FreeBSD:13:amd64/latest/All/consolekit2-1.2.1.txz: 236
+36)    /pkg/release/FreeBSD:13:amd64/latest/All/sysadm-client-201811261058.txz: 234
+37)    /pkg/release/FreeBSD:13:amd64/latest/All/wayland-1.16.0.txz: 233
+38)    /pkg/release/FreeBSD:13:amd64/latest/All/tiff-4.0.10.txz: 233
+39)    /pkg/release/FreeBSD:13:amd64/latest/All/libXi-1.7.9_2,1.txz: 233
+40)    /pkg/release/FreeBSD:13:amd64/latest/All/pciids-20181113.txz: 233
+41)    /pkg/release/FreeBSD:13:amd64/latest/All/qt5-svg-5.11.2.txz: 233
+42)    /pkg/release/FreeBSD:13:amd64/latest/All/icu-63.1,1.txz: 233
+43)    /pkg/release/FreeBSD:13:amd64/latest/All/libXScrnSaver-1.2.3_2.txz: 233
+44)    /pkg/release/FreeBSD:13:amd64/latest/All/giflib-5.1.4.txz: 233
+45)    /pkg/release/FreeBSD:13:amd64/latest/All/libXcursor-1.1.15_2.txz: 233
+46)    /pkg/release/FreeBSD:13:amd64/latest/All/xcb-util-0.4.0_2,1.txz: 233
+47)    /pkg/release/FreeBSD:13:amd64/latest/All/webp-1.0.1.txz: 233
+48)    /pkg/release/FreeBSD:13:amd64/latest/All/gnutls-3.5.19_1.txz: 233
+49)    /pkg/release/FreeBSD:13:amd64/latest/All/freetype2-2.9.1.txz: 233
+50)    /pkg/release/FreeBSD:13:amd64/latest/All/libepoll-shim-0.0.20161220_1.txz: 233
+51)    /pkg/release/FreeBSD:13:amd64/latest/All/libXcomposite-0.4.4_5,1.txz: 232
+52)    /pkg/release/FreeBSD:13:amd64/latest/All/libXfixes-5.0.3_2.txz: 232
+53)    /pkg/release/FreeBSD:13:amd64/latest/All/qt5-gui-5.11.2.txz: 232
+54)    /pkg/release/FreeBSD:13:amd64/latest/All/font-misc-ethiopic-1.0.3_3.txz: 232
+55)    /pkg/release/FreeBSD:13:amd64/latest/All/python36-3.6.7.txz: 232
+56)    /pkg/release/FreeBSD:13:amd64/latest/All/libiconv-1.14_11.txz: 232
+57)    /pkg/release/FreeBSD:13:amd64/latest/All/qt5-declarative-5.11.2_1.txz: 232
+58)    /pkg/release/FreeBSD:13:amd64/latest/All/tpm-emulator-0.7.4_2.txz: 232
+59)    /pkg/release/FreeBSD:13:amd64/latest/All/libffi-3.2.1_3.txz: 232
+60)    /pkg/release/FreeBSD:13:amd64/latest/All/fribidi-0.19.7.txz: 232
+61)    /pkg/release/FreeBSD:13:amd64/latest/All/libtasn1-4.13_1.txz: 232
+62)    /pkg/release/FreeBSD:13:amd64/latest/All/expat-2.2.6_1.txz: 232
+63)    /pkg/release/FreeBSD:13:amd64/latest/All/qt5-printsupport-5.11.2.txz: 232
+64)    /pkg/release/FreeBSD:13:amd64/latest/All/encodings-1.0.4_4,1.txz: 232
+65)    /pkg/release/FreeBSD:13:amd64/latest/All/p5-HTML-Parser-3.72.txz: 232
+66)    /pkg/release/FreeBSD:13:amd64/latest/All/gstreamer1-1.14.4.txz: 232
+67)    /pkg/release/FreeBSD:13:amd64/latest/All/libpthread-stubs-0.4.txz: 232
+68)    /pkg/release/FreeBSD:13:amd64/latest/All/libunistring-0.9.10_1.txz: 232
+69)    /pkg/release/FreeBSD:13:amd64/latest/All/libXinerama-1.1.4_2,1.txz: 232
+70)    /pkg/release/FreeBSD:13:amd64/latest/All/mesa-libs-18.1.9_4.txz: 232
+71)    /pkg/release/FreeBSD:13:amd64/latest/All/libidn-1.34_1.txz: 232
+72)    /pkg/release/FreeBSD:13:amd64/latest/All/pcdm-201811060944.txz: 232
+73)    /pkg/release/FreeBSD:13:amd64/latest/All/font-bh-ttf-1.0.3_3.txz: 232
+74)    /pkg/release/FreeBSD:13:amd64/latest/All/libxcb-1.13.1.txz: 232
+75)    /pkg/release/FreeBSD:13:amd64/latest/All/gmp-6.1.2_1.txz: 232
+76)    /pkg/release/FreeBSD:13:amd64/latest/All/libidn2-2.0.5_1.txz: 232
+77)    /pkg/release/FreeBSD:13:amd64/latest/All/dbus-glib-0.108.txz: 232
+78)    /pkg/release/FreeBSD:13:amd64/latest/All/xcb-util-renderutil-0.3.9_1.txz: 232
+79)    /pkg/release/FreeBSD:13:amd64/latest/All/gettext-runtime-0.19.8.1_2.txz: 232
+80)    /pkg/release/FreeBSD:13:amd64/latest/All/cups-2.2.8_1.txz: 232
+81)    /pkg/release/FreeBSD:13:amd64/latest/All/libXdamage-1.1.4_5.txz: 232
+82)    /pkg/release/FreeBSD:13:amd64/latest/All/libXau-1.0.8_5.txz: 232
+83)    /pkg/release/FreeBSD:13:amd64/latest/All/qt5-x11extras-5.11.2.txz: 232
+84)    /pkg/release/FreeBSD:13:amd64/latest/All/libXrender-0.9.10_2.txz: 232
+85)    /pkg/release/FreeBSD:13:amd64/latest/All/libxshmfence-1.2_4.txz: 232
+86)    /pkg/release/FreeBSD:13:amd64/latest/All/p11-kit-0.23.14.txz: 232
+87)    /pkg/release/FreeBSD:13:amd64/latest/All/libogg-1.3.3,4.txz: 232
+88)    /pkg/release/FreeBSD:13:amd64/latest/All/p5-Net-SSLeay-1.85.txz: 231
+89)    /pkg/release/FreeBSD:13:amd64/latest/All/qt5-sqldrivers-sqlite3-5.11.2.txz: 231
+90)    /pkg/release/FreeBSD:13:amd64/latest/All/libxml2-2.9.7.txz: 231
+91)    /pkg/release/FreeBSD:13:amd64/latest/All/cairo-1.15.12,2.txz: 231
+92)    /pkg/release/FreeBSD:13:amd64/latest/All/curl-7.62.0.txz: 231
+93)    /pkg/release/FreeBSD:13:amd64/latest/All/lumina-textedit-1.4.2_201811161500.txz: 231
+94)    /pkg/release/FreeBSD:13:amd64/latest/All/qt5-concurrent-5.11.2.txz: 231
+95)    /pkg/release/FreeBSD:13:amd64/latest/All/libXxf86vm-1.1.4_3.txz: 231
+96)    /pkg/release/FreeBSD:13:amd64/latest/All/mkfontscale-1.1.3_2.txz: 231
+97)    /pkg/release/FreeBSD:13:amd64/latest/All/gstreamer1-plugins-theora-1.14.4.txz: 231
+98)    /pkg/release/FreeBSD:13:amd64/latest/All/xorg-minimal-7.5.2_2.txz: 231
+99)    /pkg/release/FreeBSD:13:amd64/latest/All/gstreamer1-plugins-bad-1.14.4.txz: 231
+100)    /pkg/release/FreeBSD:13:amd64/latest/All/p5-IO-Socket-SSL-2.060.txz: 231
+101)    /pkg/release/FreeBSD:13:amd64/latest/All/xorgproto-2018.4.txz: 231
+102)    /pkg/release/FreeBSD:13:amd64/latest/All/libICE-1.0.9_3,1.txz: 231
+103)    /pkg/release/FreeBSD:13:amd64/latest/All/xorg-fonts-truetype-7.7_1.txz: 231
+104)    /pkg/release/FreeBSD:13:amd64/latest/All/gstreamer1-plugins-ugly-1.14.4.txz: 231
+105)    /pkg/release/FreeBSD:13:amd64/latest/All/gstreamer1-plugins-mpg123-1.14.4.txz: 231
+106)    /pkg/release/FreeBSD:13:amd64/latest/All/indexinfo-0.3.1.txz: 231
+107)    /pkg/release/FreeBSD:13:amd64/latest/All/libpciaccess-0.13.5.txz: 231
+108)    /pkg/release/FreeBSD:13:amd64/latest/All/hicolor-icon-theme-0.15_1.txz: 231
+109)    /pkg/release/FreeBSD:13:amd64/latest/All/ghostscript9-agpl-base-9.25_1.txz: 231
+110)    /pkg/release/FreeBSD:13:amd64/latest/All/sndio-1.5.0.txz: 231
+111)    /pkg/release/FreeBSD:13:amd64/latest/All/qt5-imageformats-5.11.2.txz: 231
+112)    /pkg/release/FreeBSD:13:amd64/latest/All/qt5-linguist-5.11.2.txz: 231
+113)    /pkg/release/FreeBSD:13:amd64/latest/All/lumina-archiver-1.4.2_201811161500.txz: 231
+114)    /pkg/release/FreeBSD:13:amd64/latest/All/nspr-4.20.txz: 231
+115)    /pkg/release/FreeBSD:13:amd64/latest/All/orc-0.4.25.txz: 231
+116)    /pkg/release/FreeBSD:13:amd64/latest/All/qt5-buildtools-5.11.2.txz: 231
+117)    /pkg/release/FreeBSD:13:amd64/latest/All/libfontenc-1.1.3_3.txz: 231
+118)    /pkg/release/FreeBSD:13:amd64/latest/All/libedit-3.1.20170329_2,1.txz: 231
+119)    /pkg/release/FreeBSD:13:amd64/latest/All/qt5-sql-5.11.2.txz: 231
+120)    /pkg/release/FreeBSD:13:amd64/latest/All/libXrandr-1.5.1_2.txz: 231
+121)    /pkg/release/FreeBSD:13:amd64/latest/All/gstreamer1-plugins-pango-1.14.4.txz: 231
+122)    /pkg/release/FreeBSD:13:amd64/latest/All/libXext-1.3.3_3,1.txz: 231
+123)    /pkg/release/FreeBSD:13:amd64/latest/All/qt5-opengl-5.11.2.txz: 231
+124)    /pkg/release/FreeBSD:13:amd64/latest/All/lumina-1.4.2_201811161500,3.txz: 231
+125)    /pkg/release/FreeBSD:13:amd64/latest/All/libXmu-1.1.2_5,1.txz: 231
+126)    /pkg/release/FreeBSD:13:amd64/latest/All/xset-1.2.4_2.txz: 231
+127)    /pkg/release/FreeBSD:13:amd64/latest/All/libSM-1.2.3,1.txz: 231
+128)    /pkg/release/FreeBSD:13:amd64/latest/All/lumina-pdf-1.4.2_201811161500.txz: 231
+129)    /pkg/release/FreeBSD:13:amd64/latest/All/python27-2.7.15.txz: 231
+130)    /pkg/release/FreeBSD:13:amd64/latest/All/libva-2.3.0_1.txz: 231
+131)    /pkg/release/FreeBSD:13:amd64/latest/All/gdk-pixbuf2-2.36.12.txz: 231
+132)    /pkg/release/FreeBSD:13:amd64/latest/All/lumina-calculator-1.4.2_201811161500.txz: 231
+133)    /pkg/release/FreeBSD:13:amd64/latest/All/libepoxy-1.5.2.txz: 231
+134)    /pkg/release/FreeBSD:13:amd64/latest/All/p5-IO-Socket-INET6-2.72_1.txz: 231
+135)    /pkg/release/FreeBSD:13:amd64/latest/All/qt5-xmlpatterns-5.11.2.txz: 231
+136)    /pkg/release/FreeBSD:13:amd64/latest/All/libxslt-1.1.32.txz: 231
+137)    /pkg/release/FreeBSD:13:amd64/latest/All/trousers-0.3.14_2.txz: 231
+138)    /pkg/release/FreeBSD:13:amd64/latest/All/qt5-core-5.11.2_1.txz: 231
+139)    /pkg/release/FreeBSD:13:amd64/latest/All/atk-2.28.1.txz: 231
+140)    /pkg/release/FreeBSD:13:amd64/latest/All/dbus-1.10.16_2.txz: 231
+141)    /pkg/release/FreeBSD:13:amd64/latest/All/gobject-introspection-1.56.1,1.txz: 231
+142)    /pkg/release/FreeBSD:13:amd64/latest/All/libvorbis-1.3.6,3.txz: 231
+143)    /pkg/release/FreeBSD:13:amd64/latest/All/libXdmcp-1.1.2_2.txz: 231
+144)    /pkg/release/FreeBSD:13:amd64/latest/All/graphite2-1.3.12.txz: 231
+145)    /pkg/release/FreeBSD:13:amd64/latest/All/p5-Mozilla-CA-20180117.txz: 231
+146)    /pkg/release/FreeBSD:13:amd64/latest/All/fontconfig-2.12.6,1.txz: 231
+147)    /pkg/release/FreeBSD:13:amd64/latest/All/libxkbcommon-0.8.0.txz: 231
+148)    /pkg/release/FreeBSD:13:amd64/latest/All/pcre-8.42.txz: 231
+149)    /pkg/release/FreeBSD:13:amd64/latest/All/gstreamer1-plugins-1.14.4.txz: 231
+150)    /pkg/release/FreeBSD:13:amd64/latest/All/libXt-1.1.5_2,1.txz: 231
+151)    /pkg/release/FreeBSD:13:amd64/latest/All/fluxbox-tenr-styles-pack-20071215_3.txz: 231
+152)    /pkg/release/FreeBSD:13:amd64/latest/All/jbigkit-2.1_1.txz: 231
+153)    /pkg/release/FreeBSD:13:amd64/latest/All/gstreamer1-plugins-good-1.14.4.txz: 231
+154)    /pkg/release/FreeBSD:13:amd64/latest/All/png-1.6.35.txz: 231
+155)    /pkg/release/FreeBSD:13:amd64/latest/All/openal-soft-1.19.1.txz: 231
+156)    /pkg/release/FreeBSD:13:amd64/latest/All/libunwind-20170615.txz: 231
+157)    /pkg/release/FreeBSD:13:amd64/latest/All/gstreamer1-plugins-dvdread-1.14.4.txz: 231
+158)    /pkg/release/FreeBSD:13:amd64/latest/All/libvdpau-1.1.1_2.txz: 231
+159)    /pkg/release/FreeBSD:13:amd64/latest/All/gstreamer1-libav-1.14.4_2.txz: 230
+160)    /pkg/release/FreeBSD:13:amd64/latest/All/qtchooser-66.txz: 230
+161)    /pkg/release/FreeBSD:13:amd64/latest/All/xvid-1.3.5,1.txz: 230
+162)    /pkg/release/FreeBSD:13:amd64/latest/All/p5-Socket6-0.29.txz: 230
+163)    /pkg/release/FreeBSD:13:amd64/latest/All/openldap-client-2.4.46.txz: 230
+164)    /pkg/release/FreeBSD:13:amd64/latest/All/gstreamer1-plugins-a52dec-1.14.4.txz: 230
+165)    /pkg/release/FreeBSD:13:amd64/latest/All/xdg-utils-1.1.1.txz: 230
+166)    /pkg/release/FreeBSD:13:amd64/latest/All/gstreamer1-plugins-dts-1.14.4.txz: 230
+167)    /pkg/release/FreeBSD:13:amd64/latest/All/libXft-2.3.2_3.txz: 230
+168)    /pkg/release/FreeBSD:13:amd64/latest/All/x265-2.8_1.txz: 230
+169)    /pkg/release/FreeBSD:13:amd64/latest/All/p5-HTML-Tagset-3.20_1.txz: 230
+170)    /pkg/release/FreeBSD:13:amd64/latest/All/gstreamer1-plugins-ogg-1.14.4.txz: 230
+171)    /pkg/release/FreeBSD:13:amd64/latest/All/libdca-0.0.6_1.txz: 230
+172)    /pkg/release/FreeBSD:13:amd64/latest/All/qt5-network-5.11.2_1.txz: 230
+173)    /pkg/release/FreeBSD:13:amd64/latest/All/mkfontdir-1.0.7.txz: 230
+174)    /pkg/release/FreeBSD:13:amd64/latest/All/font-util-1.3.1.txz: 230
+175)    /pkg/release/FreeBSD:13:amd64/latest/All/libvpx-1.7.0_2.txz: 230
+176)    /pkg/release/FreeBSD:13:amd64/latest/All/qt5-dbus-5.11.2.txz: 230
+177)    /pkg/release/FreeBSD:13:amd64/latest/All/libltdl-2.4.6.txz: 230
+178)    /pkg/release/FreeBSD:13:amd64/latest/All/pc-mixer-20180328.txz: 230
+179)    /pkg/release/FreeBSD:13:amd64/latest/All/gstreamer1-plugins-resindvd-1.14.4.txz: 230
+180)    /pkg/release/FreeBSD:13:amd64/latest/All/lcms2-2.9.txz: 230
+181)    /pkg/release/FreeBSD:13:amd64/latest/All/libXfontcache-1.0.5_5.txz: 230
+182)    /pkg/release/FreeBSD:13:amd64/latest/All/cuse4bsd-kmod-0.1.36.txz: 230
+183)    /pkg/release/FreeBSD:13:amd64/latest/All/pango-1.42.4.txz: 230
+184)    /pkg/release/FreeBSD:13:amd64/latest/All/lumina-core-1.4.2_201811161500.txz: 230
+185)    /pkg/release/FreeBSD:13:amd64/latest/All/opus-1.3.txz: 230
+186)    /pkg/release/FreeBSD:13:amd64/latest/All/shared-mime-info-1.8.txz: 230
+187)    /pkg/release/FreeBSD:13:amd64/latest/All/font-misc-meltho-1.0.3_3.txz: 230
+188)    /pkg/release/FreeBSD:13:amd64/latest/All/libGLU-9.0.0_3.txz: 230
+189)    /pkg/release/FreeBSD:13:amd64/latest/All/xbrightness-0.3.txz: 230
+190)    /pkg/release/FreeBSD:13:amd64/latest/All/gtk-update-icon-cache-2.24.32.txz: 230
+191)    /pkg/release/FreeBSD:13:amd64/latest/All/qt5-widgets-5.11.2.txz: 230
+192)    /pkg/release/FreeBSD:13:amd64/latest/All/libv4l-1.6.3_4.txz: 230
+193)    /pkg/release/FreeBSD:13:amd64/latest/All/libtheora-1.1.1_7.txz: 230
+194)    /pkg/release/FreeBSD:13:amd64/latest/All/qt5-multimedia-5.11.2_2.txz: 230
+195)    /pkg/release/FreeBSD:13:amd64/latest/All/gstreamer1-plugins-core-1.14.txz: 230
+196)    /pkg/release/FreeBSD:13:amd64/latest/All/xprop-1.2.3.txz: 230
+197)    /pkg/release/FreeBSD:13:amd64/latest/All/openjpeg-2.3.0_2.txz: 230
+198)    /pkg/release/FreeBSD:13:amd64/latest/All/lumina-fm-1.4.2_201811161500.txz: 230
+199)    /pkg/release/FreeBSD:13:amd64/latest/All/p5-Digest-HMAC-1.03_1.txz: 230
+200)    /pkg/release/FreeBSD:13:amd64/latest/All/libijs-0.35_5.txz: 230
+201)    /pkg/release/FreeBSD:13:amd64/latest/All/gstreamer1-plugins-vorbis-1.14.4.txz: 230
+202)    /pkg/release/FreeBSD:13:amd64/latest/All/alsa-lib-1.1.2_2.txz: 230
+203)    /pkg/release/FreeBSD:13:amd64/latest/All/gstreamer1-plugins-png-1.14.4.txz: 230
+204)    /pkg/release/FreeBSD:13:amd64/latest/All/qt5-testlib-5.11.2.txz: 230
+205)    /pkg/release/FreeBSD:13:amd64/latest/All/libpaper-1.1.24.4.txz: 230
+206)    /pkg/release/FreeBSD:13:amd64/latest/All/lumina-screenshot-1.4.2_201811161500.txz: 230
+207)    /pkg/release/FreeBSD:13:amd64/latest/All/dejavu-2.37.txz: 230
+208)    /pkg/release/FreeBSD:13:amd64/latest/All/poppler-0.57.0_1.txz: 230
+209)    /pkg/release/FreeBSD:13:amd64/latest/All/libgcrypt-1.8.4_1.txz: 230
+210)    /pkg/release/FreeBSD:13:amd64/latest/All/libx264-0.155.2917.txz: 230
+211)    /pkg/release/FreeBSD:13:amd64/latest/All/libass-0.14.0.txz: 230
+212)    /pkg/release/FreeBSD:13:amd64/latest/All/xcb-util-wm-0.4.1_3.txz: 230
+213)    /pkg/release/FreeBSD:13:amd64/latest/All/trident-icons-201811222056.txz: 230
+214)    /pkg/release/FreeBSD:13:amd64/latest/All/poppler-data-0.4.9.txz: 230
+215)    /pkg/release/FreeBSD:13:amd64/latest/All/lumina-mediaplayer-1.4.2_201811161500.txz: 230
+216)    /pkg/release/FreeBSD:13:amd64/latest/All/v4l_compat-1.6.3_2.txz: 230
+217)    /pkg/release/FreeBSD:13:amd64/latest/All/libdvdnav-6.0.0.txz: 230
+218)    /pkg/release/FreeBSD:13:amd64/latest/All/lumina-fileinfo-1.4.2_201811161500.txz: 230
+219)    /pkg/release/FreeBSD:13:amd64/latest/All/alsa-sndio-0.2.txz: 230
+220)    /pkg/release/FreeBSD:13:amd64/latest/All/boost-libs-1.68.0_3.txz: 229
+221)    /pkg/release/FreeBSD:13:amd64/latest/All/p5-Net-HTTP-6.18.txz: 229
+222)    /pkg/release/FreeBSD:13:amd64/latest/All/poppler-glib-0.57.0_1.txz: 229
+223)    /pkg/release/FreeBSD:13:amd64/latest/All/qt5-linguisttools-5.11.2.txz: 229
+224)    /pkg/release/FreeBSD:13:amd64/latest/All/libgpg-error-1.32_1.txz: 229
+225)    /pkg/release/FreeBSD:13:amd64/latest/All/gstreamer1-plugins-gl-1.14.4_2.txz: 229
+226)    /pkg/release/FreeBSD:13:amd64/latest/All/lumina-coreutils-1.4.2_201811161500.txz: 229
+227)    /pkg/release/FreeBSD:13:amd64/latest/All/libmng-1.0.10_3.txz: 229
+228)    /pkg/release/FreeBSD:13:amd64/latest/All/lame-3.100_2.txz: 229
+229)    /pkg/release/FreeBSD:13:amd64/latest/All/qt5-websockets-5.11.2.txz: 229
+230)    /pkg/release/FreeBSD:13:amd64/latest/All/qsudo-201711240000.txz: 229
+231)    /pkg/release/FreeBSD:13:amd64/latest/All/libxkbfile-1.0.9_2.txz: 229
+232)    /pkg/release/FreeBSD:13:amd64/latest/All/pcre2-10.31.txz: 229
+233)    /pkg/release/FreeBSD:13:amd64/latest/All/pc-networkmanager-201806271233.txz: 229
+234)    /pkg/release/FreeBSD:13:amd64/latest/All/libXxf86dga-1.1.4_5.txz: 229
+235)    /pkg/release/FreeBSD:13:amd64/latest/All/mupdf-1.13.0_3,1.txz: 229
+236)    /pkg/release/FreeBSD:13:amd64/latest/All/xcb-util-image-0.4.0_1.txz: 229
+237)    /pkg/release/FreeBSD:13:amd64/latest/All/desktop-file-utils-0.23.txz: 229
+238)    /pkg/release/FreeBSD:13:amd64/latest/All/portaudio-19.6.0,1.txz: 229
+239)    /pkg/release/FreeBSD:13:amd64/latest/All/mesa-dri-18.1.9_2.txz: 229
+240)    /pkg/release/FreeBSD:13:amd64/latest/All/gpu-firmware-kmod-g20181104.txz: 229
+241)    /pkg/release/FreeBSD:13:amd64/latest/All/libXtst-1.2.3_2.txz: 229
+242)    /pkg/release/FreeBSD:13:amd64/latest/All/liba52-0.7.4_3.txz: 229
+243)    /pkg/release/FreeBSD:13:amd64/latest/All/libXfont-1.5.4_2,2.txz: 229
+244)    /pkg/release/FreeBSD:13:amd64/latest/All/lcms-1.19_6,1.txz: 229
+245)    /pkg/release/FreeBSD:13:amd64/latest/All/trueos-libqt5-20180529.txz: 229
+246)    /pkg/release/FreeBSD:13:amd64/latest/All/xscreensaver-5.40_1.txz: 229
+247)    /pkg/release/FreeBSD:13:amd64/latest/All/xinit-1.4.0,1.txz: 229
+248)    /pkg/release/FreeBSD:13:amd64/latest/All/libglade2-2.6.4_9.txz: 229
+249)    /pkg/release/FreeBSD:13:amd64/latest/All/xcb-util-keysyms-0.4.0_1.txz: 229
+250)    /pkg/release/FreeBSD:13:amd64/latest/All/qpdf-8.2.1.txz: 229
+251)    /pkg/release/FreeBSD:13:amd64/latest/All/xorg-server-1.18.4_10,1.txz: 229
+252)    /pkg/release/FreeBSD:13:amd64/latest/All/cups-filters-1.21.3.txz: 229
+253)    /pkg/release/FreeBSD:13:amd64/latest/All/qt5-assistant-5.11.2.txz: 229
+254)    /pkg/release/FreeBSD:13:amd64/latest/All/libdvdread-6.0.0.txz: 229
+255)    /pkg/release/FreeBSD:13:amd64/latest/All/qt5-xml-5.11.2.txz: 228
+256)    /pkg/release/FreeBSD:13:amd64/latest/All/xdpyinfo-1.3.2_2.txz: 228
+257)    /pkg/release/FreeBSD:13:amd64/latest/All/p5-WWW-RobotRules-6.02_1.txz: 228
+258)    /pkg/release/FreeBSD:13:amd64/latest/All/xrandr-1.5.0.txz: 228
+259)    /pkg/release/FreeBSD:13:amd64/latest/All/libdmx-1.1.4_2.txz: 228
+260)    /pkg/release/FreeBSD:13:amd64/latest/All/p5-Try-Tiny-0.30.txz: 228
+261)    /pkg/release/FreeBSD:13:amd64/latest/All/libconfig-1.7.2_1.txz: 228
+262)    /pkg/release/FreeBSD:13:amd64/latest/All/libXp-1.0.3_2,1.txz: 228
+263)    /pkg/release/FreeBSD:13:amd64/latest/All/libXv-1.0.11_2,1.txz: 228
+264)    /pkg/release/FreeBSD:13:amd64/latest/All/cursor-chameleon-pearl-0.5_1.txz: 228
+265)    /pkg/release/FreeBSD:13:amd64/latest/All/fftw3-3.3.8_2.txz: 228
+266)    /pkg/release/FreeBSD:13:amd64/latest/All/xdg-user-dirs-0.17.txz: 228
+267)    /pkg/release/FreeBSD:13:amd64/latest/All/p5-File-Listing-6.04_1.txz: 228
+268)    /pkg/release/FreeBSD:13:amd64/latest/All/p5-HTTP-Cookies-6.04.txz: 228
+269)    /pkg/release/FreeBSD:13:amd64/latest/All/jasper-1.900.1_17.txz: 228
+270)    /pkg/release/FreeBSD:13:amd64/latest/All/freeglut-3.0.0_2.txz: 228
+271)    /pkg/release/FreeBSD:13:amd64/latest/All/p5-Encode-Locale-1.05.txz: 228
+272)    /pkg/release/FreeBSD:13:amd64/latest/All/poppler-utils-0.57.0_1.txz: 228
+273)    /pkg/release/FreeBSD:13:amd64/latest/All/xkbcomp-1.4.2.txz: 228
+274)    /pkg/release/FreeBSD:13:amd64/latest/All/jbig2dec-0.15.txz: 228
+275)    /pkg/release/FreeBSD:13:amd64/latest/All/p5-URI-1.74.txz: 228
+276)    /pkg/release/FreeBSD:13:amd64/latest/All/xauth-1.0.10.txz: 228
+277)    /pkg/release/FreeBSD:13:amd64/latest/All/graphene-1.8.2.txz: 228
+278)    /pkg/release/FreeBSD:13:amd64/latest/All/xkeyboard-config-2.24_1.txz: 228
+279)    /pkg/release/FreeBSD:13:amd64/latest/All/xwininfo-1.1.4_2.txz: 228
+280)    /pkg/release/FreeBSD:13:amd64/latest/All/gtk2-2.24.32.txz: 228
+281)    /pkg/release/FreeBSD:13:amd64/latest/All/libXxf86misc-1.0.4_2.txz: 228
+282)    /pkg/release/FreeBSD:13:amd64/latest/All/libXvMC-1.0.10_2.txz: 228
+283)    /pkg/release/FreeBSD:13:amd64/latest/All/qt5-help-5.11.2.txz: 228
+284)    /pkg/release/FreeBSD:13:amd64/latest/All/OS-libcompat-13.0.2018.11.07-15.25.56.txz: 228
+285)    /pkg/release/FreeBSD:13:amd64/latest/All/p5-HTTP-Daemon-6.01_1.txz: 228
+286)    /pkg/release/FreeBSD:13:amd64/latest/All/xf86-input-keyboard-1.9.0_3.txz: 228
+287)    /pkg/release/FreeBSD:13:amd64/latest/All/numlockx-1.2.txz: 228
+288)    /pkg/release/FreeBSD:13:amd64/latest/All/OS-libelftc-development-13.0.2018.11.07-15.25.56.txz: 227
+289)    /pkg/release/FreeBSD:13:amd64/latest/All/p5-LWP-MediaTypes-6.02_1.txz: 227
+290)    /pkg/release/FreeBSD:13:amd64/latest/All/xf86-input-mouse-1.9.3_2.txz: 227
+291)    /pkg/release/FreeBSD:13:amd64/latest/All/libXpm-3.5.12_2.txz: 227
+292)    /pkg/release/FreeBSD:13:amd64/latest/All/avahi-app-0.7_2.txz: 227
+293)    /pkg/release/FreeBSD:13:amd64/latest/All/p5-HTTP-Negotiate-6.01_1.txz: 227
+294)    /pkg/release/FreeBSD:13:amd64/latest/All/libXaw-1.0.13_2,2.txz: 227
+295)    /pkg/release/FreeBSD:13:amd64/latest/All/p5-IO-HTML-1.001_1.txz: 227
+296)    /pkg/release/FreeBSD:13:amd64/latest/All/p5-libwww-6.36.txz: 227
+297)    /pkg/release/FreeBSD:13:amd64/latest/All/xhost-1.0.7.txz: 227
+298)    /pkg/release/FreeBSD:13:amd64/latest/All/compton-20160907_4.txz: 227
+299)    /pkg/release/FreeBSD:13:amd64/latest/All/OS-libelftc-13.0.2018.11.07-15.25.56.txz: 227
+300)    /pkg/release/FreeBSD:13:amd64/latest/All/py36-gobject3-3.28.3.txz: 227
+301)    /pkg/release/FreeBSD:13:amd64/latest/All/setxkbmap-1.3.1.txz: 227
+302)    /pkg/release/FreeBSD:13:amd64/latest/All/p5-Authen-NTLM-1.09_1.txz: 227
+303)    /pkg/release/FreeBSD:13:amd64/latest/All/xmlcatmgr-2.2_2.txz: 227
+304)    /pkg/release/FreeBSD:13:amd64/latest/All/sudo-1.8.26.txz: 227
+305)    /pkg/release/FreeBSD:13:amd64/latest/All/p5-HTTP-Date-6.02_1.txz: 227
+306)    /pkg/release/FreeBSD:13:amd64/latest/All/py36-cairo-1.14.1.txz: 227
+307)    /pkg/release/FreeBSD:13:amd64/latest/All/gle-3.1.0_7.txz: 227
+308)    /pkg/release/FreeBSD:13:amd64/latest/All/fluxbox-1.3.7_4.txz: 227
+309)    /pkg/release/FreeBSD:13:amd64/latest/All/xinput-1.6.2_2.txz: 227
+310)    /pkg/release/FreeBSD:13:amd64/latest/All/pygobject3-common-3.28.3.txz: 227
+311)    /pkg/release/FreeBSD:13:amd64/latest/All/p5-HTTP-Message-6.18.txz: 227
+312)    /pkg/release/FreeBSD:13:amd64/latest/All/hunspell-1.6.2_1.txz: 226
+313)    /pkg/release/FreeBSD:13:amd64/latest/All/xmessage-1.0.5.txz: 226
+314)    /pkg/release/FreeBSD:13:amd64/latest/All/OS-examples-13.0.2018.11.07-15.25.56.txz: 226
+315)    /pkg/release/FreeBSD:13:amd64/latest/All/OS-libpmcstat-development-13.0.2018.11.07-15.25.56.txz: 226
+316)    /pkg/release/FreeBSD:13:amd64/latest/All/xf86-video-vesa-2.4.0_2.txz: 226
+317)    /pkg/release/FreeBSD:13:amd64/latest/All/gdbm-1.18.1.txz: 226
+318)    /pkg/release/FreeBSD:13:amd64/latest/All/gnome_subr-1.0_1.txz: 225
+319)    /pkg/release/FreeBSD:13:amd64/latest/All/libdaemon-0.14_1.txz: 225
+320)    /pkg/release/FreeBSD:13:amd64/latest/All/oniguruma-6.9.0.txz: 225
+321)    /pkg/release/FreeBSD:13:amd64/latest/All/jq-1.6.txz: 224
+322)    /pkg/release/FreeBSD:13:amd64/latest/All/serf-1.3.9_3.txz: 224
+323)    /pkg/release/FreeBSD:13:amd64/latest/All/apr-1.6.5.1.6.1_1.txz: 223
+324)    /pkg/release/FreeBSD:13:amd64/latest/All/OS-zfs-13.0.2018.11.07-15.25.56.txz: 223
+325)    /pkg/release/FreeBSD:13:amd64/latest/All/OS-syscons-13.0.2018.11.07-15.25.56.txz: 223
+326)    /pkg/release/FreeBSD:13:amd64/latest/All/liblz4-1.8.3,1.txz: 222
+327)    /pkg/release/FreeBSD:13:amd64/latest/All/libsndfile-1.0.28_1.txz: 222
+328)    /pkg/release/FreeBSD:13:amd64/latest/All/flac-1.3.2.txz: 221
+329)    /pkg/release/FreeBSD:13:amd64/latest/All/db5-5.3.28_7.txz: 221
+330)    /pkg/release/FreeBSD:13:amd64/latest/All/speexdsp-1.2.r3_1.txz: 219
+331)    /pkg/release/FreeBSD:13:amd64/latest/All/utf8proc-2.1.0.txz: 213
+332)    /pkg/release/FreeBSD:13:amd64/latest/All/lumina-themes-201710311100_1.txz: 211
+333)    /pkg/release/FreeBSD:13:amd64/latest/All/qterminal-0.9.0_2.txz: 211
+334)    /pkg/release/FreeBSD:13:amd64/latest/All/hyphen-2.8.8.txz: 209
+335)    /pkg/release/FreeBSD:13:amd64/latest/All/qterminal-l10n-0.13.0.txz: 209
+336)    /pkg/release/FreeBSD:13:amd64/latest/All/p5-subversion-1.11.0.txz: 208
+337)    /pkg/release/FreeBSD:13:amd64/latest/All/p5-Term-ReadKey-2.37.txz: 208
+338)    /pkg/release/FreeBSD:13:amd64/latest/All/qtermwidget-0.9.0_1.txz: 208
+339)    /pkg/release/FreeBSD:13:amd64/latest/All/p5-CGI-4.40.txz: 208
+340)    /pkg/release/ports/FreeBSD:12:amd64/latest/packagesite.txz: 208
+341)    /pkg/release/FreeBSD:13:amd64/latest/All/cvsps-2.1_2.txz: 207
+342)    /pkg/release/FreeBSD:13:amd64/latest/All/fftw3-float-3.3.8_2.txz: 207
+343)    /pkg/release/FreeBSD:13:amd64/latest/All/p5-Error-0.17027.txz: 207
+344)    /pkg/release/ports/FreeBSD:12:amd64/latest/meta.txz: 207
+345)    /pkg/release/FreeBSD:13:amd64/latest/All/p5-Authen-SASL-2.16_1.txz: 207
+346)    /pkg/release/base/FreeBSD:12:amd64/latest/packagesite.txz: 207
+347)    /pkg/release/FreeBSD:13:amd64/latest/All/p5-GSSAPI-0.28_1.txz: 207
+348)    /pkg/release/base/FreeBSD:12:amd64/latest/meta.txz: 206
+349)    /pkg/release/FreeBSD:13:amd64/latest/All/libsecret-0.18.6.txz: 206
+350)    /pkg/release/FreeBSD:13:amd64/latest/All/jsoncpp-1.8.1_4.txz: 206
+351)    /pkg/release/FreeBSD:13:amd64/latest/All/zsh-5.6.2_1.txz: 205
+352)    /pkg/release/FreeBSD:13:amd64/latest/All/libsoxr-0.1.2.20160529_8.txz: 205
+353)    /pkg/release/FreeBSD:13:amd64/latest/All/exiv2-0.26,1.txz: 205
+354)    /pkg/release/FreeBSD:13:amd64/latest/All/pulseaudio-12.2_1.txz: 205
+355)    /pkg/release/FreeBSD:13:amd64/latest/All/fusefs-libs-2.9.7.txz: 204
+356)    /pkg/release/FreeBSD:13:amd64/latest/All/qt5-location-5.11.2_1.txz: 204
+357)    /pkg/release/FreeBSD:13:amd64/latest/All/libcddb-1.3.2_4.txz: 204
+358)    /pkg/release/FreeBSD:13:amd64/latest/All/snappy-1.1.6.txz: 204
+359)    /pkg/release/FreeBSD:13:amd64/latest/All/qt5-webchannel-5.11.2_1.txz: 203
+360)    /pkg/release/FreeBSD:13:amd64/latest/All/webrtc-audio-processing-0.3.1.txz: 203
+361)    /pkg/release/FreeBSD:13:amd64/latest/All/re2-20180901.txz: 202
+362)    /pkg/release/FreeBSD:13:amd64/latest/All/libpci-3.6.2.txz: 202
+363)    /pkg/release/FreeBSD:13:amd64/latest/All/aalib-1.4.r5_13.txz: 202
+364)    /pkg/release/FreeBSD:13:amd64/latest/All/e2fsprogs-libuuid-1.44.4.txz: 201
+365)    /pkg/release/FreeBSD:13:amd64/latest/All/openh264-1.8.0,2.txz: 201
+366)    /pkg/release/FreeBSD:13:amd64/latest/All/devcpu-data-1.20.txz: 201
+367)    /pkg/release/FreeBSD:13:amd64/latest/All/qt5-webengine-5.9.5_10.txz: 199
+368)    /pkg/release/FreeBSD:13:amd64/latest/All/speex-1.2.0,1.txz: 199
+369)    /pkg/release/FreeBSD:13:amd64/latest/All/jackit-0.125.0_4.txz: 199
+370)    /pkg/release/FreeBSD:13:amd64/latest/All/libublio-20070103_2.txz: 197
+371)    /pkg/release/FreeBSD:13:amd64/latest/All/libsamplerate-0.1.9.txz: 196
+372)    /pkg/release/FreeBSD:13:amd64/latest/All/fusefs-ntfs-2017.3.23.txz: 196
+373)    /pkg/release/FreeBSD:13:amd64/latest/All/libmad-0.15.1b_6.txz: 196
+374)    /pkg/release/FreeBSD:13:amd64/latest/All/fluidsynth-1.1.11.txz: 195
+375)    /pkg/release/FreeBSD:13:amd64/latest/All/libexif-0.6.21_4.txz: 194
+376)    /pkg/release/FreeBSD:13:amd64/latest/All/taglib-1.11.1_1.txz: 194
+377)    /pkg/release/FreeBSD:13:amd64/latest/All/qt5-uiplugin-5.11.2.txz: 194
+378)    /pkg/release/FreeBSD:13:amd64/latest/All/qt5-designer-5.11.2_1.txz: 194
+379)    /pkg/release/FreeBSD:13:amd64/latest/All/faad2-2.8.8,1.txz: 194
+380)    /pkg/release/FreeBSD:13:amd64/latest/All/vlc-2.2.8_14,4.txz: 193
+381)    /pkg/release/FreeBSD:13:amd64/latest/All/libsrtp-1.6.0_1.txz: 193
+382)    /pkg/release/FreeBSD:13:amd64/latest/All/libid3tag-0.15.1b_1.txz: 193
+383)    /pkg/release/FreeBSD:13:amd64/latest/All/libmtp-1.1.16.txz: 193
+384)    /pkg/release/FreeBSD:13:amd64/latest/All/fusefs-simple-mtpfs-0.3.0_3.txz: 192
+385)    /pkg/release/FreeBSD:13:amd64/latest/All/celt-0.11.3_3.txz: 191
+386)    /pkg/release/FreeBSD:13:amd64/latest/All/lua52-5.2.4.txz: 191
+387)    /pkg/release/FreeBSD:13:amd64/latest/All/imlib2-1.5.1,2.txz: 191
+388)    /pkg/release/FreeBSD:13:amd64/latest/All/json-c-0.13.1.txz: 189
+389)    /pkg/release/FreeBSD:13:amd64/latest/All/telegram-desktop-1.4.2_2.txz: 189
+390)    /pkg/release/FreeBSD:13:amd64/latest/All/libinotify-20180201.txz: 189
+391)    /pkg/release/FreeBSD:13:amd64/latest/All/liveMedia-2018.10.17,2.txz: 189
+392)    /pkg/release/FreeBSD:13:amd64/latest/All/libunicode-0.4_11.txz: 187
+393)    /pkg/release/FreeBSD:13:amd64/latest/All/pulseaudio-module-sndio-12.0.txz: 187
+394)    /pkg/release/FreeBSD:13:amd64/latest/All/libshout-2.4.1.txz: 187
+395)    /pkg/release/FreeBSD:13:amd64/latest/All/twolame-0.3.13_4.txz: 187
+396)    /pkg/release/FreeBSD:13:amd64/latest/All/libcaca-0.99.b19_2.txz: 187
+397)    /pkg/release/FreeBSD:13:amd64/latest/All/libzvbi-0.2.35_3.txz: 187
+398)    /pkg/release/FreeBSD:13:amd64/latest/All/mpfr-4.0.1_2.txz: 187
+399)    /pkg/release/FreeBSD:13:amd64/latest/All/libmpeg2-0.5.1_6.txz: 185
+400)    /pkg/release/FreeBSD:13:amd64/latest/All/goom-2k4.0_7.txz: 185
+401)    /pkg/release/FreeBSD:13:amd64/latest/All/libdvbpsi-1.3.0.txz: 185
+402)    /pkg/release/FreeBSD:13:amd64/latest/All/gsettings-desktop-schemas-3.28.1.txz: 185
+403)    /pkg/release/FreeBSD:13:amd64/latest/All/libao-1.2.0_3.txz: 183
+404)    /pkg/release/FreeBSD:13:amd64/latest/All/powerdxx-0.3.0_1.txz: 182
+405)    /pkg/release/FreeBSD:13:amd64/latest/All/minizip-1.2.11.txz: 182
+406)    /pkg/release/FreeBSD:13:amd64/latest/All/glib-2.56.3_1,1.txz: 180
+407)    /pkg/release/FreeBSD:13:amd64/latest/All/phototonic-2.0_1.txz: 180
+408)    /pkg/release/FreeBSD:13:amd64/latest/All/sqlite3-3.26.0.txz: 179
+409)    /pkg/release/FreeBSD:13:amd64/latest/All/falkon-3.0.0_5.txz: 179
+410)    /pkg/release/FreeBSD:13:amd64/latest/All/perl5-5.26.3.txz: 179
+411)    /pkg/release/FreeBSD:13:amd64/latest/All/libdvdcss-1.4.2.txz: 179
+412)    /pkg/release/FreeBSD:13:amd64/latest/All/jpeg-turbo-2.0.1.txz: 177
+413)    /pkg/release/FreeBSD:13:amd64/latest/All/pixman-0.34.0_1.txz: 177
+414)    /pkg/release/FreeBSD:13:amd64/latest/All/libX11-1.6.7,1.txz: 177
+415)    /pkg/release/FreeBSD:13:amd64/latest/All/qt5-sensors-5.11.2_1.txz: 177
+416)    /pkg/release/FreeBSD:13:amd64/latest/All/harfbuzz-2.2.0.txz: 176
+417)    /pkg/release/FreeBSD:13:amd64/latest/All/libnghttp2-1.35.0.txz: 176
+418)    /pkg/release/FreeBSD:13:amd64/latest/All/readline-7.0.5.txz: 176
+419)    /pkg/release/FreeBSD:13:amd64/latest/All/fdk-aac-2.0.0.txz: 176
+420)    /pkg/release/FreeBSD:13:amd64/latest/All/nettle-3.4.1.txz: 176
+421)    /pkg/release/FreeBSD:13:amd64/latest/All/libdrm-2.4.96,1.txz: 176
+422)    /pkg/release/FreeBSD:13:amd64/latest/All/opencv-core-3.4.1_11.txz: 176
+423)    /pkg/release/FreeBSD:13:amd64/latest/All/py36-setuptools-40.6.2.txz: 175
+424)    /pkg/release/FreeBSD:13:amd64/latest/All/libarchive-3.3.3,1.txz: 175
+425)    /pkg/release/FreeBSD:13:amd64/latest/All/libbluray-1.0.2,1.txz: 175
+426)    /pkg/release/FreeBSD:13:amd64/latest/All/libbdplus-0.1.2.txz: 175
+427)    /pkg/release/FreeBSD:13:amd64/latest/All/libaacs-0.9.0.txz: 175
+428)    /pkg/release/FreeBSD:13:amd64/latest/All/lzo2-2.10_1.txz: 174
+429)    /pkg/release/FreeBSD:13:amd64/latest/All/gstreamer1-qt5-1.2.0_15.txz: 173
+430)    /pkg/release/FreeBSD:13:amd64/latest/All/webcamd-4.17.0.3_2.txz: 173
+431)    /pkg/release/FreeBSD:13:amd64/latest/All/pianobar-2017.08.30_3.txz: 168
+432)    /pkg/release/FreeBSD:13:amd64/latest/All/libgd-2.2.5,1.txz: 167
+433)    /pkg/release/FreeBSD:13:amd64/latest/All/liberation-fonts-ttf-2.00.4,2.txz: 166
+434)    /pkg/release/FreeBSD:13:amd64/latest/All/popt-1.16_2.txz: 166
+435)    /pkg/release/FreeBSD:13:amd64/latest/All/libproxy-0.4.15.txz: 165
+436)    /pkg/release/FreeBSD:13:amd64/latest/All/qt4-corelib-4.8.7_14.txz: 165
+437)    /pkg/release/FreeBSD:13:amd64/latest/All/qt4-gui-4.8.7_6.txz: 163
+438)    /pkg/release/FreeBSD:13:amd64/latest/All/harfbuzz-icu-2.2.0.txz: 162
+439)    /pkg/release/FreeBSD:13:amd64/latest/All/glib-networking-2.56.1.txz: 161
+440)    /pkg/release/FreeBSD:13:amd64/latest/All/qt4-xml-4.8.7_2.txz: 160
+441)    /pkg/release/FreeBSD:13:amd64/latest/All/py27-cairo-1.14.1.txz: 158
+442)    /pkg/release/FreeBSD:13:amd64/latest/All/gutenprint-5.2.14.txz: 156
+443)    /pkg/release/FreeBSD:13:amd64/latest/All/json-glib-1.4.2.txz: 156
+444)    /pkg/release/FreeBSD:13:amd64/latest/All/bash-4.4.23_1.txz: 152
+445)    /pkg/release/FreeBSD:13:amd64/latest/All/libsunacl-1.0.1.txz: 152
+446)    /pkg/release/FreeBSD:13:amd64/latest/All/gamin-0.1.10_9.txz: 152
+447)    /pkg/release/FreeBSD:13:amd64/latest/All/talloc-2.1.14.txz: 151
+448)    /pkg/release/FreeBSD:13:amd64/latest/All/tevent-0.9.37.txz: 151
+449)    /pkg/release/FreeBSD:13:amd64/latest/All/tdb-1.3.16,1.txz: 151
+450)    /pkg/release/FreeBSD:13:amd64/latest/All/libssh2-1.8.0,3.txz: 150
+451)    /pkg/release/FreeBSD:13:amd64/latest/All/libnotify-0.7.7_1.txz: 149
+452)    /pkg/release/FreeBSD:13:amd64/latest/All/espeak-1.48.04_5.txz: 149
+453)    /pkg/release/FreeBSD:13:amd64/latest/All/qt4-sql-4.8.7_3.txz: 149
+454)    /pkg/release/FreeBSD:13:amd64/latest/All/speech-dispatcher-0.8.6_1.txz: 148
+455)    /pkg/release/FreeBSD:13:amd64/latest/All/libwmf-0.2.8.4_15.txz: 147
+456)    /pkg/release/FreeBSD:13:amd64/latest/All/gettext-tools-0.19.8.1_1.txz: 145
+457)    /pkg/release/FreeBSD:13:amd64/latest/All/qt4-svg-4.8.7_2.txz: 145
+458)    /pkg/release/FreeBSD:13:amd64/latest/All/qt4-script-4.8.7_3.txz: 145
+459)    /pkg/release/FreeBSD:13:amd64/latest/All/qt4-opengl-4.8.7_3.txz: 144
+460)    /pkg/release/FreeBSD:13:amd64/latest/All/sdl-1.2.15_13,2.txz: 144
+461)    /pkg/release/FreeBSD:13:amd64/latest/All/OS-lld-13.0.2018.11.28-21.47.41.txz: 144
+462)    /pkg/release/FreeBSD:13:amd64/latest/All/qt4-xmlpatterns-4.8.7_2.txz: 144
+463)    /pkg/release/FreeBSD:13:amd64/latest/All/qt4-declarative-4.8.7_2.txz: 144
+464)    /pkg/release/FreeBSD:13:amd64/latest/All/OS-libfetch-lib32-13.0.2018.11.28-21.47.41.txz: 143
+465)    /pkg/release/FreeBSD:13:amd64/latest/All/OS-libbe-13.0.2018.11.28-21.47.41.txz: 143
+466)    /pkg/release/FreeBSD:13:amd64/latest/All/OS-ee-13.0.2018.11.28-21.47.41.txz: 143
+467)    /pkg/release/FreeBSD:13:amd64/latest/All/OS-at-13.0.2018.11.28-21.47.41.txz: 143
+468)    /pkg/release/FreeBSD:13:amd64/latest/All/OS-libufs-13.0.2018.11.28-21.47.41.txz: 143
+469)    /pkg/release/FreeBSD:13:amd64/latest/All/OS-iscsi_legacy-13.0.2018.11.28-21.47.41.txz: 143
+470)    /pkg/release/FreeBSD:13:amd64/latest/All/OS-libbe-lib32-13.0.2018.11.28-21.47.41.txz: 143
+471)    /pkg/release/FreeBSD:13:amd64/latest/All/OS-libldns-lib32-13.0.2018.11.28-21.47.41.txz: 143
+472)    /pkg/release/FreeBSD:13:amd64/latest/All/OS-acct-13.0.2018.11.28-21.47.41.txz: 143
+473)    /pkg/release/FreeBSD:13:amd64/latest/All/dotconf-1.3_1.txz: 143
+474)    /pkg/release/FreeBSD:13:amd64/latest/All/OS-libregex-13.0.2018.11.28-21.47.41.txz: 142
+475)    /pkg/release/FreeBSD:13:amd64/latest/All/trident-core-201811281209.txz: 142
+476)    /pkg/release/FreeBSD:13:amd64/latest/All/OS-libpcap-13.0.2018.11.28-21.47.41.txz: 142
+477)    /pkg/release/FreeBSD:13:amd64/latest/All/OS-lldb-13.0.2018.11.28-21.47.41.txz: 142
+478)    /pkg/release/FreeBSD:13:amd64/latest/All/OS-libpcap-lib32-13.0.2018.11.28-21.47.41.txz: 142
+479)    /pkg/release/FreeBSD:13:amd64/latest/All/sysadm-201811280857.txz: 142
+480)    /pkg/release/FreeBSD:13:amd64/latest/All/py27-setuptools-40.6.2.txz: 142
+481)    /pkg/release/FreeBSD:13:amd64/latest/All/OS-libfetch-development-13.0.2018.11.28-21.47.41.txz: 142
+482)    /pkg/release/FreeBSD:13:amd64/latest/All/OS-libfetch-13.0.2018.11.28-21.47.41.txz: 142
+483)    /pkg/release/FreeBSD:13:amd64/latest/All/OS-libldns-13.0.2018.11.28-21.47.41.txz: 142
+484)    /pkg/release/FreeBSD:13:amd64/latest/All/OS-ipfw-13.0.2018.11.28-21.47.41.txz: 142
+485)    /pkg/release/FreeBSD:13:amd64/latest/All/libcanberra-0.30_4.txz: 142
+486)    /pkg/release/FreeBSD:13:amd64/latest/All/OS-libregex-lib32-13.0.2018.11.28-21.47.41.txz: 142
+487)    /pkg/release/FreeBSD:13:amd64/latest/All/OS-ccdconfig-13.0.2018.11.28-21.47.41.txz: 142
+488)    /pkg/release/FreeBSD:13:amd64/latest/All/libraw-0.18.13_1.txz: 142
+489)    /pkg/release/FreeBSD:13:amd64/latest/All/OS-libalias-13.0.2018.11.28-21.47.41.txz: 142
+490)    /pkg/release/FreeBSD:13:amd64/latest/All/OS-libalias-lib32-13.0.2018.11.28-21.47.41.txz: 142
+491)    /pkg/release/FreeBSD:13:amd64/latest/All/OS-libufs-lib32-13.0.2018.11.28-21.47.41.txz: 142
+492)    /pkg/release/FreeBSD:13:amd64/latest/All/OS-dma-13.0.2018.11.28-21.47.41.txz: 142
+493)    /pkg/release/FreeBSD:13:amd64/latest/All/OS-libbe-development-13.0.2018.11.28-21.47.41.txz: 142
+494)    /pkg/release/FreeBSD:13:amd64/latest/All/OS-bsdinstall-13.0.2018.11.28-21.47.41.txz: 142
+495)    /pkg/release/FreeBSD:13:amd64/latest/All/OS-amd-13.0.2018.11.28-21.47.41.txz: 142
+496)    /pkg/release/FreeBSD:13:amd64/latest/All/OS-hast-13.0.2018.11.28-21.47.41.txz: 142
+497)    /pkg/release/FreeBSD:13:amd64/latest/All/OS-acpi-13.0.2018.11.28-21.47.41.txz: 142
+498)    /pkg/release/FreeBSD:13:amd64/latest/All/OS-autofs-13.0.2018.11.28-21.47.41.txz: 142
+499)    /pkg/release/FreeBSD:13:amd64/latest/All/OS-apm-13.0.2018.11.28-21.47.41.txz: 142
+500)    /pkg/release/FreeBSD:13:amd64/latest/All/OS-libregex-development-13.0.2018.11.28-21.47.41.txz: 142
+
+=== Requested images and CSS ===
+--- Images and CSS requests ordered by hits
+* Different images and CSS requested: 0
+
+=== Referers ===
+--- Referers ordered by visits (google excluded)
+* Different referers: 19
+1)    none: 7038
+2)    http://www.project-trident.org/download/: 793
+3)    http://project-trident.org/download/: 207
+4)    http://www.project-trident.org/: 45
+5)    http://pkg.project-trident.org/iso/release/: 33
+6)    https://www.google.com/: 21
+7)    http://pkg.project-trident.org/iso/archive/RC2/: 9
+8)    http://project-trident.org/: 9
+9)    http://pkg.project-trident.org/iso/release: 7
+10)    http://pkg.project-trident.org/iso/stage/: 6
+11)    http://pkg.project-trident.org/: 3
+12)    Google Search Engine: 2
+13)    http://pkg.project-trident.org/pkg/release/FreeBSD%3A12%3Aamd64/latest/: 2
+14)    http://pkg.project-trident.org/iso/release/Trident-18.12-PRERELEASE-x64-20181208.iso: 2
+15)    http://pkg.project-trident.org/pkg/stage/FreeBSD%3A13%3Aamd64/latest/All/: 1
+16)    http://www.pcds.fi/: 1
+17)    http://pkg.project-trident.org/iso/release/Trident-18.11-PRERELEASE_2-x64-20181130.iso: 1
+18)    http://pkg.project-trident.org/pkg/stage/FreeBSD%3A13%3Aamd64/latest/: 1
+19)    http://www.ci.visalia.ca.us/: 1
+
+=== Referers by first time ===
+--- Referers ordered by first time date, newer on top (referers from google excluded)
+* Different referers: 18
+1)    27/Dec/2018: http://www.pcds.fi/
+2)    18/Dec/2018: http://pkg.project-trident.org/iso/release/Trident-18.12-PRERELEASE-x64-20181208.iso
+3)    13/Dec/2018: http://www.ci.visalia.ca.us/
+4)    13/Dec/2018: http://pkg.project-trident.org/iso/release
+5)    11/Dec/2018: http://pkg.project-trident.org/pkg/release/FreeBSD%3A12%3Aamd64/latest/
+6)    11/Dec/2018: http://pkg.project-trident.org/pkg/stage/FreeBSD%3A13%3Aamd64/latest/All/
+7)    11/Dec/2018: http://project-trident.org/
+8)    11/Dec/2018: http://pkg.project-trident.org/iso/release/Trident-18.11-PRERELEASE_2-x64-20181130.iso
+9)    10/Dec/2018: http://pkg.project-trident.org/pkg/stage/FreeBSD%3A13%3Aamd64/latest/
+10)    10/Dec/2018: http://pkg.project-trident.org/iso/archive/RC2/
+11)    04/Dec/2018: http://pkg.project-trident.org/
+12)    01/Dec/2018: http://pkg.project-trident.org/iso/release/
+13)    01/Dec/2018: https://www.google.com/
+14)    01/Dec/2018: http://pkg.project-trident.org/iso/stage/
+15)    01/Dec/2018: http://www.project-trident.org/
+16)    01/Dec/2018: http://project-trident.org/download/
+17)    01/Dec/2018: http://www.project-trident.org/download/
+18)    01/Dec/2018: none
+
+=== User agents ===
+--- The entire user agent string ordered by visits
+* Different agents: 327
+1)    Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html): 3030
+2)    Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.96 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html): 1542
+3)    none: 1177
+4)    Mozilla/5.0 (compatible; AhrefsBot/6.1; +http://ahrefs.com/robot/): 526
+5)    Mozilla/5.0 (compatible; AhrefsBot/5.2; +http://ahrefs.com/robot/): 265
+6)    Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots): 142
+7)    Mozilla/5.0 (Linux; Android) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.131 Safari/537.36: 140
+8)    Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36: 61
+9)    Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0: 55
+10)    Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:64.0) Gecko/20100101 Firefox/64.0: 53
+11)    Mozilla/5.0 (X11; FreeBSD amd64; rv:58.0) Gecko/20100101 Firefox/58.0: 49
+12)    Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36: 47
+13)    Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:63.0) Gecko/20100101 Firefox/63.0: 44
+14)    Mozilla/5.0 (X11; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0: 43
+15)    Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0: 40
+16)    Mozilla/5.0 (X11; Linux x86_64; rv:63.0) Gecko/20100101 Firefox/63.0: 37
+17)    Mozilla/5.0 (X11; Linux x86_64; rv:64.0) Gecko/20100101 Firefox/64.0: 34
+18)    Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36: 25
+19)    Mozilla/5.0 (X11; FreeBSD amd64; rv:63.0) Gecko/20100101 Firefox/63.0: 23
+20)    Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/17.17134: 22
+21)    Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36: 20
+22)    Mozilla/5.0 (X11; FreeBSD amd64; rv:64.0) Gecko/20100101 Firefox/64.0: 19
+23)    Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36 OPR/56.0.3051.116: 18
+24)    Wget/1.19.5 (linux-gnu): 16
+25)    Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36: 16
+26)    Mozilla/5.0 (Windows NT 6.1; WOW64; rv:33.0) Gecko/20100101 Firefox/33.0: 15
+27)    Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36: 15
+28)    Mozilla/5.0 (compatible; MJ12bot/v1.4.8; http://mj12bot.com/): 14
+29)    Mozilla/5.0 (X11; FreeBSD amd64) AppleWebKit/537.36 (KHTML, like Gecko) Falkon/3.0.0 Chrome/56.0.2924.122 Safari/537.36: 14
+30)    Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.0.2 Safari/605.1.15: 14
+31)    Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.0.1 Safari/605.1.15: 13
+32)    Wget/1.19.4 (freebsd12.0): 11
+33)    Mozilla/5.0 (X11; FreeBSD amd64; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36: 11
+34)    Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/71.0.3578.80 Chrome/71.0.3578.80 Safari/537.36: 11
+35)    AndroidDownloadManager/7.1.2 (Linux; U; Android 7.1.2; LG K20 Plus Build/NJH47F): 10
+36)    Wget/1.18 (linux-gnu): 10
+37)    Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36: 10
+38)    Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36 OPR/57.0.3098.106: 9
+39)    Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0: 9
+40)    Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko: 9
+41)    Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36: 8
+42)    Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.66 Safari/537.36: 8
+43)    Mozilla/5.0 (X11; Fedora; Linux x86_64; rv:63.0) Gecko/20100101 Firefox/63.0: 8
+44)    Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36: 8
+45)    Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0E; .NET4.0C; .NET CLR 3.5.30729; .NET CLR 2.0.50727; .NET CLR 3.0.30729): 7
+46)    Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:64.0) Gecko/20100101 Firefox/64.0: 7
+47)    Mozilla/5.0 (X11; Fedora; Linux x86_64; rv:64.0) Gecko/20100101 Firefox/64.0: 7
+48)    Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm): 7
+49)    Wget/1.19.4 (linux-gnu): 7
+50)    Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36: 6
+51)    Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0: 6
+52)    Wget/1.17.1 (linux-gnu): 6
+53)    Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:63.0) Gecko/20100101 Firefox/63.0: 6
+54)    Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Falkon/3.0.1 Chrome/65.0.3325.230 Safari/537.36: 6
+55)    Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36: 5
+56)    Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36: 5
+57)    Mozilla/5.0 (X11; FreeBSD amd64; rv:47.0) Gecko/20100101 Firefox/47.0: 5
+58)    Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0: 5
+59)    Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36: 5
+60)    Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0): 5
+61)    Mozilla/5.0 (Linux; Android 9; motorola one power) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Mobile Safari/537.36: 5
+62)    Mozilla/5.0 (Linux; Android 8.0.0) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Focus/8.0.4 Chrome/71.0.3578.99 Mobile Safari/537.36: 5
+63)    Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:64.0) Gecko/20100101 Firefox/64.0: 5
+64)    Mozilla/5.0 (X11; FreeBSD amd64; rv:52.0) Gecko/20100101 Firefox/52.0: 5
+65)    Mozilla/5.0 (X11; FreeBSD amd64; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36: 5
+66)    Mozilla/5.0 (X11; FreeBSD amd64; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Iridium/2018.5 Safari/537.36 Chrome/67.0.3396.40: 5
+67)    Safari/14606.2.104.1.1 CFNetwork/975.0.3 Darwin/18.2.0 (x86_64): 4
+68)    Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36 OPR/36.0.2130.80: 4
+69)    Mozilla/5.0 (Symbian/3; Series60/5.2 NokiaN8-00/012.002; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/533.4 (KHTML,like Gecko) NokiaBrowser/7.3.0 Mobile Safari/533.4 3gpp-gba: 4
+70)    Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0: 4
+71)    Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36: 4
+72)    Mozilla/5.0 (Windows NT 6.1; rv:64.0) Gecko/20100101 Firefox/64.0: 4
+73)    Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:52.0) Gecko/20100101 Firefox/52.0: 4
+74)    Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36: 4
+75)    BTWebClient/355B(44904): 4
+76)    Safari%20%E6%B5%8F%E8%A7%88%E5%99%A8/14606.3.4 CFNetwork/976 Darwin/18.2.0 (x86_64): 4
+77)    Mozilla/5.0 (Linux; Android 8.1.0; Moto G (5S)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.83 Mobile Safari/537.36: 4
+78)    Mozilla/5.0 (X11; Linux i686; rv:60.0) Gecko/20100101 Firefox/60.0: 4
+79)    Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.0.1 Safari/605.1.15: 4
+80)    Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 YaBrowser/18.10.0.2722 (beta) Yowser/2.5 Safari/537.36: 4
+81)    Mozilla/5.0 (X11; FreeBSD amd64; rv:40.0) Gecko/20100101 Firefox/40.0: 4
+82)    Mozilla/5.0 (X11; Linux x86_64) KHTML/5.44.0 (like Gecko) Konqueror/5 KIO/5.44: 4
+83)    Mozilla/5.0 (X11; FreeBSD amd64; rv:62.0) Gecko/20100101 Firefox/62.0: 4
+84)    Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36: 4
+85)    Mozilla/5.0 (Windows NT 6.3; WOW64; rv:56.0) Gecko/20100101 Firefox/56.0: 3
+86)    Mozilla/5.0 (Windows NT 6.1; rv:60.0) Gecko/20100101 Firefox/60.0: 3
+87)    Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.0.2 Safari/605.1.15: 3
+88)    Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.85 Safari/537.36 Vivaldi/2.3.1401.7: 3
+89)    Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/18.17763: 3
+90)    Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:65.0) Gecko/20100101 Firefox/65.0: 3
+91)    Mozilla/5.0 (X11; FreeBSD amd64; rv:60.0) Gecko/20100101 Firefox/60.0: 3
+92)    Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:63.0) Gecko/20100101 Firefox/63.0: 3
+93)    Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36: 3
+94)    User-Agent\x09Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0): 3
+95)    Mozilla/5.0 (compatible; DotBot/1.1; http://www.opensiteexplorer.org/dotbot, help@moz.com): 3
+96)    Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36: 3
+97)    Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36 OPR/57.0.3098.91: 3
+98)    Mozilla/5.0 (X11; Fedora; Fedora; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36: 3
+99)    Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36: 3
+100)    Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:56.0; Waterfox) Gecko/20100101 Firefox/56.2.5: 3
+101)    Wget/1.20 (freebsd13.0): 3
+102)    Mozilla/5.0 (Linux; Android 4.4.2; GT-N7105) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.99 Mobile Safari/537.36: 3
+103)    Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko: 3
+104)    Mozilla/5.0 (Windows NT 6.1; rv:63.0) Gecko/20100101 Firefox/63.0: 3
+105)    Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.113 Safari/537.36 Vivaldi/2.1.1337.51: 3
+106)    Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/70.0.3538.110 Chrome/70.0.3538.110 Safari/537.36: 2
+107)    Mozilla/5.0 (X11; Ubuntu; Linux amd64; rv:56.0) Gecko/20100101 Firefox/56.0: 2
+108)    Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0: 2
+109)    Mozilla/5.0 (Windows NT 10.0; WOW64; rv:56.0) Gecko/20100101 Firefox/56.0: 2
+110)    Mozilla/5.0 (Macintosh; Intel Mac OS X 10_6_8) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36: 2
+111)    Mozilla/5.0 (Linux; Android 9; Pixel) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Mobile Safari/537.36: 2
+112)    Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.28 Safari/537.36: 2
+113)    Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/18.18298: 2
+114)    Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36: 2
+115)    Wget/1.20 (linux-gnu): 2
+116)    Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36 Vivaldi/2.2.1388.37: 2
+117)    Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; rv:11.0) like Gecko: 2
+118)    Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0: 2
+119)    Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.85 Safari/537.36 Vivaldi/2.2.1388.29: 2
+120)    Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.75 Safari/537.36: 2
+121)    Mozilla/5.0 (Windows NT 10.0; WOW64; rv:64.0) Gecko/20100101 Firefox/64.0: 2
+122)    Mozilla/5.0 (Windows NT 6.1; WOW64; rv:56.0) Gecko/20100101 Firefox/56.0: 2
+123)    Mozilla/5.0 (X11; Linux x86_64; rv:56.0; Waterfox) Gecko/20100101 Firefox/56.2.5: 2
+124)    Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.46 Safari/537.36: 2
+125)    Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36: 2
+126)    Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/11.0 Safari/605.1.15 Epiphany/605.1.15: 2
+127)    Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36: 2
+128)    Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36: 2
+129)    Mozilla/5.0 (Linux; U; Android 4.1.2; en-us; N800 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 UCBrowser/11.5.2.1188 (UCMini) Mobile: 2
+130)    Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.2141.400 QQBrowser/9.5.10219.400: 2
+131)    TelegramBot (like TwitterBot): 2
+132)    Mozilla/5.0 (X11; OpenBSD amd64; rv:63.0) Gecko/20100101 Firefox/63.0: 2
+133)    Mozilla/5.0 (Windows NT 5.1; rv:52.0) Gecko/20100101 Firefox/52.0: 2
+134)    Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36 OPR/57.0.3098.91: 2
+135)    Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/4.0; User-agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; http://bsalsa.com) ; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; InfoPath.2; .NET4.0C; .NET4.0E): 2
+136)    Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 YaBrowser/18.10.2.163 Yowser/2.5 Safari/537.36: 2
+137)    Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko: 2
+138)    iGetter/2 (Macintosh; U; PPC Mac OS X; en): 2
+139)    Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36: 2
+140)    Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0: 2
+141)    Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 YaBrowser/18.11.1.721 Yowser/2.5 Safari/537.36: 2
+142)    Mozilla/5.0 (Linux; U; Android 8.1.0; zh-cn; NX563J Build/OPM1.171019.011) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/8.9 Mobile Safari/537.36: 2
+143)    Wget/1.14 (linux-gnu): 2
+144)    Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/70.0.3538.77 Chrome/70.0.3538.77 Safari/537.36: 2
+145)    Mozilla/5.0 (Android 7.1.2; Mobile; rv:63.0) Gecko/63.0 Firefox/63.0: 2
+146)    Mozilla/5.0 (X11; Linux x86_64; rv:65.0) Gecko/20100101 Firefox/65.0: 2
+147)    Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; .NET4.0C; .NET4.0E; .NET CLR 1.1.4322): 2
+148)    Mozilla/5.0 (X11; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0: 2
+149)    Mozilla/5.0 (Windows NT 5.1; rv:2.2) Gecko/20100101 Goanna/20160924 PaleMoon/26.5.0: 2
+150)    Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36: 2
+151)    Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36: 2
+152)    Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.113 Safari/537.36 Vivaldi/2.1.1337.51: 2
+153)    Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36: 2
+154)    Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36: 2
+155)    Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36 OPR/57.0.3098.106: 1
+156)    Mozilla/5.0 (Windows NT 5.1; WOW64; rv:52.0) Gecko/20100101 Firefox/52.0: 1
+157)    Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0)): 1
+158)    Mozilla/5.0 (Android 4.4.3; Tablet; rv:66.0) Gecko/66.0 Firefox/66.0: 1
+159)    Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0: 1
+160)    Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.102 Safari/537.36 Vivaldi/2.0.1309.29: 1
+161)    Mozilla/5.0 (Windows NT 10.0; WOW64; rv:60.9) Gecko/20100101 Goanna/4.1 Firefox/60.9 PaleMoon/28.2.2: 1
+162)    Mozilla/5.0 (Linux; U; Android 4.4.4; zh-CN; HUAWEI ALE-CL00 Build/HuaweiALE-CL00) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/40.0.2214.89 UCBrowser/11.3.0.907 Mobile Safari/537.36: 1
+163)    Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/534.34 (KHTML, like Gecko) konqueror/5.0.97 Safari/534.34: 1
+164)    Wget/1.19.1 (cygwin): 1
+165)    Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:56.0) Gecko/20100101 Firefox/56.0: 1
+166)    Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36 OPR/58.0.3135.26 (Edition beta): 1
+167)    Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36 OPR/57.0.3098.106: 1
+168)    Mozilla/5.0 (X11; Fedora; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0: 1
+169)    Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36: 1
+170)    Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; InfoPath.3; rv:11.0) like Gecko: 1
+171)    Mozilla/5.0 (iPhone; CPU iPhone OS 11_3_1 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) GSA/56.0.208290612 Mobile/15E302 Safari/604.1: 1
+172)    Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36: 1
+173)    Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0: 1
+174)    Wget/1.20 (darwin17.7.0): 1
+175)    Mozilla/5.0 (X11; Ubuntu; Linux x86_64) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/11.0 Safari/605.1.15 Epiphany/605.1.15: 1
+176)    Mozilla/5.0 (Linux; U; Android 4.2.2; en-us; ASUS_ME173X Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30: 1
+177)    Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36: 1
+178)    Wget/1.16 (linux-gnueabi): 1
+179)    Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36 OPR/57.0.3098.106: 1
+180)    Mozilla/5.0 (Linux; Android 8.1.0; LG-Q710AL) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.99 Mobile Safari/537.36: 1
+181)    Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36: 1
+182)    Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36 OPR/57.0.3098.106: 1
+183)    Mozilla/5.0 (Linux; Android 8.1.0; vivo Y83A) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.75 Mobile Safari/537.36: 1
+184)    Mozilla/5.0 (X11; CrOS x86_64 11021.81.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36: 1
+185)    Mozilla/5.0 (X11; FreeBSD amd64) AppleWebKit/537.36 (KHTML, like Gecko) QupZilla/2.1.2 Chrome/56.0.2924.122 Safari/537.36: 1
+186)    Mozilla/5.0 (Linux; Android) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.1: 1
+187)    Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36: 1
+188)    Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1700.107 Safari/537.36: 1
+189)    Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:57.0) Gecko/20100101 Firefox/57.0: 1
+190)    Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.17 Safari/537.36: 1
+191)    Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.11.2 Chrome/65.0.3325.230 Safari/537.36 Konqueror (WebEnginePart): 1
+192)    Mozilla/5.0 (X11; U; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.89 Safari/537.36: 1
+193)    Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/11.1.1 Safari/605.1.15: 1
+194)    Wget/1.19.4 (msys): 1
+195)    Mozilla/5.0 (Windows NT 6.1; WOW64; rv:48.0) Gecko/20100101 Firefox/48.0: 1
+196)    Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0: 1
+197)    Axel 2.4 (FreeBSD): 1
+198)    Mozilla/5.0 (X11; Linux x86_64; rv:60.9) Gecko/20100101 Goanna/4.1 Firefox/60.9 PaleMoon/28.2.1: 1
+199)    Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36: 1
+200)    Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3600.0 Iron Safari/537.36: 1
+201)    Mozilla/5.0 (iPhone; CPU iPhone OS 9_3_4 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13G35 QQ/6.5.3.410 V1_IPH_SQ_6.5.3_1_APP_A Pixel/750 Core/UIWebView NetType/2G Mem/117: 1
+202)    Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Iridium/2018.11 Safari/537.36 Chrome/71.0.0.0: 1
+203)    Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36 OPR/57.0.3098.76: 1
+204)    Mozilla/5.0 (Windows NT 6.1) AppleWebKit/535 (KHTML, like Gecko) Chrome/14 Safari/535: 1
+205)    Mozilla/5.0 (iPhone; CPU iPhone OS 12_1_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/16C101 [FBAN/FBIOS;FBAV/202.0.0.55.99;FBBV/135472877;FBDV/iPhone8,4;FBMD/iPhone;FBSN/iOS;FBSV/12.1.2;FBSS/2;FBCR/Orange;FBID/phone;FBLC/en_US;FBOP/5;FBRV/135725991]: 1
+206)    Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36: 1
+207)    Mozilla/5.0 (Linux; Android 8.1.0; Moto G (5) Plus) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.83 Mobile Safari/537.36: 1
+208)    Mozilla/5.0 (X11; Linux x86_64; rv:52.9) Gecko/20100101 Goanna/3.4 Firefox/52.9 PaleMoon/27.6.1: 1
+209)    Mozilla/4.05 [en] (Win95; I): 1
+210)    Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36: 1
+211)    Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:62.0) Gecko/20100101 Firefox/62.0: 1
+212)    Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.17 Safari/537.36: 1
+213)    Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0: 1
+214)    Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36 OPR/56.0.3051.116: 1
+215)    Mozilla/5.0 (Macintosh; Intel Haiku R1 x86) AppleWebKit/606.1.4 (KHTML, like Gecko) WebPositive/1.2 Version/11.1 Safari/606.1.4: 1
+216)    Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36: 1
+217)    Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:56.0; Waterfox) Gecko/20100101 Firefox/56.2.5: 1
+218)    Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:60.0) Gecko/20100101 Firefox/60.0: 1
+219)    Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.31 Safari/537.36: 1
+220)    Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36 Vivaldi/2.1.1337.36: 1
+221)    Mozilla/5.0 (Windows NT 6.1; WOW64; rv:63.0) Gecko/20100101 Firefox/63.0: 1
+222)    Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Falkon/3.0.0 Chrome/56.0.2924.122 Safari/537.36: 1
+223)    Mozilla/5.0 (Linux; Android 5.1; AGM X1 Build/LMY47V; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/43.0.2357.134 Mobile Safari/537.36 LeBrowser/8.2.5: 1
+224)    Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3610.2 Safari/537.36: 1
+225)    Mozilla/5.0 (Windows NT 6.1; WOW64; rv:60.9) Gecko/20100101 Goanna/4.1 Firefox/60.9 PaleMoon/28.2.1: 1
+226)    Mozilla/5.0 (Linux; U; Android 4.4.2; zh-cn; HTC 8088 Build/KOT49H) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 SogouMSE,SogouMobileBrowser/3.6.0: 1
+227)    Mozilla/5.0 (Linux; Android 7.1.2; LG K20 Plus Build/NJH47F; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/67.0.3396.87 Mobile Safari/537.36: 1
+228)    Mozilla/5.0 (X11; Linux x86_64; rv:52.9) Gecko/20100101 Goanna/4.1 Firefox/52.9 PaleMoon/28.0.0: 1
+229)    Links (2.16; FreeBSD 11.2-RELEASE-p5 amd64; LLVM/Clang 6.0; text): 1
+230)    Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:41.0) Gecko/20100101 Firefox/41.0: 1
+231)    Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.10.1 Chrome/61.0.3163.140 Safari/537.36: 1
+232)    Mozilla/5.0 (Windows NT 6.1; rv:61.0) Gecko/20100101 Firefox/61.0: 1
+233)    Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36 OPR/57.0.3098.91: 1
+234)    Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.62 Safari/537.36: 1
+235)    Opera/9.80 (X11; FreeBSD 12.0-CURRENT amd64) Presto/2.12.388 Version/12.16: 1
+236)    Mozilla/5.0 (Windows NT 6.1; WOW64; rv:52.9) Gecko/20100101 Goanna/3.4 Firefox/52.9 PaleMoon/27.9.2: 1
+237)    AndroidDownloadManager/4.2.2 (Linux; U; Android 4.2.2; ASUS_ME173X Build/JDQ39): 1
+238)    Mozilla/5.0 (X11; Linux x86_64; rv:60.9) Gecko/20100101 Goanna/4.1 Firefox/60.9 PaleMoon/28.2.2: 1
+239)    Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36: 1
+240)    Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:62.0) Gecko/20100101 Firefox/62.0: 1
+241)    Wget/1.19.5 (haiku): 1
+242)    Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36: 1
+243)    Mozilla/5.0 (X11; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0 PureBrowser/60.1.0: 1
+244)    Wget/1.19.5 (freebsd13.0): 1
+245)    Mozilla/5.0 (X11; Linux) AppleWebKit/538.15 (KHTML, like Gecko) Chrome/18.0.1025.133 Safari/538.15 Midori/0.5: 1
+246)    Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36: 1
+247)    Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36 OPR/57.0.3098.76: 1
+248)    Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:62.0) Gecko/20100101 Firefox/62.0: 1
+249)    Links (2.16; FreeBSD 11.2-RELEASE i386; LLVM/Clang 6.0; text): 1
+250)    Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.26 Safari/537.36 Core/1.63.6788.400 QQBrowser/10.3.2864.400: 1
+251)    Mozilla/5.0 (X11; Linux x86_64; rv:52.9) Gecko/20100101 Goanna/4.1 Firefox/52.9 Basilisk/20181107: 1
+252)    Mozilla/5.0 (X11; Fedora; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36: 1
+253)    Mozilla/5.0 (X11; Linux x86_64; rv:58.0) Gecko/20100101 Firefox/58.0: 1
+254)    Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/534.34 (KHTML, like Gecko) kget/18.8.3 Safari/534.34: 1
+255)    Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36: 1
+256)    Mozilla/5.0 (X11; Linux x86_64; rv:45.0) Gecko/20100101 Firefox/45.0: 1
+257)    Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; Tablet PC 2.0): 1
+258)    Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.85 Safari/537.36 Vivaldi/2.2.1388.34: 1
+259)    Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.102 Safari/537.36 Vivaldi/2.0.1309.37: 1
+260)    Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36: 1
+261)    Mozilla/5.0 (iPhone; CPU iPhone OS 12_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.0 Mobile/15E148 Safari/604.1: 1
+262)    Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 YaBrowser/18.10.1.872 Yowser/2.5 Safari/537.36: 1
+263)    Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:65.0) Gecko/20100101 Firefox/65.0: 1
+264)    Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:59.0) Gecko/20100101 Firefox/59.0: 1
+265)    Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36: 1
+266)    Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:60.0) Gecko/20100101 Firefox/60.0: 1
+267)    Mozilla/5.0 (Linux; Android) AppleWebKit/537.36 (KHTML, like Gecko) Ch: 1
+268)    Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36 OPR/56.0.3051.99: 1
+269)    Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:65.0) Gecko/20100101 Firefox/65.0: 1
+270)    Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36: 1
+271)    Mozilla/5.0 (Linux; Android 8.0.0; SAMSUNG SM-G891A Build/R16NW) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/7.4 Chrome/59.0.3071.125 Mobile Safari/537.36: 1
+272)    Mozilla/5.0 (X11; FreeBSD amd64; rv:56.0; Waterfox) Gecko/20100101 Firefox/56.2.6: 1
+273)    Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:51.0) Gecko/20100101 Firefox/51.0: 1
+274)    Mozilla/5.0 (X11; Linux x86_64; rv:60.9) Goanna/4.1 PaleMoon/28.2.2: 1
+275)    Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0: 1
+276)    Mozilla/5.0 (X11; Linux x86_64) KHTML/5.52.0 (like Gecko) Konqueror/5 KIO/5.52: 1
+277)    Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0 SeaMonkey/2.49.4: 1
+278)    Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko: 1
+279)    Mozilla/5.0 (Windows NT 6.1; rv:62.0) Gecko/20100101 Firefox/62.0: 1
+280)    Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.10240: 1
+281)    Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.183 Safari/537.36 Vivaldi/1.96.1147.52: 1
+282)    Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36: 1
+283)    Mozilla/5.0 (Windows NT 10.0; WOW64; rv:60.0) Gecko/20100101 Firefox/60.0: 1
+284)    Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36 Vivaldi/2.2.1388.37: 1
+285)    Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36 Vivaldi/2.2.1388.37: 1
+286)    Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/605.1.15 (KHTML, like Gecko): 1
+287)    Wget/1.20 (freebsd12.0): 1
+288)    Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/65.0.3325.181 Chrome/65.0.3325.181 Safari/537.36: 1
+289)    Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36: 1
+290)    Mozilla/5.0 (X11; Linux x86_64; rv:52.9) Gecko/20100101 Goanna/4.1 Firefox/52.9 PaleMoon/28.0.1: 1
+291)    Mozilla/5.0 (Linux; Android 8.0.0) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Focus/7.0.13 Chrome/70.0.3538.110 Mobile Safari/537.36: 1
+292)    Mozilla/5.0 (X11; FreeBSD amd64; rv:52.0) Gecko/20100101 Firefox/52.0 SeaMonkey/2.49.4: 1
+293)    Wget/1.12 (linux-gnu): 1
+294)    Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/68.0.3440.106 Chrome/68.0.3440.106 Safari/537.36: 1
+295)    Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0; GTB7.5) like Gecko: 1
+296)    Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 SE 2.X MetaSr 1.0: 1
+297)    Mozilla/5.0 (iPad; CPU OS 12_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.0 Mobile/15E148 Safari/604.1: 1
+298)    Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 YaBrowser/18.10.1.872 Yowser/2.5 Safari/537.36: 1
+299)    Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36: 1
+300)    Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36 OPR/56.0.3051.116: 1
+301)    Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/600.1.25 (KHTML, like Gecko) Version/8.0 Safari/600.1.25: 1
+302)    Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36: 1
+303)    Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36 TheWorld 7: 1
+304)    Mozilla/5.0 (Linux; U; Android 4.2.2; zh-cn; HUAWEI G610-T11 Build/HuaweiG610-T11) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 MApi 1.0 (com.dianping.v1 7.0.0 om_sd_360sz HUAWEI_G610-T11; Android 4.2.2) MApi 1.0 (com.dianping.v1 7.0.0 om_sd_360sz HUAWEI_G610-T11; Android 4.2.2) efte/1.0 (efte-for-android): 1
+305)    Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/11.1.2 Safari/605.1.15: 1
+306)    Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3650.1 Iron Safari/537.36: 1
+307)    BTWebClient/353B(44440): 1
+308)    Mozilla/5.0 (Linux; U; Android 4.0.3; zh-CN; LG-P880 Build/IML74K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.2.1.550 U3/0.8.0 Mobile Safari/534.30: 1
+309)    Mozilla/5.0 (Linux; Android 8.1.0; SM-J530F Build/M1AJQ) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Mobile Safari/537.36 OPR/49.0.2361.133821: 1
+310)    Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:56.0; Waterfox) Gecko/20100101 Firefox/56.2.5: 1
+311)    Mozilla/5.0 (X11; Linux x86_64; rv:59.0) Gecko/20100101 Firefox/59.0: 1
+312)    Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36 LBBROWSER: 1
+313)    Mozilla/5.0 (Linux; U; Android 4.4.4; zh-CN; Coolpad Y82-520 Build/KTU84P) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.9.8.738 U3/0.8.0 Mobile Safari/534.30: 1
+314)    Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.102 Safari/537.36 Vivaldi/2.0.1309.37: 1
+315)    Mozilla/5.0 (Linux; Android 8.1.0; LG-Q710AL Build/O11019; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/71.0.3578.99 Mobile Safari/537.36: 1
+316)    Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 YaBrowser/18.11.0.2022 (beta) Yowser/2.5 Safari/537.36: 1
+317)    Wget/1.15 (linux-gnu): 1
+318)    Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299: 1
+319)    Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36: 1
+320)    Mozilla/5.0 (X11; Linux x86_64; rv:62.0) Gecko/20100101 Firefox/62.0: 1
+321)    Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) snap Chromium/71.0.3578.98 Chrome/71.0.3578.98 Safari/537.36: 1
+322)    Mozilla/5.0 (Linux; Android 4.4.4; SM-G5108Q Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/33.0.0.0 Mobile Safari/537.36 MApi 1.0 (com.dianping.v1 7.0.0 om_dp_hongbaosms SM-G5108Q; Android 4.4.4) MApi 1.0 (com.dianping.v1 7.0.0 om_dp_hongbaosms SM-G5108Q; Android 4.4.4) efte/1.0 (efte-for-android): 1
+323)    Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/11.1.2 Safari/605.1.15: 1
+324)    ltx71 - (http://ltx71.com/): 1
+325)    Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36: 1
+326)    Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36: 1
+327)    Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E): 1
+
+=== Browsers ===
+--- Browsers used by visits
+* Different browsers listed: 11
+   GoogleBot   : 3030      |############################################ 37.0%
+   Safari      : 2282      |#################################            27.9%
+   Unknown     : 2158      |###############################              26.4%
+   Firefox     : 590       |########                                     7.2%
+   Wget        : 66        |                                             0.8%
+   Other Mozilla based: 26        |                                             0.3%
+   Explorer unknown version: 20        |                                             0.2%
+   Konqueror   : 5         |                                             0.1%
+   Links       : 2         |                                             0.0%
+   Explorer 6.x: 2         |                                             0.0%
+   Opera       : 1         |                                             0.0%
+
+=== Domains ===
+--- Top Level Domains sorted by visits
+* Total number of Top Level Domains: 1
+   numeric IP  : 8182      |############################################ 100.0%
+
+=== Weekdays distribution ===
+--- Percentage of hits in every day of the week
+   Mo          : 1329      |###############################              16.2%
+   Tu          : 1870      |############################################ 22.9%
+   We          : 822       |###################                          10.0%
+   Th          : 733       |#################                            9.0%
+   Fr          : 890       |####################                         10.9%
+   Sa          : 1342      |###############################              16.4%
+   Su          : 1196      |############################                 14.6%
+
+=== Hours distribution ===
+--- Percentage of hits in every hour of the day
+   00          : 830       |############################################ 10.1%
+   01          : 288       |###############                              3.5%
+   02          : 391       |####################                         4.8%
+   03          : 345       |##################                           4.2%
+   04          : 269       |##############                               3.3%
+   05          : 374       |###################                          4.6%
+   06          : 287       |###############                              3.5%
+   07          : 414       |#####################                        5.1%
+   08          : 346       |##################                           4.2%
+   09          : 311       |################                             3.8%
+   10          : 276       |##############                               3.4%
+   11          : 272       |##############                               3.3%
+   12          : 263       |#############                                3.2%
+   13          : 314       |################                             3.8%
+   14          : 693       |####################################         8.5%
+   15          : 286       |###############                              3.5%
+   16          : 259       |#############                                3.2%
+   17          : 264       |#############                                3.2%
+   18          : 263       |#############                                3.2%
+   19          : 293       |###############                              3.6%
+   20          : 355       |##################                           4.3%
+   21          : 224       |###########                                  2.7%
+   22          : 298       |###############                              3.6%
+   23          : 267       |##############                               3.3%
+
+Statistics generated with VISITORS version 0.7
+http://www.hping.org/visitors for more information
+

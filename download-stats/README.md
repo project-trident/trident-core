@@ -19,7 +19,10 @@ File download statistics from the package server. The raw statistics files are c
 | 18.06-RC2 | 10/17/2018 | 24 | (1239 in Nov) | ? | Download stats from October corrupted/unknown
 | 18.11-RC3 | 11/10/2018 | 13 | 25173 | 79 |
 | 18.11-PRERELEASE | 11/23/2018 | 8 | 2958 | ? |
-| 18.11-PRERELEASE_2 | 12/1/2018 | | | ? |
+| 18.11-PRERELEASE_2 | 12/1/2018 | 10 | 26317 | ? |
+| 18.12-PRERELEASE | 12/11/2018 | 8 | 176432 | ? |
+| 18.12-PRERELEASE2 | 12/19/2018 | | (38556 Dec) | ? |
+| 18.12-RELEASE | | | | |
 
 ## Monthly Summaries
 | Month | Days | Number of days | Unique Users | Files Downloaded | Repo Manifest (#Systems) | Notes |
@@ -27,3 +30,4 @@ File download statistics from the package server. The raw statistics files are c
 |2018, 09| 5-30 | 27 | 2282 | 336470 | 14798 |
 |2018, 10| 1-31 | 31 | ? | ? | ? | logfile empty - nginx was not saving stats. Auto-nginx restart put in place every month to prevent this again.
 |2018, 11| 7-30 | 24 | 4946 | 24755 | 4872 | First 6 days of Nov included in the error from last month. Logfiles automatically turn over fine on the 1st of every month now (verified on Dec 1).
+|2018, 12| 1-31 | 31 | 3610 | 635864 | 11280 (from 13.0) 481 (from 12.0) |
