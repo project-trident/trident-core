@@ -44,30 +44,41 @@ start_pre(){
   fi
   #Perform the general system sanity check
   /usr/local/share/trident/scripts/system-sanity-check.sh
+  #Change between PRERELASE and 18.12-RELEASE:
+  # Remove the /etc/X11/xorg.conf file if it was the old auto-generated one
+  # That location needs to be left available for user-overrides later
+  local oldconf = "/etc/X11/xorg.conf"
+  if [ -e "${oldconf}" ] ; then
+    #Verify this is the old auto-generated file (look for the old comment in the header)
+    grep -q -E '^#  /usr/local/etc/X11/xorg.conf$' "${oldconf}"
+    if [ $? -eq 0 ] ; then
+      rm "${oldconf}"
+    fi
+  fi
   return 0
 }
 
 start(){
-# Verify that an xorg.conf exists, and generate one as needed
-xorg_conf="/etc/X11/xorg.conf" #This is used as the default/fallback config
-#Use the "auto" flag to automatically detect/set the proper driver for each GPU
-/usr/local/share/trident/scripts/generate-xorg-conf.sh "auto" "${xorg_conf}"
-#Automatically probe/update the available fonts for Xorg
-/usr/local/share/trident/scripts/update-xorg-fonts.sh
-# Check for extra kernel modules to load for video driver support
-xorg_confs="/usr/local/etc/X11/xorg.conf /etc/X11/xorg.conf"
-for conf in ${xorg_confs}
-do
-  if [ ! -e "${conf}" ] ; then continue ; fi
-  driver=`cat "${conf}" | grep "Driver" | cut -d \" -f 2`
-  #Just in case multiple GPU devices/drivers are listed
-  for _drv in ${driver}
+  # Verify that an xorg.conf exists, and generate one as needed
+  xorg_conf="/usr/local/etc/X11/xorg.conf" #This is used as the default/fallback config
+  #Use the "auto" flag to automatically detect/set the proper driver for each GPU
+  /usr/local/share/trident/scripts/generate-xorg-conf.sh "auto" "${xorg_conf}"
+  #Automatically probe/update the available fonts for Xorg
+  /usr/local/share/trident/scripts/update-xorg-fonts.sh
+  # Check for extra kernel modules to load for video driver support
+  xorg_confs="/usr/local/etc/X11/xorg.conf /etc/X11/xorg.conf"
+  for conf in ${xorg_confs}
   do
-    load_modules_for_driver ${_drv}
+    if [ ! -e "${conf}" ] ; then continue ; fi
+    driver=`cat "${conf}" | grep "Driver" | cut -d \" -f 2`
+    #Just in case multiple GPU devices/drivers are listed
+    for _drv in ${driver}
+    do
+      load_modules_for_driver ${_drv}
+    done
+    break #only one config can be used
   done
-  break #only one config can be used
-done
 
-#Since this is a one-shot service, just mark it as started now
-mark_service_started ${name}
+  #Since this is a one-shot service, just mark it as started now
+  mark_service_started ${name}
 }
