@@ -1,0 +1,6 @@
+{
+  "bootstrap" : true,
+  "bootstrapfatal" : false,
+  "offlineupdatekey" : "/usr/share/keys/Trident.pub",
+  "trainsurl" : "http://pkg.project-trident.org/trains/trident-trains.json"
+}
