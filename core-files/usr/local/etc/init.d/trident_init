@@ -47,7 +47,7 @@ start_pre(){
   #Change between PRERELASE and 18.12-RELEASE:
   # Remove the /etc/X11/xorg.conf file if it was the old auto-generated one
   # That location needs to be left available for user-overrides later
-  local oldconf = "/etc/X11/xorg.conf"
+  local oldconf="/etc/X11/xorg.conf"
   if [ -e "${oldconf}" ] ; then
     #Verify this is the old auto-generated file (look for the old comment in the header)
     grep -q -E '^#  /usr/local/etc/X11/xorg.conf$' "${oldconf}"
@@ -66,7 +66,7 @@ start(){
   #Automatically probe/update the available fonts for Xorg
   /usr/local/share/trident/scripts/update-xorg-fonts.sh
   # Check for extra kernel modules to load for video driver support
-  xorg_confs="/usr/local/etc/X11/xorg.conf /etc/X11/xorg.conf"
+  xorg_confs="/etc/X11/xorg.conf /usr/local/etc/X11/xorg.conf"
   for conf in ${xorg_confs}
   do
     if [ ! -e "${conf}" ] ; then continue ; fi
