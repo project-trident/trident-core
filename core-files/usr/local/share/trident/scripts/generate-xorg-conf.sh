@@ -25,7 +25,15 @@ createDriverBlock(){
     _device="vgapci0"
   fi
   if [ -z "${_driver}" ] || [ "auto" = "${_driver}" ] ; then
+    #Need to determine which drivers are available for this device
     _driver=`/usr/local/share/trident/scripts/detect-best-driver.sh "${_device}"`
+  elif [ "fallback" = "${_driver}" ] ; then
+    #automatically determine the proper fallback driver
+    _driver=`/usr/local/share/trident/scripts/detect-best-driver.sh "${_driver}"`
+  fi
+  if [ $? -ne 0 ] ; then
+    #error in driver detection - just use vesa a bare-minimum fallback
+    _driver="vesa"
   fi
   local busid=`pciconf -l "${_device}" | cut -d : -f 2-4`
   local cardnum=`echo "${_device}" | tail -c 2`

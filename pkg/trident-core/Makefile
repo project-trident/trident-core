@@ -24,6 +24,7 @@ RUN_DEPENDS=	${LOCALBASE}/sbin/PCDMd:x11/pcdm \
 		cuse4bsd-kmod>=0:multimedia/cuse4bsd-kmod \
 		webcamd>=0:multimedia/webcamd \
 		/boot/modules/drm.ko:graphics/drm-current-kmod \
+		xf86-video-scfb>=0:x11-drivers/xf86-video-scfb \
 		xdg-user-dirs>=0:devel/xdg-user-dirs \
 		trident-icons>=0:trident/trident-icons \
 		trident-updatemgr>=0:trident/trident-updatemgr \

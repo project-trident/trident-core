@@ -44,6 +44,8 @@ start_pre(){
   fi
   #Perform the general system sanity check
   /usr/local/share/trident/scripts/system-sanity-check.sh
+  #Create a generic fallback xorg.conf using vesa/scfb drivers only
+  /usr/local/share/trident/scripts/generate-xorg-conf.sh "fallback" "/usr/local/etc/X11/xorg.fallback.conf"
   #Change between PRERELASE and 18.12-RELEASE:
   # Remove the /etc/X11/xorg.conf file if it was the old auto-generated one
   # That location needs to be left available for user-overrides later
