@@ -12,7 +12,7 @@ if [ -z "${file}" ] ; then
   file="/etc/X11/xorg.conf"
 fi
 
-CARDNUM=0
+CARDNUM=-1
 createDriverBlock(){
   # INPUTS: 
   # 1: device (vgapci0 by default)
@@ -43,8 +43,9 @@ createDriverBlock(){
     options="Option   \"AccelMethod\"   \"none\""
     #Also save this card number as the primary if on a laptop (NVIDIA optimus?)
     devinfo | grep -q acpi_acad0
-    if [ $? -eq 0 ] ; then
+    if [ $? -eq 0 ] && [ ${CARDNUM} -lt 0 ]; then
       #Got a laptop - go ahead and save this intel GPU as the primary
+      #This will *only* activate for the first Intel GPU found. It will not select later Intel GPU's by default
       CARDNUM=${cardnum}
     fi
   fi
@@ -71,5 +72,8 @@ if [ "${driver}" = "auto" ] || [ -z "${driver}" ] ; then
   done
 else
   createDriverBlock "vgapci0" "${driver}"
+fi
+if [ ${CARDNUM} -lt 0 ] ; then
+  CARDNUM=0 #No special cardnum found - use the default
 fi
 sed -i '' "s|%%CARDNUM%%|${CARDNUM}|g" "${file}"
