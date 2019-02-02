@@ -4,8 +4,8 @@
 # **Place changes in /boot/loader.conf**
 #========================
 # Project Trident Branding
-loader_brand="trident"
-loader_logo="trident"
+loader_brand="trident-color"
+loader_logo="trident-color"
 loader_menu_title="Project Trident"
 loader_color="YES"
 # Enable Synaptics for touchpads	
