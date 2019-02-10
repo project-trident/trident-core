@@ -40,7 +40,11 @@ createDriverBlock(){
   local options
   if [ "${_driver}" = "intel" ] || [ "${_driver}" = "modesetting" ] ; then
     #Disable GPU accelleration for intel/modesetting - causes graphical artifacting (TrueOS 18.06)
-    options="Option   \"AccelMethod\"   \"none\""
+    sysset=$(sysrc -ni "disable_intel_accel")
+    if [ $? -ne 0 ] ; then sysset="YES" ; fi
+    if [ "${sysset}" = "YES" ] || [ "${sysset}" = "yes" ] ; then
+      options="Option   \"AccelMethod\"   \"none\""
+    fi
     #Also save this card number as the primary if on a laptop (NVIDIA optimus?)
     devinfo | grep -q acpi_acad0
     if [ $? -eq 0 ] && [ ${CARDNUM} -lt 0 ]; then
@@ -49,14 +53,25 @@ createDriverBlock(){
       CARDNUM=${cardnum}
     fi
   fi
-#Add the device section to the 
-  echo "Section \"Device\"
+  #Add the device section 
+  if [ "${_driver}" = "vesa" ] || [ "${_driver}" = "scfb" ] ; then
+    #Do not setup the BusID section for the fallback drivers
+    echo "Section \"Device\"
+  Identifier      \"Card${cardnum}\"
+  Driver          \"${_driver}\"
+  ${options}
+EndSection
+" >> ${file}
+  else
+    #Do the full device section
+    echo "Section \"Device\"
   Identifier      \"Card${cardnum}\"
   Driver          \"${_driver}\"
   BusID           \"${busid}\"
   ${options}
 EndSection
 " >> ${file}
+  fi
 }
 
 #Now copy over the xorg.conf template
