@@ -84,7 +84,7 @@ sed -i '' "s|%%GHTAG%%|${ghtag}|g" ${portsdir}/${port}/Makefile
 
 # Create the makesums / distinfo file
 cd "${portsdir}/${port}"
-make makesum
+make makesum VALID_CATEGORIES=trident
 if [ $? -ne 0 ] ; then
   echo "Failed makesum"
   exit 1
