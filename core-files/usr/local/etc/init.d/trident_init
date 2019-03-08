@@ -27,8 +27,12 @@ load_modules_for_driver(){
 			kld_load="nvidia"
 		fi
 		;;
+	radeon)
+		kld_load="radeonkms"
+		;;
 	amdgpu)
 		kld_load="amdgpu"
+		;;
   esac
   #Now load any modules
   for _kmod in ${kld_load}
