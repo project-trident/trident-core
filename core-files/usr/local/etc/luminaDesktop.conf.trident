@@ -51,6 +51,7 @@ mime_default_application/x-xz-compressed-tar_ifexists=lumina-archiver.desktop
 mime_default_application/x-tar_ifexists=lumina-archiver.desktop
 
 #THEME SETTINGS
+theme_fluxbox=trident-dark #Name of the WM theme to use
 theme_themefile=DarkGlass #Name of the theme to use (disable for Lumina-Default)
 theme_styles=scrollbar-simple, tooltip-simple, sliders-simple, traynotification-simple
 theme_colorfile=trident-dark #Name of the color spec file to use for theming
@@ -60,7 +61,7 @@ theme_fontsize=10pt #Default size of the fonts to use on the desktop (can also u
 
 #DESKTOP SETTINGS (used for the primary screen in multi-screen setups)
 desktop_visiblepanels=2 #[0 - 12] The number of panels visible by default
-desktop_backgroundfiles=/usr/local/share/wallpapers/lumina-nature, /usr/local/share/wallpapers/trident/default.png #list of absolute file paths for image files (disable for Lumina default)
+desktop_backgroundfiles=/usr/local/share/wallpapers/trident/default.png #list of absolute file paths for image files (disable for Lumina default)
 desktop_backgroundrotateminutes=5 #[positive integer] number of minutes between background rotations (if multiple files)
 #desktop_plugins= #list of plugins to be shown on the desktop by default
 desktop_generate_icons=true #[true/false] Auto-generate launchers for ~/Desktop items
