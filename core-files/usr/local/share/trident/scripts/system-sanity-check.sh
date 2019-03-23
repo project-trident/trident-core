@@ -60,6 +60,9 @@ if [ ! -L "/etc/runlevels/default/dbus" ] ; then
   fi
 fi
 
+# Always update the default wallpaper symlink
+ln -s "/usr/local/share/wallpapers/trident/trident_blue_4K.png" "/usr/local/share/wallpapers/trident/default.png"
+
 #Ensure that the /sbin/service utility exists
 if [ ! -e "/sbin/service" ] ; then
   if [ -e "/usr/sbin/service" ] ; then
