@@ -15,6 +15,7 @@ RUN_DEPENDS=	${LOCALBASE}/sbin/PCDMd:x11/pcdm \
 		${LOCALBASE}/bin/pc-mixer:audio/pc-mixer \
 		${LOCALBASE}/bin/sysadm-client:sysutils/sysadm-client \
 		${LOCALBASE}/bin/xdg-open:devel/xdg-utils \
+		manifest>=0:os/manifest \
 		sysup>=0:sysutils/sysup \
 		cups-filters>=0:print/cups-filters \
 		lumina>=0:x11/lumina \

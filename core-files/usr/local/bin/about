@@ -2,23 +2,20 @@
 #Quick script to return basic information about the system
 
 #Project Trident Versioning
-manifest="/var/db/trueos-manifest.json"
+manifest="/var/db/current-manifest.json"
 echo "Project Trident Information"
 echo "--------------------------------------"
 echo "OS Version: "$(jq -r '."os_version"' ${manifest})
-base_pkg_prefix=$(jq -r '."base-packages"."name-prefix"' ${manifest})
-runtime_pkg_date=`pkg query %v ${base_pkg_prefix}-runtime | cut -d . -f 3-`
-echo "Build Date: ${runtime_pkg_date}"
+time_t=`pkg query %v manifest | cut -d . -f 3-`
+echo "Build Date: $(date -j -f %s ${time_t})"
+echo "Boot Type: $(sysctl -n machdep.bootmethod)"
 echo "--------------------------------------"
 echo "TrueOS Sources Used:"
-gh_org=$(jq -r '."base-github-org"' ${manifest})
-gh_repo=$(jq -r '."base-github-repo"' ${manifest})
-gh_tag=$(jq -r '."base-github-tag"' ${manifest})
-echo "  Base Repository: https://github.com/${gh_org}/${gh_repo}"
-echo "  Base Commit Branch or Tag: ${gh_tag}"
-gh_org=$(jq -r '."ports-github-org"' ${manifest})
-gh_repo=$(jq -r '."ports-github-repo"' ${manifest})
-gh_tag=$(jq -r '."ports-github-tag"' ${manifest})
+gh_org=$(jq -r '."ports"."github-org"' ${manifest})
+gh_repo=$(jq -r '."ports"."github-repo"' ${manifest})
+gh_tag=$(jq -r '."ports"."github-tag"' ${manifest})
+echo "  Base Repository: https://github.com/trueos/trueos"
+echo "  Base Commit Branch or Tag: trueos-stable-18.12-cleanbuild"
 echo "  Ports Repository: https://github.com/${gh_org}/${gh_repo}"
 echo "  Ports Commit Branch or Tag: ${gh_tag}"
 echo "--------------------------------------"
@@ -29,6 +26,9 @@ echo "  Physical CPUs: $(sysctl -n hw.ncpu)"
 phys_mem=$(sysctl -n hw.physmem)
 phys_mem=`bc -e scale=2 -e ${phys_mem}/1073741824 -e quit`
 echo "  Physical Memory: ${phys_mem} GB"
+#echo "--------------------------------------"
+#Now detect the current GPU Driver
+# To-Do : /etc/X11/xorg.conf : /usr/local/etc/X11/xorg.conf : /usr/local/etc/X11/xorg.fallback.conf
 echo "--------------------------------------"
 #Now get some GPU information
 echo "GPU Information:"
