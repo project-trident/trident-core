@@ -19,6 +19,9 @@ load_modules_for_driver(){
 		;;
 	vboxvideo)
 		kld_load="vboxguest"
+		#The vboxguest extensions conflict with moused (scroll wheel in particular)
+		# - turn off moused in this case
+		service moused stop 1>/dev/null 2>/dev/null
 		;;
 	nvidia)
 		if [ -f "/boot/modules/nvidia-modeset.ko" ] ; then
