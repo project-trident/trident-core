@@ -10,14 +10,24 @@ showusage(){
 }
 
 pkgNameFromLine(){
+  local _file_ver=$(echo "$1" | tr -dc ':' | wc -m | cut -w -f 2)
   #Note this sets the internal ${_pkg} variable
-  _pkg=`echo "$1" | cut -w -f 1`
+  if [ ${_file_ver} -eq 1 ] ; then
+    _pkg=`echo "$1" | cut -w -f 1`
+  elif [ ${_file_ver} -eq 2 ] ; then
+    _pkg=`echo "$1" | cut -w -f 3`
+  fi
   return 0
 }
 
 pkgVersionFromLine(){
+  local _file_ver=$(echo "$1" | tr -dc ':' | wc -m | cut -w -f 2)
   #Note this sets the internal ${_version} variable
-  _version=`echo "$1" | cut -w -f 3`
+  if [ ${_file_ver} -eq 1 ] ; then
+    _pkg=`echo "$1" | cut -w -f 3`
+  elif [ ${_file_ver} -eq 2 ] ; then
+    _pkg=`echo "$1" | cut -w -f 5`
+  fi
   return 0
 }
 
@@ -35,7 +45,7 @@ sameVersions(){
 findInFile(){
   #Inputs: 1: package name 2: file to search
   # It sets the "_line" variable as the output
-  _line=`grep "^${1} " "${2}" | head -1`
+  _line=`grep -e "\\b${1}\\b" "${2}" | head -1`
 }
 
 insertHeaderLine(){
