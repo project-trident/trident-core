@@ -4,7 +4,7 @@ PORTNAME=	trident-core
 PORTVERSION=	%%CHGVERSION%%
 CATEGORIES=	trident
 
-MAINTAINER=	jt@ixsystems.com
+MAINTAINER=	ken@project-trident.org
 COMMENT=	Core distribution files and utilities for Project Trident
 
 LICENSE=	BSD2CLAUSE
@@ -16,6 +16,7 @@ RUN_DEPENDS=	${LOCALBASE}/sbin/PCDMd:x11/pcdm \
 		${LOCALBASE}/bin/sysadm-client:sysutils/sysadm-client \
 		${LOCALBASE}/bin/xdg-open:devel/xdg-utils \
 		manifest>=0:os/manifest \
+		jq>=0:textproc/jq \
 		sysup>=0:sysutils/sysup \
 		cups-filters>=0:print/cups-filters \
 		lumina>=0:x11/lumina \
