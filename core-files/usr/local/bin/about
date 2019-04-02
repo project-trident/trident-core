@@ -26,9 +26,19 @@ echo "  Physical CPUs: $(sysctl -n hw.ncpu)"
 phys_mem=$(sysctl -n hw.physmem)
 phys_mem=`bc -e scale=2 -e ${phys_mem}/1073741824 -e quit`
 echo "  Physical Memory: ${phys_mem} GB"
-#echo "--------------------------------------"
 #Now detect the current GPU Driver
-# To-Do : /etc/X11/xorg.conf : /usr/local/etc/X11/xorg.conf : /usr/local/etc/X11/xorg.fallback.conf
+xconf=$(grep "Using config file:" /var/log/Xorg.$(echo ${DISPLAY} | cut -d : -f 2).log | cut -d \" -f 2)
+echo "--------------------------------------"
+echo "X11 Information:"
+if [ -n "xconf" ] ; then
+  echo "  X11 Configuration File: ${xconf}"
+  echo "  X11 Driver Running: $(grep Driver ${xconf} | cut -d \" -f 2)"
+else
+  xconf="/usr/local/etc/X11/xorg.conf"
+  echo "  X11 Auto-Configuration File: ${xconf}"
+  echo "  X11 Auto-Configuration Driver: $(grep Driver ${xconf} | cut -d \" -f 2)"
+fi
+
 echo "--------------------------------------"
 #Now get some GPU information
 echo "GPU Information:"
