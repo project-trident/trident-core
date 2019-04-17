@@ -118,10 +118,6 @@ setupLan(){
   done
 }
 
-removeDebugPackages(){
-  pkg delete -y -g "OS-*-debug-*" "OS-*-development-*" "OS-*-profile-*" 2>/dev/null
-}
-
 #figure out if this is a laptop, desktop, or VM (VMWare or VirtualBox only at the moment)
 pciconf -lv | grep -qiE "(vmware|innotek)"
 if [ $? -eq 0 ] ; then
@@ -155,9 +151,6 @@ setupZFSArc
 if [ "type" != "vm" ] ; then
   setupPowerd
 fi
-
-#Delete all the debugging/profiling base packages (if installed)
-removeDebugPackages
 
 if [ "${type}" = "laptop" ] ; then
   # Laptop system
