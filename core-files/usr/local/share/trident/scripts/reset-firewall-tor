@@ -1,56 +1,138 @@
 #!/bin/sh
+#
 # Script to setup IPFW to for TOR forwarding
 # Copyright (c) 2015 Kris Moore (iXsystems / PC-BSD)
 # License: BSD
 
-rules="/usr/local/etc/trident/ipfw.tor.rules"
-torrc="/usr/local/etc/trident/torrc"
+## System variables. DO NOT CHANGE
 
-if [ ! -e "$rules" ] ; then
-  echo "ERROR: Could not find firewall rules for TOR!!"
+RULES="/etc/ipfw-profiles/tor.rules"
+TORRC="/usr/local/etc/trident/torrc"
+LOGFILE="/var/log/trident-tor.log"
+
+## Set up our logging
+## Redirect Output to a logfile and screen
+exec 3>&1                         # create pipe (copy of stdout)
+exec 1>$LOGFILE                   # direct stdout to file
+#exec 2>&1                         # uncomment if you want stderr too
+
+
+
+## Only privileged user can run this.
+if [ ! `id -u` == "0" ]; then
+  echo "Permission Denied: You need to run this command as root or as a privileged user!"
   exit 1
-fi
-
-# Init the TOR database and such
-if [ -d /var/db/tor ]; then
-  rm -r /var/db/tor
-fi
-if [ -d /var/run/tor ]; then
-  rm -r /var/run/tor
-fi
-mkdir -p /var/db/tor/data /var/run/tor
-touch /var/log/tor
-chown -R _tor:_tor /var/db/tor /var/log/tor /var/run/tor
-chmod -R 700 /var/db/tor
-
-# Prevent sequential IP ids
-sysctl net.inet.ip.random_id=1
-if [ 1 -ne `sysctl -n net.inet.ip.random_id`] ; then
-  sysctl net.inet.ip.random_id=1
-  sysrc -q -f /etc/sysctl.conf net.inet.ip.random_id=1
-fi
-
-#Setup the config flacs for the respective services
-sysrc -f /etc/rc.conf firewall_script="${rules}"
-sysrc -f /etc/rc.conf firewall_coscripts="tor socat"
-sysrc -f /etc/rc.conf socat_flags="UDP4-RECVFROM:53,fork UDP4-SENDTO:localhost:9530"
-
-# Now setup DNS resolving
-if [ ! -e "/etc/resolv.conf.preTor" ] ; then
-  touch /etc/resolv.conf
-  cp /etc/resolv.conf /etc/resolv.conf.preTor
-fi
-echo "nameserver 127.0.0.1" > /etc/resolv.conf
-
-# Massage the dhclient.conf
-if [ -e "/etc/dhclient.conf" ] ; then
-  if [ ! -e "/etc/dhclient.conf.preTor" ] ; then
-    cp /etc/dhclient.conf /etc/dhclient.conf.preTor
+else
+  ## Some sanity checks.
+  ## Check if the ipfw rules file is present. If not, exit.
+  if [ ! -e "$RULES" ] ; then
+    echo "ERROR: Could not find TOR IPFW firewall rules ($RULES)!!"
+    exit 1
   fi
-  cat /etc/dhclient.conf | grep -v "supersede domain-name-servers" > /etc/dhclient.conf.new
-  mv /etc/dhclient.conf.new /etc/dhclient.conf
-fi
-echo "supersede domain-name-servers 127.0.0.1;" >> /etc/dhclient.conf
 
-# Now lets restart the firewall
-service ipfw restart
+  ## Check if TOR configuration file exists. If not, exit.
+  if [ ! -e "$TORRC" ] ; then
+    echo "ERROR: Could not find TOR configuration file ($TORRC)!!"
+    exit 1
+  fi
+
+  ## If we haven't run enable-tor-more before, init necessary directories
+  if [ ! -e /tmp/.trident-tor.done ]; then
+  
+    ## Initiate TOR Database, logfile and other needed directories
+    # Init the TOR database
+    if [ -d /var/db/tor ]; then
+      rm -r /var/db/tor
+    fi
+    
+    # Init TOR run directory
+    if [ -d /var/run/tor ]; then
+      rm -r /var/run/tor
+    fi
+    
+    # Init TOR log directory
+    if [ -d /var/log/tor ]; then
+      rm -r /var/log/tor
+    fi
+    
+    # Init Trident-TOR log file
+    if [ ! -e "/var/log/trident-tor.log" ]; then
+      touch /var/log/trident-tor.log
+    fi
+
+    # Create the directories and set necessary permissions
+    mkdir -p /var/db/tor/data /var/run/tor /var/log/tor
+    chown -R _tor:_tor /var/db/tor /var/log/tor /var/run/tor
+    chmod -R 700 /var/db/tor
+    
+    # Set flag for init directories
+    touch /tmp/.trident-tor.done
+    chown -R _tor:_tor /tmp/.trident-tor.done
+    chmod -R 400 /tmp/.trident-tor.done
+  fi
+  
+  ## Prevent sequential IP ids
+  if [ `sysctl -n net.inet.ip.random_id` == "0" ]; then
+    sysctl net.inet.ip.random_id=1
+    # Make it persistent between reboots. CAUTION: This is not a safe method to edit the sysctl.conf file
+    # If you make any changes to your sysctl.conf file after this command, they will be lost when you 
+    # run disable-tor-more. Find a better way to add this to sysctl.conf
+    cp /etc/sysctl.conf /etc/sysctl.conf.preTor
+  fi
+  echo "## Inserted by enable-tor-mode. DO NOT REMOVE" >> /etc/sysctl.conf
+  echo "net.inet.ip.random_id=1" >> /etc/sysctl.conf
+
+  ## Now setup DNS resolving
+  if [ ! -e "/etc/resolv.conf.preTor" ]; then
+    touch /etc/resolv.conf
+    cp /etc/resolv.conf /etc/resolv.conf.preTor
+  fi
+  echo "nameserver 127.0.0.1" > /etc/resolv.conf
+
+  ## Massage the dhclient.conf
+  if [ -e "/etc/dhclient.conf" ]; then
+    if [ ! -e "/etc/dhclient.conf.preTor" ]; then
+      cp /etc/dhclient.conf /etc/dhclient.conf.preTor
+    fi
+    cat /etc/dhclient.conf | grep -v "supersede domain-name-servers" > /etc/dhclient.conf.new
+    mv /etc/dhclient.conf.new /etc/dhclient.conf
+  fi
+  echo "supersede domain-name-servers 127.0.0.1;" >> /etc/dhclient.conf
+  
+  ## Setup the config flacs for the respective services
+  sysrc -f /etc/rc.conf firewall_script="${RULES}"
+  #sysrc -f /etc/rc.conf firewall_coscripts="/etc/ipfw-profiles/tor.rules"
+  sysrc -f /etc/rc.conf socat_flags="UDP4-RECVFROM:53,fork UDP4-SENDTO:localhost:9530"
+  sysrc -f /etc/rc.conf tor_conf="${TORRC}"
+  sysrc -f /etc/rc.conf tor_pidfile="/var/run/tor/tor.pid"
+  sysrc -f /etc/rc.conf tor_datadir="/var/db/tor"
+
+  ## Let's restart the firewall
+  service ipfw restart
+  service ipfw status
+  if [ $? -eq 3 ]; then
+    echo "IPFW Failed to restart. Rolling back..."
+    /usr/local/bin/disable-tor-mode
+    exit 1
+  fi
+  
+  ## Let's start socat
+  service socat start
+  service socat status
+  if [ $? -eq 3 ]; then
+    echo "socat Failed to restart. Rolling back..."
+    /usr/local/bin/disable-tor-mode
+    exit 1
+  fi
+  
+  ## Let's start tor with the trident-tor config file
+  service tor start
+  service tor status
+   if [ $? -eq 3 ]; then
+    echo "TOR Failed to restart. Rolling back..."
+    /usr/local/bin/disable-tor-mode
+    exit 1
+  fi
+ 
+  exit 0
+fi

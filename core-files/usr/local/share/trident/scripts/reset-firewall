@@ -2,29 +2,68 @@
 # Copyright (c) 2015 Kris Moore (iXsystems / PC-BSD)
 # License: BSD
 
-#Turn off the special config options for the firewall and socat
-sysrc -f /etc/rc.conf -x firewall_script
-sysrc -f /etc/rc.conf -x firewall_coscripts
-sysrc -f /etc/rc.conf -x socat_flags
+## System variables. DO NOT CHANGE
+LOGFILE="/var/log/trident-tor.log"
 
-# If reverting from TOR mode, lets do some cleanup
-if [ -e "/etc/resolv.conf.preTor" ]; then
-  mv /etc/resolv.conf.preTor /etc/resolv.conf
+## Set up our logging
+## Redirect Output to a logfile and screen
+exec 3>&1                         # create pipe (copy of stdout)
+exec 1>$LOGFILE                   # direct stdout to file
+#exec 2>&1                         # uncomment if you want stderr too
 
-  # Stop TOR / SOCAT services
-  service tor stop
-  service socat stop
-
-  # Cleanup rc.conf
-  sysrc -f /etc/rc.conf -x tor_enable
-  sysrc -f /etc/rc.conf -x socat_enable
+## Only privileged user can run this.
+if [ ! `id -u` == "0" ]; then
+  echo "Permission Denied: You need to run this command as root or as a privileged user!"
+  exit 1
+else
+  ## Stop Tor service
+  service tor status
+  if [ $? -eq 3 ]; then
+    echo " "
+    echo "Service Tor has already been stopped or did not start"
+  else
+    service tor stop
+  fi
+  
+  ## Stop socat service
+  service socat status
+  if [ $? -eq 3 ]; then
+    echo " "
+    echo "Service socat has already been stopped or did not start"
+  else
+    service socat stop
+  fi
+  
+  ## Turn off the special config options for the firewall and socat
+  sysrc -f /etc/rc.conf -x firewall_script
+  #sysrc -f /etc/rc.conf -x firewall_coscripts
   sysrc -f /etc/rc.conf -x socat_flags
-fi
+  sysrc -f /etc/rc.conf -x tor_conf
+  sysrc -f /etc/rc.conf -x tor_pidfile
+  sysrc -f /etc/rc.conf -x tor_datadir
+  
+  ## Return dhclient.conf settings to what it was before
+  if [ -e "/etc/dhclient.conf.preTor" ]; then
+    mv /etc/dhclient.conf.preTor /etc/dhclient.conf
+  fi
 
-# If reverting from TOR mode, put back the dhclient config
-if [ -e "/etc/dhclient.conf.preTor" ]; then
-  mv /etc/dhclient.conf.preTor /etc/dhclient.conf
+  ## Return DNS settings to what it was before
+  if [ -e "/etc/resolv.conf.preTor" ]; then
+    mv /etc/resolv.conf.preTor /etc/resolv.conf
+  fi
+  
+  ## Return sysctl.conf file to what it was before.
+  if [ `sysctl -n net.inet.ip.random_id` == "1" ]; then
+    sysctl net.inet.ip.random_id=0
+    sed -i ".postTor" -e "/## Inserted by enable-tor-mode. DO NOT REMOVE/d" -e "/net.inet.ip.random_id=1/d" /etc/sysctl.conf
+    if [ ! $? -eq 0 ]; then
+      echo "Failed to remove Tor sysctl.conf setting. Edit this file manually and remove the entries '##Inserted by enable-tor-mode. DO NOT REMOVE' and 'net.inet.ip.random_id=1'."
+    fi
+    rm -f /etc/sysctl.conf.preTor /etc/sysctl.conf.postTor
+  fi
+  
+  ## Let's restart the firewall
+  service ipfw restart
+  
+  exit 0
 fi
-
-# Start IPFW now
-service ipfw restart
