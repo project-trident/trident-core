@@ -16,6 +16,7 @@ RUN_DEPENDS=	${LOCALBASE}/sbin/PCDMd:x11/pcdm \
 		${LOCALBASE}/bin/sysadm-client:sysutils/sysadm-client \
 		${LOCALBASE}/bin/xdg-open:devel/xdg-utils \
 		manifest>=0:os/manifest \
+		ca_root_nss>=0:security/ca_root_nss \
 		jq>=0:textproc/jq \
 		sysup>=0:sysutils/sysup \
 		cups-filters>=0:print/cups-filters \
