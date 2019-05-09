@@ -14,8 +14,9 @@ echo "TrueOS Sources Used:"
 gh_org=$(jq -r '."ports"."github-org"' ${manifest})
 gh_repo=$(jq -r '."ports"."github-repo"' ${manifest})
 gh_tag=$(jq -r '."ports"."github-tag"' ${manifest})
+base_gh_tag=$(jq -r '."base-packages"."trueos-branch"' ${manifest})
 echo "  Base Repository: https://github.com/trueos/trueos"
-echo "  Base Commit Branch or Tag: trueos-stable-18.12-cleanbuild"
+echo "  Base Commit Branch or Tag: ${base_gh_tag}"
 echo "  Ports Repository: https://github.com/${gh_org}/${gh_repo}"
 echo "  Ports Commit Branch or Tag: ${gh_tag}"
 echo "--------------------------------------"
@@ -27,16 +28,21 @@ phys_mem=$(sysctl -n hw.physmem)
 phys_mem=`bc -e scale=2 -e ${phys_mem}/1073741824 -e quit`
 echo "  Physical Memory: ${phys_mem} GB"
 #Now detect the current GPU Driver
-xconf=$(grep "Using config file:" /var/log/Xorg.$(echo ${DISPLAY} | cut -d : -f 2).log | cut -d \" -f 2)
 echo "--------------------------------------"
-echo "X11 Information:"
-if [ -n "xconf" ] ; then
-  echo "  X11 Configuration File: ${xconf}"
-  echo "  X11 Driver Running: $(grep Driver ${xconf} | cut -d \" -f 2)"
+xdisp=$(echo ${DISPLAY} | cut -c 2)
+if [ -n "${xdisp}" ] ; then
+  xconf=$(grep "Using config file:" /var/log/Xorg.${xdisp}.log | cut -d \" -f 2)
+  echo "X11 Information:"
+  if [ -n "${xconf}" ] ; then
+    echo "  X11 Configuration File: ${xconf}"
+    echo "  X11 Driver Running: $(grep Driver ${xconf} | cut -d \" -f 2)"
+  else
+    xconf="/usr/local/etc/X11/xorg.conf"
+    echo "  X11 Auto-Configuration File: ${xconf}"
+    echo "  X11 Auto-Configuration Driver: $(grep Driver ${xconf} | cut -d \" -f 2)"
+  fi
 else
-  xconf="/usr/local/etc/X11/xorg.conf"
-  echo "  X11 Auto-Configuration File: ${xconf}"
-  echo "  X11 Auto-Configuration Driver: $(grep Driver ${xconf} | cut -d \" -f 2)"
+  echo "Can't determine X Configuration, DISPLAY not set"
 fi
 
 echo "--------------------------------------"
