@@ -17,3 +17,5 @@ add:ntpd:default
 add:ntpdate:default
 add:microcode_update:default
 delete:cupsd-browsed:default
+delete:savecore:boot
+delete:dumpon:boot
