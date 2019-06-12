@@ -27,6 +27,7 @@ fi
 forcefile=${1:-/usr/local/etc/trueos/required-services}
 recfile=${2:-/usr/local/etc/trueos/recommended-services}
 recfileold=`grep -vxe '^#.*' ${recfile}.prev 2> /dev/null`
+use_openrc=`test -e /sbin/rc-update`
 
 #echo "Checking files: ${forcefile} ${recfile}"
 
@@ -47,15 +48,23 @@ parse_input(){
 
 service_exists(){
   #Uses the pre-set ${_service} variable
-  test -x /etc/init.d/${_service} -o -x /usr/local/etc/init.d/${_service}
+  if use_openrc ; then
+    test -x /etc/init.d/${_service} -o -x /usr/local/etc/init.d/${_service}
+  else
+    test -x /etc/rc.d/${_service} -o -x /usr/local/etc/rc.d/${_service}
+  fi
   return $?
 }
 
 is_enabled(){
   #uses the pre-set ${_service} variable
-  tmp=`rc-update | grep -w "${_service}"`
-  #echo "Service is enabled: ${_service} : ${tmp}"
-  test -n "${tmp}"
+  if use_openrc ; then
+    tmp=`rc-update | grep -w "${_service}"`
+    test -n "${tmp}"
+    #echo "Service is enabled: ${_service} : ${tmp}"
+  else
+    test "$(sysrc -n ${_service}_enable)" == "YES"
+  fi
   return $?
 }
 
@@ -105,8 +114,15 @@ if [ -e "${forcefile}" ] ; then
     if ! parse_input ${i} ; then continue; fi
     if ! service_exists ; then continue ; fi
     if state_same ; then continue ; fi
-
-    rc-update ${_act} ${_service} ${_runlevel} >/dev/null 2>/dev/null
+    if use_openrc ; then
+      rc-update ${_act} ${_service} ${_runlevel} >/dev/null 2>/dev/null
+    else
+      if [ "${_act}" == "add" ] ; then
+        sysrc "${_service}_enable=YES" >/dev/null 2>/dev/null
+      else
+        sysrc -x "${_service}_enable" >/dev/null 2>/dev/null
+      fi
+    fi
   done
 fi
 
