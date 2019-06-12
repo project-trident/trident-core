@@ -1,0 +1,102 @@
+#!/bin/sh
+#
+# $FreeBSD$
+#
+
+# PROVIDE: trident-init
+# REQUIRE: FILESYSTEMS kld
+# BEFORE: pcdm
+# KEYWORD: nojail shutdown
+
+./etc/rc.subr
+
+name="trident_init"
+desc="System validation service for Project Trident"
+rcvar="trident_init_enable"
+
+start_precmd=tri_start_pre
+start_cmd=tri_start
+
+load_modules_for_driver(){
+  driver=$1
+  case ${driver} in
+	modesetting)
+		kld_load="/boot/modules/i915kms.ko"
+		;;
+	intel)
+		kld_load="/boot/kernel/i915kms.ko"
+		;;
+	vboxvideo)
+		kld_load="vboxguest"
+		#The vboxguest extensions conflict with moused (scroll wheel in particular)
+		# - turn off moused in this case
+		service moused stop 1>/dev/null 2>/dev/null
+		;;
+	nvidia)
+		if [ -f "/boot/modules/nvidia-modeset.ko" ] ; then
+			kld_load="nvidia-modeset nvidia"
+		else
+			kld_load="nvidia"
+		fi
+		;;
+	radeon)
+		kld_load="radeonkms"
+		;;
+	amdgpu)
+		kld_load="amdgpu"
+		;;
+  esac
+  #Now load any modules
+  for _kmod in ${kld_load}
+  do
+	kldload -nq ${_kmod}
+  done
+}
+
+tri_start_pre(){
+  if [ -e "/usr/local/etc/trident/.firstboot" ] ; then
+    /usr/local/share/trident/scripts/sys-init.sh
+    rm "/usr/local/etc/trident/.firstboot"
+  fi
+  #Perform the general system sanity check
+  /usr/local/share/trident/scripts/system-sanity-check.sh
+  #Create a generic fallback xorg.conf using vesa/scfb drivers only
+  /usr/local/share/trident/scripts/generate-xorg-conf.sh "fallback" "/usr/local/etc/X11/xorg.fallback.conf"
+  #Change between PRERELASE and 18.12-RELEASE:
+  # Remove the /etc/X11/xorg.conf file if it was the old auto-generated one
+  # That location needs to be left available for user-overrides later
+  local oldconf="/etc/X11/xorg.conf"
+  if [ -e "${oldconf}" ] ; then
+    #Verify this is the old auto-generated file (look for the old comment in the header)
+    grep -q -E '^#  /usr/local/etc/X11/xorg.conf$' "${oldconf}"
+    if [ $? -eq 0 ] ; then
+      rm "${oldconf}"
+    fi
+  fi
+  return 0
+}
+
+tri_start(){
+  # Verify that an xorg.conf exists, and generate one as needed
+  xorg_conf="/usr/local/etc/X11/xorg.conf" #This is used as the default/fallback config
+  #Use the "auto" flag to automatically detect/set the proper driver for each GPU
+  /usr/local/share/trident/scripts/generate-xorg-conf.sh "auto" "${xorg_conf}"
+  #Automatically probe/update the available fonts for Xorg
+  /usr/local/share/trident/scripts/update-xorg-fonts.sh
+  # Check for extra kernel modules to load for video driver support
+  xorg_confs="/etc/X11/xorg.conf /usr/local/etc/X11/xorg.conf"
+  for conf in ${xorg_confs}
+  do
+    if [ ! -e "${conf}" ] ; then continue ; fi
+    driver=`cat "${conf}" | grep "Driver" | cut -d \" -f 2`
+    #Just in case multiple GPU devices/drivers are listed
+    for _drv in ${driver}
+    do
+      load_modules_for_driver ${_drv}
+    done
+    break #only one config can be used
+  done
+}
+
+load_rc_config $name
+run_rc_command "$1"
