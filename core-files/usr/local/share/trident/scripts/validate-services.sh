@@ -27,7 +27,8 @@ fi
 forcefile=${1:-/usr/local/etc/trueos/required-services}
 recfile=${2:-/usr/local/etc/trueos/recommended-services}
 recfileold=`grep -vxe '^#.*' ${recfile}.prev 2> /dev/null`
-use_openrc=`test -e /sbin/rc-update`
+test -e /sbin/rc-update
+use_openrc=$?
 
 #echo "Checking files: ${forcefile} ${recfile}"
 

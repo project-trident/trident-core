@@ -5,6 +5,15 @@
 ## System variables. DO NOT CHANGE
 LOGFILE="/var/log/trident-tor.log"
 
+test -e /sbin/rc-update
+use_openrc=$?
+
+if use_openrc ; then
+  fw_service="ipfw"
+else
+  fw_service="firewall"
+fi
+
 ## Set up our logging
 ## Redirect Output to a logfile and screen
 exec 3>&1                         # create pipe (copy of stdout)
@@ -55,15 +64,11 @@ else
   ## Return sysctl.conf file to what it was before.
   if [ `sysctl -n net.inet.ip.random_id` == "1" ]; then
     sysctl net.inet.ip.random_id=0
-    sed -i ".postTor" -e "/## Inserted by enable-tor-mode. DO NOT REMOVE/d" -e "/net.inet.ip.random_id=1/d" /etc/sysctl.conf
-    if [ ! $? -eq 0 ]; then
-      echo "Failed to remove Tor sysctl.conf setting. Edit this file manually and remove the entries '##Inserted by enable-tor-mode. DO NOT REMOVE' and 'net.inet.ip.random_id=1'."
-    fi
-    rm -f /etc/sysctl.conf.preTor /etc/sysctl.conf.postTor
   fi
+  rm /etc/sysctl.d/tor-mode.conf
   
   ## Let's restart the firewall
-  service ipfw restart
+  service "${fw_service}" restart
   
   exit 0
 fi

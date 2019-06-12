@@ -10,6 +10,15 @@ RULES="/etc/ipfw-profiles/tor.rules"
 TORRC="/usr/local/etc/trident/torrc"
 LOGFILE="/var/log/trident-tor.log"
 
+test -e /sbin/rc-update
+use_openrc=$?
+
+if use_openrc ; then
+  fw_service="ipfw"
+else
+  fw_service="firewall"
+fi
+
 ## Set up our logging
 ## Redirect Output to a logfile and screen
 exec 3>&1                         # create pipe (copy of stdout)
@@ -74,13 +83,9 @@ else
   ## Prevent sequential IP ids
   if [ `sysctl -n net.inet.ip.random_id` == "0" ]; then
     sysctl net.inet.ip.random_id=1
-    # Make it persistent between reboots. CAUTION: This is not a safe method to edit the sysctl.conf file
-    # If you make any changes to your sysctl.conf file after this command, they will be lost when you 
-    # run disable-tor-more. Find a better way to add this to sysctl.conf
-    cp /etc/sysctl.conf /etc/sysctl.conf.preTor
   fi
-  echo "## Inserted by enable-tor-mode. DO NOT REMOVE" >> /etc/sysctl.conf
-  echo "net.inet.ip.random_id=1" >> /etc/sysctl.conf
+  echo "## Inserted by enable-tor-mode. DO NOT REMOVE" >> /etc/sysctl.d/tor-mode.conf
+  echo "net.inet.ip.random_id=1" >> /etc/sysctl.d/tor-mode.conf
 
   ## Now setup DNS resolving
   if [ ! -e "/etc/resolv.conf.preTor" ]; then
@@ -108,8 +113,8 @@ else
   sysrc -f /etc/rc.conf tor_datadir="/var/db/tor"
 
   ## Let's restart the firewall
-  service ipfw restart
-  service ipfw status
+  service ${fw_service} restart
+  service ${fw_service} status
   if [ $? -eq 3 ]; then
     echo "IPFW Failed to restart. Rolling back..."
     /usr/local/bin/disable-tor-mode

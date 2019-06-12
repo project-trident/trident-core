@@ -1,6 +1,8 @@
 #!/bin/sh
 # Script which does some configuration of the system for laptops/desktops
 
+test -e /sbin/rc-update
+use_openrc=$?
 
 setupZFSArc(){
   # Tune ZFS ARC 
@@ -28,17 +30,28 @@ setupZFSArc(){
 }
 
 setupPowerd(){
-  rc-update | grep -q powerd
+  if use_openrc ; then
+    rc-update | grep -q powerd
+  else
+    grep -q -E 'powerd(xx)?_enable="YES"'
+  fi
   if [ $? -eq 0 ] ; then
     #one of the powerd[++] service is already setup
     return
   fi
   p_service="powerd"
-  if [ -e "/usr/local/etc/init.d/powerd++" ] ; then
-    #The alternative powerd++ service is installed - use that instead
-    p_service="powerd++"
+  if use_openrc ; then
+    if [ -e "/usr/local/etc/init.d/powerd++" ] ; then
+      #The alternative powerd++ service is installed - use that instead
+      p_service="powerd++"
+    fi
+    rc-update add ${p_service} default
+  else
+    if [ -e "/usr/local/etc/rc.d/powerdxx" ] ; then
+      p_service="powerdxx"
+    fi
+    sysrc "${p_service}_enable=YES"
   fi
-  rc-update add ${p_service} default
 }
 
 setupXProfile(){
@@ -96,7 +109,7 @@ setupWlan(){
       WLAN="wlan${WLANCOUNT}"
       # Save the wlan interface
       echo "wlans_${wnic}=\"${WLAN}\"" >> /etc/rc.conf
-      echo "ifconfig_${WLAN}=\"WPA SYNCDHCP\"" >> /etc/rc.conf
+      echo "ifconfig_${WLAN}=\"WPA DHCP\"" >> /etc/rc.conf
       echo "ifconfig_${WLAN}_ipv6=\"inet6 accept_rtadv\"" >> /etc/rc.conf
     fi
   done
@@ -112,7 +125,7 @@ setupLan(){
     sysrc -ci "ifconfig_${nic}"
     if [ $? -ne 0 ] ; then
       # New ethernet device
-      sysrc "ifconfig_${nic}=SYNCDHCP"
+      sysrc "ifconfig_${nic}=DHCP"
       sysrc "ifconfig_${nic}_ipv6=inet6 accept_rtadv"
     fi
   done
@@ -171,8 +184,8 @@ setupXProfile
 
 #TrueOS 18.06-18.08 Bug Bypass (8/23/18 - Ken Moore)
 # - replace "DHCP" with "SYNCDHCP" in the default-installed /etc/rc.conf
-sed -i '' 's|"DHCP|"SYNCDHCP|g' /etc/rc.conf
-sed -i '' 's| DHCP"| SYNCDHCP"|g' /etc/rc.conf
+#sed -i '' 's|"DHCP|"SYNCDHCP|g' /etc/rc.conf
+#sed -i '' 's| DHCP"| SYNCDHCP"|g' /etc/rc.conf
 
 #Now ensure the system services are all setup properly
 /usr/local/share/trident/scripts/validate-services.sh /usr/local/etc/trident/required-services /usr/local/etc/trident/recommended-services
