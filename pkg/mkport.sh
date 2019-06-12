@@ -49,6 +49,8 @@ portsdir="${1}"
 if [ -z "$portsdir" -o "${portsdir}" = "/" ] ; then
   portsdir="/usr/ports"
 fi
+#Set the specific env variable to use the custom ports dir location
+PORTSDIR=${portsdir}
 
 if [ -z "$2" ] ; then
   distdir="${portsdir}/distfiles"
