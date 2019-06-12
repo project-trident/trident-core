@@ -14,8 +14,9 @@ echo "TrueOS Sources Used:"
 gh_org=$(jq -r '."ports"."github-org"' ${manifest})
 gh_repo=$(jq -r '."ports"."github-repo"' ${manifest})
 gh_tag=$(jq -r '."ports"."github-tag"' ${manifest})
-base_gh_tag=$(jq -r '."base-packages"."trueos-branch"' ${manifest})
-echo "  Base Repository: https://github.com/trueos/trueos"
+base_gh_tag=$(jq -r '."base-packages"."branch"' ${manifest})
+base_gh_repo=$(jq -r '."base-packages"."repo"' ${manifest})
+echo "  Base Repository: ${base_gh_repo}"
 echo "  Base Commit Branch or Tag: ${base_gh_tag}"
 echo "  Ports Repository: https://github.com/${gh_org}/${gh_repo}"
 echo "  Ports Commit Branch or Tag: ${gh_tag}"
