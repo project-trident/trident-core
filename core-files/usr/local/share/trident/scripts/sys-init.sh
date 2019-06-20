@@ -30,7 +30,7 @@ setupZFSArc(){
 }
 
 setupPowerd(){
-  if use_openrc ; then
+  if [ ${use_openrc} -eq 0 ] ; then
     rc-update | grep -q powerd
   else
     grep -q -E 'powerd(xx)?_enable="YES"'
@@ -40,7 +40,7 @@ setupPowerd(){
     return
   fi
   p_service="powerd"
-  if use_openrc ; then
+  if [ ${use_openrc} -eq 0 ] ; then
     if [ -e "/usr/local/etc/init.d/powerd++" ] ; then
       #The alternative powerd++ service is installed - use that instead
       p_service="powerd++"

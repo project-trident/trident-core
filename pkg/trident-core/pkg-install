@@ -14,6 +14,11 @@ echo $PREFIX | grep -q '/stage/'
 if [ $? -eq 0 ] ; then
    exit 0
 fi
+#Now make sure we account for alternate root dir for installation
+if [ -z "${PKG_ROOTDIR}" ] ; then
+	PKG_ROOTDIR=/
+fi
+PREFIX=${PKG_ROOTDIR}${PREFIX}
 
 replace_if_default(){
   #INPUTS: 1: File to replace

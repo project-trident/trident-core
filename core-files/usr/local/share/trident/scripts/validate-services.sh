@@ -49,7 +49,7 @@ parse_input(){
 
 service_exists(){
   #Uses the pre-set ${_service} variable
-  if use_openrc ; then
+  if [ ${use_openrc} -eq 0 ] ; then
     test -x /etc/init.d/${_service} -o -x /usr/local/etc/init.d/${_service}
   else
     test -x /etc/rc.d/${_service} -o -x /usr/local/etc/rc.d/${_service}
@@ -59,7 +59,7 @@ service_exists(){
 
 is_enabled(){
   #uses the pre-set ${_service} variable
-  if use_openrc ; then
+  if [ ${use_openrc} -eq 0 ] ; then
     tmp=`rc-update | grep -w "${_service}"`
     test -n "${tmp}"
     #echo "Service is enabled: ${_service} : ${tmp}"
@@ -115,7 +115,7 @@ if [ -e "${forcefile}" ] ; then
     if ! parse_input ${i} ; then continue; fi
     if ! service_exists ; then continue ; fi
     if state_same ; then continue ; fi
-    if use_openrc ; then
+    if [ ${use_openrc} -eq 0 ] ; then
       rc-update ${_act} ${_service} ${_runlevel} >/dev/null 2>/dev/null
     else
       if [ "${_act}" == "add" ] ; then

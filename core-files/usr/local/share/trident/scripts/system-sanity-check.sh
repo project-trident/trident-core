@@ -35,7 +35,7 @@ fi
 #fi
 
 #Ensure that the openrc devd configs are loaded from ports as well
-if use_openrc ; then
+if [ ${use_openrc} -eq 0 ]  ; then
   grep -q "/usr/local/etc/devd-openrc" "/etc/devd.conf"
   if [ $? -ne 0 ] ; then
     sed -i '' 's|directory "/usr/local/etc/devd";|directory "/usr/local/etc/devd";\
@@ -72,4 +72,9 @@ if [ ! -e "/sbin/service" ] ; then
   else
     echo "[WARNING] Could not find the service utility!"
   fi
+fi
+
+#Make the symlink from /dev/cd0 to /dev/cdrom if needed (many apps use cdrom by default)
+if [ -e "/dev/cd0" ] && [ ! -e "/dev/cdrom" ] ; then
+  ln -s /dev/cd0 /dev/cdrom
 fi
