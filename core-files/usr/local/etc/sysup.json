@@ -1,6 +1,4 @@
 {
-  "bootstrap" : true,
-  "bootstrapfatal" : false,
   "trainspubkey" : "/usr/share/keys/pkg/trident-trains.pub",
   "trainsurl" : "https://pkg.project-trident.org/trains/trident-trains.json"
 }
