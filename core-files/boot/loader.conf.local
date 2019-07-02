@@ -8,6 +8,16 @@ loader_brand="trident-color"
 loader_logo="trident-color"
 loader_menu_title="Project Trident"
 loader_color="YES"
+# Ensure that OpenRC is always enabled
+rc_system="openrc"
+# Quiet Boot Options (need all of these at the same time)
+# Note that the bitmap loading options DO NOT WORK
+#   But if we combine the bmp options with the boot_mute flag 
+#   we can disable the hard-coded "FreeBSD" splash screen
+#boot_mute="YES"
+#splash_bmp_load="YES"
+#bitmap_load="YES"
+#bitmap_name="/boot/splash.bmp"
 # Enable Synaptics for touchpads	
 hw.psm.synaptics_support="1"
 # Enable Elantech touchpad support		
