@@ -78,3 +78,9 @@ fi
 if [ -e "/dev/cd0" ] && [ ! -e "/dev/cdrom" ] ; then
   ln -s /dev/cd0 /dev/cdrom
 fi
+
+#Ensure that the autofs device automount line is present in /etc/auto_master
+grep -qE "(-automount)" "/etc/auto_master"
+if [ $? -ne 0 ] ; then
+  echo "/.autofs         -automount      -nosuid,noatime" >> "/etc/auto_master"
+fi
