@@ -26,7 +26,7 @@ RUN_DEPENDS=	${LOCALBASE}/sbin/PCDMd:x11/pcdm \
 		xorg-minimal>=0:x11/xorg-minimal \
 		cuse4bsd-kmod>=0:multimedia/cuse4bsd-kmod \
 		webcamd>=0:multimedia/webcamd \
-		drm-kmod>=0:graphics/drm-kmod \
+		${NONEXISTENT}:graphics/drm-kmod \
 		xf86-video-scfb>=0:x11-drivers/xf86-video-scfb \
 		xdg-user-dirs>=0:devel/xdg-user-dirs \
 		trident-icons>=0:trident/trident-icons \
