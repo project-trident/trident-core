@@ -28,6 +28,3 @@ Defaults env_keep += "XMODIFIERS GTK_IM_MODULE QT_IM_MODULE QT_IM_SWITCHER"
 # Allow passwordless access to run life preserver (wheel group only)
 %wheel ALL = NOPASSWD: /usr/local/bin/life-preserver
 
-# Allow passwordless access to run trueos-update (wheel/operator groups only)
-%wheel ALL = NOPASSWD: /usr/sbin/trueos-update
-%operator ALL = NOPASSWD: /usr/sbin/trueos-update
