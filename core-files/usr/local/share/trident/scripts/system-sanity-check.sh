@@ -84,3 +84,8 @@ grep -qE "(-automount)" "/etc/auto_master"
 if [ $? -ne 0 ] ; then
   echo "/.autofs         -automount      -nosuid,noatime" >> "/etc/auto_master"
 fi
+
+# Ensure that the "ld" binary is symlinked to ld.lld as needed
+if [ ! -e "/usr/bin/ld" ] && [ -e "/usr/bin/ld.lld" ] ; then
+  ln -s "/usr/bin/ld.lld" "/usr/bin/ld"
+fi
