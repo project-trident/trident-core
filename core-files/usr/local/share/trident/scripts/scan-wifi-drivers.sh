@@ -14,7 +14,7 @@ do
       if [ "${curdev}" != "$(sysctl -n net.wlan.devices)" ] ; then
         # New devices found - add it to loader.conf
         echo "Found new wifi devices with module: ${modname}"
-        echo '${modname}_load="YES"' >> /boot/loader.conf
+        echo "${modname}_load=\"YES\"" >> /boot/loader.conf
       fi
       kldunload -q "${modname}"
     fi
