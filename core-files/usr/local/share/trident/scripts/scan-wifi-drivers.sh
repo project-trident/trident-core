@@ -11,7 +11,7 @@ do
     #Module not currently loaded, test it
     kldload -nq "${modname}"
     if [ $? -eq 0 ] ; then
-      if [ "${curdev}" != "$()" ] ; then
+      if [ "${curdev}" != "$(sysctl -n net.wlan.devices)" ] ; then
         # New devices found - add it to loader.conf
         echo "Found new wifi devices with module: ${modname}"
         echo '${modname}_load="YES"' >> /boot/loader.conf
