@@ -16,7 +16,7 @@ do
         echo "Found new wifi devices with module: ${modname}"
         echo "${modname}_load=\"YES\"" >> /boot/loader.conf
       fi
-      kldunload -q "${modname}"
+      kldunload "${modname}"
     fi
   fi
 done
