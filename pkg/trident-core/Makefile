@@ -22,7 +22,6 @@ RUN_DEPENDS=	${LOCALBASE}/sbin/PCDMd:x11/pcdm \
 		cups-filters>=0:print/cups-filters \
 		lumina>=0:x11/lumina \
 		foomatic-db>=0:print/foomatic-db \
-		fluxbox-tenr-styles-pack>=0:x11-themes/fluxbox-tenr-styles-pack \
 		xorg-minimal>=0:x11/xorg-minimal \
 		cuse4bsd-kmod>=0:multimedia/cuse4bsd-kmod \
 		webcamd>=0:multimedia/webcamd \
