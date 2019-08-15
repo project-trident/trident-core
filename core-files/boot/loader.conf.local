@@ -3,6 +3,8 @@
 # Changes to this file will be lost during updates
 # **Place changes in /boot/loader.conf**
 #========================
+# Ensure file loading order
+loader_conf_files="/boot/loader.conf"
 # Project Trident Branding
 loader_brand="trident-color"
 loader_logo="trident-color"
