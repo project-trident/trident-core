@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Name=User dbus session
+Exec=dbus-launch --exit-with-x11
+TryExec=dbus-launch
+OnlyShowIn=Lumina;
