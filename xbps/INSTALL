@@ -1,6 +1,5 @@
 # INSTALL
 case "$ACTION" in
-pre)
 
 post)
   # Ensure the firewall config file exists
@@ -9,7 +8,7 @@ post)
   fi
 
   # Enable required services
-  local svlist_enable="nftables dcron ntpd dbus bluetooth autofs"
+  local svlist_enable="nftables dcron dbus bluetooth autofs"
   # Disable services that are security vulnerabilities
   local svlist_disable="pulseaudio"
 
@@ -23,11 +22,12 @@ post)
   for svc in ${svlist_disable}
   do
     if [ -e "/var/service/${svc}" ] ; then
-      echo "Disabling service [vulnerability]: ${svc}"
+      echo "Disabling service: ${svc}"
       sv stop ${svc}
       rm "/var/service/${svc}"
     fi
   done
   ;;
+
 esac
 }
