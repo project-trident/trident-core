@@ -1,0 +1,33 @@
+# INSTALL
+case "$ACTION" in
+pre)
+
+post)
+  # Ensure the firewall config file exists
+  if [ ! -e "/etc/nftables.conf" ] ; then
+    ln -s "/etc/firewall-conf/open-out.conf" "/etc/nftables.conf"
+  fi
+
+  # Enable required services
+  local svlist_enable="nftables dcron ntpd dbus bluetooth autofs"
+  # Disable services that are security vulnerabilities
+  local svlist_disable="pulseaudio"
+
+  for svc in ${svlist_enable}
+  do
+    if [ ! -e "/var/service/${svc}" ] && [ -e "/etc/sv/${svc}" ] ; then
+      echo "Enabling service: ${svc}"
+      ln -s "/etc/sv/${svc}"
+    fi
+  done
+  for svc in ${svlist_disable}
+  do
+    if [ -e "/var/service/${svc}" ] ; then
+      echo "Disabling service [vulnerability]: ${svc}"
+      sv stop ${svc}
+      rm "/var/service/${svc}"
+    fi
+  done
+  ;;
+esac
+}
