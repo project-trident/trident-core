@@ -1,12 +1,12 @@
-pkgname=trident-icons
-version=2019.10.12
+pkgname=trident-core
+version=8c780f8e8497d37151c9139f46bd24d3c6883709
 revision=1
 short_desc="Project Trident system setup: modifies system services"
 maintainer="Ken Moore <ken@project-trident.org>"
 license="BSD-3-Clause"
 homepage="https://github.com/project-trident/trident-core"
-distfiles="https://github.com/project-trident/trident-core/archive/v${version}.tar.gz"
-checksum="34a5a3fb9e2ead18c0a9532516b2551c9280378904e812a0481fa4305b39785e"
+distfiles="https://github.com/project-trident/trident-core/tarball/${version}"
+checksum="e9e2e60c3ff96190b37634ddbf5322ec96937c7b1d8aff021b12601911404d5c"
 
 depends="qt5-svg pulseaudio alsa-lib bluez bluez-qt5 nftables openntpd dcron dbus xorg-minimal autofs"
 
