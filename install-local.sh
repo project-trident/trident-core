@@ -28,6 +28,6 @@ echo "Copying Files to: ${install_dir}"
 for files in ${install_files}
 do
   echo " - Copy Package Files: ${files}"
-  cp -R "${files}-files/" "${install_dir}/."
+  cp -R ${files}-files/* "${install_dir}/."
 done
 echo "Done"

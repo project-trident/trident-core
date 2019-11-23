@@ -8,9 +8,9 @@ post)
   fi
 
   # Enable required services
-  local svlist_enable="nftables dcron dbus bluetooth autofs"
+  svlist_enable="nftables dcron dbus bluetooth autofs"
   # Disable services that are security vulnerabilities
-  local svlist_disable="pulseaudio"
+  svlist_disable="pulseaudio"
 
   for svc in ${svlist_enable}
   do
