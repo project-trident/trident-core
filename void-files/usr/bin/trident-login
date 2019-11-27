@@ -1,0 +1,56 @@
+#!/bin/bash
+# =================
+# Simple way to bootstrap and perform a startup procedures for a graphical session
+# NOTE: This is to be performed *after* dropping to user permissions previously
+# INPUTS
+#   $@ : command to start the desktop
+#   Default value: "start-lumina-desktop"
+# ----------------------
+# Created by Ken Moore for Project Trident
+# http://project-trident.org
+# =================
+
+RunScripts(){
+  # $1 : "LOGIN" or "LOGOUT"
+  local scriptdir="/etc/trident-login.d"
+  export STATUS="${1}"
+  for X in `ls "${scriptdir}"`
+  do
+    ${scriptdir}/${X}
+  done
+  unset STATUS
+}
+
+StartDesktop(){
+  local _cmd=""
+  if [ -e "${1}" ] ; then
+    //Direct executable specified, just run it
+    cmd="${@}"
+  else
+    case "${1}" in
+      lumina)
+        cmd="start-lumina-desktop"
+        ;
+      *)
+        echo "[trident-login] Unknown Desktop: ${1}, using Lumina"
+        cmd="start-lumina-desktop"
+        ;
+    esac
+  fi
+  ${cmd}
+  return $?
+}
+
+# First check for an encrypted ZFS homedir
+
+# Now run the login scripts
+RunScripts LOGIN
+# Startup the desktop
+StartDesktop $@
+retcode=$?
+# Run the logout scripts
+RunScripts LOGOUT
+
+# And see if the ZFS homedir needs to be re-locked again
+
+exit ${retcode}
