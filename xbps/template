@@ -1,15 +1,18 @@
+# Template file for 'trident-core'
 pkgname=trident-core
 version=8c780f8e8497d37151c9139f46bd24d3c6883709
 revision=1
+archs=noarch
 short_desc="Project Trident system setup: modifies system services"
 maintainer="Ken Moore <ken@project-trident.org>"
-license="BSD-3-Clause"
+license="BSD-2-Clause"
 homepage="https://github.com/project-trident/trident-core"
 distfiles="https://github.com/project-trident/trident-core/tarball/${version}"
 checksum="e9e2e60c3ff96190b37634ddbf5322ec96937c7b1d8aff021b12601911404d5c"
 
 depends="qt5-svg pulseaudio alsa-lib bluez bluez-qt5 nftables openntpd dcron dbus xorg-minimal autofs"
 
-do_install(){
-  ./install-local.sh "${DESTDIR}" void
+do_install() {
+	./install-local.sh "${DESTDIR}" void
+	vlicense LICENSE
 }

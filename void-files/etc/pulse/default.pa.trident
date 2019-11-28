@@ -35,7 +35,7 @@ load-module module-switch-on-port-available
 ### Load audio drivers statically
 ### (it's probably better to not load these drivers manually, but instead
 ### use module-udev-detect -- see below -- for doing this automatically)
-load-module module-alsa-sink
+#load-module module-alsa-sink
 load-module module-alsa-source
 #load-module module-null-sink
 #load-module module-pipe-sink
