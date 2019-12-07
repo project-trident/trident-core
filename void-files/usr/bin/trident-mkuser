@@ -1,0 +1,112 @@
+#!/bin/bash
+########
+# Simple script to create a user's home directory as a ZFS dataset with user ownership of it
+########
+if [ ! -x "/usr/bin/zpool" ] || [ ! -x "/usr/bin/zfs" ] ; then
+  #Could not find ZFS utilities - cannot run script
+  exit 1
+fi
+
+findZpool(){
+  #This sets the "_zpool" variable, and verifies the input "zpool" variable
+  if [ -n "${_zpool}" ] ; then
+    #Got an input zpool - see if this one is valid
+    if [ 0 -eq `zpool list | grep -q -E "^${_zpool} "` ] ; then
+      #Good pool name - go ahead and use it
+      return
+    fi
+  fi
+  _zpool=`zfs list | grep -E ".* ${homedir}\$" | cut -d / -f 1`
+  if [ -z "${_zpool}" ] ; then
+    #Could not find parent dataset, just grab the first zpool instead (in case a UFS root filesystem?)
+    _zpool=`zpool list -H | grep ONLINE | cut -f 1`
+  fi
+}
+
+createUser(){
+  #Create the dataset    
+  if [ "${user_crypt}" == "true" ] ; then
+    #Ensure minimum passphrase length is met (8 characters)
+    if [ ${#userpass} < 8 ] ; then
+      echo "[ERROR] Passphrase for ${user} must be 8+ characters when encryption is enabled"
+      return 1
+    fi
+    tmpfile=$(mktemp /tmp/.XXXXXX)
+    echo "${userpass}" > "${tmpfile}"
+    zfs create -o "mountpoint=${homedir}/${user}" -o "setuid=off" -o "compression=on" -o "atime=off" -o "encryption=on" -o "keyformat=passphrase" -o "keylocation=file://${tmpfile}" -o "canmount=noauto" "${_zpool}${homedir}/${user}"
+    if [ $? -eq 0 ] ; then
+      zfs mount "${_zpool}${homedir}/${user}"
+      zfs set "keylocation=prompt" "${_zpool}${homedir}/${user}"
+    fi
+    rm "${tmpfile}"
+  else
+    zfs create -o "mountpoint=${homedir}/${user}" -o "setuid=off" -o "compression=on" -o "atime=off" -o "canmount=on" "${_zpool}${homedir}/${user}"
+  fi
+  if [ $? -ne 0 ] ; then
+    return 1
+  fi
+  # Create the user
+  useradd -M -s "${usershell}" -d "${homedir}/${user}" -c"${usercomment}" -G "wheel,users,audio,video,input,cdrom,bluetooth" "${user}"
+  if [ $? -ne 0 ] ; then
+    return 1
+  fi
+  echo "${user}:${userpass}" |  chpasswd -c SHA512
+  # Setup ownership of the dataset
+  chown "${user}:${user}" "${homedir}/${user}"
+  # Allow the user to create/destroy child datasets and snapshots on their home dir
+  if [ "${user_crypt}" == "true" ] ; then
+    zfs allow "${user}" load-key,change-key,mount,create,destroy,rollback,snapshot "${_zpool}${homedir}/${user}"
+    zfs unmount "${_zpool}${homedir}/${user}"
+  else
+    zfs allow "${user}" mount,create,destroy,rollback,snapshot "${_zpool}${homedir}/${user}"
+  fi
+  if [ $? -ne 0 ] ; then
+    return 1
+  fi
+}
+
+#Check inputs
+userfile=$1
+_zpool=$2
+homedir="/home"
+
+if [ -z "$1" ] || [ ! -e "${userfile}" ] ; then
+  echo "Usage: $0 <users.json file> [zpool=autodetect]] "
+  echo ' users.json format:
+This file is an array of JSON objects, with one user account per object. This file will get deleted as soon as the script finishes.
+
+Example:
+[
+ { "name" : "username", "comment" : "Visible Name", "shell" : "/bin/bash", "password" : "mypassword" }
+]
+
+'
+  exit 1
+fi
+
+#Now verify/find the current zpool
+findZpool
+if [ -z "${_zpool}" ] ; then
+  # Could not find a valid zpool to create the dataset on
+  exit 1
+fi
+
+numusers=`jq -r '. | length' ${userfile}`
+num=0
+while [ ${num} -lt ${numusers} ]
+do
+  user=`jq -r '.['${num}'].name' "${userfile}"`
+  usercomment=`jq -r '.['${num}'].comment' "${userfile}"`
+  usershell=`jq -r '.['${num}'].shell' "${userfile}"`
+  userpass=`jq -r '.['${num}'].password' "${userfile}"`
+  user_crypt=`jq -r '.['${num}'].encrypt' "${userfile}"`  
+  createUser
+  if [ $? -eq 0 ] ; then
+    echo "User Created: ${user}"
+  else
+    echo "User Not Created: ${user}"
+  fi
+  num=`expr ${num} + 1`
+done
+
+#rm "${userfile}" #remove temporary file
