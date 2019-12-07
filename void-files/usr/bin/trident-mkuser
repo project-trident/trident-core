@@ -110,4 +110,4 @@ do
   num=`expr ${num} + 1`
 done
 
-#rm "${userfile}" #remove temporary file
+rm "${userfile}" #remove temporary file
