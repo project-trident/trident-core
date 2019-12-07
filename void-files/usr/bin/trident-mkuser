@@ -33,7 +33,7 @@ createUser(){
     fi
     tmpfile=$(mktemp /tmp/.XXXXXX)
     echo "${userpass}" > "${tmpfile}"
-    zfs create -o "mountpoint=${homedir}/${user}" -o "setuid=off" -o "compression=on" -o "atime=off" -o "encryption=on" -o "keyformat=passphrase" -o "keylocation=file://${tmpfile}" -o "canmount=noauto" "${_zpool}${homedir}/${user}"
+    zfs create -o "mountpoint=${homedir}/${user}" -o "io.github.benkerry:zfscrypt_user=${user}" -o "setuid=off" -o "compression=on" -o "atime=off" -o "encryption=on" -o "keyformat=passphrase" -o "keylocation=file://${tmpfile}" -o "canmount=noauto" "${_zpool}${homedir}/${user}"
     if [ $? -eq 0 ] ; then
       zfs mount "${_zpool}${homedir}/${user}"
       zfs set "keylocation=prompt" "${_zpool}${homedir}/${user}"
@@ -74,10 +74,11 @@ if [ -z "$1" ] || [ ! -e "${userfile}" ] ; then
   echo "Usage: $0 <users.json file> [zpool=autodetect]] "
   echo ' users.json format:
 This file is an array of JSON objects, with one user account per object. This file will get deleted as soon as the script finishes.
+Note that if an encrypted homedir is selected, the password must be at least 8 characters long.
 
 Example:
 [
- { "name" : "username", "comment" : "Visible Name", "shell" : "/bin/bash", "password" : "mypassword" }
+ { "name" : "username", "comment" : "Visible Name", "shell" : "/bin/bash", "password" : "mypassword", "encrypt" : true }
 ]
 
 '
