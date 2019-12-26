@@ -14,6 +14,12 @@ post)
     # copy the overlay over. Will replace local modifications
     cp "${conf}.trident" "${conf}"
   done
+  # Ensure the pam_zfscript.so module is used
+  grep -q "pam_zfscrypt.so" "/etc/pam.d/passwd"
+  if [ $? -ne 0 ] ; then
+    echo "password	optional	pam_zfscrypt.so" >> /etc/pam.d/passwd
+  fi
+
   # Enable required services
   svlist_enable="nftables dcron dbus bluetooth autofs cupsd"
   # Disable services that are security vulnerabilities or break things
