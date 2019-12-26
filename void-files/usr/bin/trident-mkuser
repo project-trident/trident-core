@@ -25,7 +25,9 @@ findZpool(){
 
 createUser(){
   #Create the dataset    
-  if [ "${user_crypt}" == "true" ] ; then
+  if [ "${user_crypt}" == "true" ] && [ -e "/usr/bin/generate-zbm" ] ; then
+    # NOTE: encrypted homedirs cannot be used when booting with GRUB
+    #  GRUB refuses to recognize ZFS boot pools if *any* datasets are encrypted.
     #Ensure minimum passphrase length is met (8 characters)
     if [ ${#userpass} -lt 8 ] ; then
       echo "[ERROR] Passphrase for ${user} must be 8+ characters when encryption is enabled"
