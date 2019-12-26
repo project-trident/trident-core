@@ -27,7 +27,7 @@ createUser(){
   #Create the dataset    
   if [ "${user_crypt}" == "true" ] ; then
     #Ensure minimum passphrase length is met (8 characters)
-    if [ ${#userpass} .lt 8 ] ; then
+    if [ ${#userpass} -lt 8 ] ; then
       echo "[ERROR] Passphrase for ${user} must be 8+ characters when encryption is enabled"
       return 1
     fi
