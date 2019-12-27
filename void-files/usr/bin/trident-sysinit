@@ -22,7 +22,7 @@ fi
 grep -q "pam_zfscrypt.so" "/etc/pam.d/system-auth"
 if [ $? -ne 0 ] ; then
   echo "auth  optional  pam_zfscrypt.so" >> /etc/pam.d/system-auth
-  echo "session  optional  pam_zfscrypt.so" >> /etc/pam.d/system-auth
+  echo "session  optional  pam_zfscrypt.so  runtime_dir=/tmp/zfscrypt" >> /etc/pam.d/system-auth
 fi
 
 # Enable autofs
