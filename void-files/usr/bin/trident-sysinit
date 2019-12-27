@@ -42,7 +42,7 @@ for svc in ${svlist_enable}
 do
   if [ ! -e "/var/service/${svc}" ] && [ -e "/etc/sv/${svc}" ] ; then
     echo "Enabling service: ${svc}"
-    ln -s "/etc/sv/${svc}"
+    ln -s "/etc/sv/${svc}" "/var/service/${svc}"
   fi
 done
 for svc in ${svlist_disable}
