@@ -2,54 +2,7 @@
 case "$ACTION" in
 
 post)
-  # Ensure the firewall config file exists
-  if [ ! -e "/etc/nftables.conf" ] ; then
-    ln -s "/etc/firewall-conf/open-out.conf" "/etc/nftables.conf"
-  fi
-  # Handle config overlays (*.trident)
-  conflist="/etc/pulse/default.pa"
-  for conf in ${conflist}
-  do
-    if [ ! -e "${conf}.trident" ] ; then continue ; fi
-    # copy the overlay over. Will replace local modifications
-    cp "${conf}.trident" "${conf}"
-  done
-  # Ensure the pam_zfscript.so module is used
-  grep -q "pam_zfscrypt.so" "/etc/pam.d/passwd"
-  if [ $? -ne 0 ] ; then
-    echo "password  optional  pam_zfscrypt.so" >> /etc/pam.d/passwd
-  fi
-  grep -q "pam_zfscrypt.so" "/etc/pam.d/system-auth"
-  if [ $? -ne 0 ] ; then
-    echo "auth  optional  pam_zfscrypt.so" >> /etc/pam.d/system-auth
-    echo "session  optional  pam_zfscrypt.so  runtime_dir=/tmp/zfscrypt" >> /etc/pam.d/system-auth
-  fi
-  # Enable autofs
-  grep -q "/media " /etc/autofs/auto.master
-  if [ $? -ne 0 ] ; then
-    echo "/media     /etc/autofs/auto.media  --timeout=10" >> /etc/autofs/auto.master
-  fi
-  touch /etc/autofs/auto.media
-  # Enable required services
-  svlist_enable="nftables dcron dbus bluetooth autofs cupsd"
-  # Disable services that are security vulnerabilities or break things
-  svlist_disable="pulseaudio alsa"
-
-  for svc in ${svlist_enable}
-  do
-    if [ ! -e "/var/service/${svc}" ] && [ -e "/etc/sv/${svc}" ] ; then
-      echo "Enabling service: ${svc}"
-      ln -s "/etc/sv/${svc}"
-    fi
-  done
-  for svc in ${svlist_disable}
-  do
-    if [ -e "/var/service/${svc}" ] ; then
-      echo "Disabling service: ${svc}"
-      sv stop ${svc}
-      rm "/var/service/${svc}"
-    fi
-  done
+  trident-sysinit
   ;;
 
 esac
