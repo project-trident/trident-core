@@ -16,10 +16,6 @@ if [ $? -ne 0 ] ; then
   echo "session  optional  pam_zfscrypt.so  runtime_dir=/tmp/zfscrypt" >> /etc/pam.d/system-auth
 fi
 
-# Enable autofs (ensure conf files exist)
-mkdir -p /etc/autofs
-touch "/etc/autofs/auto.media"
-
 # Enable required services
 svlist_enable="nftables dcron dbus bluetoothd autofs"
 # Disable services that are security vulnerabilities or break things
