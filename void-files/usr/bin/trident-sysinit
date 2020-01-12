@@ -16,12 +16,8 @@ if [ $? -ne 0 ] ; then
   echo "session  optional  pam_zfscrypt.so  runtime_dir=/tmp/zfscrypt" >> /etc/pam.d/system-auth
 fi
 
-# Enable autofs
+# Enable autofs (ensure conf files exist)
 mkdir -p /etc/autofs
-grep -q "/media " /etc/autofs/auto.master
-if [ $? -ne 0 ] ; then
-  echo "/media     /etc/autofs/auto.media  --timeout=10" >> "/etc/autofs/auto.master"
-fi
 touch "/etc/autofs/auto.media"
 
 # Enable required services
