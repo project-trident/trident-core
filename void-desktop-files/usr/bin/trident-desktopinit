@@ -1,0 +1,31 @@
+#!/bin/bash
+
+# Handle config overlays (*.trident)
+conflist="/etc/pulse/default.pa"
+for conf in ${conflist}
+do
+  if [ ! -e "${conf}.trident" ] ; then continue ; fi
+  # copy the overlay over. Will replace local modifications
+  cp "${conf}.trident" "${conf}"
+done
+
+# Enable required services
+svlist_enable="cupsd"
+# Disable services that are security vulnerabilities or break things
+svlist_disable="pulseaudio alsa"
+
+for svc in ${svlist_enable}
+do
+  if [ ! -e "/var/service/${svc}" ] && [ -e "/etc/sv/${svc}" ] ; then
+    echo "Enabling service: ${svc}"
+    ln -s "/etc/sv/${svc}" "/var/service/${svc}"
+  fi
+done
+for svc in ${svlist_disable}
+do
+  if [ -e "/var/service/${svc}" ] ; then
+    echo "Disabling service: ${svc}"
+    sv stop ${svc}
+    rm "/var/service/${svc}"
+  fi
+done

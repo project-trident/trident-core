@@ -5,15 +5,6 @@ if [ ! -e "/etc/nftables.conf" ] ; then
   ln -s "/etc/firewall-conf/open-out.conf" "/etc/nftables.conf"
 fi
 
-# Handle config overlays (*.trident)
-conflist="/etc/pulse/default.pa"
-for conf in ${conflist}
-do
-  if [ ! -e "${conf}.trident" ] ; then continue ; fi
-  # copy the overlay over. Will replace local modifications
-  cp "${conf}.trident" "${conf}"
-done
-
 # Ensure the pam_zfscript.so module is used
 grep -q "pam_zfscrypt.so" "/etc/pam.d/passwd"
 if [ $? -ne 0 ] ; then
@@ -34,9 +25,9 @@ fi
 touch "/etc/autofs/auto.media"
 
 # Enable required services
-svlist_enable="nftables dcron dbus bluetoothd autofs cupsd"
+svlist_enable="nftables dcron dbus bluetoothd autofs"
 # Disable services that are security vulnerabilities or break things
-svlist_disable="pulseaudio alsa"
+svlist_disable=""
 
 for svc in ${svlist_enable}
 do
