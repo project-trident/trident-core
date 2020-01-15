@@ -16,6 +16,14 @@ Session=/usr/share/xsessions/Lumina-DE.desktop
 " > "/var/lib/sddm/state.conf"
 fi
 
+#Ensure the pulseaudio config dirs are readable by anyone
+# otherwise user-started pulse cannot read configs
+for dir in /etc/pulse/client.conf.d /etc/pulse/daemon.conf.d
+do
+  chmod 755 "${dir}"
+  chmod 644 "${dir}/trident.conf"
+done
+
 # Enable required services
 svlist_enable=" cupsd sddm"
 # Disable services that are security vulnerabilities or break things

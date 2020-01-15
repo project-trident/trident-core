@@ -1,0 +1,29 @@
+# Project Trident csh.cshrc
+
+# General Void Linux routine
+if ( -r /etc/csh.env ) then
+    source /etc/csh.env
+endif
+
+set -f path = ( $path /usr/local/sbin /usr/local/bin /usr/bin /usr/sbin /sbin /bin )
+
+# Additional settings from Project Trident
+if ($?prompt) then
+  set prompt = '%{\033]0;%n@%m:%~\007%}[%B%n@%m%b] %~%B%#%b '
+## some environment variables ##
+  setenv EDITOR /usr/bin/nano
+  setenv CLICOLOR true
+## Setup the arrows keys to search history first ##
+  bindkey -k up history-search-backward
+  bindkey -k down history-search-forward
+## Ensure colors when listing contents
+  alias ls ls --color
+## General history and update options
+  set history = 1000
+  set savehist = (1000 merge)
+  set autolist = ambiguous
+  set autoexpand
+  set autorehash
+  set filec
+
+endif

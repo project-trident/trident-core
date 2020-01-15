@@ -1,5 +1,14 @@
 #!/bin/bash
 
+# Handle config overlays (*.trident)
+conflist="/etc/csh.cshrc"
+for conf in ${conflist}
+do
+  if [ ! -e "${conf}.trident" ] ; then continue ; fi
+  # copy the overlay over. Will replace local modifications
+  cp "${conf}.trident" "${conf}"
+done
+
 # Ensure the firewall config file exists
 if [ ! -e "/etc/nftables.conf" ] ; then
   ln -s "/etc/firewall-conf/open-out.conf" "/etc/nftables.conf"
