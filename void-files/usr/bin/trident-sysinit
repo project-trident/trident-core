@@ -8,6 +8,7 @@ fi
 # Ensure the pam_zfscript.so module is used
 grep -q "pam_zfscrypt.so" "/etc/pam.d/passwd"
 if [ $? -ne 0 ] ; then
+  echo "Enabling zfscrypt support in PAM"
   echo "password  optional  pam_zfscrypt.so" >> /etc/pam.d/passwd
 fi
 grep -q "pam_zfscrypt.so" "/etc/pam.d/system-auth"
@@ -16,8 +17,21 @@ if [ $? -ne 0 ] ; then
   echo "session  optional  pam_zfscrypt.so  runtime_dir=/tmp/zfscrypt" >> /etc/pam.d/system-auth
 fi
 
+# Ensure the bluetooth config file replaces the default Void file (which has nothing enabled)
+if [ -e "/etc/bluetooth/main.conf.trident" ] && [ -f "/etc/bluetooth/main.conf" ] ; then
+  grep -qE '^(ReconnectAttempts=)' "/etc/bluetooth/main.conf"
+  if [ $? -ne 0 ] ; then
+    echo "Replacing bluetooth config with Trident defaults"
+    mv /etc/bluetooth/main.conf /etc/bluetooth/main.conf.orig
+    ln -s /etc/bluetooth/main.conf.trident /etc/bluetooth/main.conf
+  fi
+elif [ -e "/etc/bluetooth/main.conf.trident" ] && [ ! -e "/etc/bluetooth/main.conf" ] ; then
+  echo "Enabling Trident bluetooth config"
+  ln -s /etc/bluetooth/main.conf.trident /etc/bluetooth/main.conf
+fi
+
 # Enable required services
-svlist_enable="nftables dcron dbus bluetoothd autofs"
+svlist_enable="nftables dcron dbus bluetoothd bluez-alsa autofs"
 # Disable services that are security vulnerabilities or break things
 svlist_disable=""
 
