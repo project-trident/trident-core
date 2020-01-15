@@ -1,8 +1,0 @@
-# INSTALL
-case "$ACTION" in
-
-post)
-  trident-sysinit
-  ;;
-
-esac

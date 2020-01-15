@@ -10,7 +10,7 @@ homepage="https://github.com/project-trident/trident-core"
 distfiles="https://github.com/project-trident/trident-core/tarball/${version}"
 checksum="e9e2e60c3ff96190b37634ddbf5322ec96937c7b1d8aff021b12601911404d5c"
 
-depends="qt5-svg pulseaudio alsa-lib bluez bluez-qt5 nftables openntpd dcron dbus xorg-minimal autofs"
+depends="bluez bluez-alsa nftables openntpd dcron dbus autofs"
 
 do_install() {
 	./install-local.sh "${DESTDIR}" void
