@@ -6,7 +6,11 @@ _checklog="/tmp/trident-update-check.log"
 _uplog="/tmp/trident-update.log"
 
 showUsage(){
-
+  echo "Usage:
+  trident-update <-update | -check>
+  -update: Perform updates after making a snapshot of the current system boot environment
+  -check: Check for available updates
+"
 }
 
 mkSnapshot(){
