@@ -16,15 +16,12 @@ Session=/usr/share/xsessions/Lumina-DE.desktop
 " > "/var/lib/sddm/state.conf"
 fi
 
-#Ensure the pulseaudio config dirs are readable by anyone
-# otherwise user-started pulse cannot read configs
-for dir in /etc/pulse/client.conf.d /etc/pulse/daemon.conf.d
+#Ensure various dirs are readable by users
+for dir in /etc/pulse/client.conf.d /etc/pulse/daemon.conf.d /usr/share/wallpapers
 do
   chmod +044 -R "${dir}"
 done
 
-#Ensure the wallpaper directories (and files) are readable by anyone
-chmod +044 -R /usr/share/wallpapers
 # Enable required services
 svlist_enable="cupsd sddm"
 # Disable services that are security vulnerabilities or break things
