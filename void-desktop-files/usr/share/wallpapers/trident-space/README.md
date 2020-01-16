@@ -1,5 +1,6 @@
 # Attribution 
-All of the wallpapers here were obtained from Pexels.com on January 15th, 2020 by Project Trident for use as the default wallpapers options.
+All of the wallpapers here were obtained from Pexels.com for use as the default wallpapers options by Project Trident.
+Project Trident does not claim ownership of any of these wallpapers.
 
 # Licenses
 
@@ -26,39 +27,47 @@ Link to official Creative Commons license: https://creativecommons.org/publicdom
 * Giving credit to the photographer or Pexels is not required but appreciated.
 * You can edit and adapt the photos as you like.
 
+
 # List of pictures
 
 ## person-beside-bare-tree-at-night-3262249.jpg
 * Author: Photo by Johannes Plenio from Pexels
 * Link: https://www.pexels.com/photo/person-beside-bare-tree-at-night-3262249.jpg
 * License: Pexels
+* Download date: January 15, 2020
 
 ## photo-of-aurora-during-evening-1938348.jpg
 * Author: Photo by Tobias Bjørkli from Pexels
 * Link: https://www.pexels.com/photo/photo-of-aurora-during-evening-1938348.jpg
 * License: Pexels
+* Download date: January 15, 2020
 
 ## scenic-view-of-field-during-dawn-1595850.jpg
 * Author: Photo by Bruno Glätsch from Pexels
 * Link: https://www.pexels.com/photo/scenic-view-of-field-during-dawn-1595850/
 * License: Pexels
+* Download date: January 15, 2020
 
 ## black-and-white-mountains-under-blue-sky-3472764.jpg
 * Author: Photo by stein egil liland from Pexels
 * Link: https://www.pexels.com/photo/black-and-white-mountains-under-blue-sky-3472764/
 * License: Pexels
+* Download date: January 15, 2020
 
 ## photo-of-rocky-mountains-under-night-sky-1819662.jpg
 * Author: Photo by Tobias Bjørkli from Pexels
 * Link: https://www.pexels.com/photo/photo-of-rocky-mountains-under-night-sky-1819662/
 * License: Pexels
+* Download date: January 15, 2020
 
 ## lighted-city-at-night-2313070.jpg
 * Author: Photo by Frank Cone from Pexels
 * Link: https://www.pexels.com/photo/lighted-city-at-night-2313070/
 * License: Pexels
+* Download date: January 15, 2020
 
 ## photo-of-sky-during-sunset-1937687.jpg
 * Author: Photo by Felipe Helfstein from Pexels
 * Link: https://www.pexels.com/photo/photo-of-sky-during-sunset-1937687/
 * License: Pexels
+* Download date: January 15, 2020
