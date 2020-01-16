@@ -1,0 +1,56 @@
+#!/bin/bash
+# Script to automate the installation of system updates with appropriate safeguards from ZFS boot environments
+
+#temporary log files and state flags
+_checklog="/tmp/trident-update-check.log"
+_uplog="/tmp/trident-update.log"
+
+showUsage(){
+
+}
+
+mkSnapshot(){
+  BE=$(mount | grep " on / type zfs" | cut -d ' ' -f 1)
+  if [ -z "${BE}" ] ; then return ; fi
+  local _dt=$(date "+%F-%H-%M")
+  echo "Creating snapshot of current boot environment"
+  zfs snapshot "${BE}@pre-update-${_dt}"
+}
+
+checkUpdates(){
+  # Update repository catalogs
+  xbps-install -S
+  # Scan for updates
+  local cnum=0
+  xbps-install -un
+  # Format the info
+
+}
+
+doUpdates(){
+  # Create ZFS snapshot of the current system pre-update
+  mkSnapshot
+  # Update repository catalogs
+  xbps-install -S
+  # Start doing updates
+  xbps-install -uy
+}
+
+# Check for permissions first
+if [ $(id -u) -ne 0 ] ; then
+  echo "ERROR: This script needs to run as root"
+  exit 1
+fi
+
+# Evaluate arguments
+case "${1}" in
+ -update)
+	doUpdates
+	;;
+  -check)
+	checkUpdates
+	;;
+default)
+	showUsage
+	;;
+esac
