@@ -32,13 +32,13 @@ Link to official Creative Commons license: https://creativecommons.org/publicdom
 
 ## person-beside-bare-tree-at-night-3262249.jpg
 * Author: Photo by Johannes Plenio from Pexels
-* Link: https://www.pexels.com/photo/person-beside-bare-tree-at-night-3262249.jpg
+* Link: https://www.pexels.com/photo/person-beside-bare-tree-at-night-3262249/
 * License: Pexels
 * Download date: January 15, 2020
 
 ## photo-of-aurora-during-evening-1938348.jpg
 * Author: Photo by Tobias Bjørkli from Pexels
-* Link: https://www.pexels.com/photo/photo-of-aurora-during-evening-1938348.jpg
+* Link: https://www.pexels.com/photo/photo-of-aurora-during-evening-1938348/
 * License: Pexels
 * Download date: January 15, 2020
 
