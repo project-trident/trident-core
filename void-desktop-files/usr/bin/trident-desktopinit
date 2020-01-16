@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Handle config overlays (*.trident)
-conflist="/etc/pulse/default.pa"
+conflist="/etc/pulse/default.pa /etc/luminaDesktop.conf"
 for conf in ${conflist}
 do
   if [ ! -e "${conf}.trident" ] ; then continue ; fi
@@ -25,7 +25,7 @@ do
 done
 
 # Enable required services
-svlist_enable=" cupsd sddm"
+svlist_enable="cupsd sddm"
 # Disable services that are security vulnerabilities or break things
 svlist_disable="pulseaudio alsa"
 
