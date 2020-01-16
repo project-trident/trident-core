@@ -20,10 +20,11 @@ fi
 # otherwise user-started pulse cannot read configs
 for dir in /etc/pulse/client.conf.d /etc/pulse/daemon.conf.d
 do
-  chmod 755 "${dir}"
-  chmod 644 "${dir}/trident.conf"
+  chmod +044 -R "${dir}"
 done
 
+#Ensure the wallpaper directories (and files) are readable by anyone
+chmod +044 -R /usr/share/wallpapers
 # Enable required services
 svlist_enable="cupsd sddm"
 # Disable services that are security vulnerabilities or break things
