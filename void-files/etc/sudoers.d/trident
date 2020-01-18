@@ -14,10 +14,7 @@ Defaults env_keep += "XDG_SESSION_COOKIE XDG_CURRENT_DESKTOP"
 Defaults env_keep += "XMODIFIERS GTK_IM_MODULE QT_IM_MODULE QT_IM_SWITCHER"
 
 # Allow passwordless access to the system poweroff/shutdown/sleep for desktop users
-%video ALL=(ALL) /usr/bin/poweroff
-%video ALL=(ALL) /usr/bin/reboot
-%video ALL=(ALL) /usr/bin/zzz
-
-# Allow passwordless access to the network manager utilities (operator group)
-
+%video ALL=(ALL) NOPASSWD: /usr/bin/poweroff
+%video ALL=(ALL) NOPASSWD: /usr/bin/reboot
+%video ALL=(ALL) NOPASSWD: /usr/bin/zzz
 
