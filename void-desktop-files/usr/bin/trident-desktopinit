@@ -16,12 +16,6 @@ Session=/usr/share/xsessions/Lumina-DE.desktop
 " > "/var/lib/sddm/state.conf"
 fi
 
-#Ensure various dirs are readable by users
-for dir in /etc/pulse/client.conf.d /etc/pulse/daemon.conf.d /usr/share/wallpapers
-do
-  chmod +044 -R "${dir}"
-done
-
 # Enable required services
 svlist_enable="cupsd sddm"
 # Disable services that are security vulnerabilities or break things

@@ -21,6 +21,7 @@ fi
 if [ ! -d "${install_dir}" ] ; then
   #Create the install dir first
   mkdir -p "${install_dir}"
+  chmod 755 "${install_dir}"
 fi
 
 # Start installing the files
@@ -28,6 +29,6 @@ echo "Copying Files to: ${install_dir}"
 for files in ${install_files}
 do
   echo " - Copy Package Files: ${files}"
-  cp -R ${files}-files/* "${install_dir}/."
+  cp -R --preserve=mode ${files}-files/* "${install_dir}/."
 done
 echo "Done"
