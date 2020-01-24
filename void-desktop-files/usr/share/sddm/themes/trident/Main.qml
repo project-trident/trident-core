@@ -66,10 +66,10 @@ Rectangle {
             source: config.logo
             width: parent.width/3       
             fillMode: Image.PreserveAspectFit
-            //anchors.left: parent.left
-            anchors.horizontalCenter: parent.horizontalCenter
-            anchors.top: parent.top    
-            anchors.margins: 20
+            anchors.margins: parent.width/100
+            //anchors.bottom: parent.bottom
+            anchors.left: parent.left
+            anchors.verticalCenter: parent.verticalCenter
         }
     }
     
@@ -81,8 +81,8 @@ Rectangle {
 
         Clock {
             id: clock
-	   width: parent.width/3
-            anchors.margins: 50
+            width: parent.width/3
+            anchors.margins: parent.width/100
             //anchors.bottom: parent.bottom
             anchors.right: parent.right
             anchors.verticalCenter: parent.verticalCenter
