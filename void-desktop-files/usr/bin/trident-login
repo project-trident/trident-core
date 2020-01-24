@@ -9,16 +9,21 @@
 # Created by Ken Moore for Project Trident
 # http://project-trident.org
 # =================
+source /etc/trident.conf
+source ${HOME}/.config/trident.conf
 
 RunScripts(){
   # $1 : "LOGIN" or "LOGOUT"
   local scriptdir="/etc/trident-login.d"
-  export STATUS="${1}"
+  export STATE="${1}"
   for X in `ls "${scriptdir}"`
   do
-    ${scriptdir}/${X}
+    echo "${LOGIN_IGNORE}" | grep -q "${X}"
+    if [ $? -ne 0 ] ; then
+      source ${scriptdir}/${X}
+    fi
   done
-  unset STATUS
+  unset STATE
 }
 
 StartDesktop(){
@@ -41,8 +46,6 @@ StartDesktop(){
   return $?
 }
 
-# First check for an encrypted ZFS homedir
-
 # Now run the login scripts
 RunScripts LOGIN
 # Startup the desktop
@@ -50,7 +53,5 @@ StartDesktop $@
 retcode=$?
 # Run the logout scripts
 RunScripts LOGOUT
-
-# And see if the ZFS homedir needs to be re-locked again
 
 exit ${retcode}

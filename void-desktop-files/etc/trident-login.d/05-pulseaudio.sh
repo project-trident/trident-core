@@ -1,4 +1,3 @@
-#!/bin/bash
 if [ "${STATE}" = "LOGIN" ] ; then
   dbus-launch --exit-with-x11
   start-pulseaudio-x11
