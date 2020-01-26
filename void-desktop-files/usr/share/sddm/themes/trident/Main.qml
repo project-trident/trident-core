@@ -35,6 +35,7 @@ Rectangle {
 
     property int sessionIndex: session.index
 
+    property string userName: name.username
     SDDMC.TextConstants { id: textConstants }
 
     Connections {
@@ -126,16 +127,17 @@ Rectangle {
                         font.bold: true
                         font.pixelSize: 12
                     }
-                    SDDMC.ComboBox {
+                    UserSelect {
                         id: name
                         width: parent.width; height: 30
                         font.pixelSize: 14
                         arrowIcon: "angle-down.png"
                         model: userModel
+                        index: userModel.lastIndex
                         KeyNavigation.backtab: rebootButton; KeyNavigation.tab: password
                         Keys.onPressed: {
                             if (event.key === Qt.Key_Return || event.key === Qt.Key_Enter) {
-                                sddm.login(name.text, password.text, sessionIndex)
+                                sddm.login(userName, password.text, sessionIndex)
                                 event.accepted = true
                             }
                         }
@@ -163,7 +165,7 @@ Rectangle {
 
                         Keys.onPressed: {
                             if (event.key === Qt.Key_Return || event.key === Qt.Key_Enter) {
-                                sddm.login(name.text, password.text, sessionIndex)
+                                sddm.login(userName, password.text, sessionIndex)
                                 event.accepted = true
                             }
                         }
@@ -254,7 +256,7 @@ Rectangle {
                         text: textConstants.login
                         width: parent.btnWidth
                         //source: config.icon_login
-                        onClicked: sddm.login(name.text, password.text, sessionIndex)
+                        onClicked: sddm.login(userName, password.text, sessionIndex)
 
                         KeyNavigation.backtab: layoutBox; KeyNavigation.tab: shutdownButton
                     }
