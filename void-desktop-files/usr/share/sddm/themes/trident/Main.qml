@@ -22,8 +22,8 @@
 *
 ***************************************************************************/
 
-import QtQuick 2.0
-import SddmComponents 2.0
+import QtQuick 2
+import SddmComponents 2.0 as SDDMC
 
 Rectangle {
     id: container
@@ -35,7 +35,7 @@ Rectangle {
 
     property int sessionIndex: session.index
 
-    TextConstants { id: textConstants }
+    SDDMC.TextConstants { id: textConstants }
 
     Connections {
         target: sddm
@@ -52,7 +52,7 @@ Rectangle {
         }
     }
 
-    Background {
+    SDDMC.Background {
         anchors.fill: parent
         source: config.background
         fillMode: Image.PreserveAspectCrop
@@ -79,7 +79,7 @@ Rectangle {
         color: "transparent"
         //visible: primaryScreen
 
-        Clock {
+        SDDMC.Clock {
             id: clock
             width: parent.width/3
             anchors.margins: parent.width/100
@@ -118,6 +118,7 @@ Rectangle {
                 Column {
                     width: parent.width
                     spacing: 4
+                    z: 200
                     Text {
                         id: lblName
                         width: parent.width
@@ -125,15 +126,13 @@ Rectangle {
                         font.bold: true
                         font.pixelSize: 12
                     }
-
-                    TextBox {
+                    SDDMC.ComboBox {
                         id: name
                         width: parent.width; height: 30
-                        text: userModel.lastUser
                         font.pixelSize: 14
-
+                        arrowIcon: "angle-down.png"
+                        model: userModel
                         KeyNavigation.backtab: rebootButton; KeyNavigation.tab: password
-
                         Keys.onPressed: {
                             if (event.key === Qt.Key_Return || event.key === Qt.Key_Enter) {
                                 sddm.login(name.text, password.text, sessionIndex)
@@ -141,6 +140,7 @@ Rectangle {
                             }
                         }
                     }
+
                 }
 
                 Column {
@@ -154,7 +154,7 @@ Rectangle {
                         font.pixelSize: 12
                     }
 
-                    PasswordBox {
+                    SDDMC.PasswordBox {
                         id: password
                         width: parent.width; height: 30
                         font.pixelSize: 14
@@ -190,7 +190,7 @@ Rectangle {
                             font.pixelSize: 12
                         }
 
-                        ComboBox {
+                        SDDMC.ComboBox {
                             id: session
                             width: parent.width; height: 30
                             font.pixelSize: 14
@@ -219,7 +219,7 @@ Rectangle {
                             font.pixelSize: 12
                         }
 
-                        LayoutBox {
+                        SDDMC.LayoutBox {
                             id: layoutBox
                             width: parent.width; height: 30
                             font.pixelSize: 14
@@ -249,7 +249,7 @@ Rectangle {
                     property int btnWidth: Math.max(loginButton.implicitWidth,
                                                     shutdownButton.implicitWidth,
                                                     rebootButton.implicitWidth, 80) + 8
-                    Button {
+                    SDDMC.Button {
                         id: loginButton
                         text: textConstants.login
                         width: parent.btnWidth
@@ -259,7 +259,7 @@ Rectangle {
                         KeyNavigation.backtab: layoutBox; KeyNavigation.tab: shutdownButton
                     }
 
-                    ImageButton {
+                    SDDMC.ImageButton {
                         id: shutdownButton
                         //ToolTip.text: textConstants.shutdown
                         opacity: 1.0
@@ -270,7 +270,7 @@ Rectangle {
                         KeyNavigation.backtab: loginButton; KeyNavigation.tab: rebootButton
                     }
 
-                    ImageButton {
+                    SDDMC.ImageButton {
                         id: rebootButton
                         //ToolTip.text: textConstants.reboot
                         opacity: 1.0
