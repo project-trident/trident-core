@@ -1,0 +1,7 @@
+[Desktop Entry]
+Exec=trident-login lumina
+TryExec=start-lumina-desktop
+Icon=Lumina-DE
+Type=Application
+Name=Lumina
+Comment=Lightweight Desktop
