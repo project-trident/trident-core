@@ -23,7 +23,7 @@ showUsage() {
 # Repository access settings
 signedby='Project Trident <core@project-trident.org>'
 repoHost="project-trident.org"
-repoRemoteDir="/usr/local/www/trident-packages"
+repoRemoteDir="/usr/local/www/trident-packages/repo"
 repoUser="root"
 if [ -z "${repoLocal}" ] ; then
   repoLocal="$(pwd)/repo"
@@ -45,17 +45,18 @@ do
 done
 if [ ${ok} -eq 1 ] ; then exit 1; fi
 #Ensure that the required inputs are provided
-if [ -f "${pkg_orig}" ] || [ ! -f "${privkey}" ] ; then
-  showUsage
-elif [ -f "${pkg_orig}" ] || [ ! -f "${privkey}" ] ; then
+if [ ! -f "${pkg_orig}" ] || [ ! -f "${privkey}" ] ; then
   showUsage
 fi
 
 #Populate some needed variables automatically
 cur_arch=$(uname -m) #current architecture
 
+if [ ! -d "${repoLocal}" ] ; then
+  mkdir -p "${repoLocal}"
+fi
 # Step 1 : Rsync the repo dir from remote to local system
-rsync -avpP ${repoUser}@${repoHost}:${repoRemoteDir} "${repoLocal}"
+rsync -apP ${repoUser}@${repoHost}:${repoRemoteDir}/ "${repoLocal}/"
 
 # Step 2 : Add the new package and sign it
 cp "${pkg_orig}" "${repoLocal}/"
@@ -63,15 +64,15 @@ cp "${pkg_orig}" "${repoLocal}/"
 if [ ! -f "${repoLocal}/${cur_arch}-repodata" ] ; then
   xbps-rindex --privkey "${privkey}" --sign --signedby "${signedby}" "${repoLocal}/"
 fi
-xbps-rindex -v --signedby "${signedby}" --privkey "${privkey}" --sign-pkg current/${PKG}
+xbps-rindex -v --signedby "${signedby}" --privkey "${privkey}" --sign-pkg "${repoLocal}/${pkg_file}"
 xbps-rindex -a "${repoLocal}/${pkg_file}"
 
 # Step 3 : Update all the repository index files to match
 for _arch in ${archs}
 do
-  if [ "${cur_arch}" -eq "${_arch}" ] ; then continue ; fi
+  if [ "${cur_arch}" = "${_arch}" ] ; then continue ; fi
   cp "${repoLocal}/${cur_arch}-repodata" "${repoLocal}/${_arch}-repodata"
 done
 
 # Step 4 : Rsync the local repo back upstream
-rsync -avpP "${repoLocal}" ${repoUser}@${repoHost}:${repoRemoteDir}
+rsync -apP "${repoLocal}/" ${repoUser}@${repoHost}:${repoRemoteDir}/
