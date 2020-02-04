@@ -75,3 +75,6 @@ done
 
 # Step 4 : Rsync the local repo back upstream
 rsync -acpP "${repoLocal}/" ${repoUser}@${repoHost}:${repoRemoteDir}/
+
+# Step 5 : Issue the website rebuild on the remote server
+ssh ${repoUser}@${repoHost} /root/trident-website/deploy_hugo.sh
