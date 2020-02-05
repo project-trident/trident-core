@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Handle config overlays (*.trident)
-conflist="/etc/csh.cshrc"
+conflist="/etc/csh.cshrc /etc/bluetooth/audio.conf"
 for conf in ${conflist}
 do
   if [ ! -e "${conf}.trident" ] ; then continue ; fi
@@ -40,9 +40,9 @@ elif [ -e "/etc/bluetooth/main.conf.trident" ] && [ ! -e "/etc/bluetooth/main.co
 fi
 
 # Enable required services
-svlist_enable="nftables dcron dbus bluetoothd bluez-alsa autofs"
+svlist_enable="nftables dcron dbus bluetoothd autofs"
 # Disable services that are security vulnerabilities or break things
-svlist_disable=""
+svlist_disable="bluez-alsa"
 
 for svc in ${svlist_enable}
 do
