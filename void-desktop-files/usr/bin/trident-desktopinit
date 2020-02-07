@@ -17,10 +17,11 @@ Session=/usr/share/xsessions/Lumina-DE.desktop
 fi
 
 #Ensure that specific dir structures are readable by all users
-dirlist="/etc/pulse /usr/share/wallpapers"
+dirlist="/etc/pulse /etc/trident-login.d /usr/share/wallpapers"
 for dir in ${dirlist}
 do
-  chmod -R +044 "${dir}"
+  find "${dir}" -type d -exec chmod 755 {} ";"
+  find "${dir}" -type f -exec chmod 644 {} ";"
 done
 
 # Enable required services
