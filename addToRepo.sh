@@ -31,7 +31,7 @@ fi
 
 # List of architectures to support with this repo
 #  (repo must have no-arch package builds only)
-archs="x86_64 ppc64le"
+archs="x86_64 x86_64-musl ppc64le ppc64le-musl"
 
 #Ensure needed utilities are available
 needs="rsync xbps-rindex uname"
