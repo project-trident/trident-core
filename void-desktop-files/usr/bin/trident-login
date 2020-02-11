@@ -20,6 +20,7 @@ RunScripts(){
   do
     echo "${LOGIN_IGNORE}" | grep -q "${X}"
     if [ $? -ne 0 ] ; then
+      echo "[trident-login] Running script: ${X}"
       source ${scriptdir}/${X}
     fi
   done

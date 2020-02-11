@@ -16,6 +16,13 @@ Session=/usr/share/xsessions/Lumina-DE.desktop
 " > "/var/lib/sddm/state.conf"
 fi
 
+# Ensure that xdg-open redirects to lumina-open
+# (Linux version of xdg-open does not recognize Lumina yet)
+if [ ! -L /usr/bin/xdg-open ] ; then
+  mv /usr/bin/xdg-open /usr/bin/xdg-open-orig
+  ln -s /usr/bin/lumina-open /usr/bin/xdg-open
+fi
+
 #Ensure that specific dir structures are readable by all users
 dirlist="/etc/pulse /etc/trident-login.d /usr/share/wallpapers"
 for dir in ${dirlist}
