@@ -28,3 +28,5 @@ Defaults env_keep += "XMODIFIERS GTK_IM_MODULE QT_IM_MODULE QT_IM_SWITCHER"
 # Allow passwordless access to run life preserver (wheel group only)
 %wheel ALL = NOPASSWD: /usr/local/bin/life-preserver
 
+# Allow passwordless access to search for packages (install still requires password)
+%wheel ALL = NOPASSWD: /bin/xbps-query
