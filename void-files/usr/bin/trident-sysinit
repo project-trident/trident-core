@@ -14,6 +14,12 @@ if [ ! -e "/etc/nftables.conf" ] ; then
   ln -s "/etc/firewall-conf/open-out.conf" "/etc/nftables.conf"
 fi
 
+# If wireguard config dir exists, make sure the dir itself is readable
+# (needed to see which profiles are available, even if the conf's themselves are unreadable)
+if [ -d "/etc/wireguard" ] ; then
+  chmod +055
+fi
+
 # Ensure the pam_zfscript.so module is used
 grep -q "pam_zfscrypt.so" "/etc/pam.d/passwd"
 if [ $? -ne 0 ] ; then
