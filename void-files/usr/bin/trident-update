@@ -14,16 +14,28 @@ showUsage(){
 }
 
 mkSnapshot(){
+  tag=${1:-pre-update}
   BE=$(mount | grep " on / type zfs" | cut -d ' ' -f 1)
   if [ -z "${BE}" ] ; then return ; fi
   local _dt=$(date "+%F-%H-%M")
   echo "Creating snapshot of current boot environment"
-  zfs snapshot "${BE}@pre-update-${_dt}"
+  zfs snapshot "${BE}@${tag}-${_dt}"
+}
+
+updateXbps(){
+  curver=$(xbps-query xbps | grep pkgver | cut -d : -f 2)
+  newver=$(xbps-query -R xbps | grep pkgver | cut -d : -f 2)
+  if [ "${curver}" != "${newver}" ] ; then
+    mkSnapshot "pre-xbps"
+    xbps-install -y xbps
+  fi
 }
 
 checkUpdates(){
   # Update repository catalogs
   xbps-install -S
+  #Check if xbps itself needs to be updated first
+  updateXbps
   # Scan for updates
   local cnum=0
   xbps-install -un
@@ -31,13 +43,29 @@ checkUpdates(){
 
 }
 
+rebuildInitramfs(){
+  #This is a safeguard for the ZFS-on-linux.
+  # Seen a couple cases where the initramfs was not rebuilt properly or at the right time
+  # preventing bootup with the new kernel.
+  # Just take a few seconds here to rebuild that image every time
+  
+  # Get the currently-installed linux package name
+  linuxver=`xbps-query linux | grep pkgver | cut -d - -f 2 | cut -d . -f 1-2 | cut -d _ -f 1`
+  echo "Got Linux Version: ${linuxver}"
+  # Reconfigure that package
+  xbps-reconfigure -f "linux${linuxver}"
+}
+
 doUpdates(){
-  # Create ZFS snapshot of the current system pre-update
-  mkSnapshot
   # Update repository catalogs
   xbps-install -S
+  #Check if xbps itself needs to be updated first
+  updateXbps
+  # Create ZFS snapshot of the current system pre-update
+  mkSnapshot
   # Start doing updates
   xbps-install -uy
+  rebuildInitramfs
 }
 
 # Check for permissions first
