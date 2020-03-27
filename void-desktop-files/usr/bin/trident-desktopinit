@@ -22,6 +22,10 @@ if [ ! -L /usr/bin/xdg-open ] ; then
   mv /usr/bin/xdg-open /usr/bin/xdg-open-orig
   ln -s /usr/bin/lumina-open /usr/bin/xdg-open
 fi
+# Add a quick symlink from "killall" -> "pkill"
+if [ ! -e /usr/bin/killall ] ; then
+  ln -s /usr/bin/pkill /usr/bin/killall
+fi
 
 #Ensure that specific dir structures are readable by all users
 dirlist="/etc/pulse /etc/trident-login.d /usr/share/wallpapers"
