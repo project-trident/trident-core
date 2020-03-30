@@ -17,4 +17,11 @@ if [ "${STATE}" = "LOGIN" ] ; then
     xdg-user-dirs-update
   fi
 
+elif [ "${STATE}" = "LOGOUT" ] ; then
+  #Need to delete the XDG RUNTIME directory during logout
+  if [ -e "${XDG_RUNTIME_DIR}" ] && [ "${XDG_RUNTIME_DIR}" != "/" ] ; then
+    #Note: This runs with user permissions
+    # So it can only remove the directory if it is owned by the user (as setup during login)
+    rm -rf "${XDG_RUNTIME_DIR}"
+  fi
 fi
