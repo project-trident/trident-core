@@ -63,6 +63,10 @@ doUpdates(){
   updateXbps
   # Create ZFS snapshot of the current system pre-update
   mkSnapshot
+  # Prune any old kernels first (available in older snapshots as needed)
+  # Will typically keep 2 around (currently working + new from updates about to happen)
+  # (Decreases update time by reducing amount of DKMS modules to build during upgrades)
+  vkpurge rm all
   # Start doing updates
   xbps-install -uy
   rebuildInitramfs
