@@ -23,8 +23,8 @@ mkSnapshot(){
 }
 
 updateXbps(){
-  curver=$(xbps-query xbps | grep pkgver | cut -d : -f 2)
-  newver=$(xbps-query -R xbps | grep pkgver | cut -d : -f 2)
+  curver=$(xbps-query -p pkgver xbps | cut -d - -f 2)
+  newver=$(xbps-query -R -p pkgver xbps | cut -d - -f 2)
   if [ "${curver}" != "${newver}" ] ; then
     mkSnapshot "pre-xbps"
     xbps-install -y xbps
