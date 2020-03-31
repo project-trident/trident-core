@@ -1,10 +1,10 @@
 # Template file for 'trident-desktop'
 pkgname=trident-desktop
-version=20.02
+version=20.03
 revision=1
 archs=noarch
 wrksrc="trident-core-${version}"
-depends="trident-core noto-fonts-ttf xorg-fonts xorg-minimal mesa-dri xf86-video-fbdev setxkbmap qxkb lumina qterminal qsudo compton hicolor-icon-theme trident-icons xrandr qt5-svg libdvdcss pulseaudio pavucontrol libao-pulse alsa-plugins-pulseaudio gst-libav gst-plugins-good1 sddm xdg-user-dirs"
+depends="trident-core noto-fonts-ttf xorg-fonts xorg-minimal mesa-dri xf86-video-fbdev setxkbmap qxkb lumina qterminal qsudo compton hicolor-icon-theme trident-icons xrandr qt5-svg libdvdcss pulseaudio pavucontrol libao-pulse alsa-plugins-pulseaudio gst-libav gst-plugins-good1 sddm xdg-user-dirs trident-networkmgr"
 short_desc="Project Trident desktop setup: modifies system services"
 maintainer="Ken Moore <ken@project-trident.org>"
 license="BSD-2-Clause"
