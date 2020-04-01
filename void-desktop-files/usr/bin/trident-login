@@ -28,7 +28,7 @@ RunScripts(){
 }
 
 StartDesktop(){
-  local _cmd=""
+  local cmd=""
   if [ -e "${1}" ] ; then
     #Direct executable specified, just run it
     cmd="${@}"
