@@ -17,7 +17,7 @@ fi
 # If wireguard config dir exists, make sure the dir itself is readable
 # (needed to see which profiles are available, even if the conf's themselves are unreadable)
 if [ -d "/etc/wireguard" ] ; then
-  chmod +055
+  chmod +055 /etc/wireguard
 fi
 
 # Ensure the pam_zfscript.so module is used
