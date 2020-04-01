@@ -30,7 +30,7 @@ RunScripts(){
 StartDesktop(){
   local _cmd=""
   if [ -e "${1}" ] ; then
-    //Direct executable specified, just run it
+    #Direct executable specified, just run it
     cmd="${@}"
   else
     case "${1}" in
