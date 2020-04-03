@@ -13,9 +13,9 @@ if [ "${STATE}" = "LOGIN" ] ; then
     #export GDK_SCALE=
   fi
   # Now setup the mouse cursor scaling based on DPI as well
-  if [ ${GDK_DPI_SCALE} -le 1 ] ; then
+  if [ $(echo "${GDK_DPI_SCALE} <= 1" | bc -l) -eq 1 ] ; then
     export XCURSOR_SIZE=24
-  elif  [ ${GDK_DPI_SCALE} -le 1.5 ] ; then
+  elif  [ $(echo "${GDK_DPI_SCALE} <= 1.5" | bc -l) -eq 1 ] ; then
     export XCURSOR_SIZE=32
   else 
     export XCURSOR_SIZE=64
