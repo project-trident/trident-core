@@ -7,14 +7,13 @@
 %wheel ALL=(ALL) ALL
 
 #Environment Variables that need to be passed-through for consistent X11/desktop usage
-Defaults env_keep += "DESKTOP_SESSION"
+Defaults env_keep += "DESKTOP_SESSION XDG_CURRENT_DESKTOP"
 Defaults env_keep += "XAPPLRESDIR XFILESEARCHPATH XUSERFILESEARCHPATH"
-Defaults env_keep += "QTDIR KDEDIR XCURSOR_THEME QT_QPA_PLATFORMTHEME"
-Defaults env_keep += "XDG_SESSION_COOKIE XDG_CURRENT_DESKTOP"
+Defaults env_keep += "QTDIR KDEDIR XCURSOR_SIZE XCURSOR_THEME QT_QPA_PLATFORMTHEME"
+Defaults env_keep += "XDG_SESSION_COOKIE"
 Defaults env_keep += "XMODIFIERS GTK_IM_MODULE QT_IM_MODULE QT_IM_SWITCHER"
 
 # Allow passwordless access to the system poweroff/shutdown/sleep for desktop users
 %video ALL=(ALL) NOPASSWD: /usr/bin/poweroff
 %video ALL=(ALL) NOPASSWD: /usr/bin/reboot
 %video ALL=(ALL) NOPASSWD: /usr/bin/zzz
-
