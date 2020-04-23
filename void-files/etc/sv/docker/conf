@@ -1,0 +1,4 @@
+# Hack to bypass an EXT-only line in the docker service file.
+# This lets dockerd handle the filesystem driver/detection with it's own routines.
+# See: https://github.com/void-linux/void-packages/pull/21254
+OPTS=" "
