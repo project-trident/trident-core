@@ -1,0 +1,8 @@
+#!/bin/bash
+if [ -e "/usr/bin/zfs-prune-snapshot" ] ; then
+
+  #Docker snapshots (docker build can create tons of these - does not always cleanup later)
+  dockerds=$(mount | grep " on /var/lib/docker " | cut -d " " -f 1)
+  zfs-prune-snapshot 1w ${dockerds}
+
+fi
