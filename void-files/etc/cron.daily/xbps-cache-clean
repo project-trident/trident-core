@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# Automatically prune obsolete package files from the cache to save space
+xbps-remove -O
