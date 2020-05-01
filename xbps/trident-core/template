@@ -1,6 +1,6 @@
 # Template file for 'trident-core'
 pkgname=trident-core
-version=20.03
+version=20.04
 revision=1
 archs=noarch
 depends="nano git jq wireguard bluez nftables dcron autofs cifs-utils openntpd"

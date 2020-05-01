@@ -1,6 +1,6 @@
 # Template file for 'trident-desktop'
 pkgname=trident-desktop
-version=20.03
+version=20.04
 revision=1
 archs=noarch
 wrksrc="trident-core-${version}"
