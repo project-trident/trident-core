@@ -1,0 +1,23 @@
+#!/bin/sh
+# ===============================
+# SDDM Stop hook from Project Trident
+# Gets overwritten on every update of the trident-desktop package
+# ===============================
+# Xstop - run as root after stopping X
+# ===============================
+# CAVEATS: Assumes that the user homedir is always /usr/home/[username]
+# This will need to be fixed later
+# ===============================
+ulist=$(users)
+for dir in $(ls /usr/home)
+do
+  echo  "${ulist}" | grep -q "${dir}"
+  if [ $? -ne 0 ] ; then
+    #User not logged in any more
+    mount | grep -q "on /usr/home/${dir} type zfs"
+    if [ $? -eq 0 ] ; then
+      #Homedir is a still-mounted ZFS dataset
+     zfs unmount -f /usr/home/${dir}
+    fi
+  fi
+done

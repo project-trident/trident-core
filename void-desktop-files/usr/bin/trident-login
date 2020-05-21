@@ -54,5 +54,7 @@ StartDesktop $@
 retcode=$?
 # Run the logout scripts
 RunScripts LOGOUT
-
+# SDDM apparently does not fully-logout all the user processes - force it here
+logout
+# Now return the desktop exit code
 exit ${retcode}
