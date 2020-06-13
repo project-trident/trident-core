@@ -1,0 +1,9 @@
+#!/bin/bash
+
+#Monthly task to scrub the available zpools and check/fix errors
+for pool in $(zpool list -H | cut -f 1)
+do
+  logger "Starting ZFS scrub on pool: ${pool}"
+  zpool scrub ${pool}
+  logger "Scrub finished on pool: ${pool}"
+done
