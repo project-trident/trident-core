@@ -69,5 +69,7 @@ if [ ! -e /etc/modprobe.d/zfs.conf ] ; then
   fi
   zmaxb=$(expr ${zmaxmb} "*" 1024 "*" 1024)
   mkdir -p /etc/modprobe.d
+  #In addition to the variable maximum, set a minimum of 1MB for the ARC
   echo "options zfs zfs_arc_max=${zmaxb}" > /etc/modprobe.d/zfs.conf
+  echo "options zfs zfs_arc_min=1048576" >> /etc/modprobe.d/zfs.conf
 fi
