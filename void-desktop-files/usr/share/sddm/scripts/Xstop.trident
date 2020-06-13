@@ -13,7 +13,7 @@ do
   echo  "${ulist}" | grep -q "${user}"
   if [ $? -ne 0 ] ; then
     #User not logged in any more
-    homedir=$(getent passwd | grep ${user} | cut -d : -f 6)
+    homedir=$(getent passwd | grep -E "^(${user}:)" | cut -d : -f 6)
     #Verify the homedir is a ZFS dataset which is currently mounted
     mount | grep -q "on ${homedir} type zfs"
     if [ $? -eq 0 ] ; then
