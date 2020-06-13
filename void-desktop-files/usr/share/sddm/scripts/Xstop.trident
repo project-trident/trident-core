@@ -5,19 +5,21 @@
 # ===============================
 # Xstop - run as root after stopping X
 # ===============================
-# CAVEATS: Assumes that the user homedir is always /usr/home/[username]
-# This will need to be fixed later
-# ===============================
-ulist=$(users)
-for dir in $(ls /usr/home)
+ulist=$(users) #users currently logged in
+#loop over a unique list of the last 30 logins, filtering out reboots and currently-active sessions
+for user in $(last -n 30 | grep -v "reboot" | grep "(" | cut -d " " -f 1 | sort -u)
 do
-  echo  "${ulist}" | grep -q "${dir}"
+  #verify this user account is not still logged in on some other tty
+  echo  "${ulist}" | grep -q "${user}"
   if [ $? -ne 0 ] ; then
     #User not logged in any more
-    mount | grep -q "on /usr/home/${dir} type zfs"
+    homedir=$(getent passwd | grep ${user} | cut -d : -f 6)
+    #Verify the homedir is a ZFS dataset which is currently mounted
+    mount | grep -q "on ${homedir} type zfs"
     if [ $? -eq 0 ] ; then
       #Homedir is a still-mounted ZFS dataset
-     zfs unmount -f /usr/home/${dir}
+      umount -R ${homedir} #Basic recursive unmount first (in case other devices are mounted locally in homedir)
+      zfs unmount -f ${homedir} #ZFS dataset/homedir unmount
     fi
   fi
 done
