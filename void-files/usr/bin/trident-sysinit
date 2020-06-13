@@ -65,3 +65,9 @@ do
     rm "/var/service/${svc}"
   fi
 done
+
+# Quick check that the root shell is /bin/bash and not /bin/sh (dash on Void)
+rshell=$(getent passwd | grep -E "^(root:)" | cut -d : -f 7)
+if [ "${rshell}" = "/bin/sh" ] ; then
+  chsh -s "/bin/bash" root
+fi
