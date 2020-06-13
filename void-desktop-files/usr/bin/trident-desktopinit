@@ -55,3 +55,19 @@ do
     rm "/var/service/${svc}"
   fi
 done
+
+#Run the ZFS ARC tuning routine (if not already setup yet)
+if [ ! -e /etc/modprobe.d/zfs.conf ] ; then
+  gbmem=$(free -g | awk 'NR==2{print $2}')
+  zmaxmb=1024
+  if [ ${gbmem} -le 1 ] ; then
+    zmaxmb=128
+  elif [ ${gbmem} -le 2 ] ; then
+    zmaxmb=256
+  elif [ ${gbmem} -le 4 ] ; then
+    zmaxmb=512
+  fi
+  zmaxb=$(expr ${zmaxmb} "*" 1024 "*" 1024)
+  mkdir -p /etc/modprobe.d
+  echo "options zfs zfs_arc_max=${zmaxb}" > /etc/modprobe.d/zfs.conf
+fi
