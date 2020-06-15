@@ -1,0 +1,14 @@
+# Template file for 'trident-core'
+pkgname=trident-core
+version=20.06
+revision=1
+build_style=meta
+archs=noarch
+depends="base-minimal ncurses libgcc bash file less man-pages mdocml>=1.13.3
+  e2fsprogs btrfs-progs dosfstools pciutils usbutils openssh
+  dhcpcd kbd iproute2 iputils iw wpa_supplicant sudo wifi-firmware traceroute
+  ethtool kmod acpid eudev dcron nano wireguard zfs linux5.6 linux5.6-headers"
+short_desc="Project Trident base system meta-package"
+maintainer="Ken Moore <ken@project-trident.org>"
+license="Public Domain"
+homepage="https://github.com/project-trident/trident-core"
