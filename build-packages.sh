@@ -3,6 +3,7 @@
 #INPUT variables
 buildrepodir="${1}"
 templatedir="$(dirname ${0})/xbps"
+distdir=$(realpath ${templatedir}/..)
 
 if [ -z "${buildrepodir}" ] ; then
   echo "Usage:  build-packages.sh [build-repo dir]"
@@ -37,6 +38,7 @@ do
 done
 
 #Copy the new packages to this directory
+cd "${distdir}"
 for pkg in ${pkgs}
 do
   echo "Copying package: ${pkg}"
