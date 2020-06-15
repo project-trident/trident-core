@@ -1,5 +1,5 @@
-# Template file for 'trident-core'
-pkgname=trident-core
+# Template file for 'trident-base'
+pkgname=trident-base
 version=20.06
 revision=1
 build_style=meta
