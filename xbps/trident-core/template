@@ -1,6 +1,6 @@
 # Template file for 'trident-core'
 pkgname=trident-core
-version=20.04
+version=20.06
 revision=1
 archs=noarch
 depends="nano git jq wireguard bluez nftables dcron autofs cifs-utils openntpd zfs-prune-snapshots"
@@ -9,7 +9,7 @@ maintainer="Ken Moore <ken@project-trident.org>"
 license="BSD-2-Clause"
 homepage="https://github.com/project-trident/trident-core"
 distfiles="https://github.com/project-trident/trident-core/archive/${version}.tar.gz"
-checksum=4f5a4f7f929ea7b50af2fb2405702c5558c8628459b05fc9a169cb04254e02f4
+checksum=
 
 do_install() {
 	./install-local.sh "${DESTDIR}" void
