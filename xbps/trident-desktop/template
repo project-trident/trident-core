@@ -1,7 +1,7 @@
 # Template file for 'trident-desktop'
 pkgname=trident-desktop
 version=20.06
-revision=1
+revision=2
 archs=noarch
 wrksrc="trident-core-${version}"
 depends="trident-core noto-fonts-ttf xorg-fonts xorg-minimal mesa-dri xf86-video-fbdev
