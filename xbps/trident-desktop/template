@@ -6,7 +6,7 @@ archs=noarch
 wrksrc="trident-core-${version}"
 depends="trident-core noto-fonts-ttf xorg-fonts xorg-minimal mesa-dri xf86-video-fbdev
   setxkbmap qxkb lumina qterminal qsudo compton hicolor-icon-theme trident-icons xrandr
-  qt5-svg libdvdcss pulseaudio pavucontrol libao-pulse alsa-plugins-pulseaudio gst-libav
+  qt5-svg libdvdcss pulseaudio pavucontrol libao-pulse gst-libav
   gst-plugins-good1 sddm xdg-user-dirs trident-networkmgr xdpyinfo
   breeze-hacked-cursor-theme"
 short_desc="Project Trident desktop setup: modifies system services"
