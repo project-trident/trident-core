@@ -1,13 +1,14 @@
 # Template file for 'trident-base'
 pkgname=trident-base
 version=20.07
-revision=1
+revision=2
 build_style=meta
 archs=noarch
 depends="base-minimal ncurses libgcc bash file less man-pages mdocml>=1.13.3
   e2fsprogs btrfs-progs dosfstools pciutils usbutils openssh
   dhcpcd kbd iproute2 iputils iw wpa_supplicant sudo wifi-firmware traceroute
-  ethtool kmod acpid eudev dcron nano wireguard zfs linux5.7 linux5.7-headers"
+  ethtool kmod acpid eudev dcron nano wireguard zfs linux5.7 linux5.7-headers
+  linux-firmware-amd linux-firmware-intel linux-firmware-network linux-firmware-nvidia"
 short_desc="Project Trident base system meta-package"
 maintainer="Ken Moore <ken@project-trident.org>"
 license="Public Domain"
