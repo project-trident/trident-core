@@ -61,7 +61,7 @@ theme_fontsize=10pt #Default size of the fonts to use on the desktop (can also u
 
 #DESKTOP SETTINGS (used for the primary screen in multi-screen setups)
 desktop_visiblepanels=2 #[0 - 12] The number of panels visible by default
-desktop_backgroundfiles=/usr/share/wallpapers/trident-space
+desktop_backgroundfiles=/usr/share/wallpapers/default
 desktop_backgroundrotateminutes=5 #[positive integer] number of minutes between background rotations (if multiple files)
 #desktop_plugins= #list of plugins to be shown on the desktop by default
 desktop_generate_icons=true #[true/false] Auto-generate launchers for ~/Desktop items
@@ -124,4 +124,3 @@ desktoplinks_add=virtualbox.desktop
 #Generic scripts/utilities to run for any additional setup procedures
 #  These are always run after all other settings are saved
 #Format: usersetup_run=<generic command to run>
-usersetup_run=xdg-user-dirs-update
