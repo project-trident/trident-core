@@ -1,6 +1,7 @@
 # Template file for 'trident-base'
 pkgname=trident-base
 version=20.09
+revision=1
 build_style=meta
 archs=noarch
 depends="base-minimal ncurses libgcc bash file less man-pages mdocml>=1.13.3
