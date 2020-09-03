@@ -6,7 +6,7 @@ archs=noarch
 depends="base-minimal ncurses libgcc bash file less man-pages mdocml>=1.13.3
   e2fsprogs btrfs-progs dosfstools pciutils usbutils openssh
   dhcpcd kbd iproute2 iputils iw wpa_supplicant sudo wifi-firmware traceroute
-  ethtool kmod acpid eudev dcron nano wireguard-tools zfs linux5.8 linux5.8-headers
+  ethtool kmod acpid eudev dcron nano wireguard-tools zfs linux linux-headers
   linux-firmware-amd linux-firmware-intel linux-firmware-network linux-firmware-nvidia"
 short_desc="Project Trident base system meta-package"
 maintainer="Ken Moore <ken@project-trident.org>"
