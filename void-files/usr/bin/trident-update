@@ -50,7 +50,7 @@ rebuildInitramfs(){
   # Just take a few seconds here to rebuild that image every time
   
   # Get the currently-installed linux package name
-  linuxpkg=`xbps-query --regex -s 'linux[0-9]\.[0-9]$' -p "pkgname" | cut -d ' ' -f 2 | tail -1`
+  linuxpkg=`xbps-query --regex -s 'linux[0-9]\.[0-9]?[0-9]$' -p "pkgname" | cut -d ' ' -f 2 | sort -V | tail -1`
   echo "Got Linux Kernel Package: ${linuxpkg}"
   # Reconfigure that package
   xbps-reconfigure -f "${linuxpkg}"
