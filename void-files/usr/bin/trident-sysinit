@@ -46,7 +46,7 @@ elif [ -e "/etc/bluetooth/main.conf.trident" ] && [ ! -e "/etc/bluetooth/main.co
 fi
 
 # Enable required services
-svlist_enable="nftables dcron dbus bluetoothd autofs trident-automount"
+svlist_enable="nftables dcron dbus bluetoothd autofs trident-automount metalog"
 # Disable services that are security vulnerabilities or break things
 svlist_disable="bluez-alsa"
 

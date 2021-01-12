@@ -1,9 +1,9 @@
 # Template file for 'trident-core'
 pkgname=trident-core
-version=20.09
+version=21.01
 revision=1
 archs=noarch
-depends="nano git jq wireguard-tools bluez nftables dcron autofs cifs-utils openntpd zfs-prune-snapshots trident-automount"
+depends="nano git jq wireguard-tools bluez nftables dcron autofs cifs-utils openntpd zfs-prune-snapshots trident-automount metalog"
 short_desc="Project Trident system setup: modifies system services"
 maintainer="Ken Moore <ken@project-trident.org>"
 license="BSD-2-Clause"
