@@ -38,8 +38,8 @@ StartDesktop(){
         cmd="start-lumina-desktop"
         ;;
       *)
-        echo "[trident-login] Unknown Desktop: ${1}, using Lumina"
-        cmd="start-lumina-desktop"
+        echo "[trident-login] Unknown exececutable: ${1}, trying anyway"
+        cmd="${1}"
         ;;
     esac
   fi
