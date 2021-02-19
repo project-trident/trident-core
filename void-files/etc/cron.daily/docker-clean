@@ -1,7 +1,16 @@
 #!/bin/bash
 if [ -e "/var/service/docker" ] ; then
-  # Remove dangling docker images periodically
+  # Remove stopped containers that have not run in a week or more
+  for cid in `docker container ls -a -f 'status=exited' | grep -E 'Exited \([0-9]+\) [0-9]+ weeks ago' | cut -d " " -f 1`
+  do
+    echo -n "Removing docker container stopped over a week ago: "
+    docker container rm ${cid}
+  done
+
+  # Remove dangling docker images
   # will not impact docker "users" very much,
   # but indespensible for docker builders
+  echo "Pruning dangling docker images"
   docker image prune -f
+
 fi
